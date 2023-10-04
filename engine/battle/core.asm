@@ -844,7 +844,7 @@ FaintEnemyPokemon:
 	; This checks if the opponent is Meltan, the Jar isn't full, and it's in the bag.
 	; If so, it increments the amount of candies in the jar. Once full, it stops counting.
 	ld a, [wEnemyMonSpecies] ; Load species.
-	cp $E7 ; Is it Meltan?
+	cp $E4 ; Is it Meltan?
 	jr nz, .skip ; Continue as normal if not.
 	
 	ld b, CANDY_JAR ; Ok, we have a Meltan on our hands. Is the Jar in the bag?
