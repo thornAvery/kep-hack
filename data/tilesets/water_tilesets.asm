@@ -16,4 +16,5 @@ WaterTilesets:
 NonShoreTilesets:
 	db GYM
 	db SHIP_PORT
+	db DOJO
 	db -1 ; end
