@@ -1231,6 +1231,7 @@ JabettaEvosMoves:
 	db 36, SEISMIC_TOSS
 	db 38, WATERFALL
 	db 46, HI_JUMP_KICK
+	db 50, HYDRO_PUMP
 	db 52, DRILL_PECK
 	db 0
 
