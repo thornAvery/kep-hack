@@ -225,6 +225,7 @@ BlaineText:
 	ld c, BANK(Music_MeetMaleTrainer)
 	ld a, MUSIC_MEET_MALE_TRAINER
 	call PlayMusic
+	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
 	ldh a, [hSpriteIndex]

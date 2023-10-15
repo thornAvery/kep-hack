@@ -388,6 +388,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.
+* Rainbow Metal Pigeon - Bug fix relating to Gym Leader rematches.
 * SatoMew - Technical advice.
 * wrulfy - Technical advice.
 * suloku - Technical advice regarding setting where you spawn after beating the Elite Four, Exp. All modernisation code
