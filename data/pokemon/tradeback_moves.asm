@@ -906,6 +906,7 @@ CheepTradebackMoves:
 	db 1, WING_ATTACK ; Egg Move (from Sato?)
 	db 1, AURORA_BEAM ; Egg Move
 	db 1, AGILITY ; Egg Move
+	db 1, MEDITATE ; Egg Move
 	db 0
 
 JabettaTradebackMoves:
@@ -917,6 +918,7 @@ JabettaTradebackMoves:
 	db 1, WING_ATTACK ; Egg Move (from Sato?)
 	db 1, AURORA_BEAM ; Egg Move
 	db 1, AGILITY ; Egg Move
+	db 1, MEDITATE ; Egg Move
 	db 0
 
 VulpiiiTradebackMoves:
@@ -2055,7 +2057,6 @@ MrRimeTradebackMoves:
 	db 1, HEADBUTT ; TM
 	db 1, DREAM_EATER ; TM
 	db 1, THUNDERPUNCH ; TM
-	db 1, FIRE_PUNCH ; TM
 	db 1, ICE_PUNCH ; TM
 	db 1, HYPNOSIS ; Egg Move
 	db 1, PSYBEAM ; Egg Move
