@@ -9,7 +9,7 @@ MtMoonCrater_Object:
 
 	def_object_events
 	object_event 33, 17, SPRITE_FOSSIL, STAY, NONE, 1, DOME_FOSSIL
-	object_event 25, 21, SPRITE_FOSSIL, STAY, NONE, 2, WING_FOSSIL
+	object_event 31, 32, SPRITE_FOSSIL, STAY, NONE, 2, WING_FOSSIL
 	object_event 33, 16, SPRITE_FOSSIL, STAY, NONE, 3, HELIX_FOSSIL
 	object_event 45, 24, SPRITE_POKE_BALL, STAY, NONE, 4, MAX_ETHER
 
