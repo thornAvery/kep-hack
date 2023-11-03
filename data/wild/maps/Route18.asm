@@ -7,7 +7,7 @@ Route18WildMons:
 	db 25, GRIMER
 	db 26, DODUO
 	db 28, DODUO
-	db 29, RATICATE
+	db 29, TANGELA
 	db 27, GAOTORA
 	db 29, GAOTORA
 	end_grass_wildmons

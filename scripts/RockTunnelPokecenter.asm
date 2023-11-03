@@ -46,7 +46,7 @@ DittoSalesmanText:
 	ld hl, .NoMoneyText
 	jr .printText
 .enoughMoney
-	lb bc, DITTO, 23
+	lb bc, DITTO, 20
 	call GivePokemon
 	jr nc, .done
 	xor a

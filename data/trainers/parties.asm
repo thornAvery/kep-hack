@@ -221,15 +221,15 @@ JrTrainerFData:
 	db 62, BELLIGNAN, SEAKING, TANGROWTH, LUXWAN, BELLOSSOM, GOROCHU, 0
 
 ; I praise the PokeManiac for its variety. He mainly uses "endangered", bipedal Pokemon.
-; Skimper seems appropriate here, as it's a baby iguana; these were often bought by those types in the 90s.
+; Squeamata seems appropriate here, as it's a baby iguana; these were often bought by those types in the 90s.
 PokemaniacData:
 ; Route 10
 	db 30, RHYHORN, LICKITUNG, 0
 	db 21, CHARMELEON, CUBONE, 0
 ; Rock Tunnel B1F
-	db 20, SLOWPOKE, LICKITUNG, RHYHORN, 0
+	db 20, SLOWPOKE, SQUEAMATA, RHYHORN, 0
 	db 22, CHARMANDER, CUBONE, 0
-	db 25, SQUEAMATA, 0
+	db 23, GAVILLAIN, 0
 ; Victory Road 2F
 	db 40, MINISTARE, LAPRAS, LICKILICKY, RHYDON, 0
 ; Rock Tunnel 1F
@@ -346,7 +346,7 @@ EngineerData:
 	db 21, KOTORA, VOLTORB, 0
 	db 18, MAGNEMITE, MAGNEMITE, PIKACHU, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 64, ELECTRODE, SANDSLASH_A, MAGNEZONE, GOROTORA, PERRSERKER, SCIZOR, 0   ; The Engineer trainer EXCLUSIVELY uses Magnemites and Voltorbs in normal battles, so I kinda had to improvise with his team a bit...
+	db 64, ELECTRODE, SANDSLASH_A, ELECTIVIRE, GOROTORA, PERRSERKER, SCIZOR, 0   ; The Engineer trainer EXCLUSIVELY uses Magnemites and Voltorbs in normal battles, so I kinda had to improvise with his team a bit...
 
 ; Super Rod encounter showcase, basically
 FisherData:
@@ -473,7 +473,7 @@ RockerData:
 ; Route 12
 	db 29, VOLTORB, ELECTRODE, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 64, ELECTIVIRE, ELECTRODE, MAGNEZONE, GOLEM_A, GOROCHU, JOLTEON, 0
+	db 64, GAVILLAIN, ELECTRODE, MAGNEZONE, GOLEM_A, GOROCHU, JOLTEON, 0
 
 ; Psychic, Poison, and a little bit of Voltorb.
 JugglerData:
@@ -547,7 +547,7 @@ ChiefData:
 ; Poison- and Electric-type Pokemon
 ScientistData:
 ; Silph Gauntlet 4F (Lavender Tower)
-	db 65, MAGNEZONE, ELECTRODE, PORYGONZ, MIMMEO, WEEZING, ALAKAZAM, 0
+	db 65, MAGNEZONE, ELECTRODE, PORYGONZ, MIMMEO, GAVILLAIN, WEEZING, 0
 ; Silph Co. 2F
 	db 26, GRIMER, WEEZING, KOFFING, WEEZING, 0
 	db 28, MAGNEMITE, VOLTORB, MAGNETON, 0
@@ -745,15 +745,15 @@ JuniorData:
 	
 JackData:
 ; Celadon Mansion Roof House
-	db 23, MANKEY, PORYGON, HITMONCHAN, SCYTHER, 0 ; Scyther is Kage-Maru. 
+	db 25, MANKEY, PORYGON, HITMONCHAN, SCYTHER, 0 ; Scyther is Kage-Maru. 
 ; Silph Gauntlet 7F (Chief's Office)
 ;	db 70, MIMMEO, ANNIHILAPE, HITMONLEE, PORYGON2, HITMONCHAN, SCIZOR, 0   ; not 100% sure what to do with this guy...
 
 JessieJamesData:
 	db $FF, 17, MEOWTH, 14, EKANS, 14, KOFFING, 0 ; Mt. Moon
 	db $FF, 30, MEOWTH, 26, EKANS, 24, LICKITUNG, 26, KOFFING, 0 ; Rocket Hideout
-	db $FF, 34, MEOWTH, 29, ARBOK, 27, LICKITUNG, 29, WEEZING, 27, VICTREEBEL, 0 ; Pokemon Tower
-	db $FF, 42, MEOWTH, 37, ARBOK, 35, LICKILICKY, 37, WEEZING, 35, VICTREEBEL, 34, GYARADOS, 0 ; Silph Co.
+	db $FF, 34, MEOWTH, 30, ARBOK, 27, LICKITUNG, 30, WEEZING, 27, VICTREEBEL, 0 ; Pokemon Tower
+	db $FF, 42, MEOWTH, 38, ARBOK, 36, LICKILICKY, 38, WEEZING, 36, VICTREEBEL, 35, GYARADOS, 0 ; Silph Co.
 	db $FF, 80, MEOWTH, 75, ARBOK, 73, LICKILICKY, 75, WEEZING, 73, VICTREEBEL, 71, GYARADOS, 0 ; Citrine Rocket House
 
 INCLUDE "data/trainers/scaled_parties.asm"

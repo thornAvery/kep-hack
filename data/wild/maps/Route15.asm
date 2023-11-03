@@ -6,10 +6,10 @@ Route15WildMons:
 	db 25, DITTO
 	db 22, BELLSPROUT
 	db 28, ODDISH
-	db 26, RAMOOSE
+	db 26, GAOTORA
 	db 30, VENOMOTH
-	db 28, GAOTORA
-	db 30, FEAROW
+	db 28, TANGELA
+	db 30, TANGELA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

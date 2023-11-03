@@ -120,6 +120,7 @@ New Music
 - Mewtwo has its own battle theme: A demake of the iconic Stadium track! It features some creative deviations to give it a distinct Game Boy feel while fitting with Mewtwo's mystique. Composed by LuciShrimp.
 - Mew and the Legendary Birds have their own battle theme, a demake of the FireRed/LeafGreen pitch-shifted remix. Not simply pitching it up, percussion elements have been added to give it that rustic FRLG "feel" that distinguishes it from the original games. Composed by LuciShrimp.
 	- Limited static encounters, such as the two sleeping Snorlax, and the restored prototype Omega, also use this theme.
+- Mt. Moon Crater uses a demake of Scarlet and Violet's Area Zero theme! Composed by LuciShrimp.
 - Pokemon Yellow's various tracks have been backported, such as Jessie and James's encounter theme.
 - Several pieces of unused music, including Digda01, Victory4, Field6, Kincho01, and Giovanni's theme have been implemented.
 	- A remix of the unused Koukan (trading) music is also used as a town theme. Composed by BGVC.
@@ -380,6 +381,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * erosunica - Assistance with developing Celadon University & Citrine City, plus sources for various subjects.
 * Chatot4444 - Assisting with gym scaling code.
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly.
+* LadyMisticus - Made a well-documented spreadsheet for the hack that details every Pokemon's stats, movepools and locations, plus more! 
 * Ness the Unexplained - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
 * ZumiIsawhat? - Restorations of beta OST.
 * FrenchOrange - Reconstructions of various overworld beta sprites.

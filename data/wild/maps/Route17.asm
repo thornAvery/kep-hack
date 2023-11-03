@@ -3,11 +3,11 @@ Route17WildMons:
 	db 25, FEAROW
 	db 27, KOFFING
 	db 25, RATICATE
-	db 24, KOLTA
+	db 26, PONYTA
 	db 27, GRIMER
 	db 26, DODUO
 	db 28, DODUO
-	db 29, PONYTA
+	db 29, RAMOOSE
 	db 28, PONYTA
 	db 27, DODRIO
 	end_grass_wildmons

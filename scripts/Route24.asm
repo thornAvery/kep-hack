@@ -298,7 +298,7 @@ Route24Damian:
 	call GetMonName
 	ld a, $1
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
-	lb bc, CHARMANDER, 14
+	lb bc, CHARMANDER, 12
 	call GivePokemon
 	jp nc, .fullParty
 	ld a, [wAddedToParty]

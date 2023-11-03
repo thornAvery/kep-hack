@@ -311,7 +311,7 @@ DaycareMelanie:
 	and a
 	jr nz, .refused ; imagine refusing a bulbasaur tbh
 	call SaveScreenTilesToBuffer1 ; prevents nickname screen corruption
-	lb bc, BULBASAUR, 12 ; load the bulbasaur
+	lb bc, BULBASAUR, 14 ; load the bulbasaur
 	call GivePokemon ; attempt to give the bulbasaur
 	jr nc, .fullParty ; if it's fucked just go here
 	ld a, HS_DAYCARE_BULBASAUR ; hide the bulbasaur

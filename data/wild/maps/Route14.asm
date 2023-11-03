@@ -6,7 +6,7 @@ Route14WildMons:
 	db 25, DITTO
 	db 22, ODDISH
 	db 28, BELLSPROUT
-	db 26, RAMOOSE
+	db 28, VENONAT
 	db 30, VENOMOTH
 	db 28, GAOTORA
 	db 30, GAOTORA
