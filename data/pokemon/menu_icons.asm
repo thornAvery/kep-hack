@@ -54,6 +54,7 @@ MonPartyData:
 	nybble ICON_MON       ; Nidorino
 	nybble ICON_MON       ; Nidoking
 	nybble ICON_MON       ; Nidoreign
+	nybble ICON_MON       ; Bittybat
 	nybble ICON_MON       ; Zubat
 	nybble ICON_MON       ; Golbat
 	nybble ICON_MON       ; Crobat
@@ -104,16 +105,22 @@ MonPartyData:
 	nybble ICON_MON       ; Abra
 	nybble ICON_MON       ; Kadabra
 	nybble ICON_MON       ; Alakazam
+	nybble ICON_WATER     ; Cheep
+	nybble ICON_WATER     ; Jabetta
+	nybble ICON_MON       ; Lickitung
+	nybble ICON_MON       ; Lickilicky
 	nybble ICON_QUADRUPED ; Growlithe
 	nybble ICON_QUADRUPED ; Arcanine
 	nybble ICON_QUADRUPED ; Arcanine-H
-	nybble ICON_MON       ; Lickitung
-	nybble ICON_MON       ; Lickilicky
 	nybble ICON_SMALL_BIRD ; Farfetch'd
-	nybble ICON_SMALL_BIRD	  ; Luxwan
+	nybble ICON_SMALL_BIRD ; Luxwan
 	nybble ICON_SMALL_BIRD ; Sirfetch'd
 	nybble ICON_MON       ; Drowzee
 	nybble ICON_MON       ; Hypno
+	nybble ICON_BALL      ; Magnemite
+	nybble ICON_BALL      ; Magnetite
+	nybble ICON_BALL      ; Magneton
+	nybble ICON_BALL      ; Magnezone
 	nybble ICON_MON       ; Diglett
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Dugtrio-A
@@ -130,11 +137,6 @@ MonPartyData:
 	nybble ICON_GRASS     ; Toedscruel
 	nybble ICON_WATER     ; Blottle
 	nybble ICON_WATER     ; Pendraken
-	nybble ICON_BALL      ; Magnemite
-	nybble ICON_BALL      ; Magneton
-	nybble ICON_BALL      ; Magnezone
-	nybble ICON_WATER     ; Cheep
-	nybble ICON_WATER     ; Jabetta
 	nybble ICON_MON       ; Ribbito
 	nybble ICON_MON       ; Croakozuna
 	nybble ICON_MON       ; Machop
@@ -152,7 +154,6 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_QUADRUPED ; Rapidash-G
-	nybble ICON_BALL      ; Balumba
 	nybble ICON_MON       ; Gastly
 	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
@@ -160,8 +161,9 @@ MonPartyData:
 	nybble ICON_MON       ; Marowak
 	nybble ICON_MON       ; Marowak-A
 	nybble ICON_MON	      ; Guardia
+	nybble ICON_BALL      ; Balumba
 	nybble ICON_SMALL_BIRD ; Doduo
-	nybble ICON_BIRD      ; Dodrio
+	nybble ICON_SMALL_BIRD ; Dodrio
 	nybble ICON_MON       ; Grimer
 	nybble ICON_MON       ; Muk
 	nybble ICON_MON       ; Muk-A
@@ -174,16 +176,16 @@ MonPartyData:
 	nybble ICON_MON       ; Hitmonlee
 	nybble ICON_MON       ; Hitmonchan
 	nybble ICON_MON       ; Hitmontop
+	nybble ICON_WATER     ; Horsea
+	nybble ICON_WATER     ; Seadra
+	nybble ICON_WATER     ; Kingdra
+	nybble ICON_WATER     ; Seel
+	nybble ICON_WATER     ; Dewgong
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster
 	nybble ICON_HELIX     ; Disturban
 	nybble ICON_HELIX     ; Staryu
 	nybble ICON_HELIX     ; Starmie
-	nybble ICON_WATER     ; Seel
-	nybble ICON_WATER     ; Dewgong
-	nybble ICON_WATER     ; Horsea
-	nybble ICON_WATER     ; Seadra
-	nybble ICON_WATER     ; Kingdra
 	nybble ICON_WATER     ; Blastyke
 	nybble ICON_WATER     ; Blastoise
 	nybble ICON_WATER	  ; Sharpoon

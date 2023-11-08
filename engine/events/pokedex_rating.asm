@@ -56,83 +56,83 @@ DexCompletionText:
 	text_end
 
 DexRatingsTable:
-	dbw 15, DexRatingText_Own0To9
-	dbw 30, DexRatingText_Own10To19
-	dbw 40, DexRatingText_Own20To29
-	dbw 55, DexRatingText_Own30To39
-	dbw 70, DexRatingText_Own40To49
-	dbw 80, DexRatingText_Own50To59
-	dbw 95, DexRatingText_Own60To69
-	dbw 110, DexRatingText_Own70To79
-	dbw 120, DexRatingText_Own80To89
-	dbw 135, DexRatingText_Own90To99
-	dbw 150, DexRatingText_Own100To109
-	dbw 160, DexRatingText_Own110To119
-	dbw 175, DexRatingText_Own120To129
-	dbw 190, DexRatingText_Own130To139
-	dbw 199, DexRatingText_Own140To149
-	dbw NUM_POKEMON + 1, DexRatingText_Own150To151
+	dbw 15, DexRatingText_Own0To14
+	dbw 30, DexRatingText_Own15To29
+	dbw 50, DexRatingText_Own30To49
+	dbw 65, DexRatingText_Own50To64
+	dbw 80, DexRatingText_Own65To79
+	dbw 100, DexRatingText_Own80To99
+	dbw 115, DexRatingText_Own100To114
+	dbw 130, DexRatingText_Own115To129
+	dbw 150, DexRatingText_Own130To149
+	dbw 165, DexRatingText_Own150To164
+	dbw 180, DexRatingText_Own165To179
+	dbw 200, DexRatingText_Own180To199
+	dbw 215, DexRatingText_Own200To214
+	dbw 230, DexRatingText_Own215To229
+	dbw 250, DexRatingText_Own230To249
+	dbw NUM_POKEMON + 1, DexRatingText_OwnComplete
 
-DexRatingText_Own0To9:
-	text_far _DexRatingText_Own0To9
+DexRatingText_Own0To14:
+	text_far _DexRatingText_Own0To14
 	text_end
 
-DexRatingText_Own10To19:
-	text_far _DexRatingText_Own10To19
+DexRatingText_Own15To29:
+	text_far _DexRatingText_Own15To29
 	text_end
 
-DexRatingText_Own20To29:
-	text_far _DexRatingText_Own20To29
+DexRatingText_Own30To49:
+	text_far _DexRatingText_Own30To49
 	text_end
 
-DexRatingText_Own30To39:
-	text_far _DexRatingText_Own30To39
+DexRatingText_Own50To64:
+	text_far _DexRatingText_Own50To64
 	text_end
 
-DexRatingText_Own40To49:
-	text_far _DexRatingText_Own40To49
+DexRatingText_Own65To79:
+	text_far _DexRatingText_Own65To79
 	text_end
 
-DexRatingText_Own50To59:
-	text_far _DexRatingText_Own50To59
+DexRatingText_Own80To99:
+	text_far _DexRatingText_Own80To99
 	text_end
 
-DexRatingText_Own60To69:
-	text_far _DexRatingText_Own60To69
+DexRatingText_Own100To114:
+	text_far _DexRatingText_Own100To114
 	text_end
 
-DexRatingText_Own70To79:
-	text_far _DexRatingText_Own70To79
+DexRatingText_Own115To129:
+	text_far _DexRatingText_Own115To129
 	text_end
 
-DexRatingText_Own80To89:
-	text_far _DexRatingText_Own80To89
+DexRatingText_Own130To149:
+	text_far _DexRatingText_Own130To149
 	text_end
 
-DexRatingText_Own90To99:
-	text_far _DexRatingText_Own90To99
+DexRatingText_Own150To164:
+	text_far _DexRatingText_Own150To164
 	text_end
 
-DexRatingText_Own100To109:
-	text_far _DexRatingText_Own100To109
+DexRatingText_Own165To179:
+	text_far _DexRatingText_Own165To179
 	text_end
 
-DexRatingText_Own110To119:
-	text_far _DexRatingText_Own110To119
+DexRatingText_Own180To199:
+	text_far _DexRatingText_Own180To199
 	text_end
 
-DexRatingText_Own120To129:
-	text_far _DexRatingText_Own120To129
+DexRatingText_Own200To214:
+	text_far _DexRatingText_Own200To214
 	text_end
 
-DexRatingText_Own130To139:
-	text_far _DexRatingText_Own130To139
+DexRatingText_Own215To229:
+	text_far _DexRatingText_Own215To229
 	text_end
 
-DexRatingText_Own140To149:
-	text_far _DexRatingText_Own140To149
+DexRatingText_Own230To249:
+	text_far _DexRatingText_Own230To249
 	text_end
 
-DexRatingText_Own150To151:
-	text_far _DexRatingText_Own150To151
+DexRatingText_OwnComplete:
+	text_far _DexRatingText_OwnComplete
 	text_end

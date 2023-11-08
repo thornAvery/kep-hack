@@ -118,7 +118,7 @@ _CoinpurDexEntry::
 	next "hoard small coins"
 	dex
 
-_BittybatDexEntry::			; unused
+_BittybatDexEntry::
 	text "Flits about in"
 	next "dark caves. A"
 	next "swarm of BITTYBAT"
@@ -328,7 +328,7 @@ _PendrakenDexEntry::
 	next "before attacking"
 	dex
 
-_MagnetiteDexEntry::		; unused
+_MagnetiteDexEntry::
 	text "Occasionally, it"
 	next "attracts so much"
 	next "metal to itself"
@@ -376,16 +376,6 @@ _MimmeoDexEntry::
 	page "have improved. It"
 	next "can copy anything"
 	next "in an instant"
-	dex
-
-_MonjaDexEntry::			; unused
-	text "As it runs about,"
-	next "the vines on its"
-	next "head may obscure"
-
-	page "its singular eye,"
-	next "causing it to"
-	next "trip and fall"
 	dex
 
 _DisturbanDexEntry::
@@ -998,7 +988,7 @@ _TaurosPADexEntry::
 	next "tips of its horns"
 	dex
 
-_MissingNoDexEntry::
+_MissingNoDexEntry::	; unused
 	text "This is a newly"
 	next "discovered"
 	next "#MON. It is"

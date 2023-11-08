@@ -73,7 +73,7 @@ TradebackMovesPointerTable:
 	dw DragoniteTradebackMoves
 	dw CactormusTradebackMoves
 	dw SharpoonTradebackMoves
-	dw WiglettTradebackMoves
+	dw BittybatTradebackMoves
 	dw DoduoTradebackMoves
 	dw PoliwagTradebackMoves
 	dw JynxTradebackMoves
@@ -144,7 +144,7 @@ TradebackMovesPointerTable:
 	dw DecillaTradebackMoves
 	dw KinglerTradebackMoves
 	dw CloysterTradebackMoves
-	dw WugtrioTradebackMoves
+	dw MagnetiteTradebackMoves
 	dw ElectrodeTradebackMoves
 	dw ClefableTradebackMoves
 	dw WeezingTradebackMoves
@@ -195,6 +195,8 @@ TradebackMovesPointerTable:
 	dw BellsproutTradebackMoves
 	dw WeepinbellTradebackMoves
 	dw VictreebelTradebackMoves
+	dw WiglettTradebackMoves
+	dw WugtrioTradebackMoves
 	dw ScizorTradebackMoves
 	dw RhyperiorTradebackMoves
 	dw EspeonTradebackMoves
@@ -831,9 +833,9 @@ SharpoonTradebackMoves:
 	db 1, AGILITY ; Egg Move
 	db 0
 
-;BittybatTradebackMoves:
-;	db 1, QUICK_ATTACK
-;	db 0
+BittybatTradebackMoves:
+	db 1, QUICK_ATTACK
+	db 0
 
 DoduoTradebackMoves:
 	db 1, SWIFT
@@ -1395,9 +1397,9 @@ CloysterTradebackMoves:
 	db 1, SCREECH
 	db 0
 
-;MagnetiteTradebackMoves:
-;	db 1, AGILITY
-;	db 0
+MagnetiteTradebackMoves:
+	db 1, AGILITY
+	db 0
 
 ElectrodeTradebackMoves:
 	db 1, HEADBUTT
@@ -1798,14 +1800,6 @@ VictreebelTradebackMoves:
 	db 1, LOVELY_KISS
 	db 1, LEECH_LIFE
 	db 0
-
-;MonjaTradebackMoves:
-;	db 1, FLASH
-;	db 1, HEADBUTT
-;	db 1, AMNESIA
-;	db 1, CONFUSION
-;	db 1, REFLECT
-;	db 0
 
 ScizorTradebackMoves:
 	db 1, HEADBUTT
@@ -2225,7 +2219,7 @@ TaurosPBTradebackMoves:
 	db 1, FLAMETHROWER
 	db 1, QUICK_ATTACK
 	db 0
-	
+
 FossilKabutopsTradebackMoves:
 	db 0
 

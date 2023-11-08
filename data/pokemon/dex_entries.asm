@@ -68,7 +68,7 @@ PokedexEntryPointers:
 	dw DragoniteDexEntry
 	dw CactormusDexEntry
 	dw SharpoonDexEntry
-	dw WiglettDexEntry
+	dw BittybatDexEntry
 	dw DoduoDexEntry
 	dw PoliwagDexEntry
 	dw JynxDexEntry
@@ -139,7 +139,7 @@ PokedexEntryPointers:
 	dw DecillaDexEntry
 	dw KinglerDexEntry
 	dw CloysterDexEntry
-	dw WugtrioDexEntry
+	dw MagnetiteDexEntry
 	dw ElectrodeDexEntry
 	dw ClefableDexEntry
 	dw WeezingDexEntry
@@ -190,6 +190,8 @@ PokedexEntryPointers:
 	dw BellsproutDexEntry
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
+	dw WiglettDexEntry
+	dw WugtrioDexEntry
 	dw ScizorDexEntry
 	dw RhyperiorDexEntry
 	dw EspeonDexEntry
@@ -1406,12 +1408,12 @@ CoinpurDexEntry:
 	text_far _CoinpurDexEntry
 	text_end
 
-;BittybatDexEntry:
-;	db "TINY BAT@"
-;	db 1,0
-;	dw 80
-;	text_far _BittybatDexEntry
-;	text_end
+BittybatDexEntry:
+	db "TINY BAT@"
+	db 1,0
+	dw 80
+	text_far _BittybatDexEntry
+	text_end
 
 RibbitoDexEntry:
 	db "SUMO@"
@@ -1553,12 +1555,12 @@ PendrakenDexEntry:
 	text_far _PendrakenDexEntry
 	text_end
 
-;MagnetiteDexEntry:
-;	db "MAGNET@"
-;	db 2,4
-;	dw 400
-;	text_far _MagnetiteDexEntry
-;	text_end
+MagnetiteDexEntry:
+	db "MAGNET@"
+	db 2,4
+	dw 400
+	text_far _MagnetiteDexEntry
+	text_end
 
 TriculesDexEntry:
 	db "BIG HORN@"
@@ -1664,13 +1666,6 @@ KleavorDexEntry:
 	dw 1960
 	text_far _KleavorDexEntry
 	text_end
-
-;MonjaDexEntry:
-;    db "VINE@"
-;	db 1,4
-;	dw 330
-;	text_far _MonjaDexEntry
-;	text_end
 	
 SteelixDexEntry:
     db "IRON SNAKE@"
