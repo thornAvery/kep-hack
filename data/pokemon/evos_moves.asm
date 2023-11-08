@@ -80,7 +80,7 @@ EvosMovesPointerTable:
 	dw DragoniteEvosMoves
 	dw CactormusEvosMoves
 	dw SharpoonEvosMoves
-	dw WiglettEvosMoves
+	dw BittybatEvosMoves
 	dw DoduoEvosMoves
 	dw PoliwagEvosMoves
 	dw JynxEvosMoves
@@ -151,7 +151,7 @@ EvosMovesPointerTable:
 	dw DecillaEvosMoves
 	dw KinglerEvosMoves
 	dw CloysterEvosMoves
-	dw WugtrioEvosMoves
+	dw MagnetiteEvosMoves
 	dw ElectrodeEvosMoves
 	dw ClefableEvosMoves
 	dw WeezingEvosMoves
@@ -202,6 +202,8 @@ EvosMovesPointerTable:
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
+	dw WiglettEvosMoves
+	dw WugtrioEvosMoves
 	dw ScizorEvosMoves
 	dw RhyperiorEvosMoves
 	dw EspeonEvosMoves
@@ -1094,19 +1096,19 @@ SharpoonEvosMoves:
 	db 55, HORN_DRILL
 	db 0
 
-;BittybatEvosMoves:
+BittybatEvosMoves:
 ; Evolutions
-;	db EV_LEVEL, 15, ZUBAT
-;	db 0
+	db EV_LEVEL, 14, ZUBAT
+	db 0
 ; Learnset
-;	db 7, WING_ATTACK
-;	db 14, GUST
-;	db 18, CONFUSE_RAY
-;	db 22, BITE
-;	db 26, TACKLE
-;	db 30, DISABLE
-;	db 34, HAZE
-;	db 0
+	db 7, WING_ATTACK
+	db 14, GUST
+	db 18, CONFUSE_RAY
+	db 22, BITE
+	db 26, TACKLE
+	db 30, DISABLE
+	db 34, HAZE
+	db 0
 
 DoduoEvosMoves:
 ; Evolutions
@@ -1550,7 +1552,7 @@ MachopEvosMoves:
 
 ZubatEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 24, GOLBAT
+	db EV_LEVEL, 23, GOLBAT
 	db 0
 ; Learnset
 	db 10, SUPERSONIC
@@ -1914,18 +1916,18 @@ CloysterEvosMoves:
 	db 50, SPIKE_CANNON
 	db 0
 
-;MagnetiteEvosMoves:
+MagnetiteEvosMoves:
 ; Evolutions
-;	db EV_LEVEL, 30, MAGNETON
-;	db 0
+	db EV_LEVEL, 30, MAGNETON
+	db 0
 ; Learnset
-;	db 21, SONICBOOM
-;	db 25, THUNDERSHOCK
-;	db 29, SUPERSONIC
-;	db 35, THUNDER_WAVE
-;	db 41, SWIFT
-;	db 47, SCREECH
-;	db 0
+	db 21, SONICBOOM
+	db 25, THUNDERSHOCK
+	db 29, SUPERSONIC
+	db 35, THUNDER_WAVE
+	db 41, SWIFT
+	db 47, SCREECH
+	db 0
 
 ElectrodeEvosMoves:
 ; Evolutions
@@ -2306,7 +2308,7 @@ BlastykeEvosMoves:
 
 MagnemiteEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, MAGNETON
+	db EV_LEVEL, 20, MAGNETITE
 	db 0
 ; Learnset
 	db 21, SONICBOOM
@@ -2531,34 +2533,6 @@ VictreebelEvosMoves:
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
 	db 0
-
-;MonjaEvosMoves:
-; Evolutions
-;	db EV_LEVEL, 22, TANGELA
-;	db 0
-; Learnset
-;	db 5, BIND
-;	db 9, ABSORB
-;	db 13, VINE_WHIP
-;	db 19, POISONPOWDER
-;	db 22, STUN_SPORE
-;	db 25, SLEEP_POWDER
-;	db 29, SLAM
-;	db 35, GROWTH
-;	db 40, NIGHT_SHADE
-;	db 0
-
-;PudiEvosMoves:
-; Evolutions
-;	db EV_LEVEL, 16, GROWLITHE
-;	db 0
-; Learnset
-;	db 9, EMBER
-;	db 12, LEER
-;	db 15, TAKE_DOWN
-;	db 21, AGILITY
-;	db 30, FLAMETHROWER
-;	db 0
 
 ScizorEvosMoves:
 ; Evolutions
@@ -2867,33 +2841,6 @@ CarapthorEvosMoves:
 	db 30, MEGA_PUNCH
 	db 35, SUBSTITUTE
 	db 0
-	
-;HinaazuEvosMoves:
-; Evolutions
-;	db EV_LEVEL, 18, DODUO
-;	db 0
-; Learnset
-;	db 5, QUICK_ATTACK
-;	db 11, FURY_ATTACK
-;	db 20, DRILL_PECK
-;	db 23, RAGE
-;	db 27, TRI_ATTACK
-;	db 32, AGILITY
-;	db 0
-
-;BetobebiiEvosMoves:
-; Evolutions
-;	db EV_LEVEL, 20, GRIMER
-;	db 0
-; Learnset
-;	db 13, POISON_GAS
-;	db 16, ACID
-;	db 19, MINIMIZE
-;	db 22, SLUDGE
-;	db 28, HARDEN
-;	db 33, SCREECH
-;	db 37, ACID_ARMOR
-;	db 0
 	
 MagnezoneEvosMoves:
 ; Evolutions

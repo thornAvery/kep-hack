@@ -23,7 +23,7 @@ SuperRodData:
 	dbw ROUTE_22,                       .Group1
 	dbw ROUTE_23,                       .Group8
 	dbw ROUTE_24,                       .Group2
-	dbw ROUTE_25,                       .Group3
+	dbw ROUTE_25,                       .Group2
 	dbw BRUNSWICK_TRAIL,                .Group9
 	dbw CERULEAN_GYM,                   .Group2
 	dbw VERMILION_DOCK,                 .Group3
@@ -62,18 +62,19 @@ SuperRodData:
 	db 5, ORFRY
 	db 7, ORFRY
 
-.Group2:	; Route 4, Cerulean, Route 24, Route 6
-	db 4
+.Group2:	; Route 4, Cerulean, Route 24, Route 25, Route 6
+	db 5
 	db 12, MAGIKARP
 	db 12, POLIWAG
 	db 12, ORFRY
 	db 12, PSYDUCK
-
-.Group3:	; Route 11, Route 25, Vermilion
+	db 12, CHEEP
+	
+.Group3:	; Route 11, Vermilion
 	db 5
 	db 15, BLOTTLE
 	db 15, MAGIKARP
-	db 15, SLOWPOKE
+	db 15, GOLDEEN
 	db 15, TENTACOOL
 	db 15, CHEEP
 
@@ -86,13 +87,12 @@ SuperRodData:
 	db 20, KRABBY
 
 .Group5:	; Route 13, Route 17, Route 18, Fuchsia
-	db 6
+	db 5
 	db 25, HORSEA
 	db 25, POLIWHIRL
 	db 25, KRABBY
 	db 25, CHEEP
 	db 25, BLOTTLE
-	db 25, GOLDEEN
 
 .Group6:	; Safari Zone
 	db 6

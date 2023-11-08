@@ -114,6 +114,6 @@ _MtMoon1AfterBattleText8::
 	done
 
 _MtMoon1Text14::
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "Beware! BITTYBAT"
+	line "can suck blood!"
 	done
