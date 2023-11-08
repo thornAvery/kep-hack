@@ -8,10 +8,10 @@ RedsHouse2F_Object:
 	;warp_event  5,  1, ROCKET_HIDEOUT_B4F, 2 ; - Test Giovanni 1
 	;warp_event  5,  1, MT_MOON_SQUARE, 1 ; - Test Shop, NPCs, and Crater
 	;warp_event  5,  1, CELESTE_HILL, 1 ; - Test GMolt
-	;warp_event	 5,  1, HALL_OF_FAME, 1 ; Test post-game setup
+	warp_event	 5,  1, HALL_OF_FAME, 1 ; Test post-game setup
 	;warp_event	 5,  1, GARNET_CAVERN_B1F, 1 ; Test GCuno
 	;warp_event	 5,  1, FARAWAY_ISLAND_INSIDE, 1 ; Test Mew
-	warp_event	 5,  1, GIOVANNIS_ROOM, 1 ; Test spinner tiles
+	;warp_event	 5,  1, GIOVANNIS_ROOM, 1 ; Test spinner tiles
 
 	def_bg_events
 

@@ -140,77 +140,68 @@ PostGameSetup:
 ; Here, we check if a Pokemon is owned, and if it is, we reset their events.
 ; It's really suboptimal and I think there is a way to make it better.
 ResetLegendaryPokemon:
-	ld a, DEX_ARTICUNO ; Load dex number
-	call HoFIsPokemonBitSet ; Is it owned?
-	jr nz, .skipArticuno ; If owned, skip
-	ResetEvent EVENT_BEAT_ARTICUNO ; If not, reset the event...
+	; reset all events liberally
+	ResetEvent EVENT_BEAT_ARTICUNO
 	ld a, HS_ARTICUNO
-	call ShowThis ; And restore the hide/show.
-.skipArticuno ; Rinse and repeat.
-	ld a, DEX_ZAPDOS
-	call HoFIsPokemonBitSet
-	jr nz, .skipZapdos
+	call ShowThis
 	ResetEvent EVENT_BEAT_ZAPDOS
 	ld a, HS_ZAPDOS
 	call ShowThis
-.skipZapdos
-	ld a, DEX_MOLTRES
-	call HoFIsPokemonBitSet
-	jr nz, .skipMoltres
 	ResetEvent EVENT_BEAT_MOLTRES
 	ld a, HS_MOLTRES
 	call ShowThis
-.skipMoltres
-	; Omega is special.
-	; If Omega wasn't caught, it'll be available in the empty room of Silph Co. 11F.
-	; In my mind, Omega was sent there, pending eventual scrapping for spare parts.
-	ld a, DEX_OMEGADGE
-	call HoFIsPokemonBitSet
-	jr nz, .skipOmega
-	ResetEvent EVENT_BEAT_OMEGA ; Reusing the old event - it's completely free to use.
-	ld a, HS_OMEGA_2 ; However, we want to use the different Omega placement!
+	ResetEvent EVENT_BEAT_OMEGA
+	ld a, HS_OMEGA
 	call ShowThis
-.skipOmega
-	; Mew's hints aren't until the post-game, but is available regardless.
-	; So, we put this here.
-	ld a, DEX_MEW
-	call HoFIsPokemonBitSet
-	jr nz, .skipMew
 	ResetEvent EVENT_BEAT_MEW
 	ld a, HS_MEW
 	call ShowThis
-.skipMew
-	CheckEvent EVENT_POST_GAME_ATTAINED
-	jp z, .skipGalarianBirdsAndMewtwo ; If you haven't cleared the game yet, you've not met the Galarian Birds. So we may as well skip processing all this.
-	ld a, DEX_ARTICUNO_G
-	call HoFIsPokemonBitSet
-	jr nz, .skipArticunoG
 	ResetEvent EVENT_BEAT_ARTICUNO_G
 	ld a, HS_GARNET_ARTICUNO_G
 	call ShowThis
-.skipArticunoG
-	ld a, DEX_ZAPDOS_G
-	call HoFIsPokemonBitSet
-	jr nz, .skipZapdosG
 	ResetEvent EVENT_BEAT_ZAPDOSG
 	ld a, HS_BRUNSWICK_ZAPDOS_G_2
 	call ShowThis
-.skipZapdosG
-	ld a, DEX_MOLTRES_G
-	call HoFIsPokemonBitSet
-	jr nz, .skipMoltresG
 	ResetEvent EVENT_BEAT_GALARIAN_MOLTRES
 	ld a, HS_MOLTRES_G
 	call ShowThis
-.skipMoltresG
-	ld a, DEX_MEWTWO
-	call HoFIsPokemonBitSet
-	jr nz, .skipGalarianBirdsAndMewtwo
 	ResetEvent EVENT_BEAT_MEWTWO
 	ld a, HS_MEWTWO
 	call ShowThis
-.skipGalarianBirdsAndMewtwo
-	; We set this last to save on processing earlier in the script.
+	ResetEvent EVENT_FIGHT_ROUTE12_SNORLAX
+	ld a, HS_ROUTE_12_SNORLAX
+	call ShowThis
+	ResetEvent EVENT_FIGHT_ROUTE16_SNORLAX
+	ld a, HS_ROUTE_16_SNORLAX
+	call ShowThis
+
+	; trade flags are in groups based on the
+	; ordering in data/events/trades.asm
+	
+	; trades 0-7
+	ld b, %11111111
+	ld a, [wCompletedInGameTradeFlags]
+	and b
+	ld [wCompletedInGameTradeFlags], a
+	
+	; trades 8-15
+	ld b, %00000011
+	ld a, [wCompletedInGameTradeFlags+1]
+	and b
+	ld [wCompletedInGameTradeFlags+1], a
+
+	; trades 16-23
+	ld b, %00000000
+	ld a, [wCompletedInGameTradeFlags+2]
+	and b
+	ld [wCompletedInGameTradeFlags+2], a
+
+	; trades 24-31
+	ld b, %00000000
+	ld a, [wCompletedInGameTradeFlags+3]
+	and b
+	ld [wCompletedInGameTradeFlags+3], a
+
 	SetEvent EVENT_POST_GAME_ATTAINED
 	ret
 
