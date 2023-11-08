@@ -75,7 +75,7 @@
 	const DRAGONITE          ; $42
 	const CACTORMUS          ; $43	(new)
 	const SHARPOON           ; $44	(new)
-	const WIGLETT            ; $45  (new)
+	const BITTYBAT           ; $45  (new)
 	const DODUO              ; $46
 	const POLIWAG            ; $47
 	const JYNX               ; $48
@@ -146,7 +146,7 @@
 	const DECILLA            ; $89	(new)
 	const KINGLER            ; $8A
 	const CLOYSTER           ; $8B
-	const WUGTRIO            ; $8C  (new)
+	const MAGNETITE          ; $8C  (new)
 	const ELECTRODE          ; $8D
 	const CLEFABLE           ; $8E
 	const WEEZING            ; $8F
@@ -197,67 +197,69 @@
 	const BELLSPROUT         ; $BC
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
-	const SCIZOR             ; $BF  (new pokemon start here)
-	const RHYPERIOR          ; $C0
-	const ESPEON             ; $C1
-	const UMBREON            ; $C2
-	const LEAFEON            ; $C3
-	const GLACEON            ; $C4
-	const SYLVEON            ; $C5
-	const LICKILICKY         ; $C6
-	const TANGROWTH          ; $C7
-	const KLEAVOR            ; $C8
-	const BELLIGNAN          ; $C9
-	const STEELIX            ; $CA
-	const BLISSEY            ; $CB
-	const HITMONTOP          ; $CC
-	const CROBAT             ; $CD
-	const MIMMEO             ; $CE
-	const BELLOSSOM          ; $CF
-	const PORYGON2           ; $D0
-	const KINGDRA            ; $D1
-	const POLITOED           ; $D2
-	const SLOWKING           ; $D3
-	const ELECTIVIRE         ; $D4
-	const MAGMORTAR          ; $D5
-	const DISTURBAN          ; $D6
-	const GENTLARVA          ; $D7
-	const PUPAL              ; $D8
-	const CARAPTHOR          ; $D9
-	const MAGNEZONE          ; $DA
-	const PORYGONZ           ; $DB
-	const ANNIHILAPE         ; $DC
-	const SCREAM_TAIL        ; $DD
-	const SANDY_SHOCKS       ; $DE
-	const TOEDSCOOL          ; $DF
-	const TOEDSCRUEL         ; $E0
-	const PERRSERKER         ; $E1
-	const SIRFETCHD          ; $E2
-	const MR_RIME            ; $E3
-	const MELTAN             ; $E4
-	const MELMETAL           ; $E5
-	const ARCANINE_H         ; $E6
-	const ELECTRODE_H        ; $E7
-	const RATICATE_A         ; $E8
-	const RAICHU_A           ; $E9
-	const SANDSLASH_A        ; $EA
-	const NINETALES_A        ; $EB
-	const DUGTRIO_A          ; $EC
-	const PERSIAN_A          ; $ED
-	const GOLEM_A            ; $EE
-	const RAPIDASH_G         ; $EF
-	const SLOWBRO_G          ; $F0
-	const SLOWKING_G         ; $F1
-	const MUK_A              ; $F2
-	const EXEGGUTOR_A        ; $F3
-	const MAROWAK_A          ; $F4
-	const WEEZING_G          ; $F5
-	const TAUROS_P           ; $F6
-	const TAUROS_PA          ; $F7
-	const TAUROS_PB          ; $F8
-	const FOSSIL_KABUTOPS    ; $F9	(was B6)
-	const FOSSIL_AERODACTYL  ; $FA	(was B7)
-	const MON_GHOST          ; $FB	(was B8)
+	const WIGLETT            ; $BF  (new pokemon start here)
+	const WUGTRIO            ; $C0
+	const SCIZOR             ; $C1
+	const RHYPERIOR          ; $C2
+	const ESPEON             ; $C3
+	const UMBREON            ; $C4
+	const LEAFEON            ; $C5
+	const GLACEON            ; $C6
+	const SYLVEON            ; $C7
+	const LICKILICKY         ; $C8
+	const TANGROWTH          ; $C9
+	const KLEAVOR            ; $CA
+	const BELLIGNAN          ; $CB
+	const STEELIX            ; $CC
+	const BLISSEY            ; $CD
+	const HITMONTOP          ; $CE
+	const CROBAT             ; $CF
+	const MIMMEO             ; $D0
+	const BELLOSSOM          ; $D1
+	const PORYGON2           ; $D2
+	const KINGDRA            ; $D3
+	const POLITOED           ; $D4
+	const SLOWKING           ; $D5
+	const ELECTIVIRE         ; $D6
+	const MAGMORTAR          ; $D7
+	const DISTURBAN          ; $D8
+	const GENTLARVA          ; $D9
+	const PUPAL              ; $DA
+	const CARAPTHOR          ; $DB
+	const MAGNEZONE          ; $DC
+	const PORYGONZ           ; $DD
+	const ANNIHILAPE         ; $DE
+	const SCREAM_TAIL        ; $DF
+	const SANDY_SHOCKS       ; $E0
+	const TOEDSCOOL          ; $E1
+	const TOEDSCRUEL         ; $E2
+	const PERRSERKER         ; $E3
+	const SIRFETCHD          ; $E4
+	const MR_RIME            ; $E5
+	const MELTAN             ; $E6
+	const MELMETAL           ; $E7
+	const ARCANINE_H         ; $E8
+	const ELECTRODE_H        ; $E9
+	const RATICATE_A         ; $EA
+	const RAICHU_A           ; $EB
+	const SANDSLASH_A        ; $EC
+	const NINETALES_A        ; $ED
+	const DUGTRIO_A          ; $EE
+	const PERSIAN_A          ; $EF
+	const GOLEM_A            ; $F0
+	const RAPIDASH_G         ; $F1
+	const SLOWBRO_G          ; $F2
+	const SLOWKING_G         ; $F3
+	const MUK_A              ; $F4
+	const EXEGGUTOR_A        ; $F5
+	const MAROWAK_A          ; $F6
+	const WEEZING_G          ; $F7
+	const TAUROS_P           ; $F8
+	const TAUROS_PA          ; $F9
+	const TAUROS_PB          ; $FA
+	const FOSSIL_KABUTOPS    ; $FB	(was B6)
+	const FOSSIL_AERODACTYL  ; $FC	(was B7)
+	const MON_GHOST          ; $FD	(was B8)
 	
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

@@ -68,7 +68,7 @@ MonsterNames::
 	db "DRAGONITE@"
 	db "CACTORMUS@"	; Cactus
 	db "SHARPOON@@"	; Jagg
-	db "WIGLETT@@@"
+	db "BITTYBAT@@"
 	db "DODUO@@@@@"
 	db "POLIWAG@@@"
 	db "JYNX@@@@@@"
@@ -139,7 +139,7 @@ MonsterNames::
 	db "DECILLA@@@"
 	db "KINGLER@@@"
 	db "CLOYSTER@@"
-	db "WUGTRIO@@@"
+	db "MAGNETITE@"
 	db "ELECTRODE@"
 	db "CLEFABLE@@"
 	db "WEEZING@@@"
@@ -190,6 +190,8 @@ MonsterNames::
 	db "BELLSPROUT"
 	db "WEEPINBELL"
 	db "VICTREEBEL"
+	db "WIGLETT@@@"
+	db "WUGTRIO@@@"
 	db "SCIZOR@@@@"
 	db "RHYPERIOR@"
 	db "ESPEON@@@@"

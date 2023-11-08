@@ -13,104 +13,103 @@ _DexCompletionText::
 	line "Rating:"
 	prompt
 
-_DexRatingText_Own0To9::
+_DexRatingText_Own0To14::
 	text "You still have"
 	line "lots to do."
 	cont "Look for #MON"
 	cont "in grassy areas!"
 	done
 
-_DexRatingText_Own10To19::
+_DexRatingText_Own15To29::
 	text "You're on the"
 	line "right track! "
 	cont "Get a FLASH HM"
 	cont "from my AIDE!"
 	done
 
-_DexRatingText_Own20To29::
-	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
-	done
-
-_DexRatingText_Own30To39::
+_DexRatingText_Own30To49::
 	text "Good, you're"
 	line "trying hard!"
 	cont "Get an ITEMFINDER"
 	cont "from my AIDE!"
 	done
 
-_DexRatingText_Own40To49::
+_DexRatingText_Own50To64::
 	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
-	done
-
-_DexRatingText_Own50To59::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
+	line "Be sure to get"
 	cont "EXP.ALL from my"
 	cont "AIDE!"
 	done
 
-_DexRatingText_Own60To69::
+_DexRatingText_Own65To79::
 	text "Ho! This is geting"
 	line "even better!"
 	done
 
-_DexRatingText_Own70To79::
+_DexRatingText_Own80To99::
 	text "Very good!"
 	line "Go fish for some"
 	cont "marine #MON!"
 	done
 
-_DexRatingText_Own80To89::
+_DexRatingText_Own100To114::
+	text "You finally got at"
+	line "least 100 species!"
+	cont "Great job!"
+	done
+
+_DexRatingText_Own115To129::
 	text "Wonderful!"
 	line "Do you like to"
 	cont "collect things?"
 	done
 
-_DexRatingText_Own90To99::
+_DexRatingText_Own130To149::
+	text "You're over half-"
+	line "way to completing"
+	cont "the #DEX!"
+	cont "Well done!"
+	done
+
+_DexRatingText_Own150To164::
 	text "I'm impressed!"
 	line "It must have been"
 	cont "difficult to do!"
 	done
 
-_DexRatingText_Own100To109::
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
-	done
-
-_DexRatingText_Own110To119::
+_DexRatingText_Own165To179::
 	text "You even have the"
 	line "evolved forms of"
 	cont "#MON! Super!"
 	done
 
-_DexRatingText_Own120To129::
+_DexRatingText_Own180To199::
 	text "Excellent! Trade"
 	line "with friends to"
 	cont "get some more!"
 	done
 
-_DexRatingText_Own130To139::
+_DexRatingText_Own200To214::
+	text "You finally got at"
+	line "least 200 species!"
+	cont "I can't believe"
+	cont "how good you are!"
+	done
+
+_DexRatingText_Own215To229::
 	text "Outstanding!"
 	line "You've become a"
 	cont "real pro at this!"
 	done
 
-_DexRatingText_Own140To149::
+_DexRatingText_Own230To249::
 	text "I have nothing"
 	line "left to say!"
 	cont "You're the"
 	cont "authority now!"
 	done
 
-_DexRatingText_Own150To151::
+_DexRatingText_OwnComplete::
 	text "Your #DEX is"
 	line "entirely complete!"
 	cont "Congratulations!"

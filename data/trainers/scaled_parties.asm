@@ -26,8 +26,8 @@ MistyData:
 LtSurgeData:
 	db $FF, 11, VOLTORB, 12, PIKACHU, 14, GAOTORA, 0                                                ; 0 badges
 	db $FF, 19, VOLTORB, 18, PIKACHU, 19, GAOTORA, 21, ELECTABUZZ, 0                                ; 1
-	db $FF, 22, VOLTORB, 21, GAOTORA, 21, MAGNEMITE, 23, ELECTABUZZ, 25, RAICHU, 0                  ; 2
-	db $FF, 29, ELECTRODE, 28, GAOTORA, 28, MAGNEMITE, 29, ELECTABUZZ, 31, RAICHU, 0                ; 3
+	db $FF, 22, VOLTORB, 21, GAOTORA, 21, MAGNETITE, 23, ELECTABUZZ, 25, RAICHU, 0                  ; 2
+	db $FF, 29, ELECTRODE, 28, GAOTORA, 28, MAGNETITE, 29, ELECTABUZZ, 31, RAICHU, 0                ; 3
 	db $FF, 38, ELECTRODE, 37, GOROTORA, 37, MAGNETON, 38, ELECTABUZZ, 40, GOROCHU, 0               ; 4
 	db $FF, 41, ELECTRODE, 40, GOROTORA, 40, MAGNETON, 41, ELECTABUZZ, 43, GOROCHU, 0               ; 5
 	db $FF, 45, ELECTRODE, 44, GOROTORA, 44, MAGNEZONE, 45, ELECTIVIRE, 47, GOROCHU, 0              ; 6

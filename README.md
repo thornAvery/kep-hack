@@ -29,8 +29,6 @@ In general, the following Pokemon are not available;
 - Mime Jr.
 - Happiny
 - Munchlax
-- Bittybat (prototype Zubat pre-evolution from Red and Green)
-- Magnetite (prototype middle stage between Magnemite and Magneton)
 - Elebaby (prototype Elekid pre-evolution in May98 GSC sprite cache)
 - Burgela (SW97 Baby Tangela)
 - Paraspor (SW97 Baby Paras)
@@ -53,7 +51,7 @@ Changes at a glance:
 - Bite is still Normal-type.
 - The Clefairy, Mime Jr, and Jigglypuff lines are not Steel or Fairy-type, respectively.
 	- This (and Bite) was done to ensure the original Kanto Pokemon were unaltered in any way.
-	- While Magnemite and Magneton are pure Electric, Magnezone is part-Steel.
+	- While Magnemite, Magnetite and Magneton are pure Electric, Magnezone is part-Steel.
 	- Scream Tail remains Fairy/Psychic.
 - Fire remains neutral against Ice.
 - Bug and Poison remain super effective against each other.
@@ -163,7 +161,7 @@ QoL Enhancements
 - A feminine character option is now available, featuring the sprite from Pokemon Anniversary Red, which is based on Green's manga appearance.
 	- To accomodate this, Celadon Gym's trainers use their more neutral text from Crystal.
 	- The protagonist is also referred to in a gender neutral manner. This changes like, 2-3 lines in the whole game.
-- All 151 original Pokemon, plus an additional 97, can be obtained without the use of trading or glitches, including Mew!
+- All 151 original Pokemon, plus an additional 99, can be obtained without the use of trading or glitches, including Mew!
 - Various moves have had their animations altered to be less intensive for photosensitive individuals, including every animation that was dimmed on the 3DS (Most notably Blizzard and Thunderbolt). This was done with the aim of also improving the move's animations overall, so some look a little flashier.
 	- Full list includes Body Slam, Glare, Disable, Blizzard, BubbleBeam, Confusion, Dream Eater, Explosion, Guillotine, Hyper Beam, Mega Kick, Mega Punch, Psychic, Reflect, Rock Slide, Selfdestruct, Spore, and Thunderbolt.
 - PureRGB's AI enhancements are ported over; said hack was made by Vortiene. In general, it isn't as stupid as it was before.
@@ -206,7 +204,7 @@ QoL Enhancements
 	- 3x 7s now gives 900 coins (used to be 300)
 - Game Corner prizes have been altered;
 	- Prices have been changed, so Porygon doesn't require 9999 coins.
-	- New prizes include: Cubone, Cactus, and Squeamata
+	- New prizes include: Cubone, Cactormus, and Squeamata
 	- The Moon Stone is available over TM23 (Dragon Rage). Dragon Rage is still available in Celadon University!
 - Spinner tiles move faster.
 - Fight Debug now allows moves other than Pound.
@@ -309,6 +307,7 @@ New Pokemon:
 - Weepinbell -> Bellignan | Use Poison Stone
 
 Kanto Beta Pokemon:
+- Bittybat -> Zubat | L14
 - Blastyke -> Blastoise | L36
 - Blottle -> Pendraken | L30
 - Cheep -> Jabetta | L30
@@ -319,6 +318,7 @@ Kanto Beta Pokemon:
 - Pupal -> Carapthor | L10
 - Kotora -> Gaotora -> Gorotora | L16, L36
 - Kolta -> Ponyta | L20
+- Magnemite -> Magnetite -> Magneton | L20, L30
 - Nidorino OR Nidorina -> Nidoreign | Moon Stone
 - Psyduck -> Weirduck -> Golduck | L22, L33
 - Raichu -> Gorochu | Trade
