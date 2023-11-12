@@ -4,12 +4,12 @@ This is a ROM Hack of Pokémon Red and Blue, aiming to expand the Kanto region w
 
 If playing on an emulator, BGB is strongly recommended for its accuracy and features. Inaccurate emulators, such as VBA and TGB Dual, can experience unintended glitches. This hack is fully playable on official hardware as well.
 
-New Pokemon:
+New Pokemon
 ====
 The Kanto Expansion Pak's ethos is to add every "Kanto-related" Pokemon to RBY without fundamentally changing the grander metagame. What's defined as "Kanto-related" is a Pokemon that evolves from an existing Kanto Pokemon, made an appearance in a Kanto-based game (LGPE), is a regional variant, or was a Kanto-related Pokemon cut during the development of an official game.
 
 With this criteria, we get:
-- The 34 known beta Pokemon that were cut from Red and Green; eg. Gorochu, Kotora
+- The 34 known prototype Pokemon that were cut from Red and Green; eg. Gorochu, Kotora
 - Evolutions or pre-evolutions of a Kanto Pokemon found in a future generation eg. Steelix, Glaceon, Kleavor, Annihilape
 - Evolutions of Kanto Pokemon found in the SpaceWorld '97 demo of Gold and Silver; eg. Luxwan, Bellignan
 - All fully-evolved regional variants of Kanto Pokemon; eg. Alolan Muk, Galarian Slowbro, Hisuian Arcanine, Paldean Tauros
@@ -39,7 +39,7 @@ In general, the following Pokemon are not available;
 
 Mega Evolutions and Gigantamax forms are not in the game mainly by choice. There are no held items and there isn't a special button or anything, so it felt kind of weird to add, would deviate significantly from the RBY experience, and requires a pretty big overhaul to the battle system. It's definitely possible, just not for me.
 
-New Types:
+New Types
 ====
 To accomodate the new Pokemon, the Dark, Steel, and Fairy types are added. They are effectively "tacked on", with no vanilla Pokemon or moves being changed, which is a big part of what this hack wants. 
 
@@ -76,7 +76,7 @@ Naturally, these types get appropriate moves. They are currently distributed to 
 - Dark: Brutal Swing, Fake Tears, False Surrender, Feint Attack, Kowtow Cleave, Nasty Plot, Night Slash
 - Fairy: Charm, Dazzling Gleam, Disarming Voice, Draining Kiss, Fairy Wind, Play Rough, Sweet Kiss
 
-New Items:
+New Items
 ====
 There are some new items here, with the aim of accomodating new Pokemon, adding features, and acting as methods of getting to new locations. 
 - The Wing Fossil is a new item that allows Aerodactyl to be revived, as the Old Amber is instead used for Decilla. It's hidden in Mt. Moon.
@@ -130,7 +130,7 @@ Improved Areas
 	- In effect, you get two stages: Pewter/Cerulean/Vermilion, then Celadon/Fuchsia/Saffron/Cinnabar. Some limits were placed due to the power spike introduced by Celadon City.
 - Giovanni now uses his unused theme song from Yellow, plus has his LGPE monologue in the Rocket Hideout.
 - Jessie and James have been backported from Yellow, appearing in Mt. Moon, Rocket Hideout, Pokemon Tower, and Silph Co. Additionally, they have a closure role in the post-game.
-- Diglett's Cave has a more detailed map with Onix, Wiglett, and Wugtrio also appearing! It also has its beta music!
+- Diglett's Cave has a more detailed map with Onix, Wiglett, and Wugtrio also appearing! It also has its prototype music!
 - The Day Care now contains a PC, is generally more detailed, and houses Melanie from Yellow. If you pick Pikachu or Eevee and beat Misty, Melanie will give you a Bulbasaur.
 - Route 24 now features two things;
 	- There's a new Fishing Rod house, which merges all the Rods in the game.
@@ -270,7 +270,7 @@ Comprehensive list can be found on Discord.
 Evolution Methods for new Pokemon
 ====
 Due to the odd way some new Pokemon evolve, methods are listed here. 
-- Beta Pokemon are included with their original methods. 
+- Prototype Pokemon are included with their original methods. 
 - Some Pokemon will have methods from the Spaceworld '97 demo to be closer to, or functional in the context of, RBY. Sometimes the newer version is available (eg. Metal Coat evolutions) for the sake of familiarity.
 - To accomodate new additions and ensure everything makes sense, some Pokemon have also had their methods changed. These situations are usually very extreme.
 
@@ -306,7 +306,7 @@ New Pokemon:
 - Tangela -> Tangrowth | L44
 - Weepinbell -> Bellignan | Use Poison Stone
 
-Kanto Beta Pokemon:
+Kanto Prototype Pokemon:
 - Bittybat -> Zubat | L14
 - Blastyke -> Blastoise | L36
 - Blottle -> Pendraken | L30
@@ -383,8 +383,8 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly.
 * LadyMisticus - Made a well-documented spreadsheet for the hack that details every Pokemon's stats, movepools and locations, plus more! 
 * Ness the Unexplained - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
-* ZumiIsawhat? - Restorations of beta OST.
-* FrenchOrange - Reconstructions of various overworld beta sprites.
+* ZumiIsawhat? - Restorations of prototype OST.
+* FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber, RacieBeep, loumilouminosus, Orchid, GBCRetro, & catstorm26 - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
 * Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI. Assisted in bug fixes. Used their sprite sheet generator.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
@@ -395,9 +395,11 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * wrulfy - Technical advice.
 * suloku - Technical advice regarding setting where you spawn after beating the Elite Four, Exp. All modernisation code
 * 大吟醸 (Daiginjo) - Assistance in translating the Tamamushi University Student Book, allowing for an accurate adaptation of the location.
-* Molk - Balancing of some beta Pokemon, most notably Ramoose.
-* Shellnuts - Balancing of some beta Pokemon, especially Omegadge. Made the SW97 type chart suggestion to balance Galarian Moltres; this would go on to define the mod's identity.
+* Molk - Balancing of some prototype Pokemon, most notably Ramoose.
+* Shellnuts - Balancing of some prototype Pokemon, especially Omegadge. Made the SW97 type chart suggestion to balance Galarian Moltres; this would go on to define the mod's identity.
 * ViWalls - Extremely early adopter of the hack who reported numerous bugs and gave many useful suggestions as a prime member of our target audience.
+* Dr. Lava - Translations of some content used in this hack, particularly the 1996 Pokedex book's entries for DYKG.
+* Nob Ogasawara - Prototype Pokemon names, produced for DYKG.
 
 Helix Chamber sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge, Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck
 
