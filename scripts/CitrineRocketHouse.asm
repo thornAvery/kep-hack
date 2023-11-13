@@ -64,8 +64,7 @@ JamesText:
 	call RestoreScreenTilesAndReloadTilePatterns
 	call LoadGBPal
 	pop af
-	ld hl, JamesDone
-	call PrintText
+	jr c, .refused
 	
 	; DV increasing process.
 	; Thanks to Vimescarrot for giving me pointers on this!
@@ -74,12 +73,26 @@ JamesText:
 	
 	ld bc, wPartyMon2 - wPartyMon1 ; This gets to the right slot for DVs
 	call AddNTimes ; Gets us there
+	; check if already maxed
+	ld b, h ; store beginning address
+	ld c, l
+	ld a, [hli] ; Attack + Defence
+	cp a, %11111111
+	jr nz, .train ; at least one stat isnt maxed
+	ld a, [hl] ; Speed + Special
+	cp a, %11111111
+	jr z, .alreadyTrained ; all stats were maxed
+.train
+	ld h, b ; restore address
+	ld l, c
 	ld a, %11111111 ; Load FFFF FFFF, perfect 15s
 	ld [hli], a ; Attack + Defence
 	ld [hl], a ; Speed + Special
 	; And we're done!
 	
 	; Currently this doesn't automatically change the stats because it's fucking insane
+	ld hl, JamesDone
+	call PrintText
 	
 	; Bottle Cap removal service
 	ld hl, BottleCapList
