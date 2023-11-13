@@ -168,10 +168,10 @@ ResetLegendaryPokemon:
 	ResetEvent EVENT_BEAT_MEWTWO
 	ld a, HS_MEWTWO
 	call ShowThis
-	ResetEvent EVENT_FIGHT_ROUTE12_SNORLAX
+	ResetEvent EVENT_BEAT_ROUTE12_SNORLAX
 	ld a, HS_ROUTE_12_SNORLAX
 	call ShowThis
-	ResetEvent EVENT_FIGHT_ROUTE16_SNORLAX
+	ResetEvent EVENT_BEAT_ROUTE16_SNORLAX
 	ld a, HS_ROUTE_16_SNORLAX
 	call ShowThis
 
