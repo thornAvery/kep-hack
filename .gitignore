@@ -31,3 +31,8 @@
 *.sg1
 
 .vscode/*
+
+# nix stuff
+.direnv
+.envrc
+result
