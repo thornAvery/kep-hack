@@ -165,16 +165,10 @@ MissableObjectIDs_6219b:
 	db HS_SAFFRON_CITY_E
 	db HS_SILPH_CO_3F_1
 	db HS_SILPH_CO_3F_2
-	;db HS_SILPH_CO_4F_1
-	;db HS_SILPH_CO_4F_2
-	;db HS_SILPH_CO_4F_3
 	db HS_SILPH_CO_5F_1
 	db HS_SILPH_CO_5F_2
 	db HS_SILPH_CO_5F_3
 	db HS_SILPH_CO_5F_4
-	;db HS_SILPH_CO_6F_1
-	;db HS_SILPH_CO_6F_2
-	;db HS_SILPH_CO_6F_3
 	db HS_SILPH_CO_7F_1
 	db HS_SILPH_CO_7F_2
 	db HS_SILPH_CO_7F_3
@@ -630,23 +624,14 @@ SaffronCityRockets:
 	db HS_SAFFRON_CITY_E
 	db HS_SILPH_CO_3F_1
 	db HS_SILPH_CO_3F_2
-	;db HS_SILPH_CO_4F_1
-	;db HS_SILPH_CO_4F_2
-	;db HS_SILPH_CO_4F_3
 	db HS_SILPH_CO_5F_1
 	db HS_SILPH_CO_5F_2
 	db HS_SILPH_CO_5F_3
 	db HS_SILPH_CO_5F_4
-	;db HS_SILPH_CO_6F_1
-	;db HS_SILPH_CO_6F_2
-	;db HS_SILPH_CO_6F_3
 	db HS_SILPH_CO_7F_1
 	db HS_SILPH_CO_7F_2
 	db HS_SILPH_CO_7F_3
 	db HS_SILPH_CO_7F_4
-	;db HS_SILPH_CO_8F_1
-	;db HS_SILPH_CO_8F_2
-	;db HS_SILPH_CO_8F_3
 	db HS_SILPH_CO_10F_1
 	db HS_SILPH_CO_10F_2
 	db HS_SILPH_CO_11F_1
@@ -671,7 +656,7 @@ SilphCo11F_TextPointers:
 SilphCo11TrainerHeaders:
 	def_trainers 5
 SilphCo11TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_11F_TRAINER_1, 3, SilphCo11Trainer1BattleText, SilphCo11Trainer1EndBattleText, SilphCo11Trainer1AfterBattleText
+	trainer EVENT_BEAT_SILPH_CO_11F_TRAINER_1, 1, SilphCo11Trainer1BattleText, SilphCo11Trainer1EndBattleText, SilphCo11Trainer1AfterBattleText
 Omega2TrainerHeader:
 	trainer EVENT_BEAT_OMEGA, 0, Omega2BattleText, Omega2BattleText, Omega2BattleText	
 	db -1 ; end

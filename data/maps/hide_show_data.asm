@@ -151,7 +151,7 @@ MapHSPointers:
 	dw NoHS
 	dw PokemonTower2FHS
 	dw BrunswickGrottoHS
-	dw NoHS ; Pokemon Tower 4F, removed for constant space
+	dw NoHS
 	dw PokemonTower5FHS
 	dw PokemonTower6FHS
 	dw PokemonTower7FHS
@@ -218,7 +218,6 @@ MapHSPointers:
 	dw SilphCo5FHS
 	dw NoHS
 	dw SilphCo7FHS
-	;dw SilphCo8FHS
 	dw PokemonMansion2FHS
 	dw PokemonMansion3FHS
 	dw PokemonMansionB1FHS
@@ -253,11 +252,11 @@ MapHSPointers:
 	dw NoHS
 	dw RockTunnelB1FHS
 	dw GiovannisRoomHS
-	dw NoHS ; Battle Tent
-	dw MtMoonSquareHS ; Mt Moon Square
-	dw NoHS ; Mt Moon Square House
-	dw NoHS ; Celeste Hill Cave 
-	dw NoHS ; Celeste Hill Outside
+	dw NoHS
+	dw MtMoonSquareHS
+	dw NoHS
+	dw NoHS 
+	dw NoHS
 	dw BrunswickGladeHS
 	assert_table_length NUM_MAPS
 	dw -1 ; end
@@ -330,7 +329,7 @@ Route25HS:
 	db ROUTE_25, $0A, SHOW                    ; HS_ROUTE_25_ITEM
 BrunswickTrailHS:
 	db BRUNSWICK_TRAIL, $01, SHOW             ; HS_CACTUS
-	db BRUNSWICK_TRAIL, $06, SHOW 		 	  ; HS_BRUNSWICK_ZAPDOS_G_1
+	db BRUNSWICK_TRAIL, $06, SHOW             ; HS_BRUNSWICK_ZAPDOS_G_1
 BluesHouseHS:
 	db BLUES_HOUSE, $01, SHOW                 ; HS_DAISY_SITTING
 	db BLUES_HOUSE, $02, HIDE                 ; HS_DAISY_WALKING
@@ -481,13 +480,6 @@ SilphCo3FHS:
 	db SILPH_CO_3F, $02, SHOW                 ; HS_SILPH_CO_3F_1
 	db SILPH_CO_3F, $03, SHOW                 ; HS_SILPH_CO_3F_2
 	db SILPH_CO_3F, $04, SHOW                 ; HS_SILPH_CO_3F_ITEM
-;SilphCo4FHS:
-;	db SILPH_CO_4F, $02, SHOW                 ; HS_SILPH_CO_4F_1
-;	db SILPH_CO_4F, $03, SHOW                 ; HS_SILPH_CO_4F_2
-;	db SILPH_CO_4F, $04, SHOW                 ; HS_SILPH_CO_4F_3
-;	db SILPH_CO_4F, $05, SHOW                 ; HS_SILPH_CO_4F_ITEM_1
-;	db SILPH_CO_4F, $06, SHOW                 ; HS_SILPH_CO_4F_ITEM_2
-;	db SILPH_CO_4F, $07, SHOW                 ; HS_SILPH_CO_4F_ITEM_3
 SilphCo5FHS:
 	db SILPH_CO_5F, $02, SHOW                 ; HS_SILPH_CO_5F_1
 	db SILPH_CO_5F, $03, SHOW                 ; HS_SILPH_CO_5F_2
@@ -496,12 +488,6 @@ SilphCo5FHS:
 	db SILPH_CO_5F, $06, SHOW                 ; HS_SILPH_CO_5F_ITEM_1
 	db SILPH_CO_5F, $07, SHOW                 ; HS_SILPH_CO_5F_ITEM_2
 	db SILPH_CO_5F, $08, SHOW                 ; HS_SILPH_CO_5F_ITEM_3
-;SilphCo6FHS:
-;	db SILPH_CO_6F, $06, SHOW                 ; HS_SILPH_CO_6F_1
-;	db SILPH_CO_6F, $07, SHOW                 ; HS_SILPH_CO_6F_2
-;	db SILPH_CO_6F, $08, SHOW                 ; HS_SILPH_CO_6F_3
-;	db SILPH_CO_6F, $09, SHOW                 ; HS_SILPH_CO_6F_ITEM_1
-;	db SILPH_CO_6F, $0A, SHOW                 ; HS_SILPH_CO_6F_ITEM_2
 SilphCo7FHS:
 	db SILPH_CO_7F, $05, SHOW                 ; HS_SILPH_CO_7F_1
 	db SILPH_CO_7F, $06, SHOW                 ; HS_SILPH_CO_7F_2
@@ -594,6 +580,7 @@ MtMoonCraterHS:
 	db MT_MOON_CRATER, $01, SHOW              ; HS_MT_MOON_CRATER_ITEM_1
 	db MT_MOON_CRATER, $02, SHOW              ; HS_MT_MOON_CRATER_ITEM_2
 	db MT_MOON_CRATER, $03, SHOW              ; HS_MT_MOON_CRATER_ITEM_3
+	db MT_MOON_CRATER, $04, SHOW              ; HS_MT_MOON_CRATER_ITEM_4
 GiovannisRoomHS:
 	db GIOVANNIS_ROOM, $05, SHOW              ; HS_GIOVANNIS_ROOM_ITEM_1
 	db GIOVANNIS_ROOM, $06, SHOW              ; HS_GIOVANNIS_ROOM_ITEM_2

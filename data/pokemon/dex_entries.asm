@@ -1675,7 +1675,7 @@ SteelixDexEntry:
 	text_end 
 	
 HitmontopDexEntry:
-    db "HEADSTAND@"
+    db "HANDSTAND@"
 	db 4,7
 	dw 1060
 	text_far _HitmontopDexEntry

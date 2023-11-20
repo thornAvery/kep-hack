@@ -18,13 +18,13 @@ CitrineCity_Object:
 	bg_event  5, 18,  8 ; Billboard 2
 	bg_event  9,  7,  9 ; Battle Tower
 	bg_event 33, 23, 10 ; City Sign
-	bg_event 25, 24, 11 ; Directions
+	bg_event 25, 22, 11 ; Directions
 	bg_event 25,  7, 12 ; Celeste Hill Sign
 
 	def_object_events
-	object_event 12, 18, SPRITE_BEAUTY, WALK, LEFT_RIGHT, 1 ; person
+	object_event 12, 19, SPRITE_BEAUTY, WALK, LEFT_RIGHT, 1 ; person
 	object_event  6,  9, SPRITE_HIKER,  WALK, LEFT_RIGHT, 2 ; person
-	object_event 20, 26, SPRITE_GENTLEMAN, STAY, UP, 3 ; person
+	object_event 19, 15, SPRITE_GENTLEMAN, STAY, UP, 3 ; person
 	object_event 29, 23, SPRITE_ROCKER, WALK, ANY_DIR, 4 ; person
 
 	def_warps_to CITRINE_CITY

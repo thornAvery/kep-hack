@@ -249,7 +249,7 @@ _SabrinaRematchPreBattleText::
 	cont "power alone."
 	
 	para "I won't rely on"
-	line "my psychic"
+	line "just my psychic"
 	cont "powers this"
 	cont "time."
 	
@@ -264,6 +264,6 @@ _SabrinaRematchPreBattleText::
 _SabrinaRematchDefeatedText::
 	text "I doubt"
 	line "I'll encounter"
-	cont "a TRAINER like"
+	cont "a trainer like"
 	cont "you ever again."
 	prompt

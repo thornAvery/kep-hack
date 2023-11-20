@@ -1,6 +1,6 @@
 	db DEX_ZAPDOS_G ; pokedex id
 
-	db  90, 125,  90, 100,  75
+	db  90, 125,  90, 100,  85
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FLYING ; type

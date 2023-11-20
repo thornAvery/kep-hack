@@ -10,7 +10,7 @@ _CitrinePokecenterText2::
 	done
 
 _CitrinePokecenterText3::
-	text "The TRAINERs here"
+	text "The trainers here"
 	line "are too tough!"
 	
 	para "What are they"

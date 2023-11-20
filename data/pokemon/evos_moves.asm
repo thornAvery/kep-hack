@@ -2150,8 +2150,8 @@ GaotoraEvosMoves:
 	db EV_LEVEL, 36, GOROTORA
 	db 0
 ; Learnset
-	db 9, LEER
-	db 14, ROAR
+	db 6, LEER
+	db 11, ROAR
 	db 23, QUICK_ATTACK
 	db 30, BITE
 	db 37, THUNDER
@@ -2162,10 +2162,10 @@ GorotoraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, LEER
-	db 21, ROAR
-	db 30, QUICK_ATTACK
-	db 34, BITE
+	db 6, LEER
+	db 11, ROAR
+	db 23, QUICK_ATTACK
+	db 30, BITE
 	db 40, THUNDER
 	db 48, AGILITY
 	db 0

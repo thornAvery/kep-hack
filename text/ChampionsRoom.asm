@@ -163,7 +163,7 @@ _BlueRematchAfterBattleText::
 	
 	para "As long as I can"
 	line "battle strong"
-	cont "TRAINERs, I don't"
+	cont "trainers, I don't"
 	cont "care what happens."
 	
 	para "You get what I"

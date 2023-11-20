@@ -47,6 +47,7 @@ SaffronGymReceiveTM46:
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_SABRINA
+	ResetEvent EVENT_SS_ANNE_LEFT
 	lb bc, TM_PSYWAVE, 1
 	call GiveItem
 	jr nc, .BagFull

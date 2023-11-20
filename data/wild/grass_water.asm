@@ -148,7 +148,6 @@ WildDataPointers:
 	dw PokemonTower1FWildMons
 	dw PokemonTower2FWildMons
 	dw BrunswickGrottoWildMons
-	;dw PokemonTower3FWildMons
 	dw NothingWildMons
 	dw PokemonTower5FWildMons
 	dw PokemonTower6FWildMons
@@ -216,7 +215,6 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	;dw NothingWildMons
 	dw PokemonMansion2FWildMons
 	dw PokemonMansion3FWildMons
 	dw PokemonMansionB1FWildMons
@@ -251,8 +249,8 @@ WildDataPointers:
 	dw NothingWildMons
 	dw RockTunnelB1FWildMons
 	dw NothingWildMons
-	dw NothingWildMons ; battle tent
-	dw NothingWildMons ; mt moon square
+	dw NothingWildMons
+	dw NothingWildMons
 	dw NothingWildMons
 	dw CelesteHillCaveWildMons
 	dw CelesteHillWildMons ; using Celeste Hill's summit for Celeste Hill Outside

@@ -123,11 +123,6 @@ _VermilionCityText13::
 	text "VERMILION HARBOR"
 	done
 
-_VermilionCityText15::
-	text "The S.S.ANNE"
-	line "has returned!"
-	done
-
 _BeautyText1::
 	text "Hey! Do you like"
 	line "cats or dogs?"
