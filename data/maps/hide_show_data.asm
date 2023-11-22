@@ -358,12 +358,6 @@ PokemonTower2FHS:
 	db POKEMON_TOWER_2F, $01, SHOW            ; HS_POKEMON_TOWER_2F_RIVAL
 BrunswickGrottoHS:
 	db BRUNSWICK_GROTTO, $01, HIDE            ; HS_BRUNSWICK_ZAPDOS_G_2
-;PokemonTower3FHS:
-;	db POKEMON_TOWER_3F, $04, SHOW            ; HS_POKEMON_TOWER_3F_ITEM
-;PokemonTower4FHS:
-;	db POKEMON_TOWER_4F, $04, SHOW            ; HS_POKEMON_TOWER_4F_ITEM_1
-;	db POKEMON_TOWER_4F, $05, SHOW            ; HS_POKEMON_TOWER_4F_ITEM_2
-;	db POKEMON_TOWER_4F, $06, SHOW            ; HS_POKEMON_TOWER_4F_ITEM_3
 PokemonTower5FHS:
 	db POKEMON_TOWER_5F, $06, SHOW            ; HS_POKEMON_TOWER_5F_ITEM
 PokemonTower6FHS:
@@ -499,9 +493,9 @@ SilphCo7FHS:
 SilphCo10FHS:
 	db SILPH_CO_10F, $01, SHOW                ; HS_SILPH_CO_10F_1
 	db SILPH_CO_10F, $02, SHOW                ; HS_SILPH_CO_10F_2
-	db SILPH_CO_10F, $03, SHOW                ; HS_SILPH_CO_10F_3
-	db SILPH_CO_10F, $04, SHOW                ; HS_SILPH_CO_10F_ITEM_1
-	db SILPH_CO_10F, $05, SHOW                ; HS_SILPH_CO_10F_ITEM_2
+	db SILPH_CO_10F, $03, SHOW                ; HS_SILPH_CO_10F_ITEM_1
+	db SILPH_CO_10F, $04, SHOW                ; HS_SILPH_CO_10F_ITEM_2
+	db SILPH_CO_10F, $05, SHOW                ; HS_SILPH_CO_10F_ITEM_3
 SilphCo11FHS:
 	db SILPH_CO_11F, $03, SHOW                ; Giovanni
 	db SILPH_CO_11F, $04, SHOW                ; James

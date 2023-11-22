@@ -10,7 +10,7 @@ CinnabarVolcanoFloors_Object:
 	warp_event  5, 13, CINNABAR_VOLCANO_FLOORS, 5
 	warp_event  5,  3, CINNABAR_VOLCANO_FLOORS, 8
 	warp_event  5, 25, CINNABAR_VOLCANO_FLOORS, 7
-	warp_event 13, 25, CINNABAR_VOLCANO, 1
+	warp_event 12, 24, CINNABAR_VOLCANO, 1
 
 	def_bg_events
 

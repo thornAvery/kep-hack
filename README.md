@@ -256,12 +256,9 @@ and more!
 Known Bugs
 ====
 Comprehensive list can be found on Discord.
-- Only portions of spinner tiles animate.
 - Occasionally, menu text sets itself to scroll.
 - The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
-- The door mat tiles added recently warp the player when they walk on another (Citrine mats, arrow tiles...)
-- James doesn't check for Max DVs when Hyper Training.
 - Citrine Dock's warp doesn't work, meaning you have to leave Citrine using Fly
 - LAST_MAP isn't updated properly when sailing from Vermilion to Citrine
 - After reloading the game after beating the Elite Four, Pallet Town's correct palette isn't loaded in until after leaving the house.

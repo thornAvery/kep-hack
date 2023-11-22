@@ -161,8 +161,6 @@ SetPal_Overworld:
 	jr z, .pachinko
 	cp GAME_CORNER_PRIZE_ROOM
 	jr z, .pachinko
-	cp SILPH_GAUNTLET_1F
-	jr z, .faraway
 	cp CELESTE_HILL_OUTSIDE
 	jr z, .celeste
 	cp CELESTE_HILL
@@ -212,6 +210,8 @@ SetPal_Overworld:
 	jr z, .garnet
 	cp ROCK_TUNNEL_B1F + 1
 	jr c, .caveDefault
+	cp CELESTE_HILL_CAVE
+	jr z, .celeste
 .caveDefault
 	ld a, PAL_CAVE - 1
 	jr .town
@@ -230,9 +230,6 @@ SetPal_Overworld:
 .celeste
 	ld a, PAL_CELESTE - 1
 	jr .town
-.faraway
-	ld a, PAL_ROUTE - 1
-	jr .town
 .seafoam
 	ld a, PAL_CYANMON - 1
 	jr .town
@@ -248,6 +245,30 @@ SetPal_Overworld:
 .trans
 	ld a, PAL_FUCHSIA - 1
 	jr .town
+
+; these can't be added without a more efficient solution
+;	cp ROCKET_HIDEOUT_B1F
+;	jr z, .pachinko
+;	cp ROCKET_HIDEOUT_B2F
+;	jr z, .pachinko
+;	cp ROCKET_HIDEOUT_B3F
+;	jr z, .pachinko
+;	cp ROCKET_HIDEOUT_B4F
+;	jr z, .pachinko
+;	cp ROCKET_HIDEOUT_ELEVATOR
+;	jr z, .pachinko
+;	cp FARAWAY_ISLAND_OUTSIDE
+;	jr z, .faraway
+;	cp FARAWAY_ISLAND_INSIDE
+;	jr z, .faraway
+;	cp SILPH_GAUNTLET_1F
+;	jr z, .faraway
+;.pachinko
+;	ld a, PAL_CASINO - 1
+;	jr .town
+;.faraway
+;	ld a, PAL_ROUTE - 1
+;	jr .town
 
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame
