@@ -21,15 +21,15 @@ _CinnabarPokecenterText3::
 	done
 
 _PoryZSalesmanText1::
-	text "MAN: Whoa there,"
-	line "kid! Long time"
-	cont "no see!"
+	text "SALESMAN: Whoa"
+	line "there, kid! Long"
+	cont "time no see!"
 	
 	para "My uncle works for"
 	line "SILPH CO., and he"
 	cont "got me some top"
-	cont "secret data on the"
-	cont "next PORYGON!"
+	cont "secret data on"
+	cont "the next PORYGON!"
 	
 	para "Tell you what."
 	line "You can get a"
@@ -50,7 +50,7 @@ _PoryZSalesmanNoMoneyText::
 	done
 
 _PoryZSalesmanText2::
-	text "MAN: I'm not"
+	text "SALESMAN: I'm not"
 	line "liable for any"
 	cont "bugs in that code!"
 	done

@@ -17,9 +17,9 @@ _MtMoonPokecenterText3::
 	done
 
 _MagikarpSalesmanText1::
-	text "MAN: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "SALESMAN: Hello,"
+	line "there! Have I got"
+	cont "a deal for you!"
 
 	para "I'll let you have"
 	line "a swell MAGIKARP"
@@ -39,8 +39,9 @@ _MagikarpSalesmanNoMoneyText::
 	done
 
 _MagikarpSalesmanText2::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "SALESMAN: Well, I"
+	line "don't give any"
+	cont "refunds!"
 	done
 
 _MtMoonPokecenterText5::

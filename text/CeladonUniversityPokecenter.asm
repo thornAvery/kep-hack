@@ -12,11 +12,10 @@ _CeladonUniversityPokecenterText4::
 	done
 
 _CuboneSalesmanText1::
-	text "MAN: Hey there,"
-	line "big shot trainer!"
-	
-	para "Have I got a"
-	line "deal for you!"
+	text "SALESMAN: Hey,"
+	line "kid! Interested"
+	cont "in another great"
+	cont "deal?"
 	
 	para "Strike fear into"
 	line "the hearts of"
@@ -45,8 +44,8 @@ _CuboneSalesmanNoMoneyText::
 	done
 
 _CuboneSalesmanText2::
-	text "MAN: As usual, no"
-	line "refunds!"
+	text "SALESMAN: Again,"
+	line "no refunds!"
 	done
 
 _CeladonUniversityPokecenterText8::

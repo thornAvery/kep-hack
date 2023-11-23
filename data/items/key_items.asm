@@ -7,7 +7,7 @@ KeyItemFlags:
 	dbit TRUE  ; TOWN_MAP
 	dbit TRUE  ; BICYCLE
 	dbit TRUE  ; SURFBOARD
-	dbit TRUE  ; SAFARI_BALL
+	dbit FALSE ; SAFARI_BALL
 	dbit TRUE  ; POKEDEX
 	dbit FALSE ; MOON_STONE
 	dbit FALSE ; ANTIDOTE

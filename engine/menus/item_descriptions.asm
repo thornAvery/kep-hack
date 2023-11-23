@@ -28,7 +28,7 @@ ItemDescriptionPointers:
 	text_end
 	text_far _UnusedItemDescription
 	text_end
-	text_far _UnusedItemDescription
+	text_far _SafariBallDescription
 	text_end
 	text_far _UnusedItemDescription
 	text_end

@@ -31,6 +31,11 @@ _BicycleDescription::
 	next "for travel."
 	prompt
 
+_SafariBallDescription::
+	text "Just an ULTRA BALL"
+	next "painted green."
+	prompt
+
 _MoonStoneDescription::
 _FireStoneDescription::
 _ThunderStoneDescription::
