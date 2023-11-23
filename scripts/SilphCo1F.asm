@@ -1,12 +1,5 @@
 SilphCo1F_Script:
 	call EnableAutoTextBoxDrawing
-	CheckEvent EVENT_BEAT_SILPH_CO_GIOVANNI
-	ret z
-	CheckAndSetEvent EVENT_SILPH_CO_RECEPTIONIST_AT_DESK
-	ret nz
-	ld a, HS_SILPH_CO_1F_RECEPTIONIST
-	ld [wMissableObjectIndex], a
-	predef_jump ShowObject
 	ld hl, SilphCo1F_ScriptPointers
 	ld a, [wSilphCo1FCurScript]
 	jp CallFunctionInTable
@@ -16,9 +9,6 @@ SilphCo1F_ScriptPointers:
 	dw SilphCo1FScript1
 	
 SilphCo1FScript0:
-	call SilphCo1FScript_CheckForLetter
-	
-SilphCo1FScript_CheckForLetter:
 	ld b, SILPHLETTER
 	call IsItemInBag
 	ret nz
@@ -35,20 +25,16 @@ SilphCo1FScript_CheckForLetter:
 	call DisplayTextID
 	xor a
 	ldh [hJoyHeld], a
-	call SilphCo1FScript_ForceDown
-	ld a, $1
-	ld [wSilphCo1FCurScript], a
-	ret
-	
-SilphCo1FScript_ForceDown:
-	call StartSimulatingJoypadStates
 	ld a, $1
 	ld [wSimulatedJoypadStatesIndex], a
 	ld a, D_DOWN
 	ld [wSimulatedJoypadStatesEnd], a
+	call StartSimulatingJoypadStates
 	xor a
 	ld [wSpritePlayerStateData1FacingDirection], a
 	ld [wJoyIgnore], a
+	ld a, $1
+	ld [wSilphCo1FCurScript], a
 	ret
 	
 SilphCo1FScript1:

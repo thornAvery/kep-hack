@@ -610,6 +610,7 @@ SaffronCityCitizens:
 	db HS_SAFFRON_CITY_B
 	db HS_SAFFRON_CITY_C
 	db HS_SAFFRON_CITY_F
+	db HS_SILPH_CO_1F_RECEPTIONIST
 	db -1 ; end
 
 SaffronCityRockets:
