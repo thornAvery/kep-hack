@@ -2053,8 +2053,7 @@ wRocketHideoutB3FCurScript:: db
 wRocketHideoutB4FCurScript:: db
 wRoute6GateCurScript:: db
 wRoute8GateCurScript:: db
-; wSilphCo1FCurScript:: db
-	ds 1
+wSilphCo1FCurScript:: db
 wCinnabarIslandCurScript:: db
 wPokemonMansion1FCurScript:: db
 wBrunswickGrottoCurScript:: db
