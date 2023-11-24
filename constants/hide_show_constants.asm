@@ -251,4 +251,5 @@ DEF SHOW EQU $15
 	const HS_GLADE_GZAP_1                  ; EE
 	const HS_GLADE_GZAP_2                  ; EF
 	const HS_GLADE_GZAP_3                  ; F0
-DEF NUM_HS_OBJECTS EQU const_value         ; F1 - FE all go unused.
+	const HS_CINNABAR_VOLCANO_FLOORS_ITEM  ; F1
+DEF NUM_HS_OBJECTS EQU const_value         ; F2 - FE all go unused.

@@ -236,7 +236,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw CinnabarVolcanoHS
-	dw NoHS
+	dw CinnabarVolcanoFloorsHS
 	dw NoHS
 	dw SilphCo10FHS
 	dw SilphCo11FHS
@@ -591,4 +591,6 @@ BrunswickGladeHS:
 	db BRUNSWICK_GLADE, $01, HIDE            ; HS_GLADE_GZAP_1
 	db BRUNSWICK_GLADE, $02, HIDE            ; HS_GLADE_GZAP_2
 	db BRUNSWICK_GLADE, $03, HIDE            ; HS_GLADE_GZAP_3
+CinnabarVolcanoFloorsHS:
+	db CINNABAR_VOLCANO_FLOORS, $05, SHOW
 	assert_table_length NUM_HS_OBJECTS

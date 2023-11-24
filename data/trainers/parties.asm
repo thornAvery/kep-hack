@@ -548,24 +548,24 @@ ChiefData:
 ScientistData:
 ; Silph Gauntlet 4F (Lavender Tower)
 	db 65, MAGNEZONE, ELECTRODE, PORYGONZ, MIMMEO, GAVILLAIN, WEEZING, 0
-; Silph Co. 2F
+; Silph Co. 2F (unused)
 	db 26, GRIMER, WEEZING, KOFFING, WEEZING, 0
 	db 28, MAGNETITE, VOLTORB, MAGNETON, 0
 ; Silph Co. 3F/Mansion 1F
 	db 29, ELECTRODE, MUK, 0
-; Silph Co. 4F
+; Silph Co. 4F (unused)
 	db 33, VOLTORB, ELECTRODE, KOFFING, 0
 ; Silph Co. 5F
 	db 26, MAGNEMITE, KOFFING, WEEZING, MAGNETITE, 0
-; Silph Co. 6F
+; Silph Co. 6F (unused)
 	db 25, VOLTORB, KOFFING, MAGNETITE, MAGNEMITE, KOFFING, 0
 ; Silph Co. 7F
 	db 29, PORYGON, 0 ; stolen technology!!!
-; Silph Co. 8F
-	db 29, GRIMER, ELECTRODE, 0
+; Cinnabar Volcano
+	db 37, GAVILLAIN, WEEZING, 0
 ; Silph Co. 9F
 	db 28, VOLTORB, KOFFING, MAGNETON, 0
-; Silph Co. 10F
+; Silph Co. 10F (unused)
 	db 29, MAGNETITE, KOFFING, 0
 ; Mansion 3F
 	db 33, MAGNETITE, MAGNETON, DITTO, 0
@@ -738,6 +738,10 @@ FirefighterData:
 	db 15, POLIWAG, CHEEP, SQUIRTLE, 0
 ; Silph Gauntlet 3F (S.S Anne)
 	db 64, BLASTOISE, OMASTAR, SANDSLASH, KINGDRA, GUARDIA, POLIWRATH, 0
+; Cinnabar Volcano
+	db 36, WARTORTLE, MAROWAK, POLITOED, 0
+	db 35, SANDSLASH, OMANYTE, SEAKING, CROAKOZUNA, 0
+	db 38, SEADRA, BLASTOISE, 0
 
 JuniorData:
 ; to be removed

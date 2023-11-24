@@ -14,6 +14,12 @@ CinnabarVolcano_ScriptPointers:
 
 CinnabarVolcano_TextPointers:
 	dw MoltresText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText
+	dw BoulderText
 
 CinnabarVolcanoTrainerHeaders:
 	def_trainers

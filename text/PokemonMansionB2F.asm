@@ -24,12 +24,12 @@ _B2FBook2::
 	para "MEWTWO remains."
 	line "However..."
 	
-	para "Its seemed to"
+	para "It has seemed to"
 	line "react to the"
 	cont "situation."
 	
-	para "Tranquilizers"
-	line "were administered."
+	para "Tranquilizers were"
+	line "administered."
 	
 	para "We should never"
 	line "have gone to"
@@ -38,11 +38,15 @@ _B2FBook2::
 	
 	para "Somewhere no one"
 	line "will ever look."
+	cont "With any luck,"
+	cont "it'll end up at"
+	cont "the bottom of"
+	cont "the sea..."
 	
 	done
 
 _B2FPicture::
-	text "It's charred"
+	text "It's a charred"
 	line "picture of a"
 	cont "happy family."
 	
@@ -50,9 +54,9 @@ _B2FPicture::
 
 _B2FComputer1::
 	text "The screen is"
-	line "cracked, but"
-	cont "five graphs"
-	cont "are visible."
+	line "cracked, but 5"
+	cont "graphs are"
+	cont "visible."
 	
 	done
 
@@ -64,10 +68,12 @@ _B2FComputer2::
 	done
 
 _B2FMissingNo::
-	text "A multicolored,"
-	line "glitched block"
-	cont "is visible on"
-	cont "this screen."
+	text "Badly corrupted"
+	line "graphics are on"
+	cont "this screen..."
+
+	para "It's best to"
+	line "leave it alone."
 
 	done
 
@@ -86,7 +92,7 @@ _AmberPod::
 
 _MewtwoPod::
 	text "Smashed glass"
-	line "litters the"
+	line "surrounds this"
 	cont "pod..."
 	
 	para "What could have"

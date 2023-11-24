@@ -2043,7 +2043,6 @@ wSSAnneB1FRoomsCurScript:: db
 wVermilionCityCurScript:: db
 wPokemonTower2FCurScript:: db
 wPokemonTower3FCurScript:: db
-	ds 1 ;was wPokemonTower4FCurScript
 wPokemonTower5FCurScript:: db
 wPokemonTower6FCurScript:: db
 wPokemonTower7FCurScript:: db
@@ -2062,6 +2061,7 @@ wPokemonMansion3FCurScript:: db
 wPokemonMansionB1FCurScript:: db
 wDiglettsCaveCurScript:: db
 wCinnabarVolcanoCurScript:: db
+wCinnabarVolcanoFloorsCurScript:: db
 wCeladonUniversityOutsideCurScript:: db
 wUnderwaterTunnelCurScript:: db
 wVictoryRoad2FCurScript:: db

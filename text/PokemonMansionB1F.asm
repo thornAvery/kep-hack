@@ -41,7 +41,7 @@ _Mansion4Text7::
 	done
 
 _MansionGuardText::
-	text "This room is"
+	text "This area is"
 	line "off-limits."
 	
 	para "Beat it, kid!"
