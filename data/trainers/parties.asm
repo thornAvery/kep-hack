@@ -404,8 +404,8 @@ CueBallData:
 	db 33, CARAPTHOR, 0
 ; Route 17
 	db 29, MANKEY, PRIMEAPE, 0
-	db 29, MACHOP, MACHOKE, 0
-	db 33, JABETTA, 0
+	db 29, CHEEP, JABETTA, 0
+	db 33, MACHOKE, 0
 	db 26, MANKEY, MACHOKE, CROAKOZUNA, 0
 	db 29, PRIMEAPE, MACHOKE, 0
 ; Route 21
@@ -551,10 +551,10 @@ ScientistData:
 ; Silph Co. 2F (unused)
 	db 26, GRIMER, WEEZING, KOFFING, WEEZING, 0
 	db 28, MAGNETITE, VOLTORB, MAGNETON, 0
-; Silph Co. 3F/Mansion 1F
+; Silph Co. 3F
 	db 29, ELECTRODE, MUK, 0
-; Silph Co. 4F (unused)
-	db 33, VOLTORB, ELECTRODE, KOFFING, 0
+; Mansion 1F
+	db 36, VOLTORB, ELECTRODE, KOFFING, 0
 ; Silph Co. 5F
 	db 26, MAGNEMITE, KOFFING, WEEZING, MAGNETITE, 0
 ; Silph Co. 6F (unused)

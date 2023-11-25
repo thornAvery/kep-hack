@@ -2,8 +2,9 @@ _Route22RivalBeforeBattleText1::
 	text "<RIVAL>: Hey!"
 	line "<PLAYER>!"
 
-	para "You're going to"
-	line "#MON LEAGUE?"
+	para "Ha! You're going"
+	para "to the #MON"
+	line "LEAGUE?"
 
 	para "Forget it! You"
 	line "probably don't"
@@ -18,7 +19,7 @@ _Route22RivalBeforeBattleText1::
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
+	text "I heard that the"
 	line "LEAGUE has many"
 	cont "tough trainers!"
 
@@ -52,25 +53,23 @@ _Route22RivalBeforeBattleText2::
 	cont "surprise to see"
 	cont "you here!"
 
-	para "So you're going to"
-	line "#MON LEAGUE?"
-
 	para "You collected all"
 	line "the BADGEs too?"
 	cont "That's cool!"
 
-	para "Then I'll whip you"
-	line "<PLAYER> as a"
-	cont "warm up for"
-	cont "#MON LEAGUE!"
+	para "Then, I'll whip"
+	line "you as a warm up"
+	cont "for the #MON"
+	cont "LEAGUE!"
 
 	para "Come on!"
 	done
 
 _Route22RivalAfterBattleText2::
 	text "That loosened me"
-	line "up! I'm ready for"
-	cont "#MON LEAGUE!"
+	line "up! Now I'm ready"
+	cont "for the #MON"
+	cont "LEAGUE!"
 
 	para "<PLAYER>, you need"
 	line "more practice!"

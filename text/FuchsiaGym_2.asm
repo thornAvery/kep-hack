@@ -115,7 +115,7 @@ _FuchsiaGymBattleText4::
 
 _FuchsiaGymEndBattleText4::
 	text "Whoa!"
-	line "He's got it!"
+	line "You've got it!"
 	prompt
 
 _FuchsiaGymAfterBattleText4::

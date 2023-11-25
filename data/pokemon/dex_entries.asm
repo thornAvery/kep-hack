@@ -1346,8 +1346,8 @@ RamooseDexEntry:
 	text_end
 
 LuxwanDexEntry:
-	db "MASQUERADE@"	; changed from Wild Duck since it's more closely based on a mute swan
-	db 3,11
+	db "MASQUERADE@"	; changed from Wild Duck since it's more closely based on a swan
+	db 5,3
 	dw 590
 	text_far _LuxwanDexEntry
 	text_end
