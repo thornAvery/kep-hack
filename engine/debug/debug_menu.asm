@@ -108,9 +108,9 @@ TestBattle:
 	ld [hl], a
 
 	; Player's Pokemon.
-	ld a, MANKEY
+	ld a, GLACEON
 	ld [wcf91], a
-	ld a, 10
+	ld a, 16
 	ld [wCurEnemyLVL], a
 	xor a
 	ld [wMonDataLocation], a
@@ -122,7 +122,7 @@ TestBattle:
 	ld hl, wPartyMon1Moves
 	ld a, UPPERCUT ; Something super weak
 	ld [hli], a
-	ld a, KARATE_CHOP ; Test new failure text
+	ld a, POWDER_SNOW ; Test new failure text
 	ld [hli], a
 	ld a, LOW_KICK ; Something that'll miss easily
 	ld [hli], a
@@ -130,7 +130,7 @@ TestBattle:
 	ld [hli], a
 	
 	; Opponent's Pokemon.
-	ld a, MANKEY ; Test new theme
+	ld a, BUU ; Test new theme
 	ld [wCurOpponent], a
 	ld a, 10 ; Set the level you want here.
 	ld [wCurEnemyLVL], a

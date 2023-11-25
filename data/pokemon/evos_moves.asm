@@ -1152,7 +1152,7 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, LEER
+	db 51, FLAMETHROWER 
 	db 55, AGILITY
 	db 60, SKY_ATTACK
 	db 0
@@ -2604,7 +2604,7 @@ GlaceonEvosMoves:
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
-	db 16, AURORA_BEAM
+	db 16, POWDER_SNOW
 	db 23, QUICK_ATTACK
 	db 30, MIST
 	db 32, HAZE
