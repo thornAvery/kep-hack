@@ -2834,6 +2834,7 @@ CarapthorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, UPPERCUT
 	db 12, COMET_PUNCH
 	db 16, PIN_MISSILE
 	db 20, DEFENSE_CURL
