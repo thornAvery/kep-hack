@@ -24,7 +24,7 @@ _ViridianCityText_19127::
 
 _ViridianCityText_1914d::
 	text "You want to know"
-	line "about the 2 kinds"
+	line "about the 3 kinds"
 	cont "of caterpillar"
 	cont "#MON?"
 	done
@@ -34,19 +34,22 @@ _ViridianCityText_19152::
 	done
 
 _ViridianCityText_19157::
-	text "CATERPIE has no"
-	line "poison, but"
+	text "Both CATERPIE and"
+	line "GENTLARVA have"
+	cont "no poison, but"
 	cont "WEEDLE does."
 
 	para "Watch out for its"
 	line "POISON STING!"
 	done
 
-_ViridianCityText_19175::
+_ViridianCityText_19175::	; undoing localisation change
 	text "Oh Grandpa! Don't"
 	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+
+	para "I'm sorry, but"
+	cont "he hasn't sobered"
+	cont "up yet..."
 	done
 
 _ViridianCityText_1917a::
@@ -98,13 +101,13 @@ _TM42NoRoomText::
 	line "stuff already."
 	done
 
-_ViridianCityText_1920a::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+_ViridianCityText_1920a::	; undoing localisation change
+	text "Hmm..."
+	line "Looks like I was"
+	cont "pretty drunk!"
 
-	para "Sure you can go"
-	line "through!"
+	para "My head hurts,"
+	line "though..."
 
 	para "Are you in a"
 	line "hurry?"
@@ -115,8 +118,8 @@ _ViridianCityText_1920f::
 	line "a #DEX."
 
 	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
+	line "#MON, it will"
+	cont "be automatically"
 	cont "updated."
 
 	para "What? Don't you"

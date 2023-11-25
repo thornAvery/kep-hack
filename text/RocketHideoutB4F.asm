@@ -3,15 +3,14 @@ _RocketHideout4Text_4557a::
 	line "am impressed you"
 	cont "got here!"
 	
-	para "TEAM ROCKET"
-	line "captures #MON"
-	cont "from around the"
-	cont "world."
+	para "We, TEAM ROCKET,"
+	line "capture #MON"
+	cont "from all around"
+	cont "the world."
 	
 	para "They're important"
 	line "tools for keeping"
-	cont "our criminal"
-	cont "enterprise"
+	cont "our enterprise"
 	cont "running."
 	
 	para "And I am the"
@@ -38,7 +37,7 @@ _RocketHideout4Text_4557a::
 	done
 
 _RocketHideout4Text_4557f::
-	text "WHAT!"
+	text "What?!"
 	line "This cannot be!"
 	prompt
 
