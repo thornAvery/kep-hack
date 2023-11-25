@@ -134,6 +134,7 @@ SetPal_GameFreakIntro:
 	ret
 
 ; uses PalPacket_Empty to build a packet based on the current map
+; are the edits I've made here horribly inefficient? yes, but as long as it works, who cares?
 SetPal_Overworld:
 	ld hl, PalPacket_Empty
 	ld de, wPalPacket
@@ -141,44 +142,72 @@ SetPal_Overworld:
 	call CopyData
 	ld a, [wCurMapTileset]
 	cp CEMETERY
-	jr z, .PokemonTowerOrAgatha
+	jp z, .PokemonTowerOrAgatha
 	cp CAVERN
-	jr z, .caveOrBruno
+	jp z, .caveOrBruno
 	ld a, [wCurMap]
 	cp BRUNSWICK_TRAIL
-	jr z, .brunswick
+	jp z, .brunswick
 	cp FIRST_INDOOR_MAP
-	jr c, .townOrRoute
+	jp c, .townOrRoute
+	cp CELADON_GYM
+	jp z, .gay
 	cp POWER_PLANT
-	jr z, .powerPlant
+	jp z, .powerPlant
 	cp BRUNSWICK_GLADE
-	jr z, .brunswick
+	jp z, .brunswick
 	cp BRUNSWICK_GROTTO
-	jr z, .brunswick
+	jp z, .brunswick
 	cp SILPH_GAUNTLET_3F
-	jr z, .ship
+	jp z, .ship
 	cp GAME_CORNER
-	jr z, .pachinko
+	jp z, .pachinko
 	cp GAME_CORNER_PRIZE_ROOM
-	jr z, .pachinko
+	jp z, .pachinko
+	cp ROCKET_HIDEOUT_B1F
+	jp z, .pachinko
+	cp ROCKET_HIDEOUT_B2F
+	jp z, .pachinko
+	cp ROCKET_HIDEOUT_B3F
+	jp z, .pachinko
+	cp ROCKET_HIDEOUT_B4F
+	jp z, .pachinko
+	cp ROCKET_HIDEOUT_ELEVATOR
+	jp z, .pachinko
+	cp FARAWAY_ISLAND_OUTSIDE
+	jp z, .faraway
+	cp FARAWAY_ISLAND_INSIDE
+	jp z, .faraway
+	cp SILPH_GAUNTLET_1F
+	jp z, .faraway
 	cp CELESTE_HILL_OUTSIDE
-	jr z, .celeste
+	jp z, .celeste
 	cp CELESTE_HILL
-	jr z, .celeste
+	jp z, .celeste
 	cp SILPH_GAUNTLET_5F
-	jr z, .trans
+	jp z, .trans
 	cp CERULEAN_CAVE_2F
-	jr c, .normalDungeonOrBuilding
+	jp c, .normalDungeonOrBuilding
 	cp LORELEIS_ROOM
-	jr z, .seafoam
+	jp z, .seafoam
 	cp BRUNOS_ROOM
-	jr z, .caveOrBruno
+	jp z, .caveOrBruno
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
 .townOrRoute
 	cp NUM_CITY_MAPS
-	jr c, .town
+	jp c, .town
 	ld a, PAL_ROUTE - 1
+.gay
+	ld hl, PalPacket_Gay
+	ld de, wPalPacket
+	ld bc, $10
+	call CopyData
+	ld hl, PalPacket_Gay
+	ld de, BlkPacket_Gay
+	ld a, SET_PAL_OVERWORLD
+	ld [wDefaultPaletteCommand], a
+	ret
 .town
 	inc a ; a town's palette ID is its map ID + 1
 	ld hl, wPalPacket + 1
@@ -245,30 +274,9 @@ SetPal_Overworld:
 .trans
 	ld a, PAL_FUCHSIA - 1
 	jr .town
-
-; these can't be added without a more efficient solution
-;	cp ROCKET_HIDEOUT_B1F
-;	jr z, .pachinko
-;	cp ROCKET_HIDEOUT_B2F
-;	jr z, .pachinko
-;	cp ROCKET_HIDEOUT_B3F
-;	jr z, .pachinko
-;	cp ROCKET_HIDEOUT_B4F
-;	jr z, .pachinko
-;	cp ROCKET_HIDEOUT_ELEVATOR
-;	jr z, .pachinko
-;	cp FARAWAY_ISLAND_OUTSIDE
-;	jr z, .faraway
-;	cp FARAWAY_ISLAND_INSIDE
-;	jr z, .faraway
-;	cp SILPH_GAUNTLET_1F
-;	jr z, .faraway
-;.pachinko
-;	ld a, PAL_CASINO - 1
-;	jr .town
-;.faraway
-;	ld a, PAL_ROUTE - 1
-;	jr .town
+.faraway
+	ld a, PAL_ROUTE - 1
+	jr .town
 
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame

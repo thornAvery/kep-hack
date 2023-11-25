@@ -107,17 +107,17 @@ LanceData:
 	db $FF, 74, GAVILLAIN, 73, GYARADOS, 73, EXEGGUTOR_A, 75, KINGDRA, 75, IGUANARCH, 77, DRAGONITE, 0
 
 YujirouData: ; was unused juggler
-	db $FF, 5, COINPUR, 6, RATTATA, 8, LICKITUNG, 0                                             ; 0
-	db $FF, 11, COINPUR, 12, RATTATA, 14, LICKITUNG, 0                                          ; 1
+	db $FF, 5, COINPUR, 6, RATTATA, 8, LICKITUNG, 0                                           ; 0
+	db $FF, 11, COINPUR, 12, RATTATA, 14, LICKITUNG, 0                                        ; 1
 	db $FF, 19, MEOWTH, 18, RATICATE, 19, FARFETCHD, 21, LICKITUNG, 0                         ; 2
-	db $FF, 22, MEOWTH, 21, RATICATE, 21, FARFETCHD, 23, JIGGLYPUFF, 25, LICKITUNG, 0         ; 3
-	db $FF, 29, PERSIAN, 28, RATICATE, 28, LUXWAN, 29, JIGGLYPUFF, 31, LICKITUNG, 0           ; 4
-	db $FF, 38, PERSIAN, 37, RATICATE, 37, LUXWAN, 38, CHANSEY, 40, LICKITUNG, 0,             ; 5
-	db $FF, 41, PERSIAN, 40, TAUROS, 40, LUXWAN, 41, CHANSEY, 43, LICKILICKY, 0               ; 6
-	db $FF, 45, PERSIAN, 44, TAUROS, 44, LUXWAN, 45, CHANSEY, 47, LICKILICKY, 0               ; 7
-	db $FF, 47, PERSIAN, 46, TAUROS, 46, LUXWAN, 48, BLISSEY, 48, SNORLAX, 50, LICKILICKY, 0  ; 8
+	db $FF, 22, MEOWTH, 21, RATICATE, 21, JIGGLYPUFF, 23, FARFETCHD, 25, LICKITUNG, 0         ; 3
+	db $FF, 29, PERSIAN, 28, RATICATE, 28, JIGGLYPUFF, 29, LUXWAN, 31, LICKITUNG, 0           ; 4
+	db $FF, 38, PERSIAN, 37, RATICATE, 37, CHANSEY, 38, LUXWAN, 40, LICKILICKY, 0,            ; 5
+	db $FF, 41, PERSIAN, 40, TAUROS, 40, CHANSEY, 41, LUXWAN, 43, LICKILICKY, 0               ; 6
+	db $FF, 45, PERSIAN, 44, TAUROS, 44, CHANSEY, 45, LUXWAN, 47, LICKILICKY, 0               ; 7
+	db $FF, 47, PERSIAN, 46, TAUROS, 46, BLISSEY, 48, LUXWAN, 48, SNORLAX, 50, LICKILICKY, 0  ; 8
 ; post-game rematch team
-	db $FF, 66, PERSIAN, 65, TAUROS, 66, LUXWAN, 65, BLISSEY, 66, SNORLAX, 69, LICKILICKY, 0
+	db $FF, 66, PERSIAN, 65, TAUROS, 66, BLISSEY, 65, LUXWAN, 66, SNORLAX, 69, LICKILICKY, 0
 
 BlackbeltData:
 ; Koichi parties
