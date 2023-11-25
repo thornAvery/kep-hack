@@ -31,4 +31,5 @@
 	const ROCKETHOUSE
 	const BETAMART
 	const JACKY
+	const FOSSILLAB
 DEF NUM_TILESETS EQU const_value

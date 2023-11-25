@@ -84,3 +84,7 @@ Cavern_Block::      INCBIN "gfx/blocksets/cavern.bst"
 
 Jacky_GFX::         INCBIN "gfx/tilesets/jacky.2bpp"
 Jacky_Block::       INCBIN "gfx/blocksets/jacky.bst"
+
+FossilLab_GFX::		INCBIN "gfx/tilesets/fossillab.2bpp"
+FossilLab_Block::   INCBIN "gfx/blocksets/fossillab.bst"
+

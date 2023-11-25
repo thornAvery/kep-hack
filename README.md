@@ -146,6 +146,7 @@ Improved Areas
 - Silph Co. 11F's unreferenced Porygon PC was restored. It's on the monitor!
 - Cinnabar Island is a lot bigger, with the volcano being added to it. The mansion seems different too...
 	- Cinnabar Lab's Trade Room now features the Trader, who will evolve trade-evolving Pokemon for you!
+	- Cinnabar Lab's Fossil Room now features a unique machine from the prototype blocksets, serving as the fossil machine!
 - Viridian Gym now has a minor new area once you make Giovanni leave.
 - Various Move Tutors from FireRed and LeafGreen have been distributed around the region, instead giving their respective TMs.
 - The S.S. Anne now returns after getting the Marsh Badge and features trades for Galarian forms & Evolutions, as well as Paldean Tauros.

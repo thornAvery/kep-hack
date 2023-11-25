@@ -32,6 +32,7 @@ WarpTileIDPointers:
 	dw .RocketHouseWarpTileIDs
 	dw .BetaMartWarpTileIDs
 	dw .JackyWarpTileIDs
+	dw .LabWarpTileIDs ; Fossil Lab
 	assert_table_length NUM_TILESETS
 
 MACRO warp_tiles

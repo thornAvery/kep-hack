@@ -55,6 +55,7 @@ Lobby_Coll::
 Mansion_Coll::
 	coll_tiles $01, $05, $11, $12, $14, $1a, $1c, $2c, $53
 
+FossilLab_Coll:: ; It has the same tileset except the trees are the fossil machine, so...
 Lab_Coll::
 	coll_tiles $0c, $26, $16, $1e, $34, $37
 
