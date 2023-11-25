@@ -88,3 +88,5 @@ Jacky_Block::       INCBIN "gfx/blocksets/jacky.bst"
 FossilLab_GFX::		INCBIN "gfx/tilesets/fossillab.2bpp"
 FossilLab_Block::   INCBIN "gfx/blocksets/fossillab.bst"
 
+SeagallopPort_GFX::		INCBIN "gfx/tilesets/seagallop_port.2bpp"
+SeagallopPort_Block::   INCBIN "gfx/blocksets/seagallop_port.bst"

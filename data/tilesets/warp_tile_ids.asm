@@ -33,6 +33,7 @@ WarpTileIDPointers:
 	dw .BetaMartWarpTileIDs
 	dw .JackyWarpTileIDs
 	dw .LabWarpTileIDs ; Fossil Lab
+	dw .ShipPortWarpTileIDs ; Seagallop Port
 	assert_table_length NUM_TILESETS
 
 MACRO warp_tiles

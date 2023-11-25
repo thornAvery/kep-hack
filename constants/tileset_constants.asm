@@ -32,4 +32,5 @@
 	const BETAMART
 	const JACKY
 	const FOSSILLAB
+	const SEAGALLOPPORT
 DEF NUM_TILESETS EQU const_value

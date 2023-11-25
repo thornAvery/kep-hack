@@ -40,4 +40,5 @@ Tilesets:
 	tileset BetaMart,    $18, -1, -1,  -1, TILEANIM_NONE
 	tileset Jacky,	 	  -1,  -1,  -1, -1, TILEANIM_NONE
 	tileset FossilLab,    -1, -1, -1,  -1, TILEANIM_NONE
+	tileset SeagallopPort,     -1, -1, -1,  -1, TILEANIM_WATER
 	assert_table_length NUM_TILESETS

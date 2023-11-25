@@ -85,3 +85,6 @@ BetaMart_Coll::
 
 Jacky_Coll::
 	coll_tiles $01, $40, $11, $04, $14, $02, $03, $13, $12, 
+
+SeagallopPort_Coll::
+	coll_tiles $1C, $0E, $1E
