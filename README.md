@@ -143,6 +143,7 @@ Improved Areas
 - Fuchsia City has been made to resemble the more walkable LGPE version, removing the Cut trees among other things.
 - The Fighting Dojo has been revamped, featuring a design reminiscent of the prototype versions; rough floors, the elder in the back, and more. Additionally, you can now get a Hitmontop as a third option. The Karate Master is also now treated somewhat more like a Gym Leader, having Gym Scaling and a Rematch system. 
 - Silph Co's pathing was completely overhauled to make navigating it less tedious.
+- Silph Co. 11F's unreferenced Porygon PC was restored. It's on the monitor!
 - Cinnabar Island is a lot bigger, with the volcano being added to it. The mansion seems different too...
 	- Cinnabar Lab's Trade Room now features the Trader, who will evolve trade-evolving Pokemon for you!
 - Viridian Gym now has a minor new area once you make Giovanni leave.

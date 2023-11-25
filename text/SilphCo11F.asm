@@ -176,3 +176,9 @@ _SilphCoJessieJamesText4::
 
 	para "Again...@"
 	text_end
+
+_SilphCo11FPorygonText::
+	text "The monitor has"
+	line "#MON on it!"
+	prompt ; this fixes its strange scrolling issue
+

@@ -653,6 +653,7 @@ SilphCo11F_TextPointers:
 	dw OmegaText
 	dw Omega2Text
 	dw StupidGiovanniFix
+	dw SilphCo11FPorygonText
 
 SilphCo11TrainerHeaders:
 	def_trainers 5
@@ -795,4 +796,16 @@ Omega2BattleText:
 
 StupidGiovanniFix:
 	text_far _SilphCo10Text_62335
+	text_end
+
+SilphCo11FPorygonText:
+	text_asm
+	ld hl, .Text
+	call PrintText
+	ld a, PORYGON
+	call DisplayPokedex
+	jp TextScriptEnd
+
+.Text:
+	text_far _SilphCo11FPorygonText
 	text_end
