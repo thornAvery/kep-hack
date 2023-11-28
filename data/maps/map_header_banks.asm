@@ -113,7 +113,7 @@ MapHeaderBanks::
 	db BANK(SilphGauntlet2F_h)
 	db BANK(SilphGauntlet3F_h)
 	db BANK(VictoryRoad1F_h)
-	db BANK(SilphGauntlet4F_h)
+	db BANK(BrunswickGrotto_h)
 	db BANK(SilphGauntlet5F_h)
 	db BANK(SilphGauntlet6F_h)
 	db BANK(SilphGauntlet7F_h)
@@ -148,7 +148,7 @@ MapHeaderBanks::
 	db BANK(LavenderPokecenter_h)
 	db BANK(PokemonTower1F_h)
 	db BANK(PokemonTower2F_h)
-	db BANK(BrunswickGrotto_h)
+	db BANK(SilphGauntlet4F_h)
 	db BANK(CelesteHillGate_h) ; was pokemon tower 4f
 	db BANK(PokemonTower5F_h)
 	db BANK(PokemonTower6F_h)
@@ -238,7 +238,7 @@ MapHeaderBanks::
 	db BANK(SilphCo9F_h)
 	db BANK(SilphCo10F_h)
 	db BANK(SilphCo11F_h)
-	db BANK(SilphCoElevator_h)
+	db BANK(FarawayFerryDock_h)
 	db BANK(GarnetCavern2F_h) ; was UNUSED_MAP_ED
 	db BANK(UnderwaterTunnel_h) ; UNUSED_MAP_EE
 	db BANK(TradeCenter_h)

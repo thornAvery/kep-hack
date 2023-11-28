@@ -115,7 +115,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw VictoryRoad1FHS
-	dw NoHS
+	dw BrunswickGrottoHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -150,7 +150,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw PokemonTower2FHS
-	dw BrunswickGrottoHS
+	dw NoHS
 	dw NoHS
 	dw PokemonTower5FHS
 	dw PokemonTower6FHS

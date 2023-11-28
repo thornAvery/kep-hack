@@ -1,5 +1,5 @@
 VermilionFerryDock_Object:
-	db $13 ; border block
+	db $15 ; border block
 
 	def_warp_events
 	warp_event 14,  0, LAST_MAP, 9

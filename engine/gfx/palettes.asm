@@ -178,6 +178,8 @@ SetPal_Overworld:
 	jp z, .faraway
 	cp FARAWAY_ISLAND_INSIDE
 	jp z, .faraway
+	cp FARAWAY_FERRY_DOCK
+	jp z, .faraway
 	cp SILPH_GAUNTLET_1F
 	jp z, .faraway
 	cp CELESTE_HILL_OUTSIDE

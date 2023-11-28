@@ -112,7 +112,7 @@ WildDataPointers:
 	dw Gauntlet2FWildMons
 	dw Gauntlet3FWildMons
 	dw VictoryRoad1FWildMons
-	dw Gauntlet4FWildMons
+	dw BrunswickGrottoWildMons
 	dw Gauntlet5FWildMons
 	dw Gauntlet6FWildMons
 	dw NothingWildMons
@@ -147,7 +147,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw PokemonTower1FWildMons
 	dw PokemonTower2FWildMons
-	dw BrunswickGrottoWildMons
+	dw Gauntlet4FWildMons
 	dw NothingWildMons
 	dw PokemonTower5FWildMons
 	dw PokemonTower6FWildMons
