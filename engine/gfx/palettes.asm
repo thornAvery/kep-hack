@@ -136,6 +136,19 @@ SetPal_GameFreakIntro:
 ; uses PalPacket_Empty to build a packet based on the current map
 ; are the edits I've made here horribly inefficient? yes, but as long as it works, who cares?
 SetPal_Overworld:
+    ld a, [wCurMap]
+    cp CELADON_GYM
+    jr nz, .notCeladon
+	ld hl, PalPacket_Gay
+	ld de, wPalPacket
+	ld bc, $10
+	call CopyData
+	ld hl, PalPacket_Gay
+	ld de, BlkPacket_Gay
+	ld a, SET_PAL_OVERWORLD
+	ld [wDefaultPaletteCommand], a
+	ret
+.notCeladon
 	ld hl, PalPacket_Empty
 	ld de, wPalPacket
 	ld bc, $10
@@ -150,8 +163,6 @@ SetPal_Overworld:
 	jp z, .brunswick
 	cp FIRST_INDOOR_MAP
 	jp c, .townOrRoute
-	cp CELADON_GYM
-	jp z, .gay
 	cp POWER_PLANT
 	jp z, .powerPlant
 	cp BRUNSWICK_GLADE
@@ -200,16 +211,6 @@ SetPal_Overworld:
 	cp NUM_CITY_MAPS
 	jp c, .town
 	ld a, PAL_ROUTE - 1
-.gay
-	ld hl, PalPacket_Gay
-	ld de, wPalPacket
-	ld bc, $10
-	call CopyData
-	ld hl, PalPacket_Gay
-	ld de, BlkPacket_Gay
-	ld a, SET_PAL_OVERWORLD
-	ld [wDefaultPaletteCommand], a
-	ret
 .town
 	inc a ; a town's palette ID is its map ID + 1
 	ld hl, wPalPacket + 1
