@@ -74,17 +74,27 @@ CreditsTextPointers:
 	dw CredAlba
 	dw CredHelix
 	dw CredFO
+	dw CredZetaNull
 	dw CredPSDevs
 	dw CredAus
 	dw CredPaul
 	dw CredDuo
+	dw CredKEPMusic
+	dw CredLuci
+	dw CredZumi
+	dw CredBGVC
 	dw CredKEPThanks
 	dw CredFrrf
+	dw CredMisty
+	dw CredThornAvery
 	dw CredDannye
 	dw CredEro
+	dw CredBlueZangoose
+	dw CredSkye
 	dw CredChatot
 	dw CredEni
 	dw CredVort
+	dw CredPret
 	assert_table_length NUM_CRED_STRINGS
 
 CredVersion:
@@ -233,6 +243,8 @@ CredHelix:
 	db -6, "HELIX CHAMBER@"
 CredFO:
 	db -6, "FRENCH ORANGE@"
+CredZetaNull:
+	db -4, "ZETA-NULL@"
 CredPSDevs:
 	db -5, "SHOWDOWN MOD@"
 CredAus:
@@ -241,17 +253,35 @@ CredPaul:
 	db -4, "PAULLUXX@"
 CredDuo:
 	db -2, "DUOM2@"
+CredKEPMusic:
+	db -4, "KEP MUSIC@"
+CredLuci:
+	db -4, "LUCISHRIMP@"
+CredZumi:
+	db -5, "ZUMIISAWHAT?@"
+CredBGVC:
+	db -2, "BGVC@"
 CredKEPThanks:
 	db -6, "SPECIAL THANKS@"
 CredFrrf:
 	db -2, "FRRF@"
+CredMisty:
+	db -5, "LADYMISTICUS@"
+CredThornAvery:
+	db -4, "THORNAVERY@"
 CredDannye:
 	db -4, "DANNYE33@"
 CredEro:
 	db -4, "EROSUNICA@"
+CredBlueZangoose:
+	db -5, "BLUEZANGOOSE@"
+CredSkye:
+	db -5, "HEADBOISKYE@"
 CredChatot:
 	db -4, "CHATOT4444@"
 CredEni:
 	db -3, "ENIGAMI@"
 CredVort:
 	db -3, "VORTIENE@"
+CredPret:
+	db -4, "PRET ET AL@"
