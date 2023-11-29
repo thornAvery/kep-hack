@@ -1,10 +1,10 @@
-Music_RBYCredits::
+Music_RBYCredits:
 	channel_count 3
 	channel 1, Music_RBYCredits_Ch1
 	channel 2, Music_RBYCredits_Ch2
 	channel 3, Music_RBYCredits_Ch3
 
-Music_RBYCredits_Ch1::
+Music_RBYCredits_Ch1:
 	tempo 140
 	volume 7, 7
 	duty_cycle 3
@@ -163,7 +163,7 @@ Music_RBYCredits_Ch1::
 	note F#, 2
 	note G_, 2
 	note A_, 2
-	note_type 12, 9, 0
+	note_type 12, 9, 8
 	note G_, 8
 	note F#, 8
 	note E_, 8
@@ -175,7 +175,7 @@ Music_RBYCredits_Ch1::
 	note E_, 6
 	note D#, 1
 	note D_, 1
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note C#, 8
 	note_type 12, 10, 7
 	note C#, 8
@@ -185,7 +185,7 @@ Music_RBYCredits_Ch1::
 	note E_, 6
 	note C#, 1
 	note E_, 1
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note A_, 8
 	note_type 12, 10, 7
 	note A_, 8
@@ -198,7 +198,7 @@ Music_RBYCredits_Ch1::
 	note G_, 8
 	note F#, 4
 	note G#, 4
-	note_type 12, 9, 0
+	note_type 12, 9, 8
 	note A_, 8
 	note F#, 8
 	note E_, 8
@@ -210,12 +210,12 @@ Music_RBYCredits_Ch1::
 	note B_, 8
 	octave 3
 	note D_, 8
-	note_type 12, 9, 0
+	note_type 12, 9, 8
 	note E_, 8
 	note D_, 8
 	note F#, 8
 	note E_, 8
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note D_, 8
 	note E_, 8
 	note D_, 8
@@ -224,7 +224,6 @@ Music_RBYCredits_Ch1::
 	note F_, 8
 	note E_, 8
 	note D_, 8
-	note_type 12, 10, 0
 	note C#, 6
 	note_type 12, 10, 7
 	note C#, 6
@@ -234,13 +233,13 @@ Music_RBYCredits_Ch1::
 	note G_, 6
 	note F#, 1
 	note F_, 1
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note E_, 6
 	note_type 12, 10, 7
 	note E_, 6
 	note_type 12, 11, 7
 	note D_, 4
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note C#, 8
 	note_type 12, 10, 7
 	note C#, 8
@@ -261,7 +260,7 @@ Music_RBYCredits_Ch1::
 	note C#, 4
 	note E_, 4
 	note F#, 4
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note E_, 6
 	note_type 12, 11, 7
 	note D_, 2
@@ -271,7 +270,7 @@ Music_RBYCredits_Ch1::
 	note F#, 4
 	note A_, 4
 	note B_, 4
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	octave 4
 	note C#, 16
 	note C#, 8
@@ -286,10 +285,10 @@ Music_RBYCredits_Ch1::
 	note A_, 1
 	note A_, 1
 	note_type 12, 11, 1
-	note A_, 8
-;; P1-5
+	note A_, 4
+	note D_, 1
+	rest 3
 	note_type 12, 12, 3
-	octave 3
 	note D_, 1
 	rest 1
 	note G_, 1
@@ -306,7 +305,6 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note G_, 1
 	rest 1
-;; P1-6
 	note E_, 1
 	rest 1
 	note A_, 1
@@ -323,7 +321,6 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note A_, 1
 	rest 1
-;; P1-7
 	note F#, 1
 	rest 1
 	note F#, 1
@@ -340,7 +337,6 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note F#, 1
 	rest 1
-;; P1-8
 	note D_, 1
 	rest 1
 	note F#, 1
@@ -357,7 +353,6 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note F#, 1
 	rest 1
-;; P1-9
 	note D_, 1
 	rest 1
 	note G_, 1
@@ -374,7 +369,6 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note G_, 1
 	rest 1
-;; P1-10
 	note E_, 1
 	rest 1
 	note A_, 1
@@ -391,7 +385,6 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note A_, 1
 	rest 1
-;; P1-11
 	note F#, 1
 	rest 1
 	note B_, 1
@@ -408,7 +401,6 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note B_, 1
 	rest 1
-;; P1-12
 	note D_, 1
 	rest 1
 	note A_, 1
@@ -425,35 +417,29 @@ Music_RBYCredits_Ch1::
 	rest 1
 	note A_, 1
 	rest 1
-;; P1-13
 	note D_, 1
 	rest 5
 	note D_, 1
 	rest 5
 	note D_, 1
 	rest 3
-;; P1-14
 	note E_, 1
 	rest 5
 	note E_, 1
 	rest 5
 	note E_, 1
 	rest 3
-;; P1-15
 	note F#, 1
 	rest 5
 	note F#, 1
 	rest 5
 	note F#, 1
 	rest 3
-;; P1-16
 	note D_, 1
 	rest 5
 	note D_, 1
 	rest 5
 	note F#, 4
-;; P1-1
-	note_type 12, 12, 3
 	octave 4
 	note D_, 6
 	octave 3
@@ -463,7 +449,6 @@ Music_RBYCredits_Ch1::
 	note E_, 6
 	note C_, 1
 	note E_, 1
-;; P1-2
 	note F_, 6
 	note D_, 1
 	note F_, 1
@@ -472,15 +457,12 @@ Music_RBYCredits_Ch1::
 	note A#, 1
 	rest 2
 	note A#, 1
-;; P1-3
 	note B_, 16
-;; P1-4
 	note G_, 1
 	rest 15
 	sound_ret
 
-
-Music_RBYCredits_Ch2::
+Music_RBYCredits_Ch2:
 	duty_cycle 3
 	vibrato 10, 2, 5
 	note_type 12, 12, 5
@@ -555,7 +537,7 @@ Music_RBYCredits_Ch2::
 	octave 3
 	note A_, 6
 	note E_, 2
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	octave 4
 	note C#, 8
 	note_type 12, 12, 7
@@ -568,13 +550,13 @@ Music_RBYCredits_Ch2::
 	note G_, 6
 	note D_, 2
 	note B_, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	octave 4
 	note C#, 6
 	note_type 12, 11, 7
 	note C#, 6
 	note D_, 4
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note E_, 8
 	note_type 12, 10, 7
 	note E_, 8
@@ -588,7 +570,7 @@ Music_RBYCredits_Ch2::
 	note G_, 6
 	note D_, 2
 	note B_, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	octave 4
 	note E_, 7
 	note_type 12, 11, 7
@@ -596,7 +578,7 @@ Music_RBYCredits_Ch2::
 	note_type 12, 12, 3
 	note E_, 1
 	note G#, 1
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note A_, 8
 	note_type 12, 11, 7
 	note A_, 8
@@ -605,16 +587,16 @@ Music_RBYCredits_Ch2::
 	note F#, 4
 	note E_, 4
 	note D_, 4
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note C#, 8
 	note_type 12, 10, 7
 	note C#, 8
-	note_type 12, 9, 0
+	note_type 12, 9, 8
 	octave 3
 	note A_, 8
 	note_type 12, 9, 7
 	note A_, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note E_, 8
 	note_type 12, 11, 7
 	note E_, 8
@@ -628,11 +610,11 @@ Music_RBYCredits_Ch2::
 	note G_, 6
 	note F#, 1
 	note F_, 1
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note E_, 8
 	note_type 12, 11, 7
 	note E_, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note D_, 8
 	note_type 12, 11, 7
 	note D_, 8
@@ -647,12 +629,12 @@ Music_RBYCredits_Ch2::
 	note B_, 6
 	note G_, 1
 	note B_, 1
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	octave 4
 	note C#, 8
 	note_type 12, 11, 7
 	note C#, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note D_, 8
 	note_type 12, 11, 7
 	note D_, 8
@@ -665,18 +647,18 @@ Music_RBYCredits_Ch2::
 	note B_, 1
 	octave 4
 	note D_, 1
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note C#, 6
 	note_type 12, 11, 7
 	note C#, 6
 	note_type 12, 12, 7
 	octave 3
 	note B_, 4
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note A_, 8
 	note_type 12, 11, 7
 	note A_, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note F#, 6
 	note_type 12, 11, 7
 	note F#, 6
@@ -684,7 +666,7 @@ Music_RBYCredits_Ch2::
 	note G#, 4
 	note A_, 8
 	note F#, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note G#, 6
 	note_type 12, 11, 7
 	note G#, 6
@@ -692,7 +674,7 @@ Music_RBYCredits_Ch2::
 	note A_, 4
 	note B_, 8
 	note G#, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note A_, 6
 	note_type 12, 11, 7
 	note A_, 6
@@ -702,24 +684,23 @@ Music_RBYCredits_Ch2::
 	note C_, 8
 	octave 3
 	note A_, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note B_, 6
 	note_type 12, 11, 7
 	note B_, 6
 	note_type 12, 12, 7
 	octave 4
 	note C_, 4
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note D_, 8
 	octave 3
 	note B_, 8
-	note_type 12, 11, 0
 	octave 4
 	note C#, 16
 	note C#, 8
 	note_type 12, 11, 7
 	note C#, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	octave 3
 	note A_, 16
 	note A_, 8
@@ -754,9 +735,9 @@ Music_RBYCredits_Ch2::
 	octave 4
 	note D_, 2
 	note G_, 8
-	note_type 12, 11, 0
+	note_type 12, 11, 8
 	note A_, 16
-	note_type 12, 10, 0
+	note_type 12, 10, 8
 	note A_, 8
 	note_type 12, 10, 7
 	note A_, 8
@@ -765,18 +746,19 @@ Music_RBYCredits_Ch2::
 	note A_, 4
 	note A_, 1
 	note A_, 1
-	note_type 12, 12, 1
-	note A_, 8
-;; P2-5
-	note_type 12, 13, 3
+	note A_, 4
 	octave 3
+	note D_, 1
+	note E_, 1
+	note F_, 1
+	note F#, 1
+	note_type 12, 13, 3
 	note G_, 1
 	rest 5
 	note G_, 1
 	rest 5
 	note G_, 1
 	rest 3
-;; P2-6
 	note A_, 1
 	rest 5
 	note A_, 1
@@ -785,13 +767,11 @@ Music_RBYCredits_Ch2::
 	rest 2
 	octave 4
 	note C_, 1
-;; P2-7
 	octave 3
 	note B_, 12
 	rest 3
 	octave 4
 	note C_, 1
-;; P2-8
 	octave 3
 	note B_, 6
 	rest 1
@@ -800,24 +780,19 @@ Music_RBYCredits_Ch2::
 	note D_, 6
 	rest 1
 	note C_, 1
-;; P2-9
 	note D_, 12
 	rest 3
 	note C_, 1
-;; P2-10
 	note E_, 12
 	rest 3
 	note E_, 1
-;; P2-11
 	note F#, 12
 	rest 3
 	note E_, 1
-;; P2-12
 	note F#, 6
 	rest 1
 	note G_, 1
 	note A_, 8
-;; P2-13
 	octave 3
 	note G_, 1
 	rest 5
@@ -825,29 +800,24 @@ Music_RBYCredits_Ch2::
 	rest 5
 	note G_, 1
 	rest 3
-;; P2-14
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P2-15
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 3
-;; P2-16
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P2-1
-	note_type 12, 13, 3
 	octave 4
 	note G_, 6
 	note D_, 1
@@ -855,7 +825,6 @@ Music_RBYCredits_Ch2::
 	note A_, 6
 	note F_, 1
 	note A_, 1
-;; P2-2
 	note A#, 6
 	note G_, 1
 	note A#, 1
@@ -865,16 +834,13 @@ Music_RBYCredits_Ch2::
 	note D#, 1
 	rest 2
 	note D#, 1
-;; P2-3
 	note G_, 16
-;; P2-4
 	note G_, 1
 	rest 11
 	octave 3
 	sound_ret
 
-
-Music_RBYCredits_Ch3::
+Music_RBYCredits_Ch3:
 	note_type 12, 1, 0
 	octave 5
 	note C#, 6
@@ -1015,7 +981,6 @@ Music_RBYCredits_Ch3::
 	note A_, 1
 	note A_, 1
 	rest 7
-;; P3-5
 	note_type 12, 1, 0
 	octave 4
 	note G_, 1
@@ -1024,84 +989,72 @@ Music_RBYCredits_Ch3::
 	rest 5
 	note G_, 1
 	rest 3
-;; P3-6
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P3-7
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 3
-;; P3-8
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P3-9
 	note G_, 1
 	rest 5
 	note G_, 1
 	rest 5
 	note G_, 1
 	rest 3
-;; P3-10
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P3-11
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 3
-;; P3-12
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P3-13
 	note G_, 1
 	rest 5
 	note G_, 1
 	rest 5
 	note G_, 1
 	rest 3
-;; P3-14
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P3-15
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 5
 	note B_, 1
 	rest 3
-;; P3-16
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 5
 	note A_, 1
 	rest 3
-;; P3-1
 	note_type 12, 1, 0
 	octave 4
 	note B_, 6
@@ -1113,7 +1066,6 @@ Music_RBYCredits_Ch3::
 	note A_, 1
 	octave 5
 	note C_, 1
-;; P3-2
 	note D_, 6
 	octave 4
 	note A#, 1
@@ -1124,14 +1076,12 @@ Music_RBYCredits_Ch3::
 	note G_, 1
 	rest 2
 	note G_, 1
-;; P3-3
 	note G_, 16
-;; P3-4
 	note G_, 1
 	rest 15
 	sound_ret
 
-Music_RBYCredits_branch_7ffa4::
+Music_RBYCredits_branch_7ffa4:
 	octave 4
 	note E_, 2
 	note A_, 2
@@ -1143,7 +1093,7 @@ Music_RBYCredits_branch_7ffa4::
 	note A_, 2
 	sound_ret
 
-Music_RBYCredits_branch_7ffae::
+Music_RBYCredits_branch_7ffae:
 	octave 4
 	note D_, 2
 	note G_, 2
@@ -1155,7 +1105,7 @@ Music_RBYCredits_branch_7ffae::
 	note G_, 2
 	sound_ret
 
-Music_RBYCredits_branch_7ffb8::
+Music_RBYCredits_branch_7ffb8:
 	note G_, 2
 	note B_, 2
 	note G_, 2
@@ -1166,11 +1116,7 @@ Music_RBYCredits_branch_7ffb8::
 	note B_, 2
 	sound_ret
 
-Music_RBYCredits_branch_7ffc1::
-	octave 4
-	note A_, 2
-	octave 5
-	note C#, 2
+Music_RBYCredits_branch_7ffc1:
 	octave 4
 	note A_, 2
 	octave 5
@@ -1183,9 +1129,13 @@ Music_RBYCredits_branch_7ffc1::
 	note A_, 2
 	octave 5
 	note C#, 2
+	octave 4
+	note A_, 2
+	octave 5
+	note C#, 2
 	sound_ret
 
-Music_RBYCredits_branch_7ffd2::
+Music_RBYCredits_branch_7ffd2:
 	note D_, 2
 	note A_, 2
 	note D_, 2
@@ -1196,7 +1146,7 @@ Music_RBYCredits_branch_7ffd2::
 	note A_, 2
 	sound_ret
 
-Music_RBYCredits_branch_7ffdb::
+Music_RBYCredits_branch_7ffdb:
 	note E_, 2
 	note G#, 2
 	note E_, 2
@@ -1207,7 +1157,7 @@ Music_RBYCredits_branch_7ffdb::
 	note G#, 2
 	sound_ret
 
-Music_RBYCredits_branch_7ffe4::
+Music_RBYCredits_branch_7ffe4:
 	note E_, 2
 	note B_, 2
 	note E_, 2
@@ -1218,7 +1168,7 @@ Music_RBYCredits_branch_7ffe4::
 	note B_, 2
 	sound_ret
 
-Music_RBYCredits_branch_7ffed::
+Music_RBYCredits_branch_7ffed:
 	note A_, 1
 	rest 1
 	note A_, 1
