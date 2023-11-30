@@ -108,9 +108,9 @@ TestBattle:
 	ld [hl], a
 
 	; Player's Pokemon.
-	ld a, MEW
+	ld a, GLACEON
 	ld [wcf91], a
-	ld a, 100
+	ld a, 16
 	ld [wCurEnemyLVL], a
 	xor a
 	ld [wMonDataLocation], a
@@ -120,19 +120,19 @@ TestBattle:
 	; This function gives you a way to waste a turn, never know when you'll need it.
 	; Alternatively, add a move to test.
 	ld hl, wPartyMon1Moves
-	ld a, POISON_STING ; Something super weak
+	ld a, UPPERCUT ; Something super weak
 	ld [hli], a
-	ld a, LEECH_SEED ; Test new failure text
+	ld a, POWDER_SNOW ; Test new failure text
 	ld [hli], a
-	ld a, FISSURE ; Something that'll miss easily
+	ld a, LOW_KICK ; Something that'll miss easily
 	ld [hli], a
-	ld a, SPLASH ; Skip turn
+	ld a, LEER ; Skip turn
 	ld [hli], a
 	
 	; Opponent's Pokemon.
-	ld a, ARTICUNO ; Test new theme
+	ld a, BUU ; Test new theme
 	ld [wCurOpponent], a
-	ld a, 100 ; Set the level you want here.
+	ld a, 10 ; Set the level you want here.
 	ld [wCurEnemyLVL], a
 
 	predef InitOpponent

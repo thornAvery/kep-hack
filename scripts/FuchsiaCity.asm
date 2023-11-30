@@ -13,6 +13,7 @@ FuchsiaCity_TextPointers:
 	dw FuchsiaCityText9
 	dw FuchsiaCityText10
 	dw SubstituteGuy
+	dw SafariBallSalesman
 	dw FuchsiaCityText12
 	dw FuchsiaCityText13
 	dw MartSignText
@@ -165,6 +166,65 @@ FuchsiaCityKabutoText:
 
 FuchsiaCityText_19b2a:
 	text_far _FuchsiaCityText_19b2a
+	text_end
+
+SafariBallSalesman:
+	text_asm
+	ld hl, .Text1
+	call PrintText
+	ld a, MONEY_BOX
+	ld [wTextBoxID], a
+	call DisplayTextBoxID
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	jp nz, .choseNo
+	ldh [hMoney], a
+	ldh [hMoney + 2], a
+	ld a, $24
+	ldh [hMoney + 1], a
+	call HasEnoughMoney
+	jr nc, .enoughMoney
+	ld hl, .NoMoneyText
+	jr .printText
+.enoughMoney
+	lb bc, SAFARI_BALL, 3
+	call GiveItem
+	jr nc, .done
+	xor a
+	ld [wPriceTemp], a
+	ld [wPriceTemp + 2], a
+	ld a, $24
+	ld [wPriceTemp + 1], a
+	ld hl, wPriceTemp + 2
+	ld de, wPlayerMoney + 2
+	ld c, $3
+	predef SubBCDPredef
+	ld a, MONEY_BOX
+	ld [wTextBoxID], a
+	call DisplayTextBoxID
+	jr .done
+.choseNo
+	ld hl, .RefuseText
+.printText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.Text1
+	text_far _SafariBallSalesmanText1
+	text_end
+
+.RefuseText
+	text_far _SafariBallSalesmanNoText
+	text_end
+
+.NoMoneyText
+	text_far _SafariBallSalesmanNoMoneyText
+	text_end
+
+SafariBallBagFull:
+	text_far _SafariBallBagFull
 	text_end
 
 ; FireRed NPC

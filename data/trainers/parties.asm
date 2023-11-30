@@ -404,8 +404,8 @@ CueBallData:
 	db 33, CARAPTHOR, 0
 ; Route 17
 	db 29, MANKEY, PRIMEAPE, 0
-	db 29, MACHOP, MACHOKE, 0
-	db 33, JABETTA, 0
+	db 29, CHEEP, JABETTA, 0
+	db 33, MACHOKE, 0
 	db 26, MANKEY, MACHOKE, CROAKOZUNA, 0
 	db 29, PRIMEAPE, MACHOKE, 0
 ; Route 21
@@ -478,7 +478,7 @@ RockerData:
 ; Psychic, Poison, and a little bit of Voltorb.
 JugglerData:
 ; Silph Co. 5F
-	db 29, KADABRA, MR_MIME, 0
+	db 29, ELECTRODE, KADABRA, MR_MIME, 0
 ; Victory Road 2F
 	db 41, DROWZEE, HYPNO, ESPEON, KADABRA, 0
 ; Fuchsia Gym
@@ -541,37 +541,38 @@ BirdKeeperData:
 ; Uses Silph products and Steel-types
 ChiefData:
 ; Silph Gauntlet 7F
-	db $FF, 71, MAGNEZONE, 70, LAPRAS, 71, TRICULES, 70, GENGAR, 73, PORYGONZ, 75, OMEGADGE, 0
+	db $FF, 71, ELECTRODE, 70, LAPRAS, 71, TRICULES, 70, GENGAR, 73, PORYGONZ, 75, OMEGADGE, 0
 ; Lapras and Gengar are used here since Lapras is given by a Silph worker, and Gengar represents the Silph Scope.
 
 ; Poison- and Electric-type Pokemon
 ScientistData:
 ; Silph Gauntlet 4F (Lavender Tower)
 	db 65, MAGNEZONE, ELECTRODE, PORYGONZ, MIMMEO, GAVILLAIN, WEEZING, 0
-; Silph Co. 2F
+; Silph Co. 2F (unused)
 	db 26, GRIMER, WEEZING, KOFFING, WEEZING, 0
 	db 28, MAGNETITE, VOLTORB, MAGNETON, 0
-; Silph Co. 3F/Mansion 1F
+; Silph Co. 3F
 	db 29, ELECTRODE, MUK, 0
-; Silph Co. 4F
-	db 33, VOLTORB, ELECTRODE, KOFFING, 0
+; Mansion 1F
+	db 36, VOLTORB, ELECTRODE, KOFFING, 0
 ; Silph Co. 5F
-	db 26, MAGNEMITE, KOFFING, WEEZING, MAGNETITE, 0
-; Silph Co. 6F
+	db 26, MAGNEMITE, VOLTORB, WEEZING, MAGNETITE, 0
+; Silph Co. 6F (unused)
 	db 25, VOLTORB, KOFFING, MAGNETITE, MAGNEMITE, KOFFING, 0
 ; Silph Co. 7F
-	db 29, PORYGON, 0 ; stolen technology!!!
-; Silph Co. 8F
-	db 29, GRIMER, ELECTRODE, 0
+	db 29, ELECTRODE, PORYGON, 0 ; stolen technology!!!
+; Cinnabar Volcano
+	db 37, GAVILLAIN, WEEZING, 0
 ; Silph Co. 9F
 	db 28, VOLTORB, KOFFING, MAGNETON, 0
-; Silph Co. 10F
+; Silph Co. 10F (unused)
 	db 29, MAGNETITE, KOFFING, 0
 ; Mansion 3F
 	db 33, MAGNETITE, MAGNETON, DITTO, 0
 ; Mansion B1F
 	db 34, MAGNETITE, ELECTRODE, 0
 
+; Gave the Rockets more Sandshrew, Cubone, and Voltorb, Pokemon shown to be used quite a bit in various media.
 RocketData:
 ; Mt. Moon B2F
 	db 13, RATTATA, ZUBAT, 0
@@ -590,7 +591,7 @@ RocketData:
 	db 21, RATICATE, RATICATE, 0
 	db 20, GRIMER, KOFFING, KOFFING, 0
 	db 19, RATTATA, RATICATE, RATICATE, RATTATA, 0
-	db 22, GRIMER, KOFFING, 0
+	db 22, VOLTORB, KOFFING, 0
 ; Rocket Hideout B2F
 	db 17, ZUBAT, KOFFING, GRIMER, CUBONE, RATICATE, 0
 ; Rocket Hideout B3F
@@ -602,7 +603,7 @@ RocketData:
 	db 21, KOFFING, ZUBAT, 0
 ; Pokémon Tower 7F
 	db 25, ZUBAT, GRIMER, GOLBAT, 0
-	db 26, KOFFING, DROWZEE, 0
+	db 26, VOLTORB, KOFFING, DROWZEE, 0
 	db 23, ZUBAT, RATTATA, RATICATE, ZUBAT, 0
 ; Silph Gauntlet 4F (Lavender Tower)
 	db 65, PERSIAN, ARBOK, RATICATE, CROBAT, HYPNO, GUARDIA, 0
@@ -610,7 +611,7 @@ RocketData:
 	db 29, CUBONE, ZUBAT, 0
 	db 25, GOLBAT, ZUBAT, ZUBAT, RATICATE, ZUBAT, 0
 ; Silph Co. 3F
-	db 28, RATICATE, HYPNO, RATICATE, 0
+	db 28, ELECTRODE, HYPNO, RATICATE, 0
 ; Silph Co. 4F - cut
 	db 29, MACHOP, DROWZEE, 0
 	db 28, EKANS, ZUBAT, CUBONE, 0
@@ -622,7 +623,7 @@ RocketData:
 	db 28, ZUBAT, ZUBAT, GOLBAT, 0
 ; Silph Co. 7F
 	db 26, RATICATE, ARBOK, KOFFING, GOLBAT, 0
-	db 29, CUBONE, MACHOKE, 0
+	db 29, CUBONE, MACHOKE, ELECTRODE, 0
 	db 29, SANDSHREW, SANDSLASH, 0
 ; Silph Co. 8F - cut
 	db 26, RATICATE, ZUBAT, GOLBAT, RATTATA, 0
@@ -634,7 +635,7 @@ RocketData:
 	db 33, MACHOKE, 0
 ; Silph Co. 11F
 	db 25, RATTATA, ZUBAT, EKANS, RATICATE, 0
-	db 32, CUBONE, DROWZEE, MAROWAK, 0
+	db 32, ELECTRODE, DROWZEE, MAROWAK, 0
 
 ; Very varied, nothing to say
 CooltrainerMData:
@@ -738,6 +739,10 @@ FirefighterData:
 	db 15, POLIWAG, CHEEP, SQUIRTLE, 0
 ; Silph Gauntlet 3F (S.S Anne)
 	db 64, BLASTOISE, OMASTAR, SANDSLASH, KINGDRA, GUARDIA, POLIWRATH, 0
+; Cinnabar Volcano
+	db 36, WARTORTLE, MAROWAK, POLITOED, 0
+	db 35, SANDSLASH, OMANYTE, SEAKING, CROAKOZUNA, 0
+	db 38, SEADRA, BLASTOISE, 0
 
 JuniorData:
 ; to be removed

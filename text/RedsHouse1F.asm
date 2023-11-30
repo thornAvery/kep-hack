@@ -71,7 +71,7 @@ _ChiefLetterText::
 	line "SILPH GAUNTLET!"
 	
 	para "I have called the"
-	line "greatest TRAINERs"
+	line "greatest trainers"
 	cont "in all of KANTO!"
 	
 	para "Stronger than even" ; A sneaky trick - we can fit 18 characters, they just mess up the arrow.

@@ -2,8 +2,8 @@ FarawayIslandOutside_Object:
 	db $2d ; border block
 
 	def_warp_events
-	warp_event  6, 35, SEAGALLOP_FERRY, 1
-	warp_event  7, 35, SEAGALLOP_FERRY, 1
+	warp_event  6, 35, FARAWAY_FERRY_DOCK, 1
+	warp_event  7, 35, FARAWAY_FERRY_DOCK, 1
 	warp_event 18,  8, FARAWAY_ISLAND_INSIDE, 1
 	warp_event 19,  8, FARAWAY_ISLAND_INSIDE, 2
 

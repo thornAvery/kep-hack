@@ -5,27 +5,25 @@ FuchsiaCity_Object:
 	warp_event 15, 19, FUCHSIA_MART, 1
 	warp_event 11, 27, FUCHSIA_BILLS_GRANDPAS_HOUSE, 1
 	warp_event 19, 27, FUCHSIA_POKECENTER, 1
-	warp_event 27, 27, WARDENS_HOUSE, 1
+	warp_event 28, 27, WARDENS_HOUSE, 1
 	warp_event 18,  3, SAFARI_ZONE_GATE, 1
 	warp_event  5, 27, FUCHSIA_GYM, 1
 	warp_event 22, 13, FUCHSIA_MEETING_ROOM, 1
-	;warp_event 31, 27, FUCHSIA_GOOD_ROD_HOUSE, 2 these need to be replaced with...something.
-	;warp_event 31, 24, FUCHSIA_GOOD_ROD_HOUSE, 1
 
 	def_bg_events
-	bg_event 25, 17, 12 ; FuchsiaCityText12
-	bg_event 17,  5, 13 ; FuchsiaCityText13
-	bg_event 16, 19, 14 ; MartSignText
-	bg_event 20, 27, 15 ; PokeCenterSignText
-	bg_event 27, 29, 16 ; FuchsiaCityText16
-	bg_event 21, 17, 17 ; FuchsiaCityText17
-	bg_event  3, 29, 18 ; FuchsiaCityText18
-	bg_event 33,  7, 19 ; FuchsiaCityText19
-	bg_event 27,  7, 20 ; FuchsiaCityText20
-	bg_event 13,  7, 21 ; FuchsiaCityText21
-	bg_event 31, 13, 22 ; FuchsiaCityText22
-	bg_event 13, 15, 23 ; FuchsiaCityText23
-	bg_event  7,  7, 24 ; FuchsiaCityText24
+	bg_event 25, 17, 13 ; FuchsiaCityText12
+	bg_event 17,  5, 14 ; FuchsiaCityText13
+	bg_event 16, 19, 15 ; MartSignText
+	bg_event 20, 27, 16 ; PokeCenterSignText
+	bg_event 27, 29, 17 ; FuchsiaCityText16
+	bg_event 21, 17, 18 ; FuchsiaCityText17
+	bg_event  3, 29, 19 ; FuchsiaCityText18
+	bg_event 33,  7, 20 ; FuchsiaCityText19
+	bg_event 27,  7, 21 ; FuchsiaCityText20
+	bg_event 13,  7, 22 ; FuchsiaCityText21
+	bg_event 31, 13, 23 ; FuchsiaCityText22
+	bg_event 13, 15, 24 ; FuchsiaCityText23
+	bg_event  7,  7, 25 ; FuchsiaCityText24
 
 	def_object_events
 	object_event 10, 12, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 1 ; person
@@ -39,5 +37,6 @@ FuchsiaCity_Object:
 	object_event  8, 17, SPRITE_SEEL, WALK, ANY_DIR, 9 ; person
 	object_event  6,  5, SPRITE_FOSSIL, STAY, NONE, 10 ; person
 	object_event 11,  8, SPRITE_GAMBLER, STAY, UP, 11 ; person
+	object_event 15,  2, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 12 ; spamton
 
 	def_warps_to FUCHSIA_CITY

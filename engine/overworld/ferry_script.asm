@@ -143,8 +143,8 @@ DoIslandMenu:
 	jr .islandSelected
 
 .choseFarawayIsland
-	ld b, 0
-	ld c, FARAWAY_ISLAND_OUTSIDE
+	ld b, 1
+	ld c, FARAWAY_FERRY_DOCK
 	jr .islandSelected
 
 .choseCitrineCity

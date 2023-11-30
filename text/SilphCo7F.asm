@@ -169,7 +169,8 @@ _SilphCo7Text_51ec3::
 _SilphCo7Text_51ec8::
 	text "Oh ho!"
 	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	cont "for the TEAM"
+	cont "ROCKET BOSS!"
 	prompt
 
 _SilphCo7Text_51ecd::

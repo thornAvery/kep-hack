@@ -32,6 +32,8 @@ WarpTileIDPointers:
 	dw .RocketHouseWarpTileIDs
 	dw .BetaMartWarpTileIDs
 	dw .JackyWarpTileIDs
+	dw .LabWarpTileIDs ; Fossil Lab
+	dw .ShipPortWarpTileIDs ; Seagallop Port
 	assert_table_length NUM_TILESETS
 
 MACRO warp_tiles
@@ -105,7 +107,7 @@ ENDM
 	warp_tiles $1B, $1C, $0B, $0C, $58, $59
 
 .CelesteWarpTileIDs:
-	warp_tiles $5A, $5C, $3A	; Like Forest but a bit better
+	warp_tiles $5A, $5C, $3A, $30, $50, $51 	; Like Forest but a bit better
 
 .RocketHouseWarpTileIDs:
 	warp_tiles

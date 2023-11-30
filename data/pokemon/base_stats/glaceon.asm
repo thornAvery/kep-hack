@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/glaceon.pic", 0, 1 ; sprite dimensions
 	dw GlaceonPicFront, GlaceonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, AURORA_BEAM ; level 1 learnset
+	db TACKLE, SAND_ATTACK, QUICK_ATTACK, POWDER_SNOW ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

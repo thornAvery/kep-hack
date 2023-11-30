@@ -5,11 +5,6 @@ _Route15GateUpstairsText_4968c::
 	cont "you, even if they"
 	cont "don't fight."
 
-	para "It does, however,"
-	line "reduce the amount"
-	cont "of EXP for each"
-	cont "#MON."
-
 	para "If you don't need"
 	line "it, you should "
 	cont "store it via PC."

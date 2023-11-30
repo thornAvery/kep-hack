@@ -897,7 +897,8 @@ wRightGBMonSpecies:: db
 ; bit 6: tried pushing against boulder once (you need to push twice before it will move)
 wFlags_0xcd60:: db
 
-	ds 9
+wSum::
+	ds 8
 
 ; This has overlapping related uses.
 ; When the player tries to use an item or use certain field moves, 0 is stored
@@ -2042,7 +2043,6 @@ wSSAnneB1FRoomsCurScript:: db
 wVermilionCityCurScript:: db
 wPokemonTower2FCurScript:: db
 wPokemonTower3FCurScript:: db
-	ds 1 ;was wPokemonTower4FCurScript
 wPokemonTower5FCurScript:: db
 wPokemonTower6FCurScript:: db
 wPokemonTower7FCurScript:: db
@@ -2052,7 +2052,7 @@ wRocketHideoutB3FCurScript:: db
 wRocketHideoutB4FCurScript:: db
 wRoute6GateCurScript:: db
 wRoute8GateCurScript:: db
-	ds 1
+wSilphCo1FCurScript:: db
 wCinnabarIslandCurScript:: db
 wPokemonMansion1FCurScript:: db
 wBrunswickGrottoCurScript:: db
@@ -2061,6 +2061,7 @@ wPokemonMansion3FCurScript:: db
 wPokemonMansionB1FCurScript:: db
 wDiglettsCaveCurScript:: db
 wCinnabarVolcanoCurScript:: db
+wCinnabarVolcanoFloorsCurScript:: db
 wCeladonUniversityOutsideCurScript:: db
 wUnderwaterTunnelCurScript:: db
 wVictoryRoad2FCurScript:: db

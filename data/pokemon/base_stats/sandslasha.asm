@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/sandslasha.pic", 0, 1 ; sprite dimensions
 	dw SandslashAPicFront, SandslashAPicBack
 
-	db SCRATCH, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCRATCH, SAND_ATTACK, POWDER_SNOW, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

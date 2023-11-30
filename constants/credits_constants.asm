@@ -73,17 +73,27 @@
 	const CRED_ALBA
 	const CRED_HELIX
 	const CRED_FO
+	const CRED_ZETA
 	const CRED_PS_DEVS
 	const CRED_AUS
 	const CRED_PAUL
 	const CRED_DUO
+	const CRED_KEP_MUSIC
+	const CRED_LUCI
+	const CRED_ZUMI
+	const CRED_BGVC
 	const CRED_KEP_THANKS
 	const CRED_FRRF
+	const CRED_MISTY
+	const CRED_THORNAVERY
 	const CRED_DANNYE
 	const CRED_EROSUNICA
+	const CRED_BLUEZANGOOSE
+	const CRED_SKYE
 	const CRED_CHATOT
 	const CRED_ENI
 	const CRED_VORT
+	const CRED_PRET
 DEF NUM_CRED_STRINGS EQU const_value
 
 	const_def -1, -1

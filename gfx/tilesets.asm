@@ -61,8 +61,6 @@ Underground_GFX::   INCBIN "gfx/tilesets/underground.2bpp"
 Underground_Block:: INCBIN "gfx/blocksets/underground.bst"
 
 SECTION "Tilesets 4", ROMX
-Cavern_GFX::        INCBIN "gfx/tilesets/cavern.2bpp"
-Cavern_Block::      INCBIN "gfx/blocksets/cavern.bst"
 
 Citrine_GFX::		INCBIN "gfx/tilesets/citrine.2bpp"
 Citrine_Block::		INCBIN "gfx/blocksets/citrine.bst"
@@ -80,5 +78,15 @@ House_GFX::         INCBIN "gfx/tilesets/house.2bpp"
 House_Block::       INCBIN "gfx/blocksets/house.bst"
 
 SECTION "Tilesets 5", ROMX
+
+Cavern_GFX::        INCBIN "gfx/tilesets/cavern.2bpp"
+Cavern_Block::      INCBIN "gfx/blocksets/cavern.bst"
+
 Jacky_GFX::         INCBIN "gfx/tilesets/jacky.2bpp"
 Jacky_Block::       INCBIN "gfx/blocksets/jacky.bst"
+
+FossilLab_GFX::		INCBIN "gfx/tilesets/fossillab.2bpp"
+FossilLab_Block::   INCBIN "gfx/blocksets/fossillab.bst"
+
+SeagallopPort_GFX::		INCBIN "gfx/tilesets/seagallop_port.2bpp"
+SeagallopPort_Block::   INCBIN "gfx/blocksets/seagallop_port.bst"

@@ -1,9 +1,9 @@
 VermilionFerryDock_Object:
-	db $f ; border block
+	db $15 ; border block
 
 	def_warp_events
 	warp_event 14,  0, LAST_MAP, 9
-	warp_event 14,  2, SEAGALLOP_FERRY, 1
+	warp_event 14,  5, SEAGALLOP_FERRY, 1
 
 	def_bg_events
 

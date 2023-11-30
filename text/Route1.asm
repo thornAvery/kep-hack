@@ -102,7 +102,7 @@ _OakWonText::
 _OakYes::
 	text "Back in my day,"
 	line "I was a serious"
-	cont "TRAINER! Prepare"
+	cont "trainer! Prepare"
 	cont "yourself!"
 	prompt
 
@@ -142,12 +142,12 @@ _OakCitrineExplain::
 	line "to CITRINE CITY."
 	
 	para "It's a place where"
-	line "the best TRAINERs"
+	line "the best trainers"
 	cont "go to become far"
 	cont "stronger."
 	
 	para "Some strange BIRD"
-	line "#MON will come"
+	line "#MON are said"
 	cont "to roost there,"
 	cont "but they are so"
 	cont "fast and vicious,"

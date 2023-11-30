@@ -13,7 +13,7 @@ _RockTunnelPokecenterText3::
 	done
 
 _DittoSalesmanText1::
-	text "MAN: Hey there,"
+	text "SALESMAN: Hey,"
 	line "kid! Nice to"
 	cont "see you again!"
 	
@@ -45,8 +45,8 @@ _DittoSalesmanNoMoneyText::
 	done
 
 _DittoSalesmanText2::
-	text "MAN: Sold as seen!"
-	line "You can't get"
-	cont "every #MON"
+	text "SALESMAN: Sold as"
+	line "seen! You can't"
+	cont "get every #MON"
 	cont "at the same time!"
 	done

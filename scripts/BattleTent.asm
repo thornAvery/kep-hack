@@ -718,11 +718,11 @@ BattleTentWelcome:
 	text "Welcome to the"
 	line "BATTLE TENT!"
 	
-	para "Here, TRAINERs"
+	para "Here, trainers"
 	line "from far and"
 	cont "wide come to"
 	;cont "face a gauntlet"
-	;cont "of 10 TRAINERs!"
+	;cont "of 10 trainers!"
 	cont "spar against"
 	cont "one another!"
 	

@@ -1152,7 +1152,7 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, LEER
+	db 51, FLAMETHROWER 
 	db 55, AGILITY
 	db 60, SKY_ATTACK
 	db 0
@@ -2150,8 +2150,8 @@ GaotoraEvosMoves:
 	db EV_LEVEL, 36, GOROTORA
 	db 0
 ; Learnset
-	db 9, LEER
-	db 14, ROAR
+	db 6, LEER
+	db 11, ROAR
 	db 23, QUICK_ATTACK
 	db 30, BITE
 	db 37, THUNDER
@@ -2162,10 +2162,10 @@ GorotoraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, LEER
-	db 21, ROAR
-	db 30, QUICK_ATTACK
-	db 34, BITE
+	db 6, LEER
+	db 11, ROAR
+	db 23, QUICK_ATTACK
+	db 30, BITE
 	db 40, THUNDER
 	db 48, AGILITY
 	db 0
@@ -2604,7 +2604,7 @@ GlaceonEvosMoves:
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
-	db 16, AURORA_BEAM
+	db 16, POWDER_SNOW
 	db 23, QUICK_ATTACK
 	db 30, MIST
 	db 32, HAZE
@@ -2834,6 +2834,7 @@ CarapthorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, UPPERCUT
 	db 12, COMET_PUNCH
 	db 16, PIN_MISSILE
 	db 20, DEFENSE_CURL
