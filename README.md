@@ -381,7 +381,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Chatot4444 - Assisting with gym scaling code.
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly.
 * LadyMisticus - Made a well-documented spreadsheet for the hack that details every Pokemon's stats, movepools and locations, plus more! 
-* Ness the Unexplained - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
+* HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber, RacieBeep, loumilouminosus, Orchid, GBCRetro, & catstorm26 - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
