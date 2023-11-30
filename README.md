@@ -143,8 +143,10 @@ Improved Areas
 - Fuchsia City has been made to resemble the more walkable LGPE version, removing the Cut trees among other things.
 - The Fighting Dojo has been revamped, featuring a design reminiscent of the prototype versions; rough floors, the elder in the back, and more. Additionally, you can now get a Hitmontop as a third option. The Karate Master is also now treated somewhat more like a Gym Leader, having Gym Scaling and a Rematch system. 
 - Silph Co's pathing was completely overhauled to make navigating it less tedious.
+- Silph Co. 11F's unreferenced Porygon PC was restored. It's on the monitor!
 - Cinnabar Island is a lot bigger, with the volcano being added to it. The mansion seems different too...
 	- Cinnabar Lab's Trade Room now features the Trader, who will evolve trade-evolving Pokemon for you!
+	- Cinnabar Lab's Fossil Room now features a unique machine from the prototype blocksets, serving as the fossil machine!
 - Viridian Gym now has a minor new area once you make Giovanni leave.
 - Various Move Tutors from FireRed and LeafGreen have been distributed around the region, instead giving their respective TMs.
 - The S.S. Anne now returns after getting the Marsh Badge and features trades for Galarian forms & Evolutions, as well as Paldean Tauros.
@@ -256,12 +258,9 @@ and more!
 Known Bugs
 ====
 Comprehensive list can be found on Discord.
-- Only portions of spinner tiles animate.
 - Occasionally, menu text sets itself to scroll.
 - The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
-- The door mat tiles added recently warp the player when they walk on another (Citrine mats, arrow tiles...)
-- James doesn't check for Max DVs when Hyper Training.
 - Citrine Dock's warp doesn't work, meaning you have to leave Citrine using Fly
 - LAST_MAP isn't updated properly when sailing from Vermilion to Citrine
 - After reloading the game after beating the Elite Four, Pallet Town's correct palette isn't loaded in until after leaving the house.
@@ -382,11 +381,11 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Chatot4444 - Assisting with gym scaling code.
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly.
 * LadyMisticus - Made a well-documented spreadsheet for the hack that details every Pokemon's stats, movepools and locations, plus more! 
-* Ness the Unexplained - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
+* HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber, RacieBeep, loumilouminosus, Orchid, GBCRetro, & catstorm26 - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
-* Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI. Assisted in bug fixes. Used their sprite sheet generator.
+* Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.

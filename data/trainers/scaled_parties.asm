@@ -56,17 +56,6 @@ KogaData:
 	db $FF, 47, VENOMOTH, 46, BELLIGNAN, 46, TENTACRUEL, 48, MUK, 48, WEEZING, 50, CROBAT, 0 ; 7 (unused)
 	db $FF, 67, VENOMOTH, 66, BELLIGNAN, 66, SLOWBRO_G, 67, MUK, 67, WEEZING, 70, CROBAT, 0  ; 8 (postgame)
 
-BlaineData:
-	db $FF, 11, VULPIX, 12, GROWLITHE, 14, PONYTA, 0                                                 ; 0 badges (unused)
-	db $FF, 19, PONYTA, 18, VULPIX, 19, GROWLITHE, 21, MAGMAR, 0                                     ; 1 (unused)
-	db $FF, 22, PONYTA, 21, VULPIX, 21, GROWLITHE, 23, CHARMELEON, 25, MAGMAR, 0                     ; 2
-	db $FF, 29, PONYTA, 28, VULPIX, 28, GROWLITHE, 29, CHARMELEON, 31, MAGMAR, 0                     ; 3
-	db $FF, 38, PONYTA, 37, NINETALES, 37, FLAREON, 38, ARCANINE, 40, MAGMORTAR, 0                   ; 4
-	db $FF, 41, RAPIDASH, 40, NINETALES, 40, FLAREON, 41, ARCANINE, 43, MAGMORTAR, 0                 ; 5
-	db $FF, 45, RAPIDASH, 44, NINETALES, 44, FLAREON, 45, ARCANINE, 47, MAGMORTAR, 0                 ; 6
-	db $FF, 47, RAPIDASH, 46, NINETALES, 46, FLAREON, 48, CHARIZARD, 48, ARCANINE, 50, MAGMORTAR, 0  ; 7 (unused)
-	db $FF, 67, RAPIDASH, 67, ARCANINE, 66, TAUROS_PB, 66, FLAREON, 67, CHARIZARD, 70, MAGMORTAR, 0  ; 8 (postgame)
-
 SabrinaData:
 	db $FF, 11, SLOWPOKE, 12, DROWZEE, 14, KADABRA, 0                                            ; 0 badges (unused)
 	db $FF, 19, SLOWPOKE, 18, DROWZEE, 19, KADABRA, 21, MR_MIME, 0                               ; 1
@@ -78,6 +67,17 @@ SabrinaData:
 	db $FF, 47, ESPEON, 46, MR_MIME, 46, SLOWKING, 48, EXEGGUTOR, 48, HYPNO, 50, ALAKAZAM, 0     ; 7 (unused)
 	db $FF, 67, EXEGGUTOR, 67, SLOWKING, 66, RAPIDASH_G, 67, HYPNO, 66, ESPEON, 70, ALAKAZAM, 0  ; 8 (postgame)
 
+BlaineData:
+	db $FF, 11, VULPIX, 12, GROWLITHE, 14, PONYTA, 0                                                 ; 0 badges (unused)
+	db $FF, 19, PONYTA, 18, VULPIX, 19, GROWLITHE, 21, MAGMAR, 0                                     ; 1 (unused)
+	db $FF, 22, PONYTA, 21, VULPIX, 21, GROWLITHE, 23, CHARMELEON, 25, MAGMAR, 0                     ; 2
+	db $FF, 29, PONYTA, 28, VULPIX, 28, GROWLITHE, 29, CHARMELEON, 31, MAGMAR, 0                     ; 3
+	db $FF, 38, PONYTA, 37, NINETALES, 37, FLAREON, 38, ARCANINE, 40, MAGMORTAR, 0                   ; 4
+	db $FF, 41, RAPIDASH, 40, NINETALES, 40, FLAREON, 41, ARCANINE, 43, MAGMORTAR, 0                 ; 5
+	db $FF, 45, RAPIDASH, 44, NINETALES, 44, FLAREON, 45, ARCANINE, 47, MAGMORTAR, 0                 ; 6
+	db $FF, 47, RAPIDASH, 46, NINETALES, 46, FLAREON, 48, CHARIZARD, 48, ARCANINE, 50, MAGMORTAR, 0  ; 7 (unused)
+	db $FF, 67, RAPIDASH, 67, ARCANINE, 66, TAUROS_PB, 66, FLAREON, 67, CHARIZARD, 70, MAGMORTAR, 0  ; 8 (postgame)
+
 GiovanniData: ; is not scaled as he is always fought last
 ; Rocket Hideout B4F
 	db $FF, 28, BEEDRILL, 30, RHYHORN, 30, KANGASKHAN, 32, PERSIAN, 0
@@ -87,37 +87,37 @@ GiovanniData: ; is not scaled as he is always fought last
 	db $FF, 47, TRAMPEL, 46, DUGTRIO, 46, GUARDIA, 48, NIDOQUEEN, 48, NIDOKING, 50, RHYPERIOR, 0
 
 LoreleiData:
-	db $FF, 53, DEWGONG, 52, CLOYSTER, 52, NINETALES_A, 54, JYNX, 54, GLACEON, 56, LAPRAS, 0
+	db $FF, 53, DEWGONG, 52, CLOYSTER, 52, BUU, 54, JYNX, 54, GLACEON, 56, LAPRAS, 0
 ; post-game rematch team (currently unused)
 	db $FF, 68, JYNX, 67, CLOYSTER, 67, NINETALES_A, 69, MR_RIME, 69, GLACEON, 71, LAPRAS, 0
 
 BrunoData:
-	db $FF, 55, JABETTA, 54, STEELIX, 54, SIRFETCHD, 56, HITMONCHAN, 56, HITMONLEE, 58, MACHAMP, 0
+	db $FF, 55, JABETTA, 54, STEELIX, 54, TRICULES, 56, HITMONCHAN, 56, HITMONLEE, 58, MACHAMP, 0
 ; post-game rematch team (currently unused)
-	db $FF, 70, JABETTA, 69, STEELIX, 69, SIRFETCHD, 71, HITMONTOP, 71, TRICULES, 73, MACHAMP, 0
+	db $FF, 70, JABETTA, 69, STEELIX, 69, SIRFETCHD, 71, TRICULES, 71, HITMONTOP, 73, MACHAMP, 0
 
 AgathaData:
-	db $FF, 57, ANNIHILAPE, 56, CROBAT, 56, MAROWAK_A, 58, ARBOK, 58, UMBREON, 60, GENGAR, 0
+	db $FF, 57, ANNIHILAPE, 56, CROBAT, 56, GENGAR, 58, ARBOK, 58, UMBREON, 60, GENGAR, 0		; Agatha has double Gengars in every single battle in the main-series, it's fine here...
 ; post-game rematch team (currently unused)
 	db $FF, 72, ANNIHILAPE, 71, CROBAT, 71, MAROWAK_A, 73, ARBOK, 73, UMBREON, 75, GENGAR, 0
 
 LanceData:
-	db $FF, 59, GAVILLAIN, 58, GYARADOS, 58, EXEGGUTOR_A, 60, IGUANARCH, 60, KINGDRA, 62, DRAGONITE, 0
+	db $FF, 59, GAVILLAIN, 58, GYARADOS, 58, KINGDRA, 60, IGUANARCH, 60, AERODACTYL, 62, DRAGONITE, 0
 ; post-game rematch team (currently unused)
-	db $FF, 74, GAVILLAIN, 73, GYARADOS, 73, EXEGGUTOR_A, 75, IGUANARCH, 75, KINGDRA, 77, DRAGONITE, 0
+	db $FF, 74, GAVILLAIN, 73, GYARADOS, 73, EXEGGUTOR_A, 75, KINGDRA, 75, IGUANARCH, 77, DRAGONITE, 0
 
 YujirouData: ; was unused juggler
-	db $FF, 5, COINPUR, 6, RATTATA, 8, LICKITUNG, 0                                             ; 0
-	db $FF, 11, COINPUR, 12, RATTATA, 14, LICKITUNG, 0                                          ; 1
+	db $FF, 5, COINPUR, 6, RATTATA, 8, LICKITUNG, 0                                           ; 0
+	db $FF, 11, COINPUR, 12, RATTATA, 14, LICKITUNG, 0                                        ; 1
 	db $FF, 19, MEOWTH, 18, RATICATE, 19, FARFETCHD, 21, LICKITUNG, 0                         ; 2
-	db $FF, 22, MEOWTH, 21, RATICATE, 21, FARFETCHD, 23, JIGGLYPUFF, 25, LICKITUNG, 0         ; 3
-	db $FF, 29, PERSIAN, 28, RATICATE, 28, LUXWAN, 29, JIGGLYPUFF, 31, LICKITUNG, 0           ; 4
-	db $FF, 38, PERSIAN, 37, RATICATE, 37, LUXWAN, 38, CHANSEY, 40, LICKITUNG, 0,             ; 5
-	db $FF, 41, PERSIAN, 40, TAUROS, 40, LUXWAN, 41, CHANSEY, 43, LICKILICKY, 0               ; 6
-	db $FF, 45, PERSIAN, 44, TAUROS, 44, LUXWAN, 45, CHANSEY, 47, LICKILICKY, 0               ; 7
-	db $FF, 47, PERSIAN, 46, TAUROS, 46, LUXWAN, 48, BLISSEY, 48, SNORLAX, 50, LICKILICKY, 0  ; 8
+	db $FF, 22, MEOWTH, 21, RATICATE, 21, JIGGLYPUFF, 23, FARFETCHD, 25, LICKITUNG, 0         ; 3
+	db $FF, 29, PERSIAN, 28, RATICATE, 28, JIGGLYPUFF, 29, LUXWAN, 31, LICKITUNG, 0           ; 4
+	db $FF, 38, PERSIAN, 37, RATICATE, 37, CHANSEY, 38, LUXWAN, 40, LICKILICKY, 0,            ; 5
+	db $FF, 41, PERSIAN, 40, TAUROS, 40, CHANSEY, 41, LUXWAN, 43, LICKILICKY, 0               ; 6
+	db $FF, 45, PERSIAN, 44, TAUROS, 44, CHANSEY, 45, LUXWAN, 47, LICKILICKY, 0               ; 7
+	db $FF, 47, PERSIAN, 46, TAUROS, 46, BLISSEY, 48, LUXWAN, 48, SNORLAX, 50, LICKILICKY, 0  ; 8
 ; post-game rematch team
-	db $FF, 66, PERSIAN, 65, TAUROS, 66, LUXWAN, 65, BLISSEY, 66, SNORLAX, 69, LICKILICKY, 0
+	db $FF, 66, PERSIAN, 65, TAUROS, 66, BLISSEY, 65, LUXWAN, 66, SNORLAX, 69, LICKILICKY, 0
 
 BlackbeltData:
 ; Koichi parties

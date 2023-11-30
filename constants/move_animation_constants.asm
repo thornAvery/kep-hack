@@ -136,6 +136,7 @@ DEF FIRST_SE_ID EQU const_value
 	const SUBANIM_0_SAFARI_BAIT
 	const SUBANIM_0_STAR_HIGH
 	const SUBANIM_0_FAKE_TEARS
+	const SUBANIM_0_STAR_ASCENDING
 DEF NUM_SUBANIMS EQU const_value
 
 ; types of subanimations

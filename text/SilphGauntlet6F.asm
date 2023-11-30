@@ -1,23 +1,32 @@
 _SilphGauntlet6FBattleText1::
 	text "Congratulations on"
-	line "making it this far!"
+	line "making it!"
 	
-	para "Now, my rock type"
-	line "#MON will pound"
-	cont "you into dust!"
+	para "It's sure been a"
+	line "while since our"
+	cont "last match..."
+	
+	para "My #MON are"
+	line "itching for a"
+	cont "rematch! We'll"
+	cont "pound you into"
+	cont "dust!"
 	done
 
 _SilphGauntlet6FEndBattleText1::
-	text "Crushed again!"
-	done
+	text "Crushed"
+	line "again!"
+	prompt
 
 _SilphGauntlet6FAfterBattleText1::
-	text "The CHIEF has kept"
-	line "the #MON LEAGUE"
+	text "CHIEF has kept the"
+	line "#MON LEAGUE"
 	cont "afloat for years!"
 	
-	para "Comment to be" ; Follow the line with something along the lines of "it's only fair..."
-	line "written."
+	para "It's only fair"
+	line "that we're all"
+	cont "a part of this"
+	cont "GAUNTLET too!"
 	done
 
 _SilphGauntlet6FBattleText2::
@@ -36,8 +45,9 @@ _SilphGauntlet6FBattleText2::
 	done
 
 _SilphGauntlet6FEndBattleText2::
-	text "Eeeek! No!"
-	done
+	text "Eeeek!"
+	line "No way!"
+	prompt
 
 _SilphGauntlet6FAfterBattleText2::
 	text "Tell you what,"
@@ -61,22 +71,21 @@ _SilphGauntlet6FBattleText3::
 	cont "even powered my"
 	cont "plane!"
 	
-	para "The same as I'll"
-	line "do to you!"
+	para "I'll zap you for"
+	line "real this time!"
 	done
 
 _SilphGauntlet6FEndBattleText3::
-	text "Did I call" ; Get this shortened.
-	line "you a pint-sized"
-	cont "challenger?"
+	text "Haha!"
+	line "Pint-sized, eh?"
 	
 	para "I think you're"
 	line "a gallon, now!"
-	done
+	prompt
 
 _SilphGauntlet6FAfterBattleText3::
-	text "Huh? BLAINE? Oh,"
-	line "man!"
+	text "Huh? BLAINE?"
+	line "Oh, man!"
 	
 	para "He won't tell you" ; Referring to Blaine's original design.
 	line "this, but he was"
@@ -91,27 +100,29 @@ _SilphGauntlet6FAfterBattleText3::
 	done
 
 _SilphGauntlet6FBattleText4::
-	text "It takes a lot" ; This sucks can you fix it
-	line "to inspire me,"
-	cont "you know!"
+	text "Lovely to see you"
+	line "again, <PLAYER>."
 	
-	para "I'm not fond of"
-	line "public things,"
-	cont "but..."
+	para "Though this place"
+	line "isn't my style,"
+	cont "I've been hoping"
+	cont "for a rematch for"
+	cont "quite some time."
 	
-	para "Battles are quite"
-	line "different."
+	para "Be careful not to"	; She has Toedscruel now, you WILL spend several turns sleeping.
+	line "let your #MON"
+	cont "grow drowsy..."
 	done
 
 _SilphGauntlet6FEndBattleText4::
 	text "You have"
 	line "grown even"
 	cont "stronger..."
-	done
+	prompt
 
 _SilphGauntlet6FAfterBattleText4::
 	text "Hmm? How did I"
-	line "become a TRAINER?"
+	line "become a trainer?"
 	cont "It's quite odd,"
 	cont "isn't it?"
 	
@@ -148,9 +159,9 @@ _SilphGauntlet6FAfterBattleText4::
 _SilphGauntlet6FBattleText5::
 	text "Fwahahaha!"
 	
-	para "I have honed"
-	line "my skills just"
-	cont "for you, <PLAYER>!"
+	para "I have honed my"
+	line "skills just for"
+	cont "you, <PLAYER>!"
 	
 	para "Can you keep up?"
 	done
@@ -158,18 +169,17 @@ _SilphGauntlet6FBattleText5::
 _SilphGauntlet6FEndBattleText5::
 	text "Indeed!"
 	line "Indeed you can!"
-	done
+	prompt
 
 _SilphGauntlet6FAfterBattleText5::
-	text "I feel that I"
+	text "I feel that I may"
 	line "have outgrown"
 	cont "my roots."
 	
-	para "To train, I"
-	line "watch over the"
-	cont "SAFARI ZONE,"
-	cont "but I must aim"
-	cont "higher!"
+	para "To train, I watch"
+	line "over the SAFARI"
+	cont "ZONE, but I must"
+	cont "aim higher!"
 	
 	para "Perhaps it is"
 	line "time for my"
@@ -178,9 +188,9 @@ _SilphGauntlet6FAfterBattleText5::
 	done
 
 _SilphGauntlet6FBattleText6::
-	text "After beating"
+	text "After defeating"
 	line "the KARATE KING,"
-	cont "I felt nigh"
+	cont "I felt nigh-"
 	cont "unstoppable..."
 	
 	para "But you humbled"
@@ -193,20 +203,20 @@ _SilphGauntlet6FEndBattleText6::
 	text "I wanted"
 	line "to fight fate,"
 	cont "but..."
-	done
+	prompt
 
 _SilphGauntlet6FAfterBattleText6::
-	text "It's impossible" ; This is kind of incoherent, could easily be fixed.
-	line "for me to change"
-	cont "my future."
+	text "Was the future" ; HGSS quote
+	line "I saw...wrong?"
 
-	para "Looking into my"
-	line "own, though..."
+	para "Perhaps my future"
+	line "isn't so easily"
+	cont "predictable."
 	
-	para "A movie star?"
-	
-	para "That would be"
-	line "good..."
+	para "I wonder if I'll"
+	line "ever meet another"
+	cont "trainer like you"
+	cont "again..."
 	done
 	
 _SilphGauntlet6FBattleText7::
@@ -219,19 +229,19 @@ _SilphGauntlet6FBattleText7::
 	
 	para "Now..."
 	
-	para "When I fight hard,"
-	line "I get a little hot"
-	cont "under the collar." ; Puzzle League
+	para "BURN HEAL won't"	; reference to his iconic 'better have BURN HEAL!' line
+	line "be enough this"
+	cont "time around!"
 	
-	para "Think you can take"
-	line "me?"
+	para "Hope you packed"
+	line "a FULL RESTORE!"
 	done
 
 _SilphGauntlet6FEndBattleText7::
 	text "Whoa, hey!" ; Gen 5 quote
 	line "I'm a raging"
 	cont "inferno!"
-	done
+	prompt
 
 _SilphGauntlet6FAfterBattleText7::
 	text "The war? I don't"

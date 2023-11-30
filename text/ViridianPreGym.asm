@@ -65,7 +65,7 @@ _YujirouAfterBattleText2::
 	para "..."
 	
 	para "I had all the"
-	line "best normal-"
+	line "best NORMAL-"
 	cont "type #MON."
 	
 	para "Maybe it's me?"
@@ -75,7 +75,7 @@ _YujirouAfterBattleText2::
 _ViridianPreGymBattleText1::
 	text "Did you know that"
 	line "the best #MON"
-	cont "are normal-type?"
+	cont "are NORMAL-type?"
 	done
 
 _ViridianPreGymEndBattleText1::

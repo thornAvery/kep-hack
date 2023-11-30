@@ -21,60 +21,60 @@ DEF SHOW EQU $15
 	const HS_CERULEAN_GUARD_1              ; 07
 	const HS_CERULEAN_CAVE_GUY             ; 08
 	const HS_CERULEAN_GUARD_2              ; 09
-	const HS_VERMILION_JENNY
-	const HS_SAFFRON_CITY_1                ; 0A
-	const HS_SAFFRON_CITY_2                ; 0B
-	const HS_SAFFRON_CITY_3                ; 0C
-	const HS_SAFFRON_CITY_4                ; 0D
-	const HS_SAFFRON_CITY_5                ; 0E
-	const HS_SAFFRON_CITY_6                ; 0F
-	const HS_SAFFRON_CITY_7                ; 10
-	const HS_SAFFRON_CITY_8                ; 11
-	const HS_SAFFRON_CITY_9                ; 12
-	const HS_SAFFRON_CITY_A                ; 13
-	const HS_SAFFRON_CITY_B                ; 14
-	const HS_SAFFRON_CITY_C                ; 15
-	const HS_SAFFRON_CITY_D                ; 16
-	const HS_SAFFRON_CITY_E                ; 17
-	const HS_SAFFRON_CITY_F                ; 18
-	const HS_ROUTE_1_OAK                   ; 19
-	const HS_ROUTE_2_ITEM_1                ; 1A X
-	const HS_ROUTE_2_ITEM_2                ; 1B X
-	const HS_ROUTE_4_ITEM                  ; 1C X
-	const HS_ROUTE_9_ITEM                  ; 1D X
-	const HS_ROUTE_12_SNORLAX              ; 1E
-	const HS_ROUTE_12_ITEM_1               ; 1F X
-	const HS_ROUTE_12_ITEM_2               ; 20 X
-	const HS_ROUTE_15_ITEM                 ; 21 X
-	const HS_ROUTE_16_SNORLAX              ; 22
-	const HS_ROUTE_22_RIVAL_1              ; 23
-	const HS_ROUTE_22_RIVAL_2              ; 24
-	const HS_NUGGET_BRIDGE_GUY             ; 25
-	const HS_ROUTE_24_ITEM                 ; 26 X
-	const HS_DAMIEN
-	const HS_ROUTE_25_ITEM                 ; 27 X
-	const HS_CACTUS                        ; 28
-	const HS_BRUNSWICK_ZAPDOS_G_1          ; 29
-	const HS_DAISY_SITTING                 ; 2A
-	const HS_DAISY_WALKING                 ; 2B
-	const HS_TOWN_MAP                      ; 2C
-	const HS_OAKS_LAB_RIVAL                ; 2D
-	const HS_STARTER_BALL_1                ; 2E
-	const HS_STARTER_BALL_2                ; 2F
-	const HS_STARTER_BALL_3                ; 30
-	const HS_OAKS_LAB_OAK_1                ; 31
-	const HS_STARTER_BALL_4                ; 32, was dex, pikachu
-	const HS_STARTER_BALL_5                ; 33, was dex, eevee
-	const HS_OAKS_LAB_OAK_2                ; 34
-	const HS_VIRIDIAN_GYM_GIOVANNI         ; 35
-	const HS_VIRIDIAN_GYM_ITEM             ; 36 X
-	const HS_OLD_AMBER                     ; 37
-	const HS_CERULEAN_CAVE_1F_ITEM_1       ; 38 X
-	const HS_CERULEAN_CAVE_1F_ITEM_2       ; 39 X
-	const HS_CERULEAN_CAVE_1F_ITEM_3       ; 3A X
+	const HS_VERMILION_JENNY               ; 0A
+	const HS_SAFFRON_CITY_1                ; 0B
+	const HS_SAFFRON_CITY_2                ; 0C
+	const HS_SAFFRON_CITY_3                ; 0D
+	const HS_SAFFRON_CITY_4                ; 0E
+	const HS_SAFFRON_CITY_5                ; 0F
+	const HS_SAFFRON_CITY_6                ; 10
+	const HS_SAFFRON_CITY_7                ; 11
+	const HS_SAFFRON_CITY_8                ; 12
+	const HS_SAFFRON_CITY_9                ; 13
+	const HS_SAFFRON_CITY_A                ; 14
+	const HS_SAFFRON_CITY_B                ; 15
+	const HS_SAFFRON_CITY_C                ; 16
+	const HS_SAFFRON_CITY_D                ; 17
+	const HS_SAFFRON_CITY_E                ; 18
+	const HS_SAFFRON_CITY_F                ; 19
+	const HS_ROUTE_1_OAK                   ; 1A
+	const HS_ROUTE_2_ITEM_1                ; 1B X
+	const HS_ROUTE_2_ITEM_2                ; 1C X
+	const HS_ROUTE_4_ITEM                  ; 1D X
+	const HS_ROUTE_9_ITEM                  ; 1E X
+	const HS_ROUTE_12_SNORLAX              ; 1F
+	const HS_ROUTE_12_ITEM_1               ; 20 X
+	const HS_ROUTE_12_ITEM_2               ; 21 X
+	const HS_ROUTE_15_ITEM                 ; 22 X
+	const HS_ROUTE_16_SNORLAX              ; 23
+	const HS_ROUTE_22_RIVAL_1              ; 24
+	const HS_ROUTE_22_RIVAL_2              ; 25
+	const HS_NUGGET_BRIDGE_GUY             ; 26
+	const HS_ROUTE_24_ITEM                 ; 27 X
+	const HS_DAMIEN                        ; 28
+	const HS_ROUTE_25_ITEM                 ; 29 X
+	const HS_CACTUS                        ; 2A
+	const HS_BRUNSWICK_ZAPDOS_G_1          ; 2B
+	const HS_DAISY_SITTING                 ; 2C
+	const HS_DAISY_WALKING                 ; 2D
+	const HS_TOWN_MAP                      ; 2E
+	const HS_OAKS_LAB_RIVAL                ; 2F
+	const HS_STARTER_BALL_1                ; 30
+	const HS_STARTER_BALL_2                ; 31
+	const HS_STARTER_BALL_3                ; 32
+	const HS_OAKS_LAB_OAK_1                ; 33
+	const HS_STARTER_BALL_4                ; 34, was dex, pikachu
+	const HS_STARTER_BALL_5                ; 35, was dex, eevee
+	const HS_OAKS_LAB_OAK_2                ; 36
+	const HS_VIRIDIAN_GYM_GIOVANNI         ; 37
+	const HS_VIRIDIAN_GYM_ITEM             ; 38 X
+	const HS_OLD_AMBER                     ; 39
+	const HS_CERULEAN_CAVE_1F_ITEM_1       ; 3A X
+	const HS_CERULEAN_CAVE_1F_ITEM_2       ; 3B X
+	const HS_CERULEAN_CAVE_1F_ITEM_3       ; 3C X
 	const HS_MOLTRES_G                     ; 3D X
 	const HS_POKEMON_TOWER_2F_RIVAL        ; 3E
-	const HS_BRUNSWICK_ZAPDOS_G_2          ; 3F, was const HS_POKEMON_TOWER_3F_ITEM
+	const HS_BRUNSWICK_ZAPDOS_G_2          ; 3F
 	const HS_POKEMON_TOWER_5F_ITEM         ; 40 X
 	const HS_POKEMON_TOWER_6F_ITEM_1       ; 41 X
 	const HS_POKEMON_TOWER_6F_ITEM_2       ; 42 X
@@ -164,92 +164,92 @@ DEF SHOW EQU $15
 	const HS_SILPH_CO_3F_1                 ; 97
 	const HS_SILPH_CO_3F_2                 ; 98
 	const HS_SILPH_CO_3F_ITEM              ; 99 X
-
-	const HS_SILPH_CO_5F_1                 ; A0
-	const HS_SILPH_CO_5F_2                 ; A1
-	const HS_SILPH_CO_5F_3                 ; A2
-	const HS_SILPH_CO_5F_4                 ; A3
-	const HS_SILPH_CO_5F_ITEM_1            ; A4 X
-	const HS_SILPH_CO_5F_ITEM_2            ; A5 X
-	const HS_SILPH_CO_5F_ITEM_3            ; A6 X
-
-	const HS_SILPH_CO_7F_1                 ; AC
-	const HS_SILPH_CO_7F_2                 ; AE
-	const HS_SILPH_CO_7F_3                 ; AF
-	const HS_SILPH_CO_7F_4                 ; B0
-	const HS_SILPH_CO_7F_RIVAL             ; B1
-	const HS_SILPH_CO_7F_ITEM_1            ; B2 X
-	const HS_SILPH_CO_7F_ITEM_2            ; B3	X
-	const HS_SILPH_CO_10F_1                ; B7
-	const HS_SILPH_CO_10F_2                ; B8
-	const HS_SILPH_CO_10F_ITEM_1           ; B9 X
-	const HS_SILPH_CO_10F_ITEM_2           ; BA X best deck
-	const HS_SILPH_CO_10F_ITEM_3           ; BB X
-	const HS_SILPH_CO_11F_1                ; BC
-	const HS_SILPH_CO_11F_JAMES            ; BD
-	const HS_SILPH_CO_11F_3                ; BE
-	const HS_SILPH_CO_11F_JESSIE           ; BD
-	const HS_OMEGA                         ; BF
-	const HS_OMEGA_2
-	const HS_DRAGONITE                     ; C0
-	const HS_MOLTRES                       ; C1
-	const HS_POKEMON_MANSION_2F_ITEM       ; C2 X
-	const HS_POKEMON_MANSION_3F_ITEM_1     ; C3 X
-	const HS_POKEMON_MANSION_3F_ITEM_2     ; C4 X
-	const HS_POKEMON_MANSION_B1F_ITEM_1    ; C5 X
-	const HS_POKEMON_MANSION_B1F_ITEM_2    ; C6 X
-	const HS_POKEMON_MANSION_B1F_ITEM_3    ; C7 X
-	const HS_POKEMON_MANSION_B1F_ITEM_4    ; C8 X
-	const HS_POKEMON_MANSION_B1F_ITEM_5    ; C9 X
-	const HS_MANSION_GUARD                 ; CA
-	const HS_SAFARI_ZONE_EAST_ITEM_1       ; CB X
-	const HS_SAFARI_ZONE_EAST_ITEM_2       ; CC X
-	const HS_SAFARI_ZONE_EAST_ITEM_3       ; CD X
-	const HS_SAFARI_ZONE_EAST_ITEM_4       ; CE X
-	const HS_SAFARI_ZONE_NORTH_ITEM_1      ; CF X
-	const HS_SAFARI_ZONE_NORTH_ITEM_2      ; D0 X
-	const HS_SAFARI_ZONE_WEST_ITEM_1       ; D1 X
-	const HS_SAFARI_ZONE_WEST_ITEM_2       ; D2 X
-	const HS_SAFARI_ZONE_WEST_ITEM_3       ; D3 X
-	const HS_SAFARI_ZONE_WEST_ITEM_4       ; D4 X
-	const HS_SAFARI_ZONE_CENTER_ITEM       ; D5 X
-	const HS_CERULEAN_CAVE_2F_ITEM_1       ; D6 X
-	const HS_CERULEAN_CAVE_2F_ITEM_2       ; D7 X
-	const HS_CERULEAN_CAVE_2F_ITEM_3       ; D8 X
-	const HS_MEWTWO                        ; D9 X
-	const HS_CERULEAN_CAVE_B1F_ITEM_1      ; DA X
-	const HS_CERULEAN_CAVE_B1F_ITEM_2      ; DB X
-	const HS_VICTORY_ROAD_1F_ITEM_1        ; DC X
-	const HS_VICTORY_ROAD_1F_ITEM_2        ; DE X
-	const HS_CHAMPIONS_ROOM_OAK            ; DF
-	const HS_SEAFOAM_ISLANDS_1F_BOULDER_1  ; E0
-	const HS_SEAFOAM_ISLANDS_1F_BOULDER_2  ; E1
-	const HS_SEAFOAM_ISLANDS_B1F_BOULDER_1 ; E2
-	const HS_SEAFOAM_ISLANDS_B1F_BOULDER_2 ; E3
-	const HS_SEAFOAM_ISLANDS_B2F_BOULDER_1 ; E4
-	const HS_SEAFOAM_ISLANDS_B2F_BOULDER_2 ; E5
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_1 ; E6
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_2 ; E7
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_3 ; E8
-	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_4 ; E9
-	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; EA sports. to the game.
-	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; EB
-	const HS_ARTICUNO                      ; EC
-	const HS_MEW                           ; ED
-	const HS_POKEMON_MANSION_B2F_ITEM_1    ; EE
-	const HS_POKEMON_MANSION_B2F_ITEM_2    ; EF
-	const HS_MT_MOON_CRATER_ITEM_1         ; F1
-	const HS_MT_MOON_CRATER_ITEM_2         ; F2
-	const HS_MT_MOON_CRATER_ITEM_3         ; F3
-	const HS_GIOVANNIS_ROOM_ITEM_1         ; F4
-	const HS_GIOVANNIS_ROOM_ITEM_2         ; F5
-	const HS_ROCK_TUNNEL_B1F_DOME          ; F6
-	const HS_ROCK_TUNNEL_B1F_HELIX         ; F7
-	const HS_ROCK_TUNNEL_B1F_AMBER         ; F8
-	const HS_ROCK_TUNNEL_B1F_WING          ; F9
-	const HS_MT_MOON_CRATER_GUARD          ; FA
-	const HS_DAYCARE_BULBASAUR             ; FB should be FD
-	const HS_GLADE_GZAP_1
-	const HS_GLADE_GZAP_2
-	const HS_GLADE_GZAP_3 ; we're at 250
-DEF NUM_HS_OBJECTS EQU const_value
+	const HS_SILPH_CO_5F_1                 ; 9A
+	const HS_SILPH_CO_5F_2                 ; 9B
+	const HS_SILPH_CO_5F_3                 ; 9C
+	const HS_SILPH_CO_5F_4                 ; 9D
+	const HS_SILPH_CO_5F_ITEM_1            ; 9E X
+	const HS_SILPH_CO_5F_ITEM_2            ; 9F X
+	const HS_SILPH_CO_5F_ITEM_3            ; A0 X
+	const HS_SILPH_CO_7F_1                 ; A1
+	const HS_SILPH_CO_7F_2                 ; A2
+	const HS_SILPH_CO_7F_3                 ; A3
+	const HS_SILPH_CO_7F_4                 ; A4
+	const HS_SILPH_CO_7F_RIVAL             ; A5
+	const HS_SILPH_CO_7F_ITEM_1            ; A6 X
+	const HS_SILPH_CO_7F_ITEM_2            ; A7	X
+	const HS_SILPH_CO_10F_1                ; A8
+	const HS_SILPH_CO_10F_2                ; A9
+	const HS_SILPH_CO_10F_ITEM_1           ; AA X
+	const HS_SILPH_CO_10F_ITEM_2           ; AB X
+	const HS_SILPH_CO_10F_ITEM_3           ; AC X
+	const HS_SILPH_CO_11F_1                ; AD
+	const HS_SILPH_CO_11F_JAMES            ; AE
+	const HS_SILPH_CO_11F_3                ; AF
+	const HS_SILPH_CO_11F_JESSIE           ; B0
+	const HS_OMEGA                         ; B1
+	const HS_OMEGA_2                       ; B2
+	const HS_DRAGONITE                     ; B3
+	const HS_MOLTRES                       ; B4
+	const HS_POKEMON_MANSION_2F_ITEM       ; B5 X
+	const HS_POKEMON_MANSION_3F_ITEM_1     ; B6 X
+	const HS_POKEMON_MANSION_3F_ITEM_2     ; B7 X
+	const HS_POKEMON_MANSION_B1F_ITEM_1    ; B8 X
+	const HS_POKEMON_MANSION_B1F_ITEM_2    ; B9 X
+	const HS_POKEMON_MANSION_B1F_ITEM_3    ; BA X
+	const HS_POKEMON_MANSION_B1F_ITEM_4    ; BB X
+	const HS_POKEMON_MANSION_B1F_ITEM_5    ; BC X
+	const HS_MANSION_GUARD                 ; BD
+	const HS_SAFARI_ZONE_EAST_ITEM_1       ; BE X
+	const HS_SAFARI_ZONE_EAST_ITEM_2       ; BF X
+	const HS_SAFARI_ZONE_EAST_ITEM_3       ; C0 X
+	const HS_SAFARI_ZONE_EAST_ITEM_4       ; C1 X
+	const HS_SAFARI_ZONE_NORTH_ITEM_1      ; C2 X
+	const HS_SAFARI_ZONE_NORTH_ITEM_2      ; C3 X
+	const HS_SAFARI_ZONE_WEST_ITEM_1       ; C4 X
+	const HS_SAFARI_ZONE_WEST_ITEM_2       ; C5 X
+	const HS_SAFARI_ZONE_WEST_ITEM_3       ; C6 X
+	const HS_SAFARI_ZONE_WEST_ITEM_4       ; C7 X
+	const HS_SAFARI_ZONE_CENTER_ITEM       ; C8 X
+	const HS_CERULEAN_CAVE_2F_ITEM_1       ; C9 X
+	const HS_CERULEAN_CAVE_2F_ITEM_2       ; CA X
+	const HS_CERULEAN_CAVE_2F_ITEM_3       ; CB X
+	const HS_MEWTWO                        ; CC X
+	const HS_CERULEAN_CAVE_B1F_ITEM_1      ; CD X
+	const HS_CERULEAN_CAVE_B1F_ITEM_2      ; CE X
+	const HS_VICTORY_ROAD_1F_ITEM_1        ; CF X
+	const HS_VICTORY_ROAD_1F_ITEM_2        ; D0 X
+	const HS_CHAMPIONS_ROOM_OAK            ; D1
+	const HS_SEAFOAM_ISLANDS_1F_BOULDER_1  ; D2
+	const HS_SEAFOAM_ISLANDS_1F_BOULDER_2  ; D3
+	const HS_SEAFOAM_ISLANDS_B1F_BOULDER_1 ; D4
+	const HS_SEAFOAM_ISLANDS_B1F_BOULDER_2 ; D5
+	const HS_SEAFOAM_ISLANDS_B2F_BOULDER_1 ; D6
+	const HS_SEAFOAM_ISLANDS_B2F_BOULDER_2 ; D7
+	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_1 ; D8
+	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_2 ; D9
+	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_3 ; DA
+	const HS_SEAFOAM_ISLANDS_B3F_BOULDER_4 ; DB
+	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; DC
+	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; DD
+	const HS_ARTICUNO                      ; DE
+	const HS_MEW                           ; DF
+	const HS_POKEMON_MANSION_B2F_ITEM_1    ; E0
+	const HS_POKEMON_MANSION_B2F_ITEM_2    ; E1
+	const HS_MT_MOON_CRATER_ITEM_1         ; E2
+	const HS_MT_MOON_CRATER_ITEM_2         ; E3
+	const HS_MT_MOON_CRATER_ITEM_3         ; E4
+	const HS_MT_MOON_CRATER_ITEM_4         ; E5
+	const HS_GIOVANNIS_ROOM_ITEM_1         ; E6
+	const HS_GIOVANNIS_ROOM_ITEM_2         ; E7
+	const HS_ROCK_TUNNEL_B1F_DOME          ; E8
+	const HS_ROCK_TUNNEL_B1F_HELIX         ; E9
+	const HS_ROCK_TUNNEL_B1F_AMBER         ; EA sports. to the game.
+	const HS_ROCK_TUNNEL_B1F_WING          ; EB
+	const HS_MT_MOON_CRATER_GUARD          ; EC
+	const HS_DAYCARE_BULBASAUR             ; ED
+	const HS_GLADE_GZAP_1                  ; EE
+	const HS_GLADE_GZAP_2                  ; EF
+	const HS_GLADE_GZAP_3                  ; F0
+	const HS_CINNABAR_VOLCANO_FLOORS_ITEM  ; F1
+DEF NUM_HS_OBJECTS EQU const_value         ; F2 - FE all go unused.

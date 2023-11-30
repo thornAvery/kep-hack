@@ -15,12 +15,15 @@ TilePairCollisionsLand::
 	db FOREST, $20, $2E
 	db FOREST, $5E, $2E
 	db FOREST, $5F, $2E
+	db CAVERN, $20, $38
 	db -1 ; end
 
 TilePairCollisionsWater::
 	db FOREST, $14, $2E
 	db FOREST, $48, $2E
 	db CAVERN, $14, $05
-	db GYM	 , $14, $32	;prevent surfing into statue base tile ($32) from water tile ($14)
-	db GYM	 , $14, $33 ;prevent surfing into statue base tile ($33) from water tile ($14)
+	db CAVERN, $14, $32
+	db CAVERN, $14, $38
+	db GYM, $14, $32 ;prevent surfing into statue base tile ($32) from water tile ($14)
+	db GYM, $14, $33 ;prevent surfing into statue base tile ($33) from water tile ($14)
 	db -1 ; end

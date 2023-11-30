@@ -47,7 +47,7 @@ Interior_Coll::
 	coll_tiles $04, $0f, $15, $1f, $3b, $45, $47, $55, $56
 
 Cavern_Coll::
-	coll_tiles $05, $15, $18, $1a, $20, $21, $22, $2a, $2d, $30
+	coll_tiles $05, $15, $18, $1a, $20, $21, $22, $2a, $2d, $30, $38
 
 Lobby_Coll::
 	coll_tiles $14, $17, $1a, $1c, $20, $38, $45
@@ -55,6 +55,7 @@ Lobby_Coll::
 Mansion_Coll::
 	coll_tiles $01, $05, $11, $12, $14, $1a, $1c, $2c, $53
 
+FossilLab_Coll:: ; It has the same tileset except the trees are the fossil machine, so...
 Lab_Coll::
 	coll_tiles $0c, $26, $16, $1e, $34, $37
 
@@ -84,3 +85,6 @@ BetaMart_Coll::
 
 Jacky_Coll::
 	coll_tiles $01, $40, $11, $04, $14, $02, $03, $13, $12, 
+
+SeagallopPort_Coll::
+	coll_tiles $1C, $0E, $1E

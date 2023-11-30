@@ -3,13 +3,13 @@ Route5WildMons:
 	db 13, ODDISH
 	db 13, EKANS
 	db 15, EKANS
-	db 10, MANKEY
+	db 14, MANKEY
 	db 12, JIGGLYPUFF
 	db 15, BELLSPROUT
 	db 16, BELLSPROUT
 	db 15, PIDGEY
+	db 14, PIDGEY
 	db 14, JIGGLYPUFF
-	db 16, PIDGEOTTO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

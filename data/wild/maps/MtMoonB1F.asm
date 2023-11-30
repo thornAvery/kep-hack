@@ -4,7 +4,7 @@ MtMoonB1FWildMons:
 	db  9, BITTYBAT
 	db  7, GEODUDE
 	db  8, GEODUDE
-	db  9, GEODUDE
+	db  9, SANDSHREW
 	db  9, PARAS
 	db 10, BITTYBAT
 	db  9, SANDSHREW

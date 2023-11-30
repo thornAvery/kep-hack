@@ -184,6 +184,8 @@ AttackAnimationPointers:
 	dw KowtowCleaveAnim
 	dw DisarmingVoiceAnim
 	dw NastyPlotAnim
+	dw UppercutAnim
+	dw PowderSnowAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -259,6 +261,10 @@ StruggleAnim:
 
 KarateChopAnim:
 	battle_anim KARATE_CHOP, SUBANIM_0_STAR_DESCENDING, 0, 8
+	db -1 ; end
+
+UppercutAnim:
+	battle_anim UPPERCUT, SUBANIM_0_STAR_ASCENDING, 0, 8
 	db -1 ; end
 
 DoubleSlapAnim:
@@ -557,6 +563,11 @@ SurfAnim:
 
 IceBeamAnim:
 	battle_anim ICE_BEAM, SUBANIM_0_BEAM, 0, 3
+	battle_anim NO_MOVE, SUBANIM_0_ICE_RISE, 0, 16
+	db -1 ; end
+
+PowderSnowAnim:
+	battle_anim BLIZZARD, SUBANIM_0_CIRCLES_FALLING, 0, 6
 	battle_anim NO_MOVE, SUBANIM_0_ICE_RISE, 0, 16
 	db -1 ; end
 

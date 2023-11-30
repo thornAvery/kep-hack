@@ -12,5 +12,6 @@ SilphCo1F_Object:
 
 	def_object_events
 	object_event  4,  2, SPRITE_LINK_RECEPTIONIST, STAY, DOWN, 1 ; person
+	object_event 14,  3, SPRITE_LINK_RECEPTIONIST, STAY, RIGHT, 2 ; person
 
 	def_warps_to SILPH_CO_1F

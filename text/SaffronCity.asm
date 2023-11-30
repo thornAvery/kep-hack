@@ -153,7 +153,7 @@ _UpGradePreReceiveText::
 	cont "those TEAM"
 	cont "ROCKET thugs?"
 	
-	text "Thank you so"
+	para "Thank you so"
 	line "much! Here,"
 	cont "take this!"
 	prompt

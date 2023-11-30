@@ -10,15 +10,6 @@ PokemonMansionB2F_TextPointers:
 	dw B2FBook2
 	dw PickUpItemText
 	dw PickUpItemText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
-	dw BoulderText
 	dw B2FPicture
 	dw B2FTrioPods
 	dw B2FTrioPods

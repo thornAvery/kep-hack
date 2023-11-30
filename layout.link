@@ -140,12 +140,12 @@ ROMX $1D
 	"Maps 19"
 	"Itemfinder 1"
 	"Maps 20"
-	"Vending Machine"
 	"Maps 21"
 	"Itemfinder 2"
 ROMX $1E
 	"bank1E"
 ROMX $1F
+	"Vending Machine"
 	"Sound Effect Headers 3"
 ;	"Music Headers 3"
 	"Sound Effects 3"

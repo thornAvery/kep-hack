@@ -195,5 +195,7 @@ Moves:
 	move KOWTOW_CLEAVE,   SWIFT_EFFECT,             85, DARK,         100, 10
 	move DISARMING_VOICE, SWIFT_EFFECT,             40, FAIRY,        100, 10
 	move NASTY_PLOT,      SPECIAL_UP2_EFFECT,        0, DARK,         100, 10
+	move UPPERCUT,     FLINCH_SIDE_EFFECT2,         55, FIGHTING,      80, 15
+	move POWDER_SNOW,     FREEZE_SIDE_EFFECT,         40, ICE,      100, 25
 	move STRUGGLE,        RECOIL_EFFECT,            50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

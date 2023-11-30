@@ -131,7 +131,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SILPH_GAUNTLET_2F,             13, 10 ; $6C	- Was UNUSED_MAP_6A
 	map_const SILPH_GAUNTLET_3F,             17, 13 ; $6D	- Was UNUSED_MAP_6B
 	map_const VICTORY_ROAD_1F,               10,  9 ; $6E
-	map_const SILPH_GAUNTLET_4F,             10,  9 ; $6F	- Was UNUSED_MAP_6D
+	map_const BRUNSWICK_GROTTO,              15, 12 ; $6F	- Was UNUSED_MAP_6D
 	map_const SILPH_GAUNTLET_5F,             10,  9 ; $70	- Was UNUSED_MAP_6E
 	map_const SILPH_GAUNTLET_6F,             12, 12 ; $71	- Was UNUSED_MAP_6F
 	map_const SILPH_GAUNTLET_7F,              6,  5 ; $72	- Was UNUSED_MAP_70
@@ -166,9 +166,9 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const LAVENDER_POKECENTER,            7,  4 ; $8F
 	map_const POKEMON_TOWER_1F,              10,  9 ; $90
 	map_const POKEMON_TOWER_2F,              10,  9 ; $91
-	map_const BRUNSWICK_GROTTO,              15, 12 ; $92	- Was Pokemon Tower 3F
+	map_const SILPH_GAUNTLET_4F,             10,  9 ; $92	- Was Pokemon Tower 3F
 	map_const CELESTE_HILL_GATE,              5,  4 ; $93	- Was Pokemon Tower 4F
-	map_const POKEMON_TOWER_5F,              10,  9 ; $94	- Currently unused
+	map_const POKEMON_TOWER_5F,              10,  9 ; $94
 	map_const POKEMON_TOWER_6F,              10,  9 ; $95
 	map_const POKEMON_TOWER_7F,              10,  9 ; $96
 	map_const MR_FUJIS_HOUSE,                 4,  4 ; $97
@@ -252,28 +252,28 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const NAME_RATERS_HOUSE,              4,  4 ; $E6
 	map_const CERULEAN_BADGE_HOUSE,           4,  4 ; $E7
 	map_const CINNABAR_VOLCANO,              14, 12 ; $E8	- Was UNUSED_MAP_E7
-	map_const CINNABAR_VOLCANO_FLOORS,       20, 20 ; $F8	- Switched with ROCK_TUNNEL_B1F
-	map_const SILPH_CO_9F,                   13,  9 ; $EA
-	map_const SILPH_CO_10F,                   8,  9 ; $EB
+	map_const CINNABAR_VOLCANO_FLOORS,       20, 20 ; $E9	- Switched with ROCK_TUNNEL_B1F
+	map_const SILPH_CO_9F,                   13,  9 ; $EA	(now goes unused)
+	map_const SILPH_CO_10F,                   8,  9 ; $EB	(now goes unused)
 	map_const SILPH_CO_11F,                   9,  9 ; $EC
-	map_const SILPH_CO_ELEVATOR,              2,  2 ; $ED
+	map_const FARAWAY_FERRY_DOCK,            14,  6 ; $ED	- was SILPH_CO_ELEVATOR
 	map_const GARNET_CAVERN_2F,              15,  9 ; $EE	- was UNUSED_MAP_ED
 	map_const UNDERWATER_TUNNEL,             15,  9 ; $EF	- Was UNUSED_MAP_EE
 	map_const TRADE_CENTER,                   5,  4 ; $F0
 	map_const COLOSSEUM,                      5,  4 ; $F1
 	map_const CELADON_UNIVERSITY_INSIDE,     11, 10 ; $F2	- Was UNUSED_MAP_F1
 	map_const CELADON_UNIVERSITY_POKECENTER,  7,  4 ; $F3	- Was UNUSED_MAP_F2
-	map_const LORELEIS_ROOM,                  5,  6 ; $F5
-	map_const BRUNOS_ROOM,                    5,  6 ; $F6
-	map_const AGATHAS_ROOM,                   5,  6 ; $F7
-	map_const ROCK_TUNNEL_B1F,               20, 18 ; $F8	- Switched with CINNABAR_VOLCANO_FLOORS
-	map_const GIOVANNIS_ROOM,                11, 14 ; $F9
-	map_const BATTLE_TENT,                    5, 10 ; $FA
-	map_const MT_MOON_SQUARE,                13,  7 ; $FB
-	map_const MT_MOON_SQUARE_HOUSE,           4,  4 ; $FC
-	map_const CELESTE_HILL_CAVE,	         20, 18 ; $FD
-	map_const CELESTE_HILL_OUTSIDE,	         20, 18 ; $FE
-	map_const BRUNSWICK_GLADE,				 19, 20 ; $FE should be this, i cut silph 8f before this but never updated the $s.
+	map_const LORELEIS_ROOM,                  5,  6 ; $F4
+	map_const BRUNOS_ROOM,                    5,  6 ; $F5
+	map_const AGATHAS_ROOM,                   5,  6 ; $F6
+	map_const ROCK_TUNNEL_B1F,               20, 18 ; $F7	- Switched with CINNABAR_VOLCANO_FLOORS
+	map_const GIOVANNIS_ROOM,                11, 14 ; $F8
+	map_const BATTLE_TENT,                    5, 10 ; $F9
+	map_const MT_MOON_SQUARE,                13,  7 ; $FA
+	map_const MT_MOON_SQUARE_HOUSE,           4,  4 ; $FB
+	map_const CELESTE_HILL_CAVE,	         20, 18 ; $FC
+	map_const CELESTE_HILL_OUTSIDE,	         20, 18 ; $FD
+	map_const BRUNSWICK_GLADE,		 19, 20 ; $FE
 DEF NUM_MAPS EQU const_value
 
 ; Indoor maps, such as houses, use this as the Map ID in their exit warps

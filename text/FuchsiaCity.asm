@@ -118,6 +118,49 @@ _FuchsiaCityText_19b2a::
 	text "..."
 	done
 
+_SafariBallSalesmanText1::
+	text "SALESMAN: Shh!"
+	line "Hey, keep this"
+	cont "quiet, would ya?"
+	cont "I managed to"
+	cont "sneak a couple"
+	cont "SAFARI BALLs"
+	cont "out!"
+
+	para "Wanna take some"
+	line "off my hands?"
+	cont "It'll cost you"
+	cont "¥2400 for 3, but"
+	cont "think about it!"
+
+	para "You won't find"
+	line "these anywhere"
+	cont "else!"	
+	done
+
+_SafariBallSalesmanNoText::
+	text "C'mon, they're"
+	line "totally genuine!"
+	cont "Don't you trust"
+	cont "me?"
+	done
+
+_SafariBallSalesmanNoMoneyText::
+	text "Not enough money?"
+	line "Sorry, kid! Paint"
+	cont "isn't cheap, you"
+	cont "know!"
+
+	para "...Wait, forget"
+	line "I said anything!"
+	done
+
+_SafariBallBagFull::
+	text "Whoa now! Can't"
+	line "give you these"
+	cont "when your bag's"
+	cont "that full!"
+
 _ReceivedTM50Text::
 	text "<PLAYER> received"
 	line "@"

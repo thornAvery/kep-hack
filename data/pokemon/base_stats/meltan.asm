@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  spc
 
 	db STEEL, STEEL ; type
-	db 3 ; catch rate
+	db 45 ; catch rate
 	db 131 ; base exp
 
 	INCBIN "gfx/pokemon/front/meltan.pic", 0, 1 ; sprite dimensions

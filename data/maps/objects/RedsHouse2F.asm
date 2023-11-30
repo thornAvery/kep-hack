@@ -12,6 +12,7 @@ RedsHouse2F_Object:
 	;warp_event	 5,  1, GARNET_CAVERN_B1F, 1 ; Test GCuno
 	;warp_event	 5,  1, FARAWAY_ISLAND_INSIDE, 1 ; Test Mew
 	;warp_event	 5,  1, GIOVANNIS_ROOM, 1 ; Test spinner tiles
+	;warp_event	 5,  1, CINNABAR_LAB_FOSSIL_ROOM, 1 ; Test new tileset and fossils
 
 	def_bg_events
 

@@ -7,8 +7,8 @@ Route6WildMons:
 	db 13, RATTATA
 	db 13, PIDGEY
 	db 15, PIDGEOTTO
-	db 10, MEOWTH
-	db 12, MEOWTH
+	db 15, MEOWTH
+	db 16, MEOWTH
 	db 15, GROWLITHE
 	db 16, GROWLITHE
 	db 16, JIGGLYPUFF

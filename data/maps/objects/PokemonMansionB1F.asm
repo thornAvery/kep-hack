@@ -3,7 +3,7 @@ PokemonMansionB1F_Object:
 
 	def_warp_events
 	warp_event 23, 22, POKEMON_MANSION_1F, 6
-	warp_event  2,  1, POKEMON_MANSION_B2F, 1 ; temp for debugging purposes...unless?
+	warp_event 17,  3, POKEMON_MANSION_B2F, 1 ; temp for debugging purposes...unless?
 
 	def_bg_events
 
@@ -16,6 +16,6 @@ PokemonMansionB1F_Object:
 	object_event  5,  4, SPRITE_POKE_BALL, STAY, NONE, 6, TM_SOLARBEAM
 	object_event 16, 20, SPRITE_POKEDEX, STAY, NONE, 7 ; person
 	object_event  5, 13, SPRITE_POKE_BALL, STAY, NONE, 8, SECRET_KEY
-	object_event  2,  1, SPRITE_GUARD, STAY, NONE, 9 ; person
+	object_event 15,  4, SPRITE_GUARD, STAY, NONE, 9 ; person
 
 	def_warps_to POKEMON_MANSION_B1F
