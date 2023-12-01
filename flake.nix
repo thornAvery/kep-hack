@@ -18,7 +18,6 @@
           buildInputs = [ rgbds gcc make ];
           installPhase = ''
             shopt -s extglob
-            ls
             mkdir $out
             ${builtins.concatStringsSep "\n" (map (item: 
                 if builtins.isList item && (builtins.length item == 2)
