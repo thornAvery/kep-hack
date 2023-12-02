@@ -382,6 +382,8 @@ DisplayWildLocations:
 	call LoadTownMapEntry
 	pop hl
 	ld a, [de]
+	cp $0C ; Bill's Garden's coordinates
+	jr z, .nextEntry ; skip
 	cp $16 ; Mt. Moon Crater's coordinates
 	jr z, .nextEntry ; skip
 	cp $19 ; Cerulean Cave's coordinates

@@ -71,7 +71,7 @@ _SilphCo11Text2::
 	done
 
 _SilphCo11Text3::
-	text "Ah <PLAYER>!"
+	text "Ah, <PLAYER>!"
 	line "So we meet again!"
 
 	para "The CHIEF and"
@@ -88,7 +88,7 @@ _SilphCo11Text3::
 	done
 
 _SilphCo10Text_62330::
-	text "Arrgh!!"
+	text "Arrgh!"
 	line "I lost again!?"
 	prompt
 
@@ -148,7 +148,7 @@ _SilphCo10Text_6237b::
 
 _OmegaBattleText::
 	text "Bzzt! Clank!"
-	prompt
+	text_end
 
 ; Fun fact: For some reason, this text is stored in 10F. Seems to be a beta element - they ARE encountered in 11F.
 _SilphCoJessieJamesText1::

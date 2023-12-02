@@ -249,13 +249,13 @@ _TotartleDexEntry::
 	dex
 
 _WeirduckDexEntry::
-	text "It exhibits odd"
-	next "mannerisms as"
+	text "WEIRDUCK exhibits"
+	next "odd mannerisms as"
 	next "it attempts to"
 
-	page "control its"
-	next "developing"
-	next "psychic powers"
+	page "keep its still-"
+	next "developing PSI"
+	next "under control"
 	dex
 
 _CroakozunaDexEntry::
@@ -269,22 +269,22 @@ _CroakozunaDexEntry::
 	dex
 
 _GorotoraDexEntry::
-	text "Its growls sound"
-	next "like rolling"
-	next "thunder. It can"
-
-	page "only be tamed"
-	next "by the bravest"
+	text "It is said that"
+	next "only the bravest"
 	next "#MON trainers"
+
+	page "can tame it. Its"
+	next "growls sound like"
+	next "rolling thunder"
 	dex
 
 _OmegadgeDexEntry::
-	text "A recent creation"
-	next "by SILPH CO."
-	next "Modeled after the"
+	text "Modeled after the"
+	next "extinct GAWARHED,"
+	next "this recent SILPH"
 
-	page "extinct GAWARHED,"
-	next "it's said to pack"
+	page "invention is said"
+	next "to pack truly"
 	next "devastating power"
 	dex
 
@@ -299,8 +299,8 @@ _TriculesDexEntry::		; Official entry from GS beta, reworded
 	dex
 
 _TrampelDexEntry::
-	text "A rare species"
-	next "that's well-known"
+	text "This rare species"
+	next "is very well-known"
 	next "in India. It has"
 
 	page "a bulky physique,"
@@ -321,9 +321,9 @@ _GavillainDexEntry::
 _PendrakenDexEntry::
 	text "It often clashes"
 	next "with TENTACRUEL."
-	next "Sprays ink into"
+	next "It sprays ink in"
 
-	page "its foe's eyes,"
+	page "its foe's face,"
 	next "disorienting it"
 	next "before attacking"
 	dex
@@ -339,11 +339,11 @@ _MagnetiteDexEntry::
 	dex
 
 _NidoreignDexEntry:: ; The Nidos are based on the Moon Rabbit of East Asian mythology, so we're expanding on this with actual moon references.
-	text "It's said to come"
-	next "from the moon."
-	next "Its poisonous"
+	text "Said to have come"
+	next "from the moon. It"
+	next "has toxic spines"
 
-	page "spines are used"
+	page "which can be used"
 	next "to make powerful"
 	next "MAX ELIXERs"
 	dex
@@ -391,15 +391,15 @@ _DisturbanDexEntry::
 _GentlarvaDexEntry::
 	text "Closely related to"
 	next "WEEDLE. Due to the"
-	next "lack of a horn,"
+	next "lack of a horn, it"
 
-	page "it hides under"
-	next "trees, gnawing"
+	page "hides under tall"
+	next "trees, gnawing on"
 	next "their roots"
 	dex
 
 _PupalDexEntry::
-	text "While awaiting"
+	text "While it awaits"
 	next "evolution, it"
 	next "barely moves. If"
 
@@ -584,8 +584,8 @@ _LickilickyDexEntry::
 	next "prey, leaving it"
 
 	page "covered with a"
-	next "saliva that"
-	next "causes numbness"
+	next "saliva that can"
+	next "cause numbness"
 	dex
 	
 _MagnezoneDexEntry::
@@ -721,11 +721,11 @@ _SandyShocksDexEntry::
 _MeltanDexEntry::
 	text "Typically living"
 	next "in a group, this"
-	next "#MON eats iron"
+	next "#MON absorbs"
 
-	page "particles that"
-	next "it finds in the"
-	next "subsoil"
+	page "particles of iron"
+	next "that it finds"
+	next "in the subsoil"
 	dex
 	
 _MelmetalDexEntry::
@@ -769,23 +769,23 @@ _PerrserkerDexEntry::
 	dex
 	
 _ArticunoGDexEntry::
-	text "From its eyes,"
-	next "it fires beams"
-	next "which can stun"
+	text "From its eyes, it"
+	next "fires PSI beams,"
+	next "which can stun and"
 
-	page "and immobilize"
-	next "foes as if they"
-	next "had been frozen"
+	page "immobilize foes as"
+	next "if they had been"
+	next "frozen solid"
 	dex
 	
 _ZapdosGDexEntry::
-	text "Its leg muscles"
-	next "are so powerful"
-	next "that one kick can"
+	text "As it runs, its"
+	next "feathers make a"
+	next "crackling sound."
 
-	page "pulverize a dump"
-	next "truck. It runs"
-	next "at over 180 mph"
+	page "One kick from its"
+	next "mighty legs can"
+	next "demolish a truck"
 	dex
 	
 _MoltresGDexEntry::
@@ -793,8 +793,8 @@ _MoltresGDexEntry::
 	next "that surrounds it"
 	next "is said to burn"
 
-	page "the spirit of"
-	next "any creature that"
+	page "the spirit of any"
+	next "creature that"
 	next "wanders too close"
 	dex
 
@@ -803,7 +803,7 @@ _ArcanineHDexEntry::
 	next "rock-like feel."
 	next "It dances around"
 	
-	page "its foe before"
+	page "its foe, before"
 	next "biting it in a"
 	next "vicious rage" ; reference to Raging Fury
 	dex
@@ -824,7 +824,7 @@ _RaticateADexEntry:: ; this entry hypercompresses most Gen 7 entries
 	next "greedily order"
 	
 	page "its subjects to"
-	next "gather large"
+	next "gather incredible"
 	next "amounts of food"
 	dex
 	
@@ -840,11 +840,11 @@ _RaichuADexEntry::
 
 _SandslashADexEntry::
 	text "It adapted to a"
-	next "frigid region."
-	next "Wounds caused"
+	next "frigid region. A"
+	next "wound caused by"
 	
-	page "by SANDSLASH"
-	next "cause severe"
+	page "its sharp claws"
+	next "can cause severe"
 	next "frostbite"
 	dex
 
@@ -869,9 +869,9 @@ _DugtrioADexEntry::
 	dex
 
 _PersianADexEntry::
-	text "Its round face"
-	next "is a symbol of"
-	next "prosperity."
+	text "Its round face is"
+	next "seen as a symbol"
+	next "of prosperity."
 	
 	page "Despite this, it"
 	next "prefers to fight"
@@ -879,9 +879,9 @@ _PersianADexEntry::
 	dex
 
 _GolemADexEntry::
-	text "It fires rocks"
-	next "charged with"
-	next "electricity."
+	text "It charges rocks"
+	next "with electricity,"
+	next "then fires them."
 	
 	page "If it can't find"
 	next "ammo, it may fire"
@@ -919,9 +919,9 @@ _SlowkingGDexEntry::
 	dex
 
 _MukADexEntry::
-	text "Over 100 kinds"
-	next "of poison make"
-	next "up its body."
+	text "Its body contains"
+	next "over 100 different"
+	next "kinds of poison."
 	
 	page "While friendly,"
 	next "it must be fed"

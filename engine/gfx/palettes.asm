@@ -171,6 +171,8 @@ SetPal_Overworld:
 	jp z, .brunswick
 	cp SILPH_GAUNTLET_3F
 	jp z, .ship
+	cp VERMILION_FERRY_DOCK
+	jp z, .ship
 	cp GAME_CORNER
 	jp z, .pachinko
 	cp GAME_CORNER_PRIZE_ROOM
@@ -185,6 +187,8 @@ SetPal_Overworld:
 	jp z, .pachinko
 	cp ROCKET_HIDEOUT_ELEVATOR
 	jp z, .pachinko
+	cp GIOVANNIS_ROOM
+	jp z, .pachinko
 	cp FARAWAY_ISLAND_OUTSIDE
 	jp z, .faraway
 	cp FARAWAY_ISLAND_INSIDE
@@ -197,6 +201,10 @@ SetPal_Overworld:
 	jp z, .celeste
 	cp CELESTE_HILL
 	jp z, .celeste
+	cp CITRINE_FERRY_DOCK
+	jp z, .citrine
+	cp SEAGALLOP_FERRY
+	jp z, .ferry
 	cp SILPH_GAUNTLET_5F
 	jp z, .trans
 	cp CERULEAN_CAVE_2F
@@ -279,6 +287,12 @@ SetPal_Overworld:
 	jr .town
 .faraway
 	ld a, PAL_ROUTE - 1
+	jr .town
+.citrine
+	ld a, PAL_CITRINE - 1
+	jr .town
+.ferry
+	ld a, PAL_BLUEMON - 1
 	jr .town
 
 ; used when a Pokemon is the only thing on the screen

@@ -244,7 +244,7 @@ CredHelix:
 CredFO:
 	db -6, "FRENCH ORANGE@"
 CredZetaNull:
-	db -4, "ZETA-NULL@"
+	db -4, "ZETA NULL@"
 CredPSDevs:
 	db -5, "SHOWDOWN MOD@"
 CredAus:
@@ -268,7 +268,7 @@ CredFrrf:
 CredMisty:
 	db -5, "LADYMISTICUS@"
 CredThornAvery:
-	db -4, "THORNAVERY@"
+	db -4, "THORN AVERY@"
 CredDannye:
 	db -4, "DANNYE33@"
 CredEro:

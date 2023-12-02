@@ -267,7 +267,6 @@ INCLUDE "data/text/text_6.asm"
 SECTION "Text 11", ROMX
 
 INCLUDE "data/text/text_7.asm"
-INCLUDE "data/pokemon/new_dex_text.asm"
 INCLUDE "text/CeladonUniversityOutside.asm"
 INCLUDE "text/CeladonUniversityInside.asm"
 INCLUDE "text/CeladonUniversityPokecenter.asm"
@@ -308,6 +307,7 @@ INCLUDE "data/pokemon/dex_text.asm"
 SECTION "Move Names", ROMX
 
 INCLUDE "data/moves/names.asm"
+INCLUDE "data/pokemon/new_dex_text.asm"
 
 SECTION "Item Descriptions", ROMX
 

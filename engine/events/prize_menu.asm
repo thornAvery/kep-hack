@@ -88,7 +88,7 @@ GetPrizeMenuId:
 	ld bc, 6
 	call CopyData
 	ld a, [wWhichPrizeWindow]
-	cp 2        ;is TM_menu?
+	cp 3        ;is TM_menu?
 	jr nz, .putMonName
 	ld a, [wPrize1]
 	ld [wd11e], a
@@ -194,7 +194,7 @@ HandlePrizeChoice:
 	ld a, [hl]
 	ld [wd11e], a
 	ld a, [wWhichPrizeWindow]
-	cp 2 ; is prize a TM?
+	cp 3 ; is prize a TM?
 	jr nz, .getMonName
 	call GetItemName
 	jr .givePrize
@@ -211,7 +211,7 @@ HandlePrizeChoice:
 	call HasEnoughCoins
 	jr c, .notEnoughCoins
 	ld a, [wWhichPrizeWindow]
-	cp $02
+	cp $03
 	jr nz, .giveMon
 	ld a, [wd11e]
 	ld b, a
