@@ -4,13 +4,14 @@ ViridianGym_Object:
 	def_warp_events
 	warp_event 16, 17, LAST_MAP, 5 ; front door
 	warp_event 17, 17, LAST_MAP, 5 ; front door
-	warp_event  4,  2, GIOVANNIS_ROOM, 1 ; stairs
+	warp_event  2,  0, GIOVANNIS_ROOM, 1 ; stairs
+	warp_event  3,  0, GIOVANNIS_ROOM, 1 ; stairs
 	
 
 	def_bg_events
 
 	def_object_events
-	object_event  4,  3, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 3
+	object_event  2,  2, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 3
 	object_event 12,  7, SPRITE_COOLTRAINER_M, STAY, DOWN, 2, OPP_COOLTRAINER_M, 9
 	object_event 11, 11, SPRITE_HIKER, STAY, UP, 3, OPP_BLACKBELT, 13
 	object_event 10,  7, SPRITE_ROCKER, STAY, DOWN, 4, OPP_TAMER, 3
