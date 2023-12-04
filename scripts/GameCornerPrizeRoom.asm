@@ -7,6 +7,7 @@ GameCornerPrizeRoom_TextPointers:
 	dw CeladonPrizeRoomText3
 	dw CeladonPrizeRoomText3
 	dw CeladonPrizeRoomText3
+	dw CeladonPrizeRoomText3
 
 CeladonPrizeRoomText1:
 	text_far _CeladonPrizeRoomText1

@@ -13,6 +13,6 @@ BrunswickGlade_Object:
 	def_object_events
 	object_event 32, 25, SPRITE_BIRD, STAY, DOWN, 1
 	object_event 20, 18, SPRITE_BIRD, STAY, RIGHT, 2
-	object_event 14,  8, SPRITE_BIRD, STAY, RIGHT, 3
+	object_event  9,  3, SPRITE_BIRD, STAY, UP, 3
 
 	def_warps_to BRUNSWICK_GLADE

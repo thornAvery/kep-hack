@@ -11,10 +11,12 @@ WaterTilesets:
 	db PLATEAU
 	db CITRINE
 	db CELESTE
+	db SEAGALLOPPORT
 	db -1 ; end
 	
 NonShoreTilesets:
 	db GYM
+	db SEAGALLOPPORT
 	db SHIP_PORT
 	db DOJO
 	db -1 ; end
