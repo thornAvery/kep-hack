@@ -2,14 +2,18 @@ _GiovanniPreBattleText::
 	text "Fwahahaha! This is"
 	line "my hideout!"
 
-	para "Once again, you"
-	line "thwart me!"
+	para "I planned to"
+	line "resurrect TEAM"
+	cont "ROCKET here!"
+
+	para "But once again,"
+	line "you thwart me."
 	cont "So be it! This"
 	cont "time, I'm not"
 	cont "holding back!"
 
 	para "Once more, you"
-	line "shall face"
+	line "shall face me,"
 	cont "GIOVANNI, the"
 	cont "greatest trainer!"
 	done
@@ -26,13 +30,13 @@ _ReceivedEarthBadgeText::
 _GiovanniPostBattleAdviceText::
 	text "Having lost, I"
 	line "cannot face my"
-	cont "underlings!"
+	cont "underlings..."
 	cont "TEAM ROCKET is"
 	cont "finished forever!"
 
 	para "I will dedicate my"
 	line "life to the study"
-	cont "of #MON!"
+	cont "of #MON."
 
 	para "Let us meet again"
 	line "some day!"
@@ -42,7 +46,7 @@ _GiovanniPostBattleAdviceText::
 _GiovanniEarthBadgeInfoText::
 	text "The EARTHBADGE"
 	line "is evidence of"
-	line "your mastery as a"
+	cont "your mastery as a"
 	cont "#MON trainer!"
 
 	para "With it, you can"

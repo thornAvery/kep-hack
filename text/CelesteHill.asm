@@ -6,9 +6,9 @@ _CelesteHillSign::
 	text "When the sun"
 	line "shines upon this"
 	cont "hill, the cruel"
-	cont "pretenders to"
-	cont "the winged"
-	cont "mirages will"
-	cont "come to roost."
+	cont "pretenders to the"
+	cont "winged mirages"
+	cont "will come to"
+	cont "roost."
 	done
 	

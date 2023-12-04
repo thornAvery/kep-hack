@@ -1326,8 +1326,6 @@ MewtwoTradebackMoves:
 	db 1, THUNDERPUNCH
 	db 1, HEADBUTT
 	db 1, FLAMETHROWER
-	db 1, WATERFALL
-	db 1, ROAR
 	db 0
 
 SnorlaxTradebackMoves:

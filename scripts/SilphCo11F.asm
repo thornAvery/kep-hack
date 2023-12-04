@@ -778,6 +778,9 @@ OmegaText:
 OmegaBattleText:
 	text_far _OmegaBattleText
 	text_asm
+	ld a, OMEGADGE
+	call PlayCry
+	call WaitForSoundToFinish
 	jp TextScriptEnd
 
 Omega2Text:
