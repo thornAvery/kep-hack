@@ -94,6 +94,7 @@
 	const CRED_ENI
 	const CRED_VORT
 	const CRED_PRET
+	const CRED_DR_LAVA
 DEF NUM_CRED_STRINGS EQU const_value
 
 	const_def -1, -1

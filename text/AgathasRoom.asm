@@ -47,9 +47,8 @@ _AgathaRematchText::
 	text "So you've come!"
 	
 	para "It's not in my"
-	line "character to"
-	cont "lose over and"
-	cont "over."
+	line "character to lose"
+	cont "over and over."
 	
 	para "Give this battle"
 	line "everything you"
@@ -73,10 +72,8 @@ _AgathaRematchAfterBattleText::
 	para "Just like you and"
 	line "<RIVAL>."
 	
-	para "What are you"
-	line "waiting for?"
-	
-	para "Off to the next"
-	line "room!"
+	para "So, what are you"
+	line "waiting for? Off"
+	cont "to the next room!"
 	
 	done

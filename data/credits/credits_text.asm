@@ -95,6 +95,7 @@ CreditsTextPointers:
 	dw CredEni
 	dw CredVort
 	dw CredPret
+	dw CredDrLava
 	assert_table_length NUM_CRED_STRINGS
 
 CredVersion:
@@ -285,3 +286,5 @@ CredVort:
 	db -3, "VORTIENE@"
 CredPret:
 	db -4, "PRET ET AL@"
+CredDrLava:
+	db -3, "DR.LAVA@"
