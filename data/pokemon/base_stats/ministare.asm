@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ministare.pic", 0, 1 ; sprite dimensions
 	dw MinistarePicFront, MinistarePicBack
 
-	db SCRATCH, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCRATCH, TAIL_WHIP, LEER, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

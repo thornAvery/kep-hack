@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pendraken.pic", 0, 1 ; sprite dimensions
 	dw PendrakenPicFront, PendrakenPicBack
 
-	db CONSTRICT, SMOKESCREEN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db CONSTRICT, SMOKESCREEN, BUBBLE, WRAP ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

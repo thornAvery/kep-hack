@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/nidoreign.pic", 0, 1 ; sprite dimensions
 	dw NidoreignPicFront, NidoreignPicBack
 
-	db TACKLE, SPIKE_CANNON, POISON_STING, THRASH ; level 1 learnset
+	db TACKLE, POISON_STING, DOUBLE_KICK, SPIKE_CANNON ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -239,7 +239,7 @@ PokemonCries::
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
 	mon_cry CRY_PIDGEY,      250,  256 ; SCREAM_TAIL
 	mon_cry CRY_METAPOD,      31,  349 ; SANDY_SHOCKS
-	mon_cry CRY_BULBASAUR,    99,  192 ; SQUEAMATA
+	mon_cry CRY_BULBASAUR,   100,  320 ; SQUEAMATA
 	mon_cry CRY_BULBASAUR,    64,  320 ; MINISTARE
 	mon_cry CRY_BULBASAUR,    32,  320 ; IGUANARCH
 	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI

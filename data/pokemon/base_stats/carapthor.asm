@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/carapthor.pic", 0, 1 ; sprite dimensions
 	dw CarapthorPicFront, CarapthorPicBack
 
-	db COMET_PUNCH, UPPERCUT, NO_MOVE, NO_MOVE ; level 1 learnset
+	db UPPERCUT, LEECH_LIFE, STRING_SHOT, HARDEN ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

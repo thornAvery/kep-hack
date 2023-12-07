@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/jabetta.pic", 0, 1 ; sprite dimensions
 	dw JabettaPicFront, JabettaPicBack
 
-	db BUBBLE, PECK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BUBBLE, PECK, COUNTER, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/taurospcombat.pic", 0, 1 ; sprite dimensions
 	dw TaurosPPicFront, TaurosPPicBack
 
-	db DOUBLE_KICK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db DOUBLE_KICK, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

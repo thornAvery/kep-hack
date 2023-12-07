@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/magnetite.pic", 0, 1 ; sprite dimensions
 	dw MagnetitePicFront, MagnetitePicBack
 
-	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, THUNDERSHOCK, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

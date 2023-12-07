@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/luxwan.pic", 0, 1 ; sprite dimensions
 	dw LuxwanPicFront, LuxwanPicBack
 
-	db PECK, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db PECK, SAND_ATTACK, LEER, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

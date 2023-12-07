@@ -285,6 +285,6 @@ CredEni:
 CredVort:
 	db -3, "VORTIENE@"
 CredPret:
-	db -4, "PRET ET AL@"
+	db -2, "PRET@"
 CredDrLava:
 	db -3, "DR.LAVA@"
