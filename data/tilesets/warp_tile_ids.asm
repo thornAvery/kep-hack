@@ -107,7 +107,7 @@ ENDM
 	warp_tiles $1B, $1C, $0B, $0C, $58, $59
 
 .CelesteWarpTileIDs:
-	warp_tiles $5A, $5C, $3A, $30, $50, $51 	; Like Forest but a bit better
+	warp_tiles $5A, $5C
 
 .RocketHouseWarpTileIDs:
 	warp_tiles

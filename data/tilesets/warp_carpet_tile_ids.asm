@@ -12,10 +12,10 @@ MACRO warp_carpet_tiles
 ENDM
 
 .FacingDownWarpTiles:
-	warp_carpet_tiles $01, $12, $17, $3D, $04, $18, $33
+	warp_carpet_tiles $01, $0B, $12, $16, $23, $17, $3D, $04, $18, $33, $51, $52
 
 .FacingUpWarpTiles:
-	warp_carpet_tiles $01, $5C
+	warp_carpet_tiles $01, $34, $36, $5C, $5F, 
 
 .FacingLeftWarpTiles:
 	warp_carpet_tiles $1A, $4B

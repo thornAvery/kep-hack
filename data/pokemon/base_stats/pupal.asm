@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pupal.pic", 0, 1 ; sprite dimensions
 	dw PupalPicFront, PupalPicBack
 
-	db LEECH_LIFE, STRING_SHOT, HARDEN, NO_MOVE ; level 1 learnset
+	db HARDEN, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

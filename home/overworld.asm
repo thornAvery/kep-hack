@@ -773,6 +773,12 @@ ExtraWarpCheck::
 	jr z, .useFunction2
 	cp SHIP_PORT ; Vermilion Port tileset
 	jr z, .useFunction2
+	cp SEAGALLOPPORT ; Ferry Port tileset
+	jr z, .useFunction2
+	cp CITRINE ; Citrine tileset
+	jr z, .useFunction2
+	cp CELESTE ; Celeste/Faraway tileset
+	jr z, .useFunction2
 	cp PLATEAU ; Indigo Plateau tileset
 	jr z, .useFunction2
 .useFunction1
