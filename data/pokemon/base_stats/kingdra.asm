@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kingdra.pic", 0, 1 ; sprite dimensions
 	dw KingdraPicFront, KingdraPicBack
 
-	db BUBBLE, SMOKESCREEN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BUBBLE, SMOKESCREEN, LEER, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

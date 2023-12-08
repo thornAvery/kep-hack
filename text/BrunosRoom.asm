@@ -44,14 +44,12 @@ _BrunoRematchText::
 	cont "from here!"
 	
 	para "Now it's time to"
-	line "show you the"
-	cont "power of my"
-	cont "#MON!"
+	line "show you the true"
+	cont "power of my team!"
 	
-	para "They've been"
-	line "training just"
-	cont "as hard as"
-	cont "yours, surely!"
+	para "We have trained"
+	line "just as hard as"
+	cont "you have, surely!"
 	
 	para "Hoo hah!"
 	

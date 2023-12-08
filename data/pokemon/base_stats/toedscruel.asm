@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/toedscruel.pic", 0, 1 ; sprite dimensions
 	dw ToedscruelPicFront, ToedscruelPicBack
 
-	db ABSORB, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db ABSORB, SUPERSONIC, WRAP, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

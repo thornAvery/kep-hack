@@ -1,6 +1,6 @@
 _LanceBeforeBattleText::
 	text "Ah! I heard about"
-	line "you <PLAYER>!"
+	line "you, <PLAYER>!"
 
 	para "I lead the ELITE"
 	line "FOUR! You can"
@@ -65,10 +65,8 @@ _LanceAfterBattleText::
 
 _LanceRematchText::
 	text "I'm glad you've"
-	line "come."
-	
-	para "Thanks to you,"
-	line "the #MON"
+	line "come. Thanks to"
+	cont "you, the #MON"
 	cont "LEAGUE's rep has"
 	cont "really taken off!"
 	
@@ -91,12 +89,11 @@ _LanceRematchAfterBattleText::
 	line "dragon brigade is"
 	cont "weak..."
 	
-	para "Hm? I'm saying"
+	para "I'm saying that"
 	line "your strength is"
 	cont "truly incredible!"
 	
-	para "Now then..."
-	line "<PLAYER>."
+	para "Now, <PLAYER>."
 	
 	para "You know what's"
 	line "next, don't you?"

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/guardia.pic", 0, 1 ; sprite dimensions
 	dw GuardiaPicFront, GuardiaPicBack
 
-	db BONE_CLUB, TAIL_WHIP, GROWL, HEADBUTT ; level 1 learnset
+	db BONE_CLUB, GROWL, LEER, TAIL_WHIP ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

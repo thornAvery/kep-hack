@@ -136,7 +136,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const SILPH_GAUNTLET_6F,             12, 12 ; $71	- Was UNUSED_MAP_6F
 	map_const SILPH_GAUNTLET_7F,              6,  5 ; $72	- Was UNUSED_MAP_70
 	map_const LANCES_ROOM,                   13, 13 ; $73
-	map_const FARAWAY_ISLAND_OUTSIDE,        15, 18 ; $74	- Was UNUSED_MAP_72
+	map_const FARAWAY_ISLAND_OUTSIDE,        15, 20 ; $74	- Was UNUSED_MAP_72
 	map_const FARAWAY_ISLAND_INSIDE,         15, 11 ; $75	- Was UNUSED_MAP_73
 	map_const POKEMON_MANSION_B2F,           15, 12 ; $76	- Was UNUSED_MAP_74
 	map_const MT_MOON_CRATER,                25, 25 ; $77	- Was UNUSED_MAP_75

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/iguanarch.pic", 0, 1 ; sprite dimensions
 	dw IguanarchPicFront, IguanarchPicBack
 
-	db SCRATCH, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCRATCH, TAIL_WHIP, LEER, BITE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

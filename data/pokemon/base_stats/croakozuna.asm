@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/croakozuna.pic", 0, 1 ; sprite dimensions
 	dw CroakozunaPicFront, CroakozunaPicBack
 
-	db DOUBLE_TEAM, DOUBLESLAP, BUBBLE, NO_MOVE ; level 1 learnset
+	db DOUBLE_TEAM, DOUBLESLAP, BUBBLE, MEDITATE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
