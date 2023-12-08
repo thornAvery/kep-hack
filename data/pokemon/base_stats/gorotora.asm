@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gorotora.pic", 0, 1 ; sprite dimensions
 	dw GorotoraPicFront, GorotoraPicBack
 
-	db THUNDERSHOCK, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db THUNDERSHOCK, TACKLE, LEER, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

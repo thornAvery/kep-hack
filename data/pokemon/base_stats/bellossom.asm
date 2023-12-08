@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/bellossom.pic", 0, 1 ; sprite dimensions
 	dw BellossomPicFront, BellossomPicBack
 
-	db ABSORB, STUN_SPORE, PETAL_DANCE, NO_MOVE ; level 1 learnset
+	db STUN_SPORE, SLEEP_POWDER, ABSORB, PETAL_DANCE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

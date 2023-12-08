@@ -890,13 +890,13 @@ _ZubatDexEntry:: ; new entry
 	dex
 
 _EkansDexEntry:: ; new entry
-	text "It flicks its"
+	text "EKANS flicks its"
 	next "tongue to check"
-	next "for danger. If"
+	next "for danger. If it"
 
-	page "it eats RATTATA,"
-	next "it can go without"
-	next "food for a month"
+	page "eats a RATTATA, it"
+	next "won't need to eat"
+	next "again for a month"
 	dex
 
 _ParasDexEntry:: ; new entry

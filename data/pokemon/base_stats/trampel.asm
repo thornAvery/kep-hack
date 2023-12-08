@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/trampel.pic", 0, 1 ; sprite dimensions
 	dw TrampelPicFront, TrampelPicBack
 
-	db TACKLE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, GROWL, HORN_ATTACK, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

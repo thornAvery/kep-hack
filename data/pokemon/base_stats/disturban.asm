@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/disturban.pic", 0, 1 ; sprite dimensions
 	dw DisturbanPicFront, DisturbanPicBack
 
-	db TACKLE, WITHDRAW, BITE, WATER_GUN ; level 1 learnset
+	db WITHDRAW, SUPERSONIC, CLAMP, BITE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

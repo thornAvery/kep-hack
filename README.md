@@ -261,8 +261,6 @@ Comprehensive list can be found on Discord.
 - Occasionally, menu text sets itself to scroll.
 - The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
-- Citrine Dock's warp doesn't work, meaning you have to leave Citrine using Fly
-- LAST_MAP isn't updated properly when sailing from Vermilion to Citrine
 - After reloading the game after beating the Elite Four, Pallet Town's correct palette isn't loaded in until after leaving the house.
 - The Gym Leaders on Floor 6 of Silph Gauntlet don't play the correct music in battle
 
@@ -285,7 +283,7 @@ New Pokemon:
 - Electabuzz -> Electivire | Use Thunder Stone
 - Farfetch'd -> Luxwan | L24
 - Gloom -> Bellossom | Use Leaf Stone
-- Golbat -> Crobat | L44
+- Golbat -> Crobat | L40
 - Lickitung -> Lickilicky | L32
 - Magmar -> Magmortar | Use Fire Stone
 - Magneton -> Magnezone | Use Thunder Stone
@@ -322,7 +320,7 @@ Kanto Prototype Pokemon:
 - Psyduck -> Weirduck -> Golduck | L22, L33
 - Raichu -> Gorochu | Trade
 - Ribbito -> Croakozuna | L30
-- Squeamata -> Ministare -> Iguanarch | L30, L50
+- Squeamata -> Ministare -> Iguanarch | L30, L55
 - Vulpiii -> Vulpix | L15
 - Wartortle -> Totartle | L36, replaces Blastoise
 
@@ -384,7 +382,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
-* Helix Chamber, RacieBeep, loumilouminosus, Orchid, GBCRetro, & catstorm26 - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
+* Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.
 * Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
@@ -400,15 +398,19 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Dr. Lava - Translations of some content used in this hack, particularly the 1996 Pokedex book's entries for DYKG.
 * Nob Ogasawara - Prototype Pokemon names, produced for DYKG.
 
-Helix Chamber sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge, Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck
+Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Espeon (back), Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking (back), Slowking-G, Sylveon (back), Tangrowth, Tauros-P (all forms), Toedscool, Toedscruel, Umbreon (back), Weezing-G, Wiglett, Zapdos-G
 
-Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking-G, Tangrowth, Toedscool, Toedscruel, Weezing-G, Wiglett, Zapdos-G
+Martha’s Against Humanity sprites: Bellignan (front, with help from PvK), Mimmeo (front), Sylveon (front, with help from Albatross)
 
-Martha’s Against Humanity sprites: Bellignan (with help from PvK), Mimmeo, Sylveon (with help from Albatross)
+Albatross sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P (all forms), Wugtrio
 
-Albatross’ sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P, Wugtrio
+RacieBeep sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge (front/back), Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck, Fossil Aerodactyl, Fossil Kabutops, Ghost, Articuno (back), Meowth (back)
 
-Official sprites: Crobat, Disturban, Espeon (edited by Martha’s Against Humanity), Slowking, Steelix, Tricules (edited by Martha’s Against Humanity), Umbreon (edited by Martha’s Against Humanity)
+Orchid: Luxwan (back), Buu (back)
+
+Zeta_Null: Porygon (front)
+
+Official sprites: Crobat (front, edited by Martha’s Against Humanity), Disturban, Espeon (front, edited by Martha’s Against Humanity), Slowking (front), Steelix (front), Tricules, Umbreon (front, edited by Martha’s Against Humanity)
 
 Original README.md proceeding;
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]

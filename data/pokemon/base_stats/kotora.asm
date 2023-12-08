@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kotora.pic", 0, 1 ; sprite dimensions
 	dw KotoraPicFront, KotoraPicBack
 
-	db THUNDERSHOCK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db THUNDERSHOCK, TACKLE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

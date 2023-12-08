@@ -179,13 +179,15 @@ ResetLegendaryPokemon:
 	; ordering in data/events/trades.asm
 	
 	; trades 0-7
-	ld b, %11111111
+	; ld b, %11111111
+	ld b, %00000000
 	ld a, [wCompletedInGameTradeFlags]
 	and b
 	ld [wCompletedInGameTradeFlags], a
 	
 	; trades 8-15
-	ld b, %00000011
+	; ld b, %00000011
+	ld b, %00000000
 	ld a, [wCompletedInGameTradeFlags+1]
 	and b
 	ld [wCompletedInGameTradeFlags+1], a

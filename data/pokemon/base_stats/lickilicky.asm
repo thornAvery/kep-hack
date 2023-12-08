@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/lickilicky.pic", 0, 1 ; sprite dimensions
 	dw LickilickyPicFront, LickilickyPicBack
 
-	db WRAP, SUPERSONIC, NO_MOVE, NO_MOVE ; level 1 learnset
+	db WRAP, SUPERSONIC, STOMP, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
