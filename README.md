@@ -384,7 +384,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
-* Helix Chamber, RacieBeep, loumilouminosus, Orchid, GBCRetro, & catstorm26 - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
+* Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.
 * Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
@@ -400,13 +400,17 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Dr. Lava - Translations of some content used in this hack, particularly the 1996 Pokedex book's entries for DYKG.
 * Nob Ogasawara - Prototype Pokemon names, produced for DYKG.
 
-Helix Chamber sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge, Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck
-
 Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking-G, Tangrowth, Toedscool, Toedscruel, Weezing-G, Wiglett, Zapdos-G
 
 Martha’s Against Humanity sprites: Bellignan (with help from PvK), Mimmeo, Sylveon (with help from Albatross)
 
-Albatross’ sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P, Wugtrio
+Albatross sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P, Wugtrio
+
+RacieBeep sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge (front/back), Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck, Fossil Aerodactyl, Fossil Kabutops, Ghost, Articuno (back), Meowth (back)
+
+Orchid: Ghost (back), Luxwan (back), Buu (back)
+
+Zeta_Null: Porygon (front)
 
 Official sprites: Crobat, Disturban, Espeon (edited by Martha’s Against Humanity), Slowking, Steelix, Tricules (edited by Martha’s Against Humanity), Umbreon (edited by Martha’s Against Humanity)
 
