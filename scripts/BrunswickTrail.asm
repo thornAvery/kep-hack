@@ -21,6 +21,7 @@ BrunswickTrail_TextPointers:
 	dw GZapFound
 	dw Lover1
 	dw Lover2
+	dw PickUpItemText
 
 BrunswickTrailTrainerHeaders:
 	def_trainers

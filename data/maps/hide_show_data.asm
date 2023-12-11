@@ -330,6 +330,7 @@ Route25HS:
 BrunswickTrailHS:
 	db BRUNSWICK_TRAIL, $01, SHOW             ; HS_CACTUS
 	db BRUNSWICK_TRAIL, $06, SHOW             ; HS_BRUNSWICK_ZAPDOS_G_1
+	db BRUNSWICK_TRAIL, $09, SHOW			  ; HS_BRUNSWICK_TRAIL_ITEM1
 BluesHouseHS:
 	db BLUES_HOUSE, $01, SHOW                 ; HS_DAISY_SITTING
 	db BLUES_HOUSE, $02, HIDE                 ; HS_DAISY_WALKING
@@ -591,6 +592,10 @@ BrunswickGladeHS:
 	db BRUNSWICK_GLADE, $01, HIDE            ; HS_GLADE_GZAP_1
 	db BRUNSWICK_GLADE, $02, HIDE            ; HS_GLADE_GZAP_2
 	db BRUNSWICK_GLADE, $03, HIDE            ; HS_GLADE_GZAP_3
+	db BRUNSWICK_GLADE, $04, HIDE            ; HS_GLADE_ITEM1
+	db BRUNSWICK_GLADE, $05, HIDE            ; HS_GLADE_ITEM2
+	db BRUNSWICK_GLADE, $06, HIDE            ; HS_GLADE_ITEM3
+	db BRUNSWICK_GLADE, $07, HIDE            ; HS_GLADE_ITEM4
 CinnabarVolcanoFloorsHS:
 	db CINNABAR_VOLCANO_FLOORS, $05, SHOW
 	assert_table_length NUM_HS_OBJECTS

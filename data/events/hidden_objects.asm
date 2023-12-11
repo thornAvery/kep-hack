@@ -90,6 +90,7 @@ HiddenObjectMaps:
 	db MT_MOON_CRATER
 	db DAYCARE
 	db MT_MOON_SQUARE
+	db BRUNSWICK_TRAIL
 	db -1 ; end
 
 HiddenObjectPointers:
@@ -185,6 +186,7 @@ HiddenObjectPointers:
 	dw MtMoonCraterHiddenObjects
 	dw DaycareHiddenItems
 	dw MtMoonSquareHiddenItems
+	dw BrunswickTrailHiddenItems
 
 MACRO hidden_object
 	db \2 ; y coord
@@ -666,4 +668,8 @@ DaycareHiddenItems:
 
 MtMoonSquareHiddenItems:
 	hidden_object  5,  5, MOON_STONE, HiddenItems
+	db -1
+
+BrunswickTrailHiddenItems:
+	hidden_object 23, 11, TM_SOLARBEAM, HiddenItems
 	db -1

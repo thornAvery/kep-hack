@@ -55,6 +55,7 @@ DEF SHOW EQU $15
 	const HS_ROUTE_25_ITEM                 ; 29 X
 	const HS_CACTUS                        ; 2A
 	const HS_BRUNSWICK_ZAPDOS_G_1          ; 2B
+	const HS_BRUNSWICK_TRAIL_ITEM1
 	const HS_DAISY_SITTING                 ; 2C
 	const HS_DAISY_WALKING                 ; 2D
 	const HS_TOWN_MAP                      ; 2E
@@ -251,5 +252,9 @@ DEF SHOW EQU $15
 	const HS_GLADE_GZAP_1                  ; EE
 	const HS_GLADE_GZAP_2                  ; EF
 	const HS_GLADE_GZAP_3                  ; F0
+	const HS_GLADE_ITEM1
+	const HS_GLADE_ITEM2
+	const HS_GLADE_ITEM3
+	const HS_GLADE_ITEM4
 	const HS_CINNABAR_VOLCANO_FLOORS_ITEM  ; F1
 DEF NUM_HS_OBJECTS EQU const_value         ; F2 - FE all go unused.
