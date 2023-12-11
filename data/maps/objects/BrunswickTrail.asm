@@ -16,7 +16,7 @@ BrunswickTrail_Object:
 	object_event 54,  9, SPRITE_BIRD, STAY, UP, 6 ; person, GZap
 	object_event  6, 16, SPRITE_COOLTRAINER_F, STAY, LEFT, 7 ; person, Lover1
 	object_event  6, 15, SPRITE_BRUNETTE_GIRL, STAY, LEFT, 8 ; person, Lover2
-	object_event  6, 15, SPRITE_POKE_BALL, STAY, NONE, 9, ULTRA_BALL ; itemball1
+	object_event 20, 21, SPRITE_POKE_BALL, STAY, NONE, 9, ULTRA_BALL ; itemball1
 
 
 	def_warps_to BRUNSWICK_TRAIL

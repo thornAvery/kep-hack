@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/orfry.pic", 0, 1 ; sprite dimensions
 	dw OrfryPicFront, OrfryPicBack
 
-	db PECK, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db PECK, TAIL_WHIP, WATER_GUN, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -57,7 +57,7 @@ _BrunswickAfterBattleText1::
 	
 	para "It's my prized"
 	line "#MON!"
-	prompt
+	done
 
 _BrunswickBattleText2::
 	text "My hubby brought"
