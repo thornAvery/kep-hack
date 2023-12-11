@@ -659,8 +659,8 @@ CooltrainerMData:
 ; Viridian Gym
 	db 39, SANDSLASH, DUGTRIO, 0
 	db 43, NIDOKING, 0
-; Celadon Condominiums Moriomoto?
-	db 75, KANGASKHAN, FLAREON, VAPOREON, JOLTEON, MACHAMP, DRAGONITE, 0
+; Celadon Condominiums Morimoto - Team is LGPE's with +10 Levels each.
+	db 64, KANGASKHAN, FLAREON, VAPOREON, JOLTEON, MACHAMP, DRAGONITE, 0
 ; Brunswick Trail / Glade 
 	db 68, RATICATE, POLIWRATH, BUTTERFREE, WIGGLYTUFF, MACHAMP, RHYPERIOR, 0 ; Primo
 	db 67, PIDGEOT, VILEPLUME, GUARDIA, RAPIDASH, SLOWBRO, JOLTEON, 0 ; Trace

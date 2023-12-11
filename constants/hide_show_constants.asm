@@ -83,6 +83,7 @@ DEF SHOW EQU $15
 	const HS_POKEMON_TOWER_7F_JAMES        ; 44
 	const HS_POKEMON_TOWER_7F_MR_FUJI      ; 45
 	const HS_MR_FUJIS_HOUSE_MR_FUJI        ; 46
+	const HS_MORIMOTO
 	const HS_CELADON_MANSION_EEVEE_GIFT    ; 47
 	const HS_GAME_CORNER_ROCKET            ; 48
 	const HS_WARDENS_HOUSE_ITEM            ; 49 X

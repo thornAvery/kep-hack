@@ -136,7 +136,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw CeladonMansion3FHS
 	dw NoHS
 	dw CeladonMansionRoofHouseHS
 	dw NoHS
@@ -369,7 +369,9 @@ PokemonTower7FHS:
 	db POKEMON_TOWER_7F, $02, HIDE            ; HS_POKEMON_TOWER_7F_JAMES
 	db POKEMON_TOWER_7F, $03, SHOW            ; HS_POKEMON_TOWER_7F_MR_FUJI
 MrFujisHouseHS:
-	db MR_FUJIS_HOUSE, $05, HIDE              ; HS_MR_FUJIS_HOUSE_MR_FUJI
+	db MR_FUJIS_HOUSE, $05, HIDE              ; HS_MR_FUJIS_HOUSE_MR_FUJI#
+CeladonMansion3FHS:
+	db CELADON_MANSION_3F, $05, HIDE		  ; HS_MORIMOTO
 CeladonMansionRoofHouseHS:
 	db CELADON_MANSION_ROOF_HOUSE, $02, SHOW  ; HS_CELADON_MANSION_EEVEE_GIFT
 GameCornerHS:
