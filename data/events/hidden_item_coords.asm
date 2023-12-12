@@ -64,4 +64,5 @@ HiddenItemCoords:
 	hidden_item MT_MOON_CRATER,				   32,  45 ; Old Amber
 	hidden_item DAYCARE,					    4,   1 ; Daycare PC
 	hidden_item MT_MOON_SQUARE,				    5,   5 ; Moon Stone
+	hidden_item BRUNSWICK_TRAIL,				23, 11 ; Solar Beam TM below Cactus
 	db -1 ; end

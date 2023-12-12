@@ -6,6 +6,10 @@ BrunswickGlade_TextPointers:
 	dw GZapRun2
 	dw GZapRun3
 	dw BrunswickGladeSign1
+	dw PickUpItemText
+	dw PickUpItemText
+	dw PickUpItemText
+	dw PickUpItemText
 
 GZapRun1:
 	text_far _BirdBattleText

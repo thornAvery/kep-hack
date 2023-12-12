@@ -455,6 +455,10 @@ BeautyData:
 	db 30, KINGDRA, 0 ; Close to the Trader
 ; Brunswick Trail
 	db 66, PERSIAN, VENUSAUR, KINGDRA, SYLVEON, CLOYSTER, 0
+; Celeste Hill?
+	db 66, MR_MIME, WIGGLYTUFF, NINETALES_A, PENDRAKEN, 0 ; Mina
+	db 65, PERSIAN, PERSIAN_A, PERRSERKER, 0 ; Selphy
+	db 67, MUK, ARBOK, VILEPLUME, 0 ; Ariana
 
 ; yep psychic yep psychic yep psychic
 PsychicData:
@@ -655,6 +659,12 @@ CooltrainerMData:
 ; Viridian Gym
 	db 39, SANDSLASH, DUGTRIO, 0
 	db 43, NIDOKING, 0
+; Celadon Condominiums Morimoto - Team is LGPE's with +10 Levels each.
+	db 64, KANGASKHAN, FLAREON, VAPOREON, JOLTEON, MACHAMP, DRAGONITE, 0
+; Brunswick Trail / Glade 
+	db 68, RATICATE, POLIWRATH, BUTTERFREE, WIGGLYTUFF, MACHAMP, RHYPERIOR, 0 ; Primo
+	db 67, PIDGEOT, VILEPLUME, GUARDIA, RAPIDASH, SLOWBRO, JOLTEON, 0 ; Trace
+	db 70, EXEGGUTOR, SLOWBRO, JYNX, 0 ; Will
 
 ; Equally varied, nothing to say
 CooltrainerFData:
@@ -667,10 +677,12 @@ CooltrainerFData:
 	db 66, CLEFABLE, GENGAR, VICTREEBEL, NINETALES, KANGASKHAN, BLASTOISE, 0
 ; Victory Road 1F
 	db 44, PERSIAN, NINETALES, BELLOSSOM, 0
-; Unused
+; Unused - reuse somewhere? celeste, etc?
 ;	db 45, IVYSAUR, VENUSAUR, 0
 ;	db 45, NIDORINA, NIDOQUEEN, 0
 ;	db 43, PERSIAN, NINETALES, RAICHU, 0
+; Brunswick Glade/grotto etc, whatever desired 
+	db 68, PIDGEOT, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
 
 ; "Dignified" Pokemon associated with the privileged class.
 GentlemanData:
@@ -683,6 +695,9 @@ GentlemanData:
 	db 64, ARCANINE, NIDOQUEEN, MR_RIME, FEAROW, CARAPTHOR, RAPIDASH, 0
 ; SS Anne 2F Rooms
 	db 17, KOLTA, GROWLITHE, 0
+; Celeste Hill?
+	db 69, NIDOKING, GOLDUCK, GUARDIA, PIDGEOT, DODRIO, BEEDRILL, 0 ; Fuji
+	db 67, FEAROW, RAPIDASH, GOROCHU, ALAKAZAM, SYLVEON, 0 ; Fan Club chairman
 
 ChannelerData:
 ; Unused

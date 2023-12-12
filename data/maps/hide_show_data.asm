@@ -136,7 +136,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw CeladonMansion3FHS
 	dw NoHS
 	dw CeladonMansionRoofHouseHS
 	dw NoHS
@@ -330,6 +330,7 @@ Route25HS:
 BrunswickTrailHS:
 	db BRUNSWICK_TRAIL, $01, SHOW             ; HS_CACTUS
 	db BRUNSWICK_TRAIL, $06, SHOW             ; HS_BRUNSWICK_ZAPDOS_G_1
+	db BRUNSWICK_TRAIL, $09, SHOW			  ; HS_BRUNSWICK_TRAIL_ITEM1
 BluesHouseHS:
 	db BLUES_HOUSE, $01, SHOW                 ; HS_DAISY_SITTING
 	db BLUES_HOUSE, $02, HIDE                 ; HS_DAISY_WALKING
@@ -368,7 +369,9 @@ PokemonTower7FHS:
 	db POKEMON_TOWER_7F, $02, HIDE            ; HS_POKEMON_TOWER_7F_JAMES
 	db POKEMON_TOWER_7F, $03, SHOW            ; HS_POKEMON_TOWER_7F_MR_FUJI
 MrFujisHouseHS:
-	db MR_FUJIS_HOUSE, $05, HIDE              ; HS_MR_FUJIS_HOUSE_MR_FUJI
+	db MR_FUJIS_HOUSE, $05, HIDE              ; HS_MR_FUJIS_HOUSE_MR_FUJI#
+CeladonMansion3FHS:
+	db CELADON_MANSION_3F, $05, HIDE		  ; HS_MORIMOTO
 CeladonMansionRoofHouseHS:
 	db CELADON_MANSION_ROOF_HOUSE, $02, SHOW  ; HS_CELADON_MANSION_EEVEE_GIFT
 GameCornerHS:
@@ -591,6 +594,10 @@ BrunswickGladeHS:
 	db BRUNSWICK_GLADE, $01, HIDE            ; HS_GLADE_GZAP_1
 	db BRUNSWICK_GLADE, $02, HIDE            ; HS_GLADE_GZAP_2
 	db BRUNSWICK_GLADE, $03, HIDE            ; HS_GLADE_GZAP_3
+	db BRUNSWICK_GLADE, $04, HIDE            ; HS_GLADE_ITEM1
+	db BRUNSWICK_GLADE, $05, HIDE            ; HS_GLADE_ITEM2
+	db BRUNSWICK_GLADE, $06, HIDE            ; HS_GLADE_ITEM3
+	db BRUNSWICK_GLADE, $07, HIDE            ; HS_GLADE_ITEM4
 CinnabarVolcanoFloorsHS:
 	db CINNABAR_VOLCANO_FLOORS, $05, SHOW
 	assert_table_length NUM_HS_OBJECTS

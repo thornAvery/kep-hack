@@ -139,6 +139,7 @@ Improved Areas
 - Vermilion City now features Officer Jenny with the Squirtle. She only appears if Pikachu or Eevee are chosen.
 - Rock Tunnel has a more workable map, now being easier to go through and having new areas to explore. Includes a way to get renewable fossils, items, and other interesting bits and pieces. Overall, it makes Flash much more rewarding to bring, showing you where the items and content are instead of being an inconvenience. 
 - Celadon Mansion's Roof House now features Shinjuku Jacky, a cut representation of a famous Virtua Fighter player. The house has also been redesigned, derived from the unused "Grandpa's House", featuring Nintendo 64s.
+	- If you go to the Developer Room after beating the game, Morimoto's boss fight from LGPE will be available!
 - Pokemon Tower was shortened, being less intensive and adding room for more maps.
 - Fuchsia City has been made to resemble the more walkable LGPE version, removing the Cut trees among other things.
 - The Fighting Dojo has been revamped, featuring a design reminiscent of the prototype versions; rough floors, the elder in the back, and more. Additionally, you can now get a Hitmontop as a third option. The Karate Master is also now treated somewhat more like a Gym Leader, having Gym Scaling and a Rematch system. 

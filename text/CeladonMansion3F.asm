@@ -65,3 +65,48 @@ _CeladonMansion3Text8::
 	text "GAME FREAK"
 	line "Development Room"
 	done
+
+; Morimoto Boss Fight from LGPE.
+; We use a mix of quotes from across the series, and adapt it to RBY jargon.
+; Eg. Cooltrainer > Coach Trainer.
+
+_CeladonMansionMorimotoGreeting:: ; LGPE
+	text "I'm MORIMOTO."
+	
+	para "I help out all"
+	line "the COOLTRAINERs."
+;	cont "I have my reasons." this is insanely cringe it's off by ONE CHARACTER
+	
+	para "Do you really want"
+	line "to battle me, the"
+	cont "strongest COOL-"
+	cont "TRAINER?"
+	prompt
+
+_CeladonMansionMorimotoFight:: ; LGPE
+	text "Here I go!"
+	prompt
+
+_CeladonMansionMorimotoNo:: ; USUM
+	text "Oh yeah?"
+	
+	para "Well, that's a"
+	line "real shame. I'm"
+	cont "really good,"
+	cont "after all."
+	done
+
+_CeladonMansionMorimotoDefeated:: ; LGPE, compressed
+	text "When"
+	line "it comes down"
+	line "to it, you are"
+	cont "still the best!"
+	prompt
+
+_CeladonMansionMorimotoWin:: ; BW/BW2, compressed & repositioned
+	text "I am"
+	line "the best, after"
+	cont "all!"
+	
+	para "Just kidding!"
+	prompt
