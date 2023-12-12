@@ -662,9 +662,9 @@ CooltrainerMData:
 ; Celadon Condominiums Morimoto - Team is LGPE's with +10 Levels each.
 	db 64, KANGASKHAN, FLAREON, VAPOREON, JOLTEON, MACHAMP, DRAGONITE, 0
 ; Brunswick Trail / Glade 
-	db 68, RATICATE, POLIWRATH, BUTTERFREE, WIGGLYTUFF, MACHAMP, RHYPERIOR, 0 ; Primo
+	db 68, RATICATE, POLITOED, BUTTERFREE, WIGGLYTUFF, MACHAMP, RHYPERIOR, 0 ; Primo
 	db 67, PIDGEOT, VILEPLUME, GUARDIA, RAPIDASH, SLOWBRO, JOLTEON, 0 ; Trace
-	db 70, EXEGGUTOR, SLOWBRO, JYNX, 0 ; Will
+	db 63, EXEGGUTOR, SLOWBRO, JYNX, 0 ; Will
 
 ; Equally varied, nothing to say
 CooltrainerFData:

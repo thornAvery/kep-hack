@@ -13,5 +13,7 @@ CelesteHillCave_Object:
 	def_bg_events
 
 	def_object_events
+	object_event 22, 14, SPRITE_BEAUTY, STAY, DOWN, 1, OPP_BEAUTY, 17 ; Mina reference Trainer
+	object_event 21,  5, SPRITE_COOLTRAINER_M, STAY, UP, 2, OPP_COOLTRAINER_M, 12 ; Primo reference Trainer
 
 	def_warps_to CELESTE_HILL_CAVE
