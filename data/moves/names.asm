@@ -180,7 +180,7 @@ MoveNames:: ; 12chr limit
 	li "MIRROR SHOT"
 	li "SMART STRIKE"
 	li "FAKE TEARS"
-	li "FALSURRENDER" ; maybe we leave this out. maybe.
+	li "FAKESURRENDR"
 	li "KOWTOWCLEAVE"
 	li "DISARMVOICE"
 	li "NASTY PLOT"

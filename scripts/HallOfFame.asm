@@ -214,6 +214,7 @@ ShowThis:
 
 ObjectsToShow:
 	db HS_ROUTE_1_OAK ; Oak post-game fight
+	db HS_MORIMOTO ; LGPE Morimoto Boss Fight
 	db -1 ; end
 
 ObjectsToHide:

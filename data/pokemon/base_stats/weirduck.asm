@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/weirduck.pic", 0, 1 ; sprite dimensions
 	dw WeirduckPicFront, WeirduckPicBack
 
-	db SCRATCH, TAIL_WHIP, AMNESIA, NO_MOVE ; level 1 learnset
+	db SCRATCH, WATER_GUN, TAIL_WHIP, AMNESIA ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
