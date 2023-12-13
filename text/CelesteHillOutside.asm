@@ -1,7 +1,7 @@
 _CelesteHillOutsideBattleText1:: ; Selphy
-	text "W-what do you"
-	line "intend to do"
-	cont "with me?"
+	text "Huh? What do"
+	line "you intend to"
+	cont "do with me?"
 	done
 
 _CelesteHillOutsideEndBattleText1::
@@ -12,8 +12,8 @@ _CelesteHillOutsideEndBattleText1::
 	prompt
 
 _CelesteHillOutsideAfterBattleText1::
-	text "Oh I'm tired of"
-	line "this. Where is"
+	text "Sigh...I'm tired"
+	line "of this. Where's"
 	cont "my butler?"
 	done
 
@@ -38,11 +38,12 @@ _CelesteHillOutsideAfterBattleText2::
 	done
 
 _CelesteHillOutsideBattleText3:: ; Fan Club Chairman
-	text "I heard that a"
+	text "I've heard that a"
 	line "beautiful #MON"
 	cont "resides here."
-	cont "Do you know"
-	cont "about it?"
+
+	para "Do you know"
+	line "about it?"
 	done
 
 _CelesteHillOutsideEndBattleText3::
@@ -52,12 +53,49 @@ _CelesteHillOutsideEndBattleText3::
 
 _CelesteHillOutsideAfterBattleText3::
 	text "Once, I was a"
-	line "fierce TRAINER!"
-	para "My victory was"
-	line "assured!"
+	line "fierce trainer!"
+	cont "My victory was"
+	cont "assured!"
+	
 	para "...but I'm too"
 	line "rusty. Perhaps"
 	cont "I should try"
 	cont "something else..." ; Contest allusion for RSE
+	done
+	
+_HikerNPC::
+	text "Urgh...hey, kid."
+	line "Hear me out for"
+	cont "a sec, would ya?"
+	
+	para "I used to love"
+	line "climbing up this"
+	cont "hill, but after"
+	cont "getting attacked"
+	cont "by that nasty-"
+	cont "looking bird, I"
+	cont "can't go back!"
+
+	para "It had this real"
+	line "mean look on its"
+	cont "face, and its"
+	cont "huge wings looked"
+	cont "like they were on"
+	cont "fire!"
+
+	para "You look tough."
+	line "If you ever find"
+	cont "a #MON like"
+	cont "that, teach it a"
+	cont "lesson for me,"
+	cont "would ya?"
+	done
+
+_CelesteSign::
+	text "CELESTE HILL"
+	line "BIRDWATCHING"
+	
+	para "The writing is"
+	line "slightly faded."
 	done
 	

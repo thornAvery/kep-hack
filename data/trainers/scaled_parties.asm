@@ -10,7 +10,7 @@ BrockData:
 	db $FF, 41, GOLEM, 40, OMASTAR, 40, KABUTOPS, 41, GAWARHED, 43, STEELIX, 0                 ; 5
 	db $FF, 45, GOLEM, 44, OMASTAR, 44, KABUTOPS, 45, GAWARHED, 47, STEELIX, 0                 ; 6
 	db $FF, 47, GOLEM, 46, OMASTAR, 46, KABUTOPS, 48, GAWARHED, 48, KLEAVOR, 50, STEELIX, 0    ; 7 (unused)
-	db $FF, 67, GOLEM, 66, GAWARHED, 66, ARCANINE_H, 67, OMASTAR, 67, KABUTOPS, 70, STEELIX, 0 ; 8 (postgame)
+	db $FF, 62, GOLEM, 61, GAWARHED, 61, ARCANINE_H, 62, OMASTAR, 62, KABUTOPS, 65, STEELIX, 0 ; 8 (postgame)
 
 MistyData:
 	db $FF, 11, HORSEA, 12, GOLDEEN, 14, STARMIE, 0                                              ; 0 badges
@@ -21,7 +21,7 @@ MistyData:
 	db $FF, 41, SEADRA, 40, CROAKOZUNA, 40, SEAKING, 41, GOLDUCK, 43, STARMIE, 0                  ; 5
 	db $FF, 45, KINGDRA, 44, CROAKOZUNA, 44, SEAKING, 45, GOLDUCK, 47, STARMIE, 0                 ; 6
 	db $FF, 47, KINGDRA, 46, CROAKOZUNA, 46, SEAKING, 48, GOLDUCK, 48, VAPOREON, 50, STARMIE, 0   ; 7 (unused)
-	db $FF, 67, KINGDRA, 67, GOLDUCK, 66, TAUROS_PA, 66, VAPOREON, 67, TOTARTLE, 70, STARMIE, 0  ; 8 (postgame)
+	db $FF, 62, KINGDRA, 62, GOLDUCK, 61, TAUROS_PA, 61, VAPOREON, 62, TOTARTLE, 65, STARMIE, 0  ; 8 (postgame)
 
 LtSurgeData:
 	db $FF, 11, VOLTORB, 12, PIKACHU, 14, GAOTORA, 0                                                ; 0 badges
@@ -32,7 +32,7 @@ LtSurgeData:
 	db $FF, 41, ELECTRODE, 40, GOROTORA, 40, MAGNETON, 41, ELECTABUZZ, 43, GOROCHU, 0               ; 5
 	db $FF, 45, ELECTRODE, 44, GOROTORA, 44, MAGNEZONE, 45, ELECTIVIRE, 47, GOROCHU, 0              ; 6
 	db $FF, 47, ELECTRODE, 46, GOROTORA, 46, MAGNEZONE, 48, ELECTIVIRE, 48, JOLTEON, 50, GOROCHU, 0 ; 7 (unused)
-	db $FF, 67, GOROTORA, 67, MAGNEZONE, 66, GOLEM_A, 67, ELECTIVIRE, 66, JOLTEON, 70, GOROCHU, 0  ; 8 (postgame)
+	db $FF, 62, GOROTORA, 62, MAGNEZONE, 61, GOLEM_A, 62, ELECTIVIRE, 61, JOLTEON, 65, GOROCHU, 0  ; 8 (postgame)
 
 ErikaData:
 	db $FF, 11, BELLSPROUT, 12, ODDISH, 14, TANGELA, 0                                                  ; 0 badges (unused)
@@ -43,7 +43,7 @@ ErikaData:
 	db $FF, 41, VICTREEBEL, 40, PARASECT, 40, CACTORMUS, 41, BELLOSSOM, 43, TANGROWTH, 0                ; 5
 	db $FF, 45, VICTREEBEL, 44, PARASECT, 45, CACTORMUS, 45, BELLOSSOM, 47, TANGROWTH, 0                ; 6
 	db $FF, 47, VICTREEBEL, 46, PARASECT, 46, CACTORMUS, 48, BELLOSSOM, 48, LEAFEON, 50, TANGROWTH, 0   ; 7 (unused)
-	db $FF, 67, BELLOSSOM, 67, TOEDSCRUEL, 66, ELECTRODE_H, 66, LEAFEON, 67, VENUSAUR, 70, TANGROWTH, 0 ; 8 (postgame)
+	db $FF, 62, BELLOSSOM, 62, TOEDSCRUEL, 61, ELECTRODE_H, 61, LEAFEON, 62, VENUSAUR, 65, TANGROWTH, 0 ; 8 (postgame)
 
 KogaData:
 	db $FF, 11, VENONAT, 12, ZUBAT, 14, KOFFING, 0                                           ; 0 badges (unused)
@@ -54,7 +54,7 @@ KogaData:
 	db $FF, 41, VENOMOTH, 40, TENTACRUEL, 40, MUK, 41, WEEZING, 43, CROBAT, 0                ; 5
 	db $FF, 45, VENOMOTH, 44, TENTACRUEL, 44, MUK, 45, WEEZING, 47, CROBAT, 0                ; 6
 	db $FF, 47, VENOMOTH, 46, BELLIGNAN, 46, TENTACRUEL, 48, MUK, 48, WEEZING, 50, CROBAT, 0 ; 7 (unused)
-	db $FF, 67, VENOMOTH, 66, BELLIGNAN, 66, SLOWBRO_G, 67, MUK, 67, WEEZING, 70, CROBAT, 0  ; 8 (postgame)
+	db $FF, 62, VENOMOTH, 61, BELLIGNAN, 61, SLOWBRO_G, 62, MUK, 62, WEEZING, 65, CROBAT, 0  ; 8 (postgame)
 
 SabrinaData:
 	db $FF, 11, SLOWPOKE, 12, DROWZEE, 14, KADABRA, 0                                            ; 0 badges (unused)
@@ -65,7 +65,7 @@ SabrinaData:
 	db $FF, 41, ESPEON, 40, MR_MIME, 40, SLOWKING, 41, HYPNO, 43, ALAKAZAM, 0                    ; 5
 	db $FF, 45, ESPEON, 44, MR_MIME, 44, SLOWKING, 45, HYPNO, 47, ALAKAZAM, 0                    ; 6
 	db $FF, 47, ESPEON, 46, MR_MIME, 46, SLOWKING, 48, EXEGGUTOR, 48, HYPNO, 50, ALAKAZAM, 0     ; 7 (unused)
-	db $FF, 67, EXEGGUTOR, 67, SLOWKING, 66, RAPIDASH_G, 67, HYPNO, 66, ESPEON, 70, ALAKAZAM, 0  ; 8 (postgame)
+	db $FF, 62, EXEGGUTOR, 62, SLOWKING, 61, RAPIDASH_G, 62, HYPNO, 61, ESPEON, 65, ALAKAZAM, 0  ; 8 (postgame)
 
 BlaineData:
 	db $FF, 11, VULPIX, 12, GROWLITHE, 14, PONYTA, 0                                                 ; 0 badges (unused)
@@ -76,7 +76,7 @@ BlaineData:
 	db $FF, 41, RAPIDASH, 40, NINETALES, 40, FLAREON, 41, ARCANINE, 43, MAGMORTAR, 0                 ; 5
 	db $FF, 45, RAPIDASH, 44, NINETALES, 44, FLAREON, 45, ARCANINE, 47, MAGMORTAR, 0                 ; 6
 	db $FF, 47, RAPIDASH, 46, NINETALES, 46, FLAREON, 48, CHARIZARD, 48, ARCANINE, 50, MAGMORTAR, 0  ; 7 (unused)
-	db $FF, 67, RAPIDASH, 67, ARCANINE, 66, TAUROS_PB, 66, FLAREON, 67, CHARIZARD, 70, MAGMORTAR, 0  ; 8 (postgame)
+	db $FF, 62, RAPIDASH, 62, ARCANINE, 61, TAUROS_PB, 61, FLAREON, 62, CHARIZARD, 65, MAGMORTAR, 0  ; 8 (postgame)
 
 GiovanniData: ; is not scaled as he is always fought last
 ; Rocket Hideout B4F
@@ -87,24 +87,24 @@ GiovanniData: ; is not scaled as he is always fought last
 	db $FF, 47, TRAMPEL, 46, DUGTRIO, 46, GUARDIA, 48, NIDOQUEEN, 48, NIDOKING, 50, RHYPERIOR, 0
 
 LoreleiData:
-	db $FF, 53, DEWGONG, 52, CLOYSTER, 52, BUU, 54, JYNX, 54, GLACEON, 56, LAPRAS, 0
+	db $FF, 51, DEWGONG, 50, CLOYSTER, 50, BUU, 52, JYNX, 52, GLACEON, 54, LAPRAS, 0
 ; post-game rematch team (currently unused)
-	db $FF, 68, JYNX, 67, CLOYSTER, 67, NINETALES_A, 69, MR_RIME, 69, GLACEON, 71, LAPRAS, 0
+	db $FF, 63, DEWGONG, 64, CLOYSTER, 63, NINETALES_A, 64, JYNX, 64, GLACEON, 66, LAPRAS, 0
 
 BrunoData:
-	db $FF, 55, JABETTA, 54, STEELIX, 54, TRICULES, 56, HITMONCHAN, 56, HITMONLEE, 58, MACHAMP, 0
+	db $FF, 53, JABETTA, 52, STEELIX, 52, TRICULES, 54, HITMONCHAN, 56, HITMONLEE, 56, MACHAMP, 0
 ; post-game rematch team (currently unused)
-	db $FF, 70, JABETTA, 69, STEELIX, 69, SIRFETCHD, 71, TRICULES, 71, HITMONTOP, 73, MACHAMP, 0
+	db $FF, 65, JABETTA, 66, STEELIX, 65, SIRFETCHD, 66, TRICULES, 66, HITMONTOP, 68, MACHAMP, 0
 
 AgathaData:
-	db $FF, 57, ANNIHILAPE, 56, CROBAT, 56, GENGAR, 58, ARBOK, 58, UMBREON, 60, GENGAR, 0		; Agatha has double Gengars in every single battle in the main-series, it's fine here...
+	db $FF, 55, ANNIHILAPE, 54, CROBAT, 54, GENGAR, 56, ARBOK, 56, UMBREON, 58, GENGAR, 0		; Agatha has double Gengars in every single battle in the main-series, it's fine here...
 ; post-game rematch team (currently unused)
-	db $FF, 72, ANNIHILAPE, 71, CROBAT, 71, MAROWAK_A, 73, ARBOK, 73, UMBREON, 75, GENGAR, 0
+	db $FF, 67, ANNIHILAPE, 68, CROBAT, 67, MAROWAK_A, 68, ARBOK, 68, UMBREON, 70, GENGAR, 0
 
 LanceData:
-	db $FF, 59, GAVILLAIN, 58, GYARADOS, 58, KINGDRA, 60, IGUANARCH, 60, AERODACTYL, 62, DRAGONITE, 0
+	db $FF, 57, GAVILLAIN, 56, GYARADOS, 56, KINGDRA, 58, IGUANARCH, 58, AERODACTYL, 60, DRAGONITE, 0
 ; post-game rematch team (currently unused)
-	db $FF, 74, GAVILLAIN, 73, GYARADOS, 73, EXEGGUTOR_A, 75, KINGDRA, 75, IGUANARCH, 77, DRAGONITE, 0
+	db $FF, 69, GAVILLAIN, 70, GYARADOS, 69, EXEGGUTOR_A, 70, KINGDRA, 70, IGUANARCH, 72, DRAGONITE, 0
 
 YujirouData: ; was unused juggler
 	db $FF, 5, COINPUR, 6, RATTATA, 8, LICKITUNG, 0                                           ; 0
@@ -117,7 +117,7 @@ YujirouData: ; was unused juggler
 	db $FF, 45, PERSIAN, 44, TAUROS, 44, CHANSEY, 45, LUXWAN, 47, LICKILICKY, 0               ; 7
 	db $FF, 47, PERSIAN, 46, TAUROS, 46, BLISSEY, 48, LUXWAN, 48, SNORLAX, 50, LICKILICKY, 0  ; 8
 ; post-game rematch team
-	db $FF, 66, PERSIAN, 65, TAUROS, 66, BLISSEY, 65, LUXWAN, 66, SNORLAX, 69, LICKILICKY, 0
+	db $FF, 61, PERSIAN, 60, TAUROS, 60, BLISSEY, 61, LUXWAN, 61, SNORLAX, 64, LICKILICKY, 0
 
 BlackbeltData:
 ; Koichi parties
@@ -129,8 +129,8 @@ BlackbeltData:
 	db $FF, 39, MACHOKE, 39, PRIMEAPE, 42, HITMONLEE, 42, HITMONCHAN, 42, HITMONTOP, 0 ; 5
 	db $FF, 43, MACHAMP, 43, PRIMEAPE, 46, HITMONLEE, 46, HITMONCHAN, 46, HITMONTOP, 0 ; 6
 	db $FF, 46, MACHAMP, 46, CARAPTHOR, 46, ANNIHILAPE, 49, HITMONLEE, 49, HITMONCHAN, 49, HITMONTOP, 0 ; 7
-	db $FF, 52, MACHAMP, 52, CARAPTHOR, 52, ANNIHILAPE, 55, HITMONLEE, 55, HITMONCHAN, 55, HITMONTOP, 0 ; 8
-	db $FF, 66, MACHAMP, 66, ANNIHILAPE, 66, TAUROS_P, 70, HITMONLEE, 70, HITMONCHAN, 70, HITMONTOP, 0 ; Postgame
+	db $FF, 50, MACHAMP, 50, CARAPTHOR, 50, ANNIHILAPE, 53, HITMONLEE, 53, HITMONCHAN, 53, HITMONTOP, 0 ; 8
+	db $FF, 60, MACHAMP, 60, ANNIHILAPE, 60, TAUROS_P, 65, HITMONLEE, 65, HITMONCHAN, 65, HITMONTOP, 0 ; Postgame
 ; Fighting Dojo Trainers
 	db 31, CHEEP, CHEEP, JABETTA, 0
 	db 32, MACHOKE, MACHAMP, 0
