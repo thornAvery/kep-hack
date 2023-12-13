@@ -314,6 +314,7 @@ ClefairyEvosMoves:
 	db 13, SING
 	db 18, DOUBLESLAP
 	db 24, MINIMIZE
+	db 28, TAKE_DOWN ; Prototype
 	db 31, METRONOME
 	db 35, BODY_SLAM
 	db 39, DEFENSE_CURL
@@ -325,11 +326,14 @@ SpearowEvosMoves:
 	db EV_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
+	db 5, RAGE ; Prototype - it's balanced cus spearow has the defence of a wet napkin
 	db 9, LEER
 	db 15, FURY_ATTACK
 	db 22, MIRROR_MOVE
 	db 29, DRILL_PECK
 	db 36, AGILITY
+	db 43, TAKE_DOWN ; Prototype
+	db 50, WHIRLWIND ; Prototype, comedy
 	db 0
 
 VoltorbEvosMoves:
@@ -351,13 +355,17 @@ NidokingEvosMoves:
 	db 8, HORN_ATTACK
 	db 14, POISON_STING
 	db 23, THRASH
+	db 28, MEGA_PUNCH ; Prototype
 	db 36, EARTHQUAKE
+	db 49, DOUBLE_EDGE ; Prototype
+	db 57, MEGA_KICK ; Prototype
 	db 0
 
 SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, BIDE
 	db 18, DISABLE
 	db 22, HEADBUTT
 	db 27, GROWL
@@ -376,8 +384,10 @@ IvysaurEvosMoves:
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
+	db 30, TAKE_DOWN ; Prototype
 	db 38, GROWTH
 	db 46, SLEEP_POWDER
+	db 46, MEGA_DRAIN ; Prototype
 	db 54, SOLARBEAM
 	db 0
 
@@ -447,6 +457,7 @@ NidoranFEvosMoves:
 	db 23, TAIL_WHIP
 	db 30, BITE
 	db 38, FURY_SWIPES
+	db 46, TAKE_DOWN ; Prototype
 	db 0
 
 NidoqueenEvosMoves:
@@ -456,7 +467,10 @@ NidoqueenEvosMoves:
 	db 8, SCRATCH
 	db 14, POISON_STING
 	db 23, BODY_SLAM
+	db 28, MEGA_PUNCH ; Prototype
 	db 36, EARTHQUAKE
+	db 49, DOUBLE_EDGE ; Prototype
+	db 57, MEGA_KICK ; Prototype
 	db 0
 
 CuboneEvosMoves:
@@ -534,6 +548,7 @@ ShellderEvosMoves:
 	db EV_ITEM, ICE_STONE, 1, CLOYSTER
 	db 0
 ; Learnset
+	db 10, BIDE ; Prototype
 	db 18, SUPERSONIC
 	db 23, CLAMP
 	db 30, AURORA_BEAM
@@ -662,10 +677,12 @@ GrowlitheEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, ARCANINE
 	db 0
 ; Learnset
+	db 10, RAGE
 	db 18, EMBER
 	db 23, LEER
 	db 30, TAKE_DOWN
 	db 39, AGILITY
+	db 44, DOUBLE_EDGE ; Prototype
 	db 50, FLAMETHROWER
 	db 0
 
@@ -680,6 +697,7 @@ OnixEvosMoves:
 	db 25, RAGE
 	db 33, SLAM
 	db 43, HARDEN
+	db 50, FISSURE ; Prototype
 	db 0
 
 FearowEvosMoves:
@@ -691,6 +709,8 @@ FearowEvosMoves:
 	db 25, MIRROR_MOVE
 	db 34, DRILL_PECK
 	db 43, AGILITY
+	db 50, TAKE_DOWN ; Prototype
+	db 56, WHIRLWIND ; Prototype, comedy
 	db 0
 
 PidgeyEvosMoves:
@@ -712,6 +732,7 @@ SlowpokeEvosMoves:
 	db EV_LEVEL, 37, SLOWBRO
 	db 0
 ; Learnset
+	db 10, BIDE
 	db 18, DISABLE
 	db 22, HEADBUTT
 	db 27, GROWL
@@ -766,11 +787,14 @@ MachokeEvosMoves:
 	db EV_TRADE, 1, MACHAMP
 	db 0
 ; Learnset
+	db 15, COUNTER
 	db 20, LOW_KICK
 	db 25, LEER
 	db 36, FOCUS_ENERGY
 	db 44, SEISMIC_TOSS
 	db 52, SUBMISSION
+	db 60, MEGA_PUNCH ; Prototype
+	db 66, MEGA_KICK ; Prototype
 	db 0
 
 MrMimeEvosMoves:
@@ -815,6 +839,7 @@ ArbokEvosMoves:
 	db 27, GLARE
 	db 36, SCREECH
 	db 47, ACID
+	db 54, TOXIC ; Prototype
 	db 0
 
 ParasectEvosMoves:
@@ -827,6 +852,7 @@ ParasectEvosMoves:
 	db 30, SPORE
 	db 39, SLASH
 	db 48, GROWTH
+	db 57, SWORDS_DANCE ; Prototype
 	db 0
 
 PsyduckEvosMoves:
@@ -968,6 +994,8 @@ MankeyEvosMoves:
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
 	db 45, SCREECH
+	db 51, SUBMISSION
+	db 58, COUNTER
 	db 0
 
 SeelEvosMoves:
@@ -1084,6 +1112,7 @@ DragoniteEvosMoves:
 	db 35, SLAM
 	db 45, DRAGON_RAGE
 	db 60, HYPER_BEAM
+	db 65, THUNDER
 	db 0
 
 CactormusEvosMoves:
@@ -1212,6 +1241,7 @@ MeowthEvosMoves:
 	db 26, FURY_SWIPES
 	db 33, SCREECH
 	db 38, SLASH
+	db 43, DOUBLE_TEAM
 	db 0
 
 KrabbyEvosMoves:
@@ -1351,6 +1381,7 @@ DratiniEvosMoves:
 	db 30, SLAM
 	db 40, DRAGON_RAGE
 	db 50, HYPER_BEAM
+	db 55, THUNDER
 	db 0
 
 DragonairEvosMoves:
@@ -1363,6 +1394,7 @@ DragonairEvosMoves:
 	db 35, SLAM
 	db 45, DRAGON_RAGE
 	db 55, HYPER_BEAM
+	db 60, THUNDER
 	db 0
 
 KabutoEvosMoves:
@@ -1489,13 +1521,14 @@ JigglypuffEvosMoves:
 	db EV_ITEM, MOON_STONE, 1, WIGGLYTUFF
 	db 0
 ; Learnset
-	db 9, POUND
+	db 9, COUNTER ; Prototype - Pound made L1 because lol imagine using puff otherwise
 	db 14, DISABLE
 	db 19, DEFENSE_CURL
 	db 24, DOUBLESLAP
 	db 29, REST
 	db 34, BODY_SLAM
-	db 39, DOUBLE_EDGE
+	db 39, TAKE_DOWN ; Prototype
+	db 44, DOUBLE_EDGE
 	db 0
 
 WigglytuffEvosMoves:
@@ -1572,11 +1605,14 @@ MachopEvosMoves:
 	db EV_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
+	db 15, COUNTER ; Prototype
 	db 20, LOW_KICK
 	db 25, LEER
 	db 32, FOCUS_ENERGY
 	db 39, SEISMIC_TOSS
 	db 46, SUBMISSION
+	db 53, MEGA_PUNCH ; Prototype
+	db 60, MEGA_KICK ; Prototype
 	db 0
 
 ZubatEvosMoves:
@@ -1603,6 +1639,7 @@ EkansEvosMoves:
 	db 24, GLARE
 	db 31, SCREECH
 	db 38, ACID
+	db 45, TOXIC ; Prototype
 	db 0
 
 ParasEvosMoves:
@@ -1616,6 +1653,7 @@ ParasEvosMoves:
 	db 27, SPORE
 	db 34, SLASH
 	db 41, GROWTH
+	db 48, SWORDS_DANCE
 	db 0
 
 PoliwhirlEvosMoves:
@@ -1667,6 +1705,9 @@ BeedrillEvosMoves:
 	db 25, RAGE
 	db 30, PIN_MISSILE
 	db 35, AGILITY
+	db 35, SWORDS_DANCE ; Prototype - reformed to be like Butterfree's powders
+	db 40, TAKE_DOWN ; Prototype
+	db 45, TOXIC ; Prototype
 	db 0
 
 LuxwanEvosMoves:
@@ -1706,6 +1747,8 @@ PrimeapeEvosMoves:
 	db 37, SEISMIC_TOSS
 	db 45, SCREECH
 	db 46, THRASH
+	db 54, SUBMISSION
+	db 62, COUNTER
 	db 0
 
 DugtrioEvosMoves:
@@ -1799,17 +1842,23 @@ ButterfreeEvosMoves:
 	db 23, WHIRLWIND
 	db 28, GUST
 	db 34, PSYBEAM
+	db 40, MEGA_DRAIN ; Prototype
+	db 45, TAKE_DOWN ; Prototype
+	db 50, HYPER_BEAM ; Prototype
 	db 0
 
 MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 15, COUNTER ; Prototype
 	db 20, LOW_KICK
 	db 25, LEER
 	db 36, FOCUS_ENERGY
 	db 44, SEISMIC_TOSS
 	db 52, SUBMISSION
+	db 60, MEGA_PUNCH ; Prototype
+	db 66, MEGA_KICK ; Prototype
 	db 0
 
 WeirduckEvosMoves:
@@ -2017,6 +2066,7 @@ PersianEvosMoves:
 	db 26, FURY_SWIPES
 	db 35, SCREECH
 	db 40, SLASH
+	db 45, DOUBLE_TEAM
 	db 0
 
 MarowakEvosMoves:
@@ -2116,9 +2166,11 @@ BulbasaurEvosMoves:
 	db 13, VINE_WHIP
 	db 20, POISONPOWDER
 	db 27, RAZOR_LEAF
-	db 34, GROWTH
-	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+	db 34, TAKE_DOWN ; Prototype
+	db 41, GROWTH
+	db 48, SLEEP_POWDER
+	db 48, MEGA_DRAIN ; Prototype, learn together? May need restructuring.
+	db 55, SOLARBEAM
 	db 0
 
 VenusaurEvosMoves:
@@ -2129,8 +2181,10 @@ VenusaurEvosMoves:
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
+	db 30, TAKE_DOWN ; Prototype
 	db 43, GROWTH
 	db 55, SLEEP_POWDER
+	db 55, MEGA_DRAIN ; Prototype
 	db 65, SOLARBEAM
 	db 0
 
@@ -2159,6 +2213,8 @@ OrfryEvosMoves:
 	db 26, WATERFALL
 	db 30, HORN_DRILL
 	db 34, AGILITY
+	db 40, DOUBLE_EDGE ; Prototype
+	db 44, SWORDS_DANCE ; Tradeback move
 	db 0
 
 GoldeenEvosMoves:
@@ -2172,6 +2228,8 @@ GoldeenEvosMoves:
 	db 29, WATERFALL
 	db 34, HORN_DRILL
 	db 39, AGILITY
+	db 44, DOUBLE_EDGE ; Prototype
+	db 50, SWORDS_DANCE ; Tradeback move
 	db 0
 
 SeakingEvosMoves:
@@ -2184,7 +2242,8 @@ SeakingEvosMoves:
 	db 29, WATERFALL
 	db 37, HORN_DRILL
 	db 41, AGILITY
-	db 46, SWORDS_DANCE
+	db 46, DOUBLE_EDGE ; Prototype
+	db 52, SWORDS_DANCE ; Tradeback move
 	db 0
 
 KotoraEvosMoves:
@@ -2314,8 +2373,10 @@ NidorinaEvosMoves:
 	db 27, TAIL_WHIP
 	db 36, BITE
 	db 46, FURY_SWIPES
+	db 55, TAKE_DOWN ; Prototype
 	db 0
 
+; Needs Body Slam, Mega Punch, Double-Edge, and Fissure distributed
 GeodudeEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 25, GRAVELER
@@ -2413,6 +2474,7 @@ CharmanderEvosMoves:
 	db 46, FIRE_SPIN
 	db 0
 
+; Needs Mega Punch, Body Slam, Take Down, Mega Kick, Double-Edge, Bubblebeam
 SquirtleEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 16, WARTORTLE
@@ -2748,6 +2810,7 @@ SteelixEvosMoves:
 	db 33, SLAM
 	db 38, IRON_HEAD
 	db 43, HARDEN
+	db 50, FISSURE ; Prototype
 	db 0
 
 BlisseyEvosMoves:
@@ -2843,6 +2906,7 @@ SlowkingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, BIDE
 	db 18, DISABLE
 	db 22, HEADBUTT
 	db 27, GROWL
@@ -2941,6 +3005,8 @@ AnnihilapeEvosMoves:
 	db 45, SCREECH
 	db 46, THRASH
 	db 50, NIGHT_SHADE
+	db 54, SUBMISSION
+	db 62, COUNTER
 	db 0
 
 ScreamTailEvosMoves:
@@ -3085,11 +3151,13 @@ ArcanineHEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, RAGE
 	db 18, EMBER ; no growlithe-hisui
 	db 23, LEER
 	db 30, TAKE_DOWN
 	db 35, ROCK_SLIDE
 	db 39, AGILITY
+	db 44, DOUBLE_EDGE
 	db 50, FLAMETHROWER
 	db 0
 	
@@ -3185,6 +3253,7 @@ PersianAEvosMoves:
 	db 35, NASTY_PLOT
 	db 40, SLASH
 	db 46, NIGHT_SLASH
+	db 50, DOUBLE_TEAM
 	db 0
 	
 GolemAEvosMoves:
@@ -3218,6 +3287,7 @@ SlowbroGEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, BIDE
 	db 18, DISABLE
 	db 22, HEADBUTT
 	db 27, GROWL
@@ -3232,6 +3302,7 @@ SlowkingGEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, BIDE
 	db 18, DISABLE
 	db 22, HEADBUTT
 	db 27, GROWL
