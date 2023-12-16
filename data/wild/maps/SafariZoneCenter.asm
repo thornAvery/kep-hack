@@ -7,7 +7,7 @@ SafariZoneCenterWildMons:
 	db 24, CUBONE
 	db 25, SLOWPOKE
 	db 21, LICKITUNG
-	db 23, RAMOOSE
+	db 23, GORILLAIMO
 	db 23, CHANSEY
 	db 23, TRAMPEL
 	end_grass_wildmons

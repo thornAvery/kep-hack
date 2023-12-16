@@ -138,8 +138,8 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE_H
 	mon_cry CRY_VENONAT,       0,  256 ; TENTACOOL
 	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
-	mon_cry CRY_NIDORAN_M,     0,    0 ; TOEDSCOOL	(incomplete)
-	mon_cry CRY_NIDORAN_M,     0,    0 ; TOEDSCRUEL	(incomplete)
+	mon_cry CRY_DIGLETT,     -22,  353 ; TOEDSCOOL
+	mon_cry CRY_SLOWKING,    -38,  704 ; TOEDSCRUEL
 	mon_cry CRY_BLASTOISE,   147,  128 ; BLOTTLE
 	mon_cry CRY_BLASTOISE,    60,  128 ; PENDRAKEN
 	mon_cry CRY_GOLEM,       147,  224 ; RIBBITO
@@ -213,6 +213,7 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS_PA
 	mon_cry CRY_PIDGEOTTO,    10,  320 ; CHANSEY
 	mon_cry CRY_SLOWKING,    659,  320 ; BLISSEY
+	mon_cry CRY_RHYDON,       17,  383 ; GORILLAIMO
 	mon_cry CRY_NIDORAN_M,   128,  144 ; CACTORMUS
 	mon_cry CRY_KRABBY,        8,  192 ; MR_MIME
 	mon_cry CRY_KRABBY,     -256,  232 ; MR_RIME
@@ -254,4 +255,4 @@ PokemonCries::
 	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_NATU,        -18,   89 ; MELTAN
-	mon_cry CRY_RHYDON,      240,  224 ; MELMETAL	(revise if possible)
+	mon_cry CRY_AMPHAROS,    158,  592 ; MELMETAL

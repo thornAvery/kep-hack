@@ -887,8 +887,8 @@ SpecialTrainerMoves:
 	db 2, 3, ICE_BEAM
 	db 3, 1, BLIZZARD
 	db 3, 2, PSYCHIC_M
-	db 3, 1, BODY_SLAM
-	db 3, 2, MIST
+	db 3, 3, BODY_SLAM
+	db 3, 4, MIST
 	db 4, 1, LOVELY_KISS 
 	db 4, 3, PSYCHIC_M
 	db 4, 4, COUNTER 

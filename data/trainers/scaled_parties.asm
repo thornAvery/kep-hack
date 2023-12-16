@@ -92,9 +92,9 @@ LoreleiData:
 	db $FF, 63, DEWGONG, 64, CLOYSTER, 63, NINETALES_A, 64, JYNX, 64, GLACEON, 66, LAPRAS, 0
 
 BrunoData:
-	db $FF, 53, JABETTA, 52, STEELIX, 52, TRICULES, 54, HITMONCHAN, 56, HITMONLEE, 56, MACHAMP, 0
+	db $FF, 53, JABETTA, 52, STEELIX, 52, GORILLAIMO, 54, HITMONCHAN, 56, HITMONLEE, 56, MACHAMP, 0
 ; post-game rematch team (currently unused)
-	db $FF, 65, JABETTA, 66, STEELIX, 65, SIRFETCHD, 66, TRICULES, 66, HITMONTOP, 68, MACHAMP, 0
+	db $FF, 65, JABETTA, 66, STEELIX, 65, SIRFETCHD, 66, GORILLAIMO, 66, HITMONTOP, 68, MACHAMP, 0
 
 AgathaData:
 	db $FF, 55, ANNIHILAPE, 54, CROBAT, 54, GENGAR, 56, ARBOK, 56, UMBREON, 58, GENGAR, 0		; Agatha has double Gengars in every single battle in the main-series, it's fine here...
@@ -134,7 +134,7 @@ BlackbeltData:
 ; Fighting Dojo Trainers
 	db 31, CHEEP, CHEEP, JABETTA, 0
 	db 32, MACHOKE, MACHAMP, 0
-	db 36, SIRFETCHD, 0
+	db 35, GORILLAIMO, 0
 	db 31, MACHOP, MANKEY, PRIMEAPE, 0
 ; Viridian Gym	- changed to fit the Ground-type gym theme
 	db 40, SANDSLASH, GOLEM, 0

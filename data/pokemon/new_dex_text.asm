@@ -987,6 +987,16 @@ _TaurosPADexEntry::
 	next "of water from the"
 	next "tips of its horns"
 	dex
+	
+_GorillaimoDexEntry::
+	text "Intelligent enough"
+	next "to craft items of"
+	next "clothing. Ancient"
+	
+	page "scripture shows a"
+	next "giant GORILLAIMO"
+	next "battling GAWARHED"
+	dex
 
 _MissingNoDexEntry::	; unused
 	text "This is a newly"

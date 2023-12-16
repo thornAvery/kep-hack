@@ -411,7 +411,7 @@ CueBallData:
 ; Route 21
 	db 31, TENTACOOL, TENTACOOL, TENTACRUEL, 0
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, ANNIHILAPE, RATICATE_A, CROAKOZUNA, PERSIAN_A, MACHAMP, TENTACRUEL, 0
+	db 60, ANNIHILAPE, RATICATE_A, CROAKOZUNA, PERSIAN_A, MACHAMP, GORILLAIMO, 0
 
 ; Big variety, kind of aimless; seems to be a counterparts thing.
 GamblerData:

@@ -250,6 +250,7 @@ PokedexEntryPointers:
 	dw TaurosPDexEntry
 	dw TaurosPADexEntry
 	dw TaurosPBDexEntry
+	dw GorillaimoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
@@ -2015,5 +2016,12 @@ MoltresGDexEntry:
 	db 6,7
 	dw 1460
 	text_far _MoltresGDexEntry
+	text_end
+	
+GorillaimoDexEntry:
+    db "GREAT APE@"
+	db 7,11
+	dw 4080
+	text_far _GorillaimoDexEntry
 	text_end
 	

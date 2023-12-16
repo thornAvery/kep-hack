@@ -262,6 +262,7 @@ EvosMovesPointerTable:
 	dw TaurosPEvosMoves
 	dw TaurosPAEvosMoves
 	dw TaurosPBEvosMoves
+	dw GorillaimoEvosMoves
 	dw FossilKabutopsEvosMoves
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
@@ -384,11 +385,11 @@ IvysaurEvosMoves:
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
-	db 30, TAKE_DOWN ; Prototype
-	db 38, GROWTH
-	db 46, SLEEP_POWDER
-	db 46, MEGA_DRAIN ; Prototype
-	db 54, SOLARBEAM
+	db 37, TAKE_DOWN ; Prototype
+	db 41, GROWTH
+	db 48, SLEEP_POWDER
+	db 55, MEGA_DRAIN ; Prototype
+	db 59, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
@@ -704,6 +705,7 @@ FearowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 5, RAGE
 	db 9, LEER
 	db 15, FURY_ATTACK
 	db 25, MIRROR_MOVE
@@ -1705,9 +1707,9 @@ BeedrillEvosMoves:
 	db 25, RAGE
 	db 30, PIN_MISSILE
 	db 35, AGILITY
-	db 35, SWORDS_DANCE ; Prototype - reformed to be like Butterfree's powders
-	db 40, TAKE_DOWN ; Prototype
-	db 45, TOXIC ; Prototype
+	db 40, SWORDS_DANCE ; Prototype
+	db 45, TAKE_DOWN ; Prototype
+	db 50, TOXIC ; Prototype
 	db 0
 
 LuxwanEvosMoves:
@@ -2169,7 +2171,7 @@ BulbasaurEvosMoves:
 	db 34, TAKE_DOWN ; Prototype
 	db 41, GROWTH
 	db 48, SLEEP_POWDER
-	db 48, MEGA_DRAIN ; Prototype, learn together? May need restructuring.
+	db 51, MEGA_DRAIN ; Prototype
 	db 55, SOLARBEAM
 	db 0
 
@@ -2181,10 +2183,10 @@ VenusaurEvosMoves:
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
-	db 30, TAKE_DOWN ; Prototype
-	db 43, GROWTH
+	db 41, TAKE_DOWN ; Prototype
+	db 47, GROWTH
 	db 55, SLEEP_POWDER
-	db 55, MEGA_DRAIN ; Prototype
+	db 60, MEGA_DRAIN ; Prototype
 	db 65, SOLARBEAM
 	db 0
 
@@ -2482,10 +2484,16 @@ SquirtleEvosMoves:
 ; Learnset
 	db 8, BUBBLE
 	db 15, WATER_GUN
-	db 22, BITE
-	db 28, WITHDRAW
+	db 18, BITE
+	db 21, WITHDRAW
+	db 25, BUBBLEBEAM
+	db 28, TAKE_DOWN
+	db 31, BODY_SLAM
 	db 35, SKULL_BASH
+	db 39, MEGA_PUNCH
 	db 42, HYDRO_PUMP
+	db 47, DOUBLE_EDGE
+	db 52, MEGA_KICK
 	db 0
 
 CharmeleonEvosMoves:
@@ -2508,10 +2516,16 @@ WartortleEvosMoves:
 ; Learnset
 	db 8, BUBBLE
 	db 15, WATER_GUN
-	db 24, BITE
-	db 31, WITHDRAW
+	db 20, BITE
+	db 23, WITHDRAW
+	db 28, BUBBLEBEAM
+	db 31, TAKE_DOWN
+	db 35, BODY_SLAM
 	db 39, SKULL_BASH
+	db 44, MEGA_PUNCH
 	db 47, HYDRO_PUMP
+	db 53, DOUBLE_EDGE
+	db 58, MEGA_KICK
 	db 0
 
 CharizardEvosMoves:
@@ -2532,13 +2546,20 @@ TotartleEvosMoves:
 ; Learnset
 	db 8, BUBBLE
 	db 15, WATER_GUN
-	db 24, BITE
-	db 31, WITHDRAW
+	db 20, BITE
+	db 23, WITHDRAW
+	db 28, BUBBLEBEAM
+	db 31, TAKE_DOWN
+	db 35, BODY_SLAM
+	db 39, LEER
 	db 42, SKULL_BASH
-	db 46, HYDRO_PUMP
-	db 50, COMET_PUNCH
-	db 54, LEER
-	db 60, PETAL_DANCE
+	db 47, MEGA_PUNCH
+	db 50, HYDRO_PUMP
+	db 53, COMET_PUNCH
+	db 56, DOUBLE_EDGE
+	db 62, MEGA_KICK
+	db 65, PETAL_DANCE
+	db 70, BLIZZARD
 	db 0
 	
 ArticunoGEvosMoves:
@@ -2974,6 +2995,9 @@ CarapthorEvosMoves:
 	db 25, SWIFT
 	db 30, MEGA_PUNCH
 	db 35, SUBSTITUTE
+	db 40, SEISMIC_TOSS
+	db 45, TAKE_DOWN
+	db 50, SUBMISSION
 	db 0
 	
 MagnezoneEvosMoves:
@@ -3393,6 +3417,19 @@ TaurosPBEvosMoves:
 	db 35, FLAMETHROWER
 	db 44, RAGE
 	db 51, FIRE_SPIN
+	db 0
+	
+GorillaimoEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 7, ROAR
+	db 15, BITE
+	db 22, THUNDERPUNCH ; In King Kong vs. Godzilla (1962), King Kong has an affinity for using electricity. He's not only immune to electricity, but is also powered up by it, so Gorillaimo would be given Lightning Rod/Motor Drive as an ability if it were brought into a later generation.
+	db 29, SEISMIC_TOSS
+	db 35, BODY_SLAM
+	db 42, AMNESIA
+	db 49, SUBMISSION
 	db 0
 	
 FossilKabutopsEvosMoves:
