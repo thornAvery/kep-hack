@@ -381,15 +381,19 @@ IvysaurEvosMoves:
 	db EV_LEVEL, 32, VENUSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
-	db 37, TAKE_DOWN ; Prototype
-	db 41, GROWTH
-	db 48, SLEEP_POWDER
-	db 55, MEGA_DRAIN ; Prototype
-	db 59, SOLARBEAM
+	db 8, VINE_WHIP
+	db 14, LEECH_SEED
+	db 21, POISONPOWDER
+	db 24, GROWTH
+	db 28, RAZOR_LEAF
+	db 31, TAKE_DOWN ; Prototype
+	db 34, BODY_SLAM
+	db 39, SLEEP_POWDER
+	db 43, MEGA_DRAIN ; Prototype 
+	db 48, PETAL_DANCE
+	db 52, DOUBLE_EDGE
+	db 57, TOXIC
+	db 62, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
@@ -2164,30 +2168,38 @@ BulbasaurEvosMoves:
 	db EV_LEVEL, 16, IVYSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 20, POISONPOWDER
-	db 27, RAZOR_LEAF
-	db 34, TAKE_DOWN ; Prototype
-	db 41, GROWTH
-	db 48, SLEEP_POWDER
-	db 51, MEGA_DRAIN ; Prototype
-	db 55, SOLARBEAM
+	db 8, VINE_WHIP
+	db 14, LEECH_SEED
+	db 19, POISONPOWDER
+	db 22, GROWTH
+	db 25, RAZOR_LEAF
+	db 28, TAKE_DOWN ; Prototype
+	db 32, BODY_SLAM
+	db 37, SLEEP_POWDER
+	db 41, MEGA_DRAIN ; Prototype 
+	db 44, PETAL_DANCE
+	db 48, DOUBLE_EDGE
+	db 52, TOXIC
+	db 58, SOLARBEAM
 	db 0
 
 VenusaurEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
-	db 41, TAKE_DOWN ; Prototype
-	db 47, GROWTH
-	db 55, SLEEP_POWDER
-	db 60, MEGA_DRAIN ; Prototype
-	db 65, SOLARBEAM
+	db 8, VINE_WHIP
+	db 14, LEECH_SEED
+	db 21, POISONPOWDER
+	db 24, GROWTH
+	db 28, RAZOR_LEAF
+	db 31, TAKE_DOWN ; Prototype
+	db 36, BODY_SLAM
+	db 41, SLEEP_POWDER
+	db 45, MEGA_DRAIN ; Prototype 
+	db 53, PETAL_DANCE
+	db 56, DOUBLE_EDGE
+	db 62, TOXIC
+	db 66, SOLARBEAM
 	db 0
 
 TentacruelEvosMoves:
@@ -2470,13 +2482,19 @@ CharmanderEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 15, LEER
-	db 22, RAGE
-	db 30, SLASH
-	db 38, FLAMETHROWER
-	db 46, FIRE_SPIN
+	db 19, RAGE
+	db 22, HEADBUTT
+	db 25, FIRE_SPIN
+	db 29, TAKE_DOWN
+	db 33, SEISMIC_TOSS
+	db 37, FLAMETHROWER
+	db 41, MEGA_PUNCH
+	db 44, SLASH
+	db 48, DOUBLE_EDGE
+	db 51, MEGA_KICK
+	db 57, FIRE_BLAST
 	db 0
 
-; Needs Mega Punch, Body Slam, Take Down, Mega Kick, Double-Edge, Bubblebeam
 SquirtleEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 16, WARTORTLE
@@ -2491,7 +2509,7 @@ SquirtleEvosMoves:
 	db 31, BODY_SLAM
 	db 35, SKULL_BASH
 	db 39, MEGA_PUNCH
-	db 42, HYDRO_PUMP
+	db 43, HYDRO_PUMP
 	db 47, DOUBLE_EDGE
 	db 52, MEGA_KICK
 	db 0
@@ -2503,10 +2521,17 @@ CharmeleonEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 15, LEER
-	db 24, RAGE
-	db 33, SLASH
-	db 42, FLAMETHROWER
-	db 56, FIRE_SPIN
+	db 21, RAGE
+	db 24, HEADBUTT
+	db 28, FIRE_SPIN
+	db 32, TAKE_DOWN
+	db 37, SEISMIC_TOSS
+	db 41, FLAMETHROWER
+	db 45, MEGA_PUNCH
+	db 49, SLASH
+	db 53, DOUBLE_EDGE
+	db 57, MEGA_KICK
+	db 63, FIRE_BLAST
 	db 0
 
 WartortleEvosMoves:
@@ -2523,7 +2548,7 @@ WartortleEvosMoves:
 	db 35, BODY_SLAM
 	db 39, SKULL_BASH
 	db 44, MEGA_PUNCH
-	db 47, HYDRO_PUMP
+	db 48, HYDRO_PUMP
 	db 53, DOUBLE_EDGE
 	db 58, MEGA_KICK
 	db 0
@@ -2534,10 +2559,19 @@ CharizardEvosMoves:
 ; Learnset
 	db 9, EMBER
 	db 15, LEER
-	db 24, RAGE
-	db 36, SLASH
-	db 46, FLAMETHROWER
-	db 55, FIRE_SPIN
+	db 21, RAGE
+	db 24, HEADBUTT
+	db 28, FIRE_SPIN
+	db 32, TAKE_DOWN
+	db 36, WING_ATTACK
+	db 41, SEISMIC_TOSS
+	db 45, FLAMETHROWER
+	db 49, MEGA_PUNCH
+	db 53, SLASH
+	db 57, DOUBLE_EDGE
+	db 62, MEGA_KICK
+	db 66, FIRE_BLAST
+	db 70, DRAGON_RAGE
 	db 0
 
 TotartleEvosMoves:
@@ -2551,14 +2585,13 @@ TotartleEvosMoves:
 	db 28, BUBBLEBEAM
 	db 31, TAKE_DOWN
 	db 35, BODY_SLAM
-	db 39, LEER
 	db 42, SKULL_BASH
-	db 47, MEGA_PUNCH
-	db 50, HYDRO_PUMP
-	db 53, COMET_PUNCH
-	db 56, DOUBLE_EDGE
+	db 45, COMET_PUNCH
+	db 49, MEGA_PUNCH
+	db 53, HYDRO_PUMP
+	db 57, DOUBLE_EDGE
 	db 62, MEGA_KICK
-	db 65, PETAL_DANCE
+	db 66, PETAL_DANCE
 	db 70, BLIZZARD
 	db 0
 	
