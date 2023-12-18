@@ -14,5 +14,9 @@ CelesteHillOutside_Object:
 	def_bg_events
 
 	def_object_events
+	object_event 30, 16, SPRITE_BEAUTY, STAY, LEFT, 1, OPP_BEAUTY, 18 ; Selphy reference Trainer
+	object_event 19, 31, SPRITE_COOLTRAINER_M, STAY, RIGHT, 2, OPP_COOLTRAINER_M, 14 ; Will reference Trainer
+	object_event 11, 16, SPRITE_GENTLEMAN, STAY, DOWN, 3, OPP_GENTLEMAN,  7; Fan Club Chairman reference Trainer
+	
 
 	def_warps_to CELESTE_HILL_OUTSIDE

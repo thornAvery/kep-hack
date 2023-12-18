@@ -2021,7 +2021,10 @@ wRedsHouse2FCurScript:: db
 wViridianMartCurScript:: db
 wRoute22GateCurScript:: db
 wCeruleanCityCurScript:: db
-	ds 5
+wCelesteHillOutsideCurScript:: db
+wCelesteHillCaveCurScript:: db
+wBrunswickGladeCurScript:: db
+	ds 2
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db

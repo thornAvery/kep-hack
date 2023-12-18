@@ -762,8 +762,11 @@
 	const EVENT_BEAT_MANSION_4_TRAINER_0
 	const EVENT_BEAT_MANSION_4_TRAINER_1
 
-; Safari Zone events
+; Safari Zone events, also used as a jank compression method for Celeste Hill Cave's trainers
 	const_next $880
+	const_skip
+	const EVENT_BEAT_CELESTE_HILL_CAVE_BEAUTY ; Mina
+	const EVENT_BEAT_CELESTE_HILL_CAVE_COOLTRAINER_M ; Primo
 	const EVENT_GOT_HM03
 	const EVENT_GOT_MELTAN
 	
@@ -898,6 +901,23 @@ DEF SILPH_GAUNTLET_EVENTS_END EQU const_value - 1
 	const EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE
 	const_skip 8
 	const EVENT_BEAT_ARTICUNO
+	; ends at $9DB
+
+; Celeste Hill / Brunswick Glade Trainers
+	const_next $9E0
+	const_skip
+	; Celeste Hill Outside
+	const EVENT_BEAT_CELESTE_HILL_OUTSIDE_BEAUTY ; Selphy
+	const EVENT_BEAT_CELESTE_HILL_OUTSIDE_COOLTRAINER_M ; Will
+	const EVENT_BEAT_CELESTE_HILL_OUTSIDE_GENTLEMAN ; Fan Club Chairman
+	
+	; Brunswick Glade
+	const_next $9F0
+	const_skip
+	const EVENT_BEAT_BRUNSWICK_GLADE_COOLTRAINER_F ; Leaf
+	const EVENT_BEAT_BRUNSWICK_GLADE_GENTLEMAN ; Fuji
+	const EVENT_BEAT_BRUNSWICK_GLADE_BEAUTY ; Ariana
+	const EVENT_BEAT_BRUNSWICK_GLADE_COOLTRAINER_M ; Trace
 
 ; End of events
 	const_next $A00

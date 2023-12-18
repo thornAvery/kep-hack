@@ -9,7 +9,7 @@ New Pokemon
 The Kanto Expansion Pak's ethos is to add every "Kanto-related" Pokemon to RBY without fundamentally changing the grander metagame. What's defined as "Kanto-related" is a Pokemon that evolves from an existing Kanto Pokemon, made an appearance in a Kanto-based game (LGPE), is a regional variant, or was a Kanto-related Pokemon cut during the development of an official game.
 
 With this criteria, we get:
-- The 34 known prototype Pokemon that were cut from Red and Green; eg. Gorochu, Kotora
+- 35 known prototype Pokemon that were cut from Red and Green; eg. Gorochu, Kotora
 - Evolutions or pre-evolutions of a Kanto Pokemon found in a future generation eg. Steelix, Glaceon, Kleavor, Annihilape
 - Evolutions of Kanto Pokemon found in the SpaceWorld '97 demo of Gold and Silver; eg. Luxwan, Bellignan
 - All fully-evolved regional variants of Kanto Pokemon; eg. Alolan Muk, Galarian Slowbro, Hisuian Arcanine, Paldean Tauros
@@ -164,7 +164,7 @@ QoL Enhancements
 - A feminine character option is now available, featuring the sprite from Pokemon Anniversary Red, which is based on Green's manga appearance.
 	- To accomodate this, Celadon Gym's trainers use their more neutral text from Crystal.
 	- The protagonist is also referred to in a gender neutral manner. This changes like, 2-3 lines in the whole game.
-- All 151 original Pokemon, plus an additional 99, can be obtained without the use of trading or glitches, including Mew!
+- All 151 original Pokemon, plus an additional 100, can be obtained without the use of trading or glitches, including Mew!
 - Various moves have had their animations altered to be less intensive for photosensitive individuals, including every animation that was dimmed on the 3DS (Most notably Blizzard and Thunderbolt). This was done with the aim of also improving the move's animations overall, so some look a little flashier.
 	- Full list includes Body Slam, Glare, Disable, Blizzard, BubbleBeam, Confusion, Dream Eater, Explosion, Guillotine, Hyper Beam, Mega Kick, Mega Punch, Psychic, Reflect, Rock Slide, Selfdestruct, Spore, and Thunderbolt.
 - PureRGB's AI enhancements are ported over; said hack was made by Vortiene. In general, it isn't as stupid as it was before.
@@ -336,7 +336,7 @@ Accessing Regional variants
 ====
 Adding regional variants was difficult; we hit the exact Pokemon cap by cutting their pre-evolutions. However, we managed to implement them quite nicely!
 
-Much like in Let's Go Pikachu and Let's Go Eevee, traders are available who will trade you a regional variant in exchange for a Kantonian one. This goes as follows:
+Much like in Let's Go Pikachu and Let's Go Eevee, traders are available who will trade you a regional variant in exchange for a Kantonian one. These trades will be able to be repeated after every Elite 4 victory. This goes as follows:
 - Viridian City: Raticate
 - Pewter City: Golem
 - Cerulean City: Ninetales
@@ -403,7 +403,7 @@ Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Espe
 
 Martha’s Against Humanity sprites: Bellignan (front, with help from PvK), Mimmeo (front), Sylveon (front, with help from Albatross)
 
-Albatross sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P (all forms), Wugtrio
+Albatross sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Gorillaimo, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P (all forms), Wugtrio
 
 RacieBeep sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge (front/back), Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck, Fossil Aerodactyl, Fossil Kabutops, Ghost, Articuno (back), Meowth (back)
 

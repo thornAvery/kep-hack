@@ -298,6 +298,9 @@ INCLUDE "text/GiovannisRoom.asm"
 INCLUDE "text/CitrineCity.asm"
 INCLUDE "text/MtMoonSquare.asm"
 INCLUDE "text/CinnabarVolcanoFloors.asm"
+INCLUDE "text/CelesteHillOutside.asm"
+INCLUDE "text/CelesteHillCave.asm"
+INCLUDE "text/BrunswickGlade.asm"
 
 SECTION "Pokédex Text", ROMX
 
