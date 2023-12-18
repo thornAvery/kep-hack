@@ -249,12 +249,17 @@ BattleTent_InitPhase:
 	call DisplayTextID
 	ld a, $ff
 	ld [wJoyIgnore], a
-	ld a, [wBTStreakCnt]
-	cp 11
+	ld a, [wBTStreakCnt] ; 0 = continue, 1 = lost, 2 = exit, FF = initial
+	cp 0 ; continue
+	jr z, .cont
+	cp $FF ; initial
+	jr z, .cont
+	ld a, 8
+	jr .done
+.cont
 	ld a, 4
-	jr nz, .skip
-	ld a, 8 ; TEH URN!
-.skip
+	jr .done
+.done
 	ld [wBattleTentCurScript], a
 	ret
 	
@@ -324,6 +329,19 @@ BattleTent_AfterBattle:
 	ld [$ff8c], a
 	ld de, BattleTentMovement_3
 	call MoveSprite
+	ld a, [wBattleResult]
+	and a
+	jp nz, .skip ; if not zero, we lost / drew
+	xor a ; continue battle tent
+	ld [wBTStreakCnt], a
+	jr .skip2
+.skip 
+	ld a, 1 ; lost last match
+	ld [wBTStreakCnt], a
+	ld a, 8
+	ld [wBattleTentCurScript], a
+	ret
+.skip2
 	ld a, 7
 	ld [wBattleTentCurScript], a
 	ret
@@ -332,22 +350,12 @@ BattleTent_Heal:
 	ld a, [wNPCNumScriptedSteps]
 	and a
 	ret nz
-	ld a, [wBattleResult]
-	cp 1
-	jr nz, .stillTehUrn
-	; rip
-	ld a, 8
-	ld [wBattleTentCurScript], a
-	ret
-.stillTehUrn
-	ld hl, wBTStreakCnt
-	inc [hl]
+	ld a, [wBTStreakCnt]
+	cp 1 ; lost, dont show healing dialogue
+	jr z, .skip
 	ld a, 2
 	ld [wPlayerMovingDirection], a
 	call Delay3
-	ld a, [hl]
-	cp 11
-	jr z, .skip ; No need to heal the party, let's just say that the player wins
 	predef HealParty
 	ld a, $fc
 	ld [wJoyIgnore], a
@@ -560,6 +568,8 @@ BattleTentGuy:
 	call BattleTent_LoadTeam
 	ld hl, BattleTentLetsGo
 	call PrintText
+	ld a, $FF ; first battle
+	ld [wBTStreakCnt], a
 	ld a, 1
 	ld [wBattleTentCurScript], a
 	jp TextScriptEnd
@@ -570,7 +580,7 @@ BTReward:
 BattleTentGuy_After:
 	db $8
 	ld a, [wBTStreakCnt]
-	cp 11
+	cp 2 ; voluntarily exited
 	ld hl, BattleTentLost
 	jr nz, .skip ; Not Teh Urn BibleThump
 	ld a, $03 ; NO REVERTING THIS CODE PIGU IM SICK OF YOU BREAKING IT!
@@ -606,22 +616,9 @@ BattleTentGuy_After:
 BattleTentGuy2:
 	db $8
 	ld a, [wBTStreakCnt] ; The streak counter is still used for message continuity.
-	and a
-	
-	; Old System
-;	ld hl, BattleTentGuy2_Streak
-;	jr nz, .skip
-;	inc a
-;	ld [wBTStreakCnt], a
-;	ld hl, BattleTentGuy2_Init
-;	jr .skip2
-;.skip
-;	cp 11
-;	jr nz, .skip2
-	
-	; New System
+	cp $FF ; very first initial battle
+	jr z, .init
 	ld hl, BattleTentGuy2_Streak ; The message has been changed appropriately down below.
-	jr z, .skip2
 	xor a ; The D-Pad is locked at this point, so blank out wJoyIgnore to allow manual option selection.
 	ld [wJoyIgnore], a
 	ld hl, BattleTentGuy2_Continue ; Continue prompt.
@@ -630,18 +627,15 @@ BattleTentGuy2:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .refused ; If 0, move to refused.
-.cont
+.init
 	ld hl, BattleTentGuy2_Init ; Load the next battle.
-	; fallthrough
-.skip2 ; This handles BattleTentGuy2_Streak and BattleTentGuy2_Init at once.
 	call PrintText
 	jr .done
 .refused
 	ld hl, BattleTentGuy2_Win
 	call PrintText
-	ld a, 9 ; Load BattleTent_PlayerWalkBack, which takes it from here.
-	ld [wBattleTentCurScript], a ; For some reason, this isn't working properly, even if jp'd.
-	; fallthrough
+	ld a, 2 ; 2 = quit
+	ld [wBTStreakCnt], a
 .done
 	jp TextScriptEnd
 	
