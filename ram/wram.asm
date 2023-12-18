@@ -2125,7 +2125,7 @@ UNION
 ; Surely this position will not cause any issues at all.
 ;battle tent data
 wBTOrder:: dw
-wBTStreakCnt:: db
+wBTCont:: db
 wBTClass:: db
 wBTDataEnd::	
 wStringBuffer1:: ; cf5f
@@ -2140,6 +2140,7 @@ NEXTU
 wChannel7:: channel_struct wChannel7
 wChannel8:: channel_struct wChannel8
 ENDU
+wBTStreakCnt:: db
 
 wObtainedHiddenItemsFlags:: flag_array 112
 

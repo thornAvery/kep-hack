@@ -249,7 +249,7 @@ BattleTent_InitPhase:
 	call DisplayTextID
 	ld a, $ff
 	ld [wJoyIgnore], a
-	ld a, [wBTStreakCnt] ; 0 = continue, 1 = lost, 2 = exit, FF = initial
+	ld a, [wBTCont] ; 0 = continue, 1 = lost, 2 = exit, FF = initial
 	cp 0 ; continue
 	jr z, .cont
 	cp $FF ; initial
@@ -333,11 +333,17 @@ BattleTent_AfterBattle:
 	and a
 	jp nz, .skip ; if not zero, we lost / drew
 	xor a ; continue battle tent
-	ld [wBTStreakCnt], a
+	ld [wBTCont], a
+	ld a, [wBTStreakCnt]
+	cp $FF
+	jr z, .max ; cap out at 255 wins
+	inc a
+.max
+	ld [wBTStreakCnt], a ; increment win counter
 	jr .skip2
 .skip 
 	ld a, 1 ; lost last match
-	ld [wBTStreakCnt], a
+	ld [wBTCont], a
 	ld a, 8
 	ld [wBattleTentCurScript], a
 	ret
@@ -350,7 +356,7 @@ BattleTent_Heal:
 	ld a, [wNPCNumScriptedSteps]
 	and a
 	ret nz
-	ld a, [wBTStreakCnt]
+	ld a, [wBTCont]
 	cp 1 ; lost, dont show healing dialogue
 	jr z, .skip
 	ld a, 2
@@ -569,6 +575,8 @@ BattleTentGuy:
 	ld hl, BattleTentLetsGo
 	call PrintText
 	ld a, $FF ; first battle
+	ld [wBTCont], a
+	xor a ; initialise counter
 	ld [wBTStreakCnt], a
 	ld a, 1
 	ld [wBattleTentCurScript], a
@@ -579,7 +587,7 @@ BTReward:
 	
 BattleTentGuy_After:
 	db $8
-	ld a, [wBTStreakCnt]
+	ld a, [wBTCont]
 	cp 2 ; voluntarily exited
 	ld hl, BattleTentLost
 	jr nz, .skip ; Not Teh Urn BibleThump
@@ -615,7 +623,7 @@ BattleTentGuy_After:
 ; Arguably a better system, but I do wish the counter incremented...
 BattleTentGuy2:
 	db $8
-	ld a, [wBTStreakCnt] ; The streak counter is still used for message continuity.
+	ld a, [wBTCont] ; The streak counter is still used for message continuity.
 	cp $FF ; very first initial battle
 	jr z, .init
 	ld hl, BattleTentGuy2_Streak ; The message has been changed appropriately down below.
@@ -635,7 +643,7 @@ BattleTentGuy2:
 	ld hl, BattleTentGuy2_Win
 	call PrintText
 	ld a, 2 ; 2 = quit
-	ld [wBTStreakCnt], a
+	ld [wBTCont], a
 .done
 	jp TextScriptEnd
 	
