@@ -835,8 +835,10 @@ BattleTentGuy2_Win:
 	;text "Congratulations!"
 	text "Well done!"
 	
-	;para "You have defeated"
-	;line "all 10 opponents!"
+	para "You have defeated"
+	line "@"
+	text_decimal wBTStreakCnt, 1, 3
+	text " opponents!"
 	
 	para "Please go back to"
 	line "the counter to"
