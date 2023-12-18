@@ -671,5 +671,5 @@ MtMoonSquareHiddenItems:
 	db -1
 
 BrunswickTrailHiddenItems:
-	hidden_object 23, 11, TM_SOLARBEAM, HiddenItems
+	hidden_object 24, 11, TM_SOLARBEAM, HiddenItems
 	db -1

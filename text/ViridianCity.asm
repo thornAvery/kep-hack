@@ -48,7 +48,7 @@ _ViridianCityText_19175::	; undoing localisation change
 	line "be so mean!"
 
 	para "I'm sorry, but"
-	cont "he hasn't sobered"
+	line "he hasn't sobered"
 	cont "up yet..."
 	done
 

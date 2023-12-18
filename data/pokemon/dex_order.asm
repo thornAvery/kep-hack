@@ -250,6 +250,7 @@ PokedexOrder:
 	db DEX_TAUROS_P
 	db DEX_TAUROS_PA
 	db DEX_TAUROS_PB
+	db DEX_GORILLAIMO
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.
 	db 0 ; MISSINGNO.

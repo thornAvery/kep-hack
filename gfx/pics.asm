@@ -584,6 +584,8 @@ BittybatPicFront::     INCBIN "gfx/pokemon/front/bittybat.pic"
 BittybatPicBack::      INCBIN "gfx/pokemon/back/bittybatb.pic"
 SirfetchdPicFront::    INCBIN "gfx/pokemon/front/sirfetchd.pic"
 SirfetchdPicBack::     INCBIN "gfx/pokemon/back/sirfetchdb.pic"
+GorillaimoPicFront::   INCBIN "gfx/pokemon/front/gorillaimo.pic"
+GorillaimoPicBack::    INCBIN "gfx/pokemon/back/gorillaimob.pic"
 
 LancePic::         INCBIN "gfx/trainers/lance.pic"
 YujirouPic::	    INCBIN "gfx/trainers/yujirou.pic"

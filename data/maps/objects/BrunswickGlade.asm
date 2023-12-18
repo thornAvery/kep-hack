@@ -8,7 +8,7 @@ BrunswickGlade_Object:
 	warp_event  9,  0, BRUNSWICK_GROTTO, 2
 
 	def_bg_events
-	bg_event 14, 24, 8 ; Sign
+	bg_event 14, 24, 12 ; Sign
 
 	def_object_events
 	object_event 32, 25, SPRITE_BIRD, STAY, DOWN, 1
@@ -18,5 +18,9 @@ BrunswickGlade_Object:
 	object_event  5, 21, SPRITE_POKE_BALL, STAY, NONE, 5, LEAF_STONE ; itemball2
 	object_event 22, 15, SPRITE_POKE_BALL, STAY, NONE, 6, REVIVE ; itemball3
 	object_event  9, 33, SPRITE_POKE_BALL, STAY, NONE, 7, HYPER_POTION ; itemball4
+	object_event 16,  8, SPRITE_COOLTRAINER_F, STAY, DOWN, 8, OPP_COOLTRAINER_F, 6 ; Leaf reference Trainer
+	object_event  7, 28, SPRITE_GENTLEMAN, STAY, UP, 9, OPP_GENTLEMAN, 6 ; Fuji reference Trainer
+	object_event 15, 30, SPRITE_BEAUTY, STAY, RIGHT, 10, OPP_BEAUTY, 19 ; Ariana reference Trainer
+	object_event 31,  4, SPRITE_COOLTRAINER_M, STAY, DOWN, 11, OPP_COOLTRAINER_M, 13 ; Trace reference Trainer
 
 	def_warps_to BRUNSWICK_GLADE

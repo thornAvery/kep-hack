@@ -257,9 +257,10 @@
 	const TAUROS_P           ; $F8
 	const TAUROS_PA          ; $F9
 	const TAUROS_PB          ; $FA
-	const FOSSIL_KABUTOPS    ; $FB	(was B6)
-	const FOSSIL_AERODACTYL  ; $FC	(was B7)
-	const MON_GHOST          ; $FD	(was B8)
+	const GORILLAIMO         ; $FB
+	const FOSSIL_KABUTOPS    ; $FC	(was B6)
+	const FOSSIL_AERODACTYL  ; $FD	(was B7)
+	const MON_GHOST          ; $FE	(was B8)
 	
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

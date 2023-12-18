@@ -7,7 +7,7 @@ BrunswickGrottoWildMons:
 	db 51, VENOMOTH
 	db 53, PARASECT
 	db 53, PARASECT
-	db 53, CACTORMUS
+	db 53, GORILLAIMO
 	db 54, SCYTHER
 	db 54, PINSIR
 	db 55, PINSIR

@@ -70,7 +70,7 @@ DexRatingsTable:
 	dbw 200, DexRatingText_Own180To199
 	dbw 215, DexRatingText_Own200To214
 	dbw 230, DexRatingText_Own215To229
-	dbw 250, DexRatingText_Own230To249
+	dbw 251, DexRatingText_Own230To249
 	dbw NUM_POKEMON + 1, DexRatingText_OwnComplete
 
 DexRatingText_Own0To14:
