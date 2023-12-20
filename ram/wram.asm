@@ -2026,9 +2026,13 @@ wCelesteHillCaveCurScript:: db
 wBrunswickGladeCurScript:: db
 	ds 2
 wSSAnneBowCurScript:: db
+UNION
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db
 wRoute13CurScript:: db
+NEXTU
+wBTWinnings:: ds 3
+ENDU
 wRoute14CurScript:: db
 wRoute17CurScript:: db
 wRoute19CurScript:: db
@@ -2135,13 +2139,12 @@ wStringBuffer2:: ; cf70
 wStringBuffer3:: ; cf81
 	ds 9 + 1
 ;end BT wram
-	ds 79
+	ds 76
 NEXTU
 wChannel7:: channel_struct wChannel7
 wChannel8:: channel_struct wChannel8
 ENDU
 wBTStreakCnt:: db
-wBTWinnings:: dw
 
 wObtainedHiddenItemsFlags:: flag_array 112
 

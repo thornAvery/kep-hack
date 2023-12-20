@@ -323,7 +323,7 @@ BattleTent_InitBattle:
 	ret
 
 BTBattleReward:
-	db $00, $00, $00
+	db $00, $20, $00
 	
 BattleTent_AfterBattle:
 	ld a, $ff
@@ -634,7 +634,6 @@ BattleTentGuy_After:
 	;ld [wBTWinnings+2], a
 ;.done
 	
-	; todo: convert wBTWinnings to BCD
 	ld a, [wBTWinnings]
 	ldh [hMoney], a
 	ld a, [wBTWinnings+1]
