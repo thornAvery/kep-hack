@@ -2030,12 +2030,13 @@ UNION
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db
 wRoute13CurScript:: db
-NEXTU
-wBTWinnings:: ds 3
-ENDU
 wRoute14CurScript:: db
 wRoute17CurScript:: db
 wRoute19CurScript:: db
+NEXTU
+wBTWinnings:: ds 3
+wBTBattleReward:: ds 3
+ENDU
 wRoute21CurScript:: db
 wSafariZoneGateCurScript:: db
 wRockTunnelB1FCurScript:: db

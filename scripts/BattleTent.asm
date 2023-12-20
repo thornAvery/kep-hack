@@ -342,7 +342,7 @@ BattleTent_AfterBattle:
 	jr z, .max ; cap out at 255 wins
 	inc a
 	ld [wBTStreakCnt], a ; increment win counter
-	ld hl, BTBattleReward + 2
+	ld hl, wBTBattleReward + 2
 	ld de, wBTWinnings + 2
 	ld c, $3
 	predef AddBCDPredef ; for some reason this is maxing out the counter
@@ -588,6 +588,12 @@ BattleTentGuy:
 	ld [wBTWinnings], a
 	ld [wBTWinnings+1], a
 	ld [wBTWinnings+2], a
+	ld a, [BTBattleReward]
+	ld [wBTBattleReward], a
+	ld a, [BTBattleReward+1]
+	ld [wBTBattleReward+1], a
+	ld a, [BTBattleReward+2]
+	ld [wBTBattleReward+2], a
 	ld a, 1
 	ld [wBattleTentCurScript], a
 	jp TextScriptEnd
