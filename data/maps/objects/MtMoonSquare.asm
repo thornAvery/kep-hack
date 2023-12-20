@@ -3,7 +3,7 @@ MtMoonSquare_Object:
 
 	def_warp_events
 	warp_event 16,  3, MT_MOON_B1F, 10
-	warp_event 22,  1, MT_MOON_CRATER, 1
+	warp_event 22,  1, MT_MOON_B1F, 13
 	warp_event 11,  5, MT_MOON_SQUARE_HOUSE, 1
 	warp_event 20,  9, MT_MOON_B1F, 11
 

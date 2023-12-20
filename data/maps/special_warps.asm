@@ -14,6 +14,7 @@ DungeonWarpList:
 	db POKEMON_MANSION_1F,  1
 	db POKEMON_MANSION_1F,  2
 	db POKEMON_MANSION_2F,  3
+	db MT_MOON_CRATER,      1
 	db -1 ; end
 
 
@@ -36,6 +37,7 @@ DungeonWarpData:
 	fly_warp POKEMON_MANSION_1F,  16, 14
 	fly_warp POKEMON_MANSION_1F,  16, 14
 	fly_warp POKEMON_MANSION_2F,  18, 14
+	fly_warp MT_MOON_CRATER,      21, 46
 
 
 MACRO special_warp_spec
