@@ -578,26 +578,63 @@ BattleTentGuy:
 	ld [wBTCont], a
 	xor a ; initialise counter
 	ld [wBTStreakCnt], a
+	ld [wBTWinnings], a
+	ld [wBTWinnings+1], a
+	ld [wBTWinnings+2], a
 	ld a, 1
 	ld [wBattleTentCurScript], a
 	jp TextScriptEnd
-	
-BTReward: 
-	db $03,$00,$00
 	
 BattleTentGuy_After:
 	db $8
 	ld a, [wBTCont]
 	cp 2 ; voluntarily exited
 	ld hl, BattleTentLost
-	jr nz, .skip ; Not Teh Urn BibleThump
-	ld a, $03 ; NO REVERTING THIS CODE PIGU IM SICK OF YOU BREAKING IT!
-	ldh [$9f], a
+	jr nz, .skip 
+
+	; multiply streak by 2000
+	ld a, [wBTStreakCnt]
+	ldh [hMultiplier], a
+	ld a, $07
+	ldh [hMultiplicand], a
+	ld a, $D0
+	ldh [hMultiplicand+1], a
+	call Multiply
+	ldh a, [hProduct]
+	ld [wBTWinnings], a
+	ldh a, [hProduct+1]
+	ld [wBTWinnings+1], a
+	ldh a, [hProduct+2]
+	ld [wBTWinnings+2], a
+
+	; Max out at 2000 * 255 = 510000
+	; 07 C8 30 = 2000 * 255
+	; (this shouldnt ever matter im just paranoid)
+	ld a, [wBTWinnings]
+	cp $07
+	jr c, .done
+	ld a, $07
+	ld [wBTWinnings], a
+	ld a, [wBTWinnings+1]
+	cp $C8
+	jr c, .done
+	ld a, $C8
+	ld [wBTWinnings+1], a
+	ld a, [wBTWinnings+2]
+	cp $30
+	jr c, .done
+	ld a, $30
+	ld [wBTWinnings+2], a
+.done
+	
+	; todo: convert wBTWinnings to BCD
 	ld a, $00
-	ldh [$a1], a
+	ldh [hMoney], a
 	ld a, $00
-	ldh [$a0], a
-	ld hl, $ffa1
+	ldh [hMoney+1], a
+	ld a, $00
+	ldh [hMoney+2], a
+	ld hl, hMoney + 2
 	ld de, wPlayerMoney + 2
 	ld c, $3
 	predef AddBCDPredef
@@ -635,6 +672,7 @@ BattleTentGuy2:
 	and a
 	jr nz, .refused ; If 0, move to refused.
 	ld hl, BattleTentGuy2_Streak ; The message has been changed appropriately down below.
+	call PrintText
 	jr .done
 .init
 	ld hl, BattleTentGuy2_Init ; Load the next battle.
@@ -793,7 +831,9 @@ BattleTentWon:
 	line "reward!"
 	
 	para $52, " received"
-	line "¥30000!"
+	line "¥@"
+	text_decimal wBTWinnings, 3, 6
+	text "!"
 	prompt
 	
 BattleTentLost:
