@@ -249,12 +249,17 @@ BattleTent_InitPhase:
 	call DisplayTextID
 	ld a, $ff
 	ld [wJoyIgnore], a
-	ld a, [wBTStreakCnt]
-	cp 11
+	ld a, [wBTCont] ; 0 = continue, 1 = lost, 2 = exit, FF = initial
+	cp 0 ; continue
+	jr z, .cont
+	cp $FF ; initial
+	jr z, .cont
+	ld a, 8
+	jr .done
+.cont
 	ld a, 4
-	jr nz, .skip
-	ld a, 8 ; TEH URN!
-.skip
+	jr .done
+.done
 	ld [wBattleTentCurScript], a
 	ret
 	
@@ -324,6 +329,25 @@ BattleTent_AfterBattle:
 	ld [$ff8c], a
 	ld de, BattleTentMovement_3
 	call MoveSprite
+	ld a, [wBattleResult]
+	and a
+	jp nz, .skip ; if not zero, we lost / drew
+	xor a ; continue battle tent
+	ld [wBTCont], a
+	ld a, [wBTStreakCnt]
+	cp $FF
+	jr z, .max ; cap out at 255 wins
+	inc a
+.max
+	ld [wBTStreakCnt], a ; increment win counter
+	jr .skip2
+.skip 
+	ld a, 1 ; lost last match
+	ld [wBTCont], a
+	ld a, 8
+	ld [wBattleTentCurScript], a
+	ret
+.skip2
 	ld a, 7
 	ld [wBattleTentCurScript], a
 	ret
@@ -332,22 +356,12 @@ BattleTent_Heal:
 	ld a, [wNPCNumScriptedSteps]
 	and a
 	ret nz
-	ld a, [wBattleResult]
-	cp 1
-	jr nz, .stillTehUrn
-	; rip
-	ld a, 8
-	ld [wBattleTentCurScript], a
-	ret
-.stillTehUrn
-	ld hl, wBTStreakCnt
-	inc [hl]
+	ld a, [wBTCont]
+	cp 1 ; lost, dont show healing dialogue
+	jr z, .skip
 	ld a, 2
 	ld [wPlayerMovingDirection], a
 	call Delay3
-	ld a, [hl]
-	cp 11
-	jr z, .skip ; No need to heal the party, let's just say that the player wins
 	predef HealParty
 	ld a, $fc
 	ld [wJoyIgnore], a
@@ -560,6 +574,10 @@ BattleTentGuy:
 	call BattleTent_LoadTeam
 	ld hl, BattleTentLetsGo
 	call PrintText
+	ld a, $FF ; first battle
+	ld [wBTCont], a
+	xor a ; initialise counter
+	ld [wBTStreakCnt], a
 	ld a, 1
 	ld [wBattleTentCurScript], a
 	jp TextScriptEnd
@@ -569,8 +587,8 @@ BTReward:
 	
 BattleTentGuy_After:
 	db $8
-	ld a, [wBTStreakCnt]
-	cp 11
+	ld a, [wBTCont]
+	cp 2 ; voluntarily exited
 	ld hl, BattleTentLost
 	jr nz, .skip ; Not Teh Urn BibleThump
 	ld a, $03 ; NO REVERTING THIS CODE PIGU IM SICK OF YOU BREAKING IT!
@@ -605,23 +623,9 @@ BattleTentGuy_After:
 ; Arguably a better system, but I do wish the counter incremented...
 BattleTentGuy2:
 	db $8
-	ld a, [wBTStreakCnt] ; The streak counter is still used for message continuity.
-	and a
-	
-	; Old System
-;	ld hl, BattleTentGuy2_Streak
-;	jr nz, .skip
-;	inc a
-;	ld [wBTStreakCnt], a
-;	ld hl, BattleTentGuy2_Init
-;	jr .skip2
-;.skip
-;	cp 11
-;	jr nz, .skip2
-	
-	; New System
-	ld hl, BattleTentGuy2_Streak ; The message has been changed appropriately down below.
-	jr z, .skip2
+	ld a, [wBTCont] ; The streak counter is still used for message continuity.
+	cp $FF ; very first initial battle
+	jr z, .init
 	xor a ; The D-Pad is locked at this point, so blank out wJoyIgnore to allow manual option selection.
 	ld [wJoyIgnore], a
 	ld hl, BattleTentGuy2_Continue ; Continue prompt.
@@ -630,18 +634,17 @@ BattleTentGuy2:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .refused ; If 0, move to refused.
-.cont
+	ld hl, BattleTentGuy2_Streak ; The message has been changed appropriately down below.
+	jr .done
+.init
 	ld hl, BattleTentGuy2_Init ; Load the next battle.
-	; fallthrough
-.skip2 ; This handles BattleTentGuy2_Streak and BattleTentGuy2_Init at once.
 	call PrintText
 	jr .done
 .refused
 	ld hl, BattleTentGuy2_Win
 	call PrintText
-	ld a, 9 ; Load BattleTent_PlayerWalkBack, which takes it from here.
-	ld [wBattleTentCurScript], a ; For some reason, this isn't working properly, even if jp'd.
-	; fallthrough
+	ld a, 2 ; 2 = quit
+	ld [wBTCont], a
 .done
 	jp TextScriptEnd
 	
@@ -813,7 +816,7 @@ BattleTentGuy2_Init:
 ; Cut in favour of a different system.
 BattleTentGuy2_Streak:
 ;	text "Opponent No.@" ; could be a №?
-;	text_decimal wBTStreakCnt, 1, 2
+;	text_decimal wBTStreakCnt, 1, 3
 ;	text_start
 ;	line "is up next."
 ;	para "Good luck!"
@@ -824,6 +827,11 @@ BattleTentGuy2_Streak:
 
 BattleTentGuy2_Continue:
 	text "Congratulations!"
+
+	para "You're at"
+	line "@"
+	text_decimal wBTStreakCnt, 1, 3
+	text " win(s)!"
 	
 	para "Do you want to"
 	line "continue?"
@@ -833,8 +841,10 @@ BattleTentGuy2_Win:
 	;text "Congratulations!"
 	text "Well done!"
 	
-	;para "You have defeated"
-	;line "all 10 opponents!"
+	para "You defeated"
+	line "@"
+	text_decimal wBTStreakCnt, 1, 3
+	text " opponent(s)!"
 	
 	para "Please go back to"
 	line "the counter to"
