@@ -321,6 +321,9 @@ BattleTent_InitBattle:
 	ld a, 6
 	ld [wBattleTentCurScript], a
 	ret
+
+BTBattleReward:
+	db $00, $00, $00
 	
 BattleTent_AfterBattle:
 	ld a, $ff
@@ -338,8 +341,12 @@ BattleTent_AfterBattle:
 	cp $FF
 	jr z, .max ; cap out at 255 wins
 	inc a
-.max
 	ld [wBTStreakCnt], a ; increment win counter
+	ld hl, BTBattleReward + 2
+	ld de, wBTWinnings + 2
+	ld c, $3
+	predef AddBCDPredef ; for some reason this is maxing out the counter
+.max
 	jr .skip2
 .skip 
 	ld a, 1 ; lost last match
@@ -593,46 +600,46 @@ BattleTentGuy_After:
 	jr nz, .skip 
 
 	; multiply streak by 2000
-	ld a, [wBTStreakCnt]
-	ldh [hMultiplier], a
-	ld a, $07
-	ldh [hMultiplicand], a
-	ld a, $D0
-	ldh [hMultiplicand+1], a
-	call Multiply
-	ldh a, [hProduct]
-	ld [wBTWinnings], a
-	ldh a, [hProduct+1]
-	ld [wBTWinnings+1], a
-	ldh a, [hProduct+2]
-	ld [wBTWinnings+2], a
+	;ld a, [wBTStreakCnt]
+	;ldh [hMultiplier], a
+	;ld a, $07
+	;ldh [hMultiplicand], a
+	;ld a, $D0
+	;ldh [hMultiplicand+1], a
+	;call Multiply
+	;ldh a, [hProduct]
+	;ld [wBTWinnings], a
+	;ldh a, [hProduct+1]
+	;ld [wBTWinnings+1], a
+	;ldh a, [hProduct+2]
+	;ld [wBTWinnings+2], a
 
 	; Max out at 2000 * 255 = 510000
 	; 07 C8 30 = 2000 * 255
 	; (this shouldnt ever matter im just paranoid)
-	ld a, [wBTWinnings]
-	cp $07
-	jr c, .done
-	ld a, $07
-	ld [wBTWinnings], a
-	ld a, [wBTWinnings+1]
-	cp $C8
-	jr c, .done
-	ld a, $C8
-	ld [wBTWinnings+1], a
-	ld a, [wBTWinnings+2]
-	cp $30
-	jr c, .done
-	ld a, $30
-	ld [wBTWinnings+2], a
-.done
+	;ld a, [wBTWinnings]
+	;cp $07
+	;jr c, .done
+	;ld a, $07
+	;ld [wBTWinnings], a
+	;ld a, [wBTWinnings+1]
+	;cp $C8
+	;jr c, .done
+	;ld a, $C8
+	;ld [wBTWinnings+1], a
+	;ld a, [wBTWinnings+2]
+	;cp $30
+	;jr c, .done
+	;ld a, $30
+	;ld [wBTWinnings+2], a
+;.done
 	
 	; todo: convert wBTWinnings to BCD
-	ld a, $00
+	ld a, [wBTWinnings]
 	ldh [hMoney], a
-	ld a, $00
+	ld a, [wBTWinnings+1]
 	ldh [hMoney+1], a
-	ld a, $00
+	ld a, [wBTWinnings+2]
 	ldh [hMoney+2], a
 	ld hl, hMoney + 2
 	ld de, wPlayerMoney + 2
@@ -832,7 +839,7 @@ BattleTentWon:
 	
 	para $52, " received"
 	line "¥@"
-	text_decimal wBTWinnings, 3, 6
+	text_bcd wBTWinnings, 3, 6
 	text "!"
 	prompt
 	
