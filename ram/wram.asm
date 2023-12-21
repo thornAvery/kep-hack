@@ -2135,7 +2135,7 @@ wStringBuffer2:: ; cf70
 wStringBuffer3:: ; cf81
 	ds 9 + 1
 ;end BT wram
-	ds 76
+	ds 79
 NEXTU
 wChannel7:: channel_struct wChannel7
 wChannel8:: channel_struct wChannel8
