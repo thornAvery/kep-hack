@@ -307,7 +307,6 @@ INCLUDE "engine/events/hidden_objects/pokecenter_pc.asm"
 SECTION "Battle Engine 11", ROMX
 
 INCLUDE "engine/battle/decrement_pp.asm"
-INCLUDE "gfx/version.asm"
 
 
 SECTION "bank1C", ROMX
@@ -323,6 +322,7 @@ INCLUDE "engine/gfx/mon_icons.asm"
 INCLUDE "engine/gfx/palettes.asm"
 INCLUDE "engine/menus/save.asm"
 INCLUDE "engine/overworld/field_moves.asm"
+INCLUDE "gfx/version.asm"
 
 SECTION "In-Game Trade Zone", ROMX
 
