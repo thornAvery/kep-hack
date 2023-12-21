@@ -1,5 +1,5 @@
 MtMoonCrater_Object:
-	db $03 ; border block
+	db $41 ; border block
 
 	def_warp_events
 	warp_event 46, 47, MT_MOON_B1F, 14
