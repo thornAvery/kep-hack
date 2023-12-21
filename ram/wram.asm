@@ -2024,7 +2024,8 @@ wCeruleanCityCurScript:: db
 wCelesteHillOutsideCurScript:: db
 wCelesteHillCaveCurScript:: db
 wBrunswickGladeCurScript:: db
-	ds 2
+wMtMoonB1FCurScript:: db
+	ds 1
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db
