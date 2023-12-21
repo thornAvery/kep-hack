@@ -207,6 +207,10 @@ SetPal_Overworld:
 	jp z, .ferry
 	cp SILPH_GAUNTLET_5F
 	jp z, .trans
+	cp REDS_HOUSE_1F
+	jp z, .pallet
+	cp REDS_HOUSE_2F
+	jp z, .pallet
 	cp CERULEAN_CAVE_2F
 	jp c, .normalDungeonOrBuilding
 	cp LORELEIS_ROOM
@@ -290,6 +294,9 @@ SetPal_Overworld:
 	jr .town
 .citrine
 	ld a, PAL_CITRINE - 1
+	jr .town
+.pallet
+	ld a, PAL_PALLET - 1
 	jr .town
 .ferry
 	ld a, PAL_BLUEMON - 1
