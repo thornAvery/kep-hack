@@ -211,6 +211,8 @@ SetPal_Overworld:
 	jp z, .pallet
 	cp REDS_HOUSE_2F
 	jp z, .pallet
+	cp MT_MOON_CRATER
+	jp z, .areazero
 	cp CERULEAN_CAVE_2F
 	jp c, .normalDungeonOrBuilding
 	cp LORELEIS_ROOM
@@ -300,6 +302,9 @@ SetPal_Overworld:
 	jr .town
 .ferry
 	ld a, PAL_BLUEMON - 1
+	jr .town
+.areazero
+	ld a, PAL_0F - 1
 	jr .town
 
 ; used when a Pokemon is the only thing on the screen
