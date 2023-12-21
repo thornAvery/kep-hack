@@ -2141,6 +2141,7 @@ wChannel7:: channel_struct wChannel7
 wChannel8:: channel_struct wChannel8
 ENDU
 wBTStreakCnt:: db
+wBTRewards:: db
 
 wObtainedHiddenItemsFlags:: flag_array 112
 

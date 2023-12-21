@@ -321,6 +321,9 @@ BattleTent_InitBattle:
 	ld a, 6
 	ld [wBattleTentCurScript], a
 	ret
+
+BTBattleReward:
+	db $00, $20, $00
 	
 BattleTent_AfterBattle:
 	ld a, $ff
@@ -338,8 +341,8 @@ BattleTent_AfterBattle:
 	cp $FF
 	jr z, .max ; cap out at 255 wins
 	inc a
-.max
 	ld [wBTStreakCnt], a ; increment win counter
+.max
 	jr .skip2
 .skip 
 	ld a, 1 ; lost last match
@@ -582,28 +585,56 @@ BattleTentGuy:
 	ld [wBattleTentCurScript], a
 	jp TextScriptEnd
 	
-BTReward: 
-	db $03,$00,$00
-	
 BattleTentGuy_After:
 	db $8
 	ld a, [wBTCont]
 	cp 2 ; voluntarily exited
 	ld hl, BattleTentLost
-	jr nz, .skip ; Not Teh Urn BibleThump
-	ld a, $03 ; NO REVERTING THIS CODE PIGU IM SICK OF YOU BREAKING IT!
-	ldh [$9f], a
-	ld a, $00
-	ldh [$a1], a
-	ld a, $00
-	ldh [$a0], a
-	ld hl, $ffa1
-	ld de, wPlayerMoney + 2
-	ld c, $3
-	predef AddBCDPredef
-	ld hl, BattleTentWon
-.skip
+	jr nz, .skip 
+	ld hl, BattleTentWon	
 	call PrintText
+	; give reward
+	; every ten battles gives a bottle cap
+	; every five gives a rare candy
+	ld a, [wBTStreakCnt]
+	ld c, 0 ; fives count
+.findFive:
+	cp 5
+	jr nc, .hasFive
+	jr .done
+.hasFive:
+	sub 5
+	inc c
+	jr .findFive
+.done:
+	ld a, c
+	and a
+	jr z, .skip ; skip if no rewards
+	ld [wBTRewards], a
+	ld hl, ReceivedRewardPreamble
+	call PrintText
+	ld a, [wBTRewards]
+	ld b, RARE_CANDY
+	call GiveItem
+	jr nc, .bag_full ; could use money instead here
+	ld hl, ReceivedRewardText
+	call PrintText
+	ld a, [wBTRewards]
+	srl a
+	and a
+	jr z, .skip
+	ld [wBTRewards], a
+	;ld b, POWER_FEED
+	ld b, BOTTLE_CAP
+	call GiveItem
+	jr nc, .bag_full
+	ld hl, ReceivedRewardText
+	call PrintText
+	jr .skip
+.bag_full:
+	ld hl, RewardNoRoomText
+	call PrintText
+.skip:
 	ld hl, BattleTentPleaseWait
 	call PrintText
 	call BattleTent_RestoreTeam
@@ -635,6 +666,7 @@ BattleTentGuy2:
 	and a
 	jr nz, .refused ; If 0, move to refused.
 	ld hl, BattleTentGuy2_Streak ; The message has been changed appropriately down below.
+	call PrintText
 	jr .done
 .init
 	ld hl, BattleTentGuy2_Init ; Load the next battle.
@@ -789,11 +821,10 @@ BattleTentWon:
 	text "Wow! You finally"
 	line "did it!"
 	
-	para "Here is the"
-	line "reward!"
-	
-	para $52, " received"
-	line "¥30000!"
+	para "You beat"
+	line "@"
+	text_decimal wBTStreakCnt, 1, 3
+	text " oppenont(s)!"
 	prompt
 	
 BattleTentLost:
@@ -841,10 +872,10 @@ BattleTentGuy2_Win:
 	;text "Congratulations!"
 	text "Well done!"
 	
-	para "You defeated"
-	line "@"
-	text_decimal wBTStreakCnt, 1, 3
-	text " opponent(s)!"
+	;para "You defeated"
+	;line "@"
+	;text_decimal wBTStreakCnt, 1, 3
+	;text " opponent(s)!"
 	
 	para "Please go back to"
 	line "the counter to"
@@ -856,6 +887,27 @@ BattleTentGuy2_Heal:
 	line "be restored to"
 	cont "full health."
 	done
+
+ReceivedRewardPreamble:
+	text "Take these"
+	line "on the house!"
+	prompt
+	text_end
+
+ReceivedRewardText:
+	text "<PLAYER> received"
+	line "@"
+	text_decimal wBTRewards, 1, 2
+	text "x @"
+	text_ram wStringBuffer
+	text "!"
+	prompt
+	text_end
+	
+RewardNoRoomText:
+	text "You have no room!"
+	prompt
+	text_end
 
 ; Battle Tent
 BattleTentMart::

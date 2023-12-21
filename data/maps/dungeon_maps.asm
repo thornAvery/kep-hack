@@ -19,6 +19,7 @@ DungeonMaps1:
 	db GARNET_CAVERN_2F
 	db GARNET_CAVERN_1F
 	db GARNET_CAVERN_B1F
+	db MT_MOON_CRATER
 	db -1 ; end
 
 ; GetBattleTransitionID_IsDungeonMap checks if wCurMap
