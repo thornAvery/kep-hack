@@ -342,10 +342,6 @@ BattleTent_AfterBattle:
 	jr z, .max ; cap out at 255 wins
 	inc a
 	ld [wBTStreakCnt], a ; increment win counter
-	ld hl, wBTBattleReward + 2
-	ld de, wBTWinnings + 2
-	ld c, $3
-	predef AddBCDPredef ; for some reason this is maxing out the counter
 .max
 	jr .skip2
 .skip 
@@ -585,15 +581,6 @@ BattleTentGuy:
 	ld [wBTCont], a
 	xor a ; initialise counter
 	ld [wBTStreakCnt], a
-	ld [wBTWinnings], a
-	ld [wBTWinnings+1], a
-	ld [wBTWinnings+2], a
-	ld a, [BTBattleReward]
-	ld [wBTBattleReward], a
-	ld a, [BTBattleReward+1]
-	ld [wBTBattleReward+1], a
-	ld a, [BTBattleReward+2]
-	ld [wBTBattleReward+2], a
 	ld a, 1
 	ld [wBattleTentCurScript], a
 	jp TextScriptEnd
@@ -604,55 +591,50 @@ BattleTentGuy_After:
 	cp 2 ; voluntarily exited
 	ld hl, BattleTentLost
 	jr nz, .skip 
-
-	; multiply streak by 2000
-	;ld a, [wBTStreakCnt]
-	;ldh [hMultiplier], a
-	;ld a, $07
-	;ldh [hMultiplicand], a
-	;ld a, $D0
-	;ldh [hMultiplicand+1], a
-	;call Multiply
-	;ldh a, [hProduct]
-	;ld [wBTWinnings], a
-	;ldh a, [hProduct+1]
-	;ld [wBTWinnings+1], a
-	;ldh a, [hProduct+2]
-	;ld [wBTWinnings+2], a
-
-	; Max out at 2000 * 255 = 510000
-	; 07 C8 30 = 2000 * 255
-	; (this shouldnt ever matter im just paranoid)
-	;ld a, [wBTWinnings]
-	;cp $07
-	;jr c, .done
-	;ld a, $07
-	;ld [wBTWinnings], a
-	;ld a, [wBTWinnings+1]
-	;cp $C8
-	;jr c, .done
-	;ld a, $C8
-	;ld [wBTWinnings+1], a
-	;ld a, [wBTWinnings+2]
-	;cp $30
-	;jr c, .done
-	;ld a, $30
-	;ld [wBTWinnings+2], a
-;.done
-	
-	ld a, [wBTWinnings]
-	ldh [hMoney], a
-	ld a, [wBTWinnings+1]
-	ldh [hMoney+1], a
-	ld a, [wBTWinnings+2]
-	ldh [hMoney+2], a
-	ld hl, hMoney + 2
-	ld de, wPlayerMoney + 2
-	ld c, $3
-	predef AddBCDPredef
-	ld hl, BattleTentWon
-.skip
+	ld hl, BattleTentWon	
 	call PrintText
+	; give reward
+	; every ten battles gives a bottle cap
+	; every five gives a rare candy
+	ld a, [wBTStreakCnt]
+	ld c, 0 ; fives count
+.findFive:
+	cp 5
+	jr nc, .hasFive
+	jr .done
+.hasFive:
+	sub 5
+	inc c
+	jr .findFive
+.done:
+	ld a, c
+	and a
+	jr z, .skip ; skip if no rewards
+	ld [wBTRewards], a
+	ld hl, ReceivedRewardPreamble
+	call PrintText
+	ld a, [wBTRewards]
+	ld b, RARE_CANDY
+	call GiveItem
+	jr nc, .bag_full ; could use money instead here
+	ld hl, ReceivedRewardText
+	call PrintText
+	ld a, [wBTRewards]
+	srl a
+	and a
+	jr z, .skip
+	ld [wBTRewards], a
+	;ld b, POWER_FEED
+	ld b, BOTTLE_CAP
+	call GiveItem
+	jr nc, .bag_full
+	ld hl, ReceivedRewardText
+	call PrintText
+	jr .skip
+.bag_full:
+	ld hl, RewardNoRoomText
+	call PrintText
+.skip:
 	ld hl, BattleTentPleaseWait
 	call PrintText
 	call BattleTent_RestoreTeam
@@ -839,13 +821,10 @@ BattleTentWon:
 	text "Wow! You finally"
 	line "did it!"
 	
-	para "Here is the"
-	line "reward!"
-	
-	para $52, " received"
-	line "¥@"
-	text_bcd wBTWinnings, 3, 6
-	text "!"
+	para "You beat"
+	line "@"
+	text_decimal wBTStreakCnt, 1, 3
+	text " oppenont(s)!"
 	prompt
 	
 BattleTentLost:
@@ -893,10 +872,10 @@ BattleTentGuy2_Win:
 	;text "Congratulations!"
 	text "Well done!"
 	
-	para "You defeated"
-	line "@"
-	text_decimal wBTStreakCnt, 1, 3
-	text " opponent(s)!"
+	;para "You defeated"
+	;line "@"
+	;text_decimal wBTStreakCnt, 1, 3
+	;text " opponent(s)!"
 	
 	para "Please go back to"
 	line "the counter to"
@@ -908,6 +887,27 @@ BattleTentGuy2_Heal:
 	line "be restored to"
 	cont "full health."
 	done
+
+ReceivedRewardPreamble:
+	text "Take these"
+	line "on the house!"
+	prompt
+	text_end
+
+ReceivedRewardText:
+	text "<PLAYER> received"
+	line "@"
+	text_decimal wBTRewards, 1, 2
+	text "x @"
+	text_ram wStringBuffer
+	text "!"
+	prompt
+	text_end
+	
+RewardNoRoomText:
+	text "You have no room!"
+	prompt
+	text_end
 
 ; Battle Tent
 BattleTentMart::

@@ -2026,17 +2026,12 @@ wCelesteHillCaveCurScript:: db
 wBrunswickGladeCurScript:: db
 	ds 2
 wSSAnneBowCurScript:: db
-UNION
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db
 wRoute13CurScript:: db
 wRoute14CurScript:: db
 wRoute17CurScript:: db
 wRoute19CurScript:: db
-NEXTU
-wBTWinnings:: ds 3
-wBTBattleReward:: ds 3
-ENDU
 wRoute21CurScript:: db
 wSafariZoneGateCurScript:: db
 wRockTunnelB1FCurScript:: db
@@ -2146,6 +2141,7 @@ wChannel7:: channel_struct wChannel7
 wChannel8:: channel_struct wChannel8
 ENDU
 wBTStreakCnt:: db
+wBTRewards:: db
 
 wObtainedHiddenItemsFlags:: flag_array 112
 
