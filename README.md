@@ -97,7 +97,7 @@ New Areas
 	- This is a reference to a Magikarp event from July 1998, and includes the lore from it and other areas of Pokemon's early worldbuilding.
 	- There are features new infinitely re-battleable trainers for grinding money.
 	- There's a Move Deleter and Move Relearner, allowing for HM deletion and getting back lost moves.
-- Citrine City is a new island city that can be accessed in the postgame through a new port in Vermillion.
+- Citrine City is a new island city that can be accessed in the postgame through a new port in Vermillion. Name derived from the Helix Chamber PokeThon ROM Hack.
 	- There's a house with a Move Tutor that can teach Tradeback moves without the need for GSC's Time Capsule!
 	- It features a Team Rocket house where they will sell you TMs and Evolution Items, as well as provide a Hyper Training feature to get Max DVs!
 	- The Battle Tent from the TwitchPlaysPokemon Anniversary hack makes a return, featuring new trainers and Pokemon!
@@ -130,6 +130,7 @@ Improved Areas
 	- In effect, you get two stages: Pewter/Cerulean/Vermilion, then Celadon/Fuchsia/Saffron/Cinnabar. Some limits were placed due to the power spike introduced by Celadon City.
 - Giovanni now uses his unused theme song from Yellow, plus has his LGPE monologue in the Rocket Hideout.
 - Jessie and James have been backported from Yellow, appearing in Mt. Moon, Rocket Hideout, Pokemon Tower, and Silph Co. Additionally, they have a closure role in the post-game.
+- Viridian City features a Pre-Gym, building on what was seen in the Helix Chamber PokeThon ROM Hack, featuring Yujirou. In the KEP team's opinion, this was the best interpretation of the prototype materials!
 - Diglett's Cave has a more detailed map with Onix, Wiglett, and Wugtrio also appearing! It also has its prototype music!
 - The Day Care now contains a PC, is generally more detailed, and houses Melanie from Yellow. If you pick Pikachu or Eevee and beat Misty, Melanie will give you a Bulbasaur.
 - Route 24 now features two things;
