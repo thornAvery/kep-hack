@@ -49,7 +49,7 @@ TrainerDataPointers:
 	dw YujirouData ; was unused juggler
 	dw StudentData
 	dw FirefighterData
-	dw JuniorData
+	dw KoichiData
 	dw JackData
 	dw JessieJamesData
 	assert_table_length NUM_TRAINERS
@@ -541,6 +541,23 @@ BirdKeeperData:
 	db 26, PIDGEY, SPEAROW, PIDGEY, FEAROW, 0
 	db 29, PIDGEOTTO, FEAROW, 0
 	db 28, SPEAROW, DODUO, FEAROW, 0
+
+; Fighting specialist, even the ones in Giovanni's gym!
+; These have been changed to bulky, 'intimidating' Ground types to fit the theme
+BlackbeltData:
+; Fighting Dojo Trainers
+	db 31, MANKEY, MACHOKE, JABETTA, 0
+	db 32, PRIMEAPE, CARAPTHOR, 0
+	db 35, GORILLAIMO, 0
+	db 33, MACHOP, POLIWRATH, 0
+; Viridian Gym	- changed to fit the Ground-type gym theme
+	db 40, MAROWAK, GOLEM, 0
+	db 43, GUARDIA, 0
+	db 38, CACTORMUS, DUGTRIO, STEELIX, 0
+; Victory Road 2F
+	db 43, MACHOKE, MACHOP, MACHOKE, 0
+; Silph Gauntlet 2F (Mt. Moon)
+	db 63, HITMONTOP, JABETTA, GORILLAIMO, POLIWRATH, CARAPTHOR, MACHAMP, 0
 
 ; Uses Silph products and Steel-types
 ChiefData:

@@ -122,7 +122,7 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	ld de, KoichiRematchDefeatedText
 	call SaveEndBattleTextPointers
 	call EngageMapTrainer
-	ld a, OPP_BLACKBELT
+	ld a, OPP_KOICHI
 	ld [wCurOpponent], a
 	ld a, 10 ; Silph Gauntlet lineup.
 	ld [wTrainerNo], a
@@ -152,7 +152,7 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	; call InitBattleEnemyParameters ; put this back if you mess up
 	
 	; gym scaling spaghetti code begins here - remove initial parameters as we're making our own
-	ld a, OPP_BLACKBELT
+	ld a, OPP_KOICHI
 	ld [wCurOpponent], a
 	
 	ld hl, wObtainedBadges ; Picking the team based on badge count. Need +1 so it loads the right team: remember, you're fighting for the badge! Thanks to Chatot4444 for the help.
