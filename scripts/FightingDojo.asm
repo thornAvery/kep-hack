@@ -109,14 +109,7 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	text_asm
 	CheckEvent EVENT_POST_GAME_ATTAINED ; No need to view previous stuff, technically you can skip Bide this way but I think that's hilarious
 	jp z, .normalProcessing
-	CheckEvent EVENT_GOT_HITMON ; failsafe
-	jp nz, .continue2
-	CheckEvent EVENT_DEFEATED_FIGHTING_DOJO
-	jp nz, .continue1
-	CheckEventReuseA EVENT_BEAT_KARATE_MASTER
-	jp nz, .continue2
-.rematchMode ; Rematch functionality. Just loads pre-battle text and his trainer.
-	ld hl, KoichiRematchPreBattleText
+	ld hl, KoichiRematchPreBattleText ; Rematch functionality. Just loads pre-battle text and his trainer.
 	call PrintText
 	ld c, BANK(Music_MeetMaleTrainer)
 	ld a, MUSIC_MEET_MALE_TRAINER
@@ -139,6 +132,12 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	ld [wGymLeaderNo], a
 	jr .asm_9dba4
 .normalProcessing
+	CheckEvent EVENT_DEFEATED_FIGHTING_DOJO
+	jp nz, .continue1
+	CheckEventReuseA EVENT_BEAT_KARATE_MASTER
+	jp nz, .continue2
+	CheckEvent EVENT_GOT_HITMON ; failsafe
+	jp nz, .continue2
 	ld hl, FightingDojoText_5ce8e
 	call PrintText
 	ld hl, wd72d
