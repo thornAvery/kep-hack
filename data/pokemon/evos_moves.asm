@@ -672,6 +672,7 @@ NidoreignEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 23, SPIKE_CANNON
 	db 36, ROCK_SLIDE
 	db 43, BODY_SLAM
 	db 50, THRASH
@@ -768,10 +769,14 @@ GravelerEvosMoves:
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
 	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
-	db 50, ROCK_SLIDE
+	db 25, MEGA_PUNCH
+	db 30, HARDEN
+	db 35, EARTHQUAKE
+	db 40, BODY_SLAM
+	db 45, ROCK_SLIDE
+	db 50, EXPLOSION
+	db 55, DOUBLE_EDGE
+	db 60, FISSURE
 	db 0
 
 ChanseyEvosMoves:
@@ -894,10 +899,14 @@ GolemEvosMoves:
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
 	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
-	db 50, ROCK_SLIDE
+	db 25, MEGA_PUNCH
+	db 30, HARDEN
+	db 35, EARTHQUAKE
+	db 40, BODY_SLAM
+	db 45, ROCK_SLIDE
+	db 50, EXPLOSION
+	db 55, DOUBLE_EDGE
+	db 60, FISSURE
 	db 0
 
 BalumbaEvosMoves:
@@ -2390,7 +2399,6 @@ NidorinaEvosMoves:
 	db 55, TAKE_DOWN ; Prototype
 	db 0
 
-; Needs Body Slam, Mega Punch, Double-Edge, and Fissure distributed
 GeodudeEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 25, GRAVELER
@@ -2399,10 +2407,14 @@ GeodudeEvosMoves:
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
 	db 21, SELFDESTRUCT
-	db 26, HARDEN
-	db 31, EARTHQUAKE
-	db 36, EXPLOSION
+	db 25, MEGA_PUNCH
+	db 29, HARDEN
+	db 33, EARTHQUAKE
+	db 37, BODY_SLAM
 	db 41, ROCK_SLIDE
+	db 45, EXPLOSION
+	db 49, DOUBLE_EDGE
+	db 53, FISSURE
 	db 0
 
 PorygonEvosMoves:
@@ -3320,10 +3332,14 @@ GolemAEvosMoves:
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
 	db 21, SELFDESTRUCT
-	db 29, THUNDERPUNCH
-	db 36, DOUBLE_EDGE
-	db 43, EXPLOSION
-	db 50, ROCK_SLIDE
+	db 25, MEGA_PUNCH
+	db 30, THUNDERPUNCH
+	db 35, THUNDER_WAVE
+	db 40, BODY_SLAM
+	db 45, ROCK_SLIDE
+	db 50, EXPLOSION
+	db 55, DOUBLE_EDGE
+	db 60, THUNDER
 	db 0
 	
 RapidashGEvosMoves:
