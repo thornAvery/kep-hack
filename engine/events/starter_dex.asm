@@ -8,4 +8,5 @@ StarterDex:
 	predef ShowPokedexData
 	xor a
 	ld [wPokedexOwned], a
+	ld [wPokedexOwned + 1], a
 	ret
