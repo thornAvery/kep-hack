@@ -11,7 +11,7 @@ TextPredefs::
 	add_tx_pre PushStartText                        ; 05
 	add_tx_pre SaveOptionText                       ; 06
 	add_tx_pre StrengthsAndWeaknessesText           ; 07
-	add_tx_pre OakLabEmailText                      ; 08
+;	add_tx_pre OakLabEmailText                      ; 08
 	add_tx_pre AerodactylFossilText                 ; 09
 	add_tx_pre Route15UpstairsBinocularsText        ; 0A
 	add_tx_pre KabutopsFossilText                   ; 0B
