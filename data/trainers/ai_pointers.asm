@@ -53,7 +53,7 @@ TrainerAIPointers:
 	dbw 3, GenericAI ; Yujirou
 	dbw 3, GenericAI ; Student
 	dbw 3, GenericAI ; Firefighter
-	dbw 3, GenericAI ; Junior
+	dbw 2, BlackbeltAI ; Koichi
 	dbw 2, BlackbeltAI ; Jack
 	dbw 2, GenericAI ; Jessie & James
 	assert_table_length NUM_TRAINERS

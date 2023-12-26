@@ -9,6 +9,7 @@ SilphCo1F_ScriptPointers:
 	dw SilphCo1FScript1
 	
 SilphCo1FScript0:
+	ResetEvent EVENT_BEAT_CHIEF ; Used so you can rematch Chief and later the gauntlet, without him being reset alongside everything else. An absolutely tragic way to fix a bug, but it works. If you enter his room, you have to fight him, so this all works under the hood without infringing on design.
 	ld b, SILPHLETTER
 	call IsItemInBag
 	ret nz

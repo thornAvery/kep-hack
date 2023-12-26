@@ -22,7 +22,7 @@ _SilphGauntlet3FBattleText2::
 	done
 
 _SilphGauntlet3FEndBattleText2::
-	text "Sploosh!"
+	text "Agh!"
 	prompt
 
 _SilphGauntlet3FAfterBattleText2::

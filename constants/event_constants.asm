@@ -817,6 +817,7 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const EVENT_BEAT_VICTORY_ROAD_1_TRAINER_1
 	const_skip 4
 	const EVENT_VICTORY_ROAD_1_BOULDER_ON_SWITCH
+	const EVENT_BEAT_CHIEF ; moved out of the below union to prevent bugs
 
 ; Silph Gauntlet events
 	const_next $930
@@ -872,7 +873,7 @@ DEF SILPH_GAUNTLET_EVENTS_START EQU const_value
 	const EVENT_BEAT_GAUNTLET_SABRINA
 	const EVENT_BEAT_GAUNTLET_BLAINE
 	const_skip
-	const EVENT_BEAT_CHIEF
+	const_skip
 	const_skip 5
 	const_skip
 DEF SILPH_GAUNTLET_EVENTS_END EQU const_value - 1

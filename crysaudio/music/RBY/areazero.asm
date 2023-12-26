@@ -80,13 +80,8 @@ Music_AreaZero_Ch1:
 	note C#, 2
 	note D#, 2
 	note G#, 2
-	volume_envelope 6, 8
-	note_type 10, 6, 8
-	note F_, 2
-	note_type 1, 6, 8
-	rest 4
-	note_type 12, 6, 8
 	volume_envelope 9, 8
+	note F_, 2
 	note F#, 2
 	note C#, 2
 	note D#, 2
@@ -1082,7 +1077,6 @@ Music_AreaZero_Ch1:
 	note C#, 2
 	volume_envelope 2, 8
 	note D#, 2
-	volume_envelope 1, 8
 	note G#, 2
 	octave 8
 	sound_loop 0, .mainLoop
@@ -1094,9 +1088,9 @@ Music_AreaZero_Ch2:
 	volume_envelope 10, 8
 	note_type 12, 10, 8
 	duty_cycle 1
-	rest 2
-	volume_envelope 1, 8
 	octave 4
+	volume_envelope 1, 8
+	note G#, 2
 	note F_, 2
 	note F#, 2
 	note C#, 2
@@ -1630,7 +1624,6 @@ Music_AreaZero_Ch2:
 Music_AreaZero_Ch3:
 	note_type 12, 1, 0
 .mainLoop:
-	vibrato 0, 2, 4
 	volume_envelope 3, 1
 	octave 2
 	note_type 12, 3, 1
@@ -1682,6 +1675,7 @@ Music_AreaZero_Ch3:
 	rest 2
 	note_type 12, 2, 2
 	volume_envelope 3, 1
+	vibrato 0, 3, 5
 	note D#, 2
 	note_type 12, 2, 2
 	volume_envelope 3, 1
@@ -3344,51 +3338,64 @@ Music_AreaZero_Ch4:
 	rest 16
 	rest 16
 	rest 16
-	octave 7
 	rest 16
 	rest 16
 	rest 16
 	rest 16
-	rest 16
-	rest 16
+	octave 6
+	drum_note 12, 1
+	rest 7
+	drum_note 12, 1
+	rest 7
+	drum_note 12, 1
+	rest 3
+	drum_note 12, 1
+	rest 3
+	drum_note 12, 1
+	rest 3
+	drum_note 12, 1
+	rest 1
+	drum_note 12, 1
+	drum_note 12, 1
 	drum_speed 6
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
-	octave 8
 	drum_speed 12
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
 	drum_note 4, 1
 	rest 3
 	drum_speed 6
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
-	octave 8
 	drum_speed 12
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
 	drum_note 4, 1
 	rest 3
 	drum_speed 6
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
-	octave 8
 	drum_speed 12
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
 	drum_note 4, 1
 	rest 3
 	drum_speed 6
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
-	octave 8
 	drum_speed 12
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
@@ -3399,45 +3406,45 @@ Music_AreaZero_Ch4:
 	drum_note 4, 1
 	drum_speed 12
 	drum_note 4, 1
-	octave 7
 	drum_speed 6
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
 	drum_note 4, 1
-	octave 7
 	rest 3
 	drum_speed 6
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
 	drum_note 4, 1
-	octave 7
 	rest 3
 	drum_speed 6
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
 	drum_note 4, 1
-	octave 7
 	rest 3
 	drum_speed 6
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
@@ -3448,30 +3455,30 @@ Music_AreaZero_Ch4:
 	drum_note 4, 1
 	drum_speed 12
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 3
-	octave 8
+	octave 6
 	drum_note 4, 1
 	rest 3
-	octave 7
+	octave 5
 	drum_note 11, 1
 	rest 3
-	octave 8
+	octave 6
 	drum_note 3, 1
 	rest 2
 	drum_note 3, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 3
-	octave 8
+	octave 6
 	drum_note 3, 1
 	rest 3
-	octave 7
+	octave 5
 	drum_note 11, 1
 	rest 3
-	octave 8
 	drum_speed 6
+	octave 6
 	drum_note 3, 1
 	drum_note 3, 1
 	drum_speed 12
@@ -3482,40 +3489,41 @@ Music_AreaZero_Ch4:
 	drum_note 3, 1
 	drum_note 3, 1
 	drum_speed 12
-	octave 7
-	drum_note 12, 1
-	octave 8
-	rest 3
-	drum_note 3, 1
-	rest 3
-	octave 7
-	drum_note 11, 1
-	rest 3
-	octave 8
-	drum_note 3, 1
-	rest 3
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 3
-	octave 8
+	octave 6
 	drum_note 3, 1
 	rest 3
-	octave 7
+	octave 5
 	drum_note 11, 1
 	rest 3
-	octave 8
+	octave 6
 	drum_note 3, 1
 	rest 3
-	octave 7
+	octave 5
+	drum_note 12, 1
+	rest 3
+	octave 6
+	drum_note 3, 1
+	rest 3
+	octave 5
+	drum_note 11, 1
+	rest 3
+	octave 6
+	drum_note 3, 1
+	rest 2
+	drum_note 3, 1
 	drum_speed 6
+	octave 5
 	drum_note 11, 1
 	drum_note 11, 1
 	drum_speed 12
 	rest 1
-	octave 8
+	octave 6
 	drum_note 3, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 2
 	drum_speed 6
@@ -3524,42 +3532,45 @@ Music_AreaZero_Ch4:
 	drum_note 11, 1
 	drum_speed 12
 	rest 1
-	octave 8
+	octave 6
 	drum_note 3, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
-	drum_note 5, 1
+	octave 6
+	drum_note 6, 1
 	drum_speed 6
 	rest 2
-	drum_speed 12
-	octave 7
+	octave 5
 	drum_note 11, 1
-	rest 3
-	octave 8
+	drum_note 11, 1
+	drum_speed 12
+	rest 1
+	octave 6
+	drum_note 3, 1
+	rest 1
 	drum_note 6, 1
 	rest 1
 	drum_note 1, 1
 	drum_speed 6
 	rest 2
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 3
 	drum_note 4, 1
 	drum_speed 6
 	rest 2
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
-	octave 8
 	drum_speed 12
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 3
@@ -3567,11 +3578,11 @@ Music_AreaZero_Ch4:
 	drum_speed 6
 	drum_note 3, 1
 	drum_note 3, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 1
@@ -3582,11 +3593,11 @@ Music_AreaZero_Ch4:
 	drum_note 4, 1
 	drum_note 3, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
 	rest 3
@@ -3594,29 +3605,24 @@ Music_AreaZero_Ch4:
 	drum_speed 6
 	drum_note 3, 1
 	drum_note 3, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	drum_speed 12
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	rest 1
-	drum_note 4, 1
+	drum_note 3, 1
+	octave 5
+	drum_note 12, 1
+	octave 6
 	drum_note 4, 1
 	drum_speed 6
-	drum_note 4, 1
-	drum_note 4, 1
-	drum_note 4, 1
-	drum_note 4, 1
+	drum_note 3, 1
+	drum_note 3, 1
+	drum_note 3, 1
+	drum_note 3, 1
 	drum_speed 12
-	drum_note 8, 1
-	drum_speed 6
-	rest 2
-	drum_speed 12
-	rest 2
-	drum_note 8, 1
-	rest 3
 	drum_note 8, 1
 	drum_speed 6
 	rest 2
@@ -3625,7 +3631,26 @@ Music_AreaZero_Ch4:
 	drum_note 8, 1
 	rest 3
 	drum_note 8, 1
+	drum_speed 6
+	rest 2
+	drum_speed 12
+	rest 2
+	drum_note 8, 1
+	rest 1
+	drum_note 8, 1
+	rest 1
+	drum_note 8, 1
 	rest 3
+	drum_note 8, 1
+	rest 3
+	drum_note 8, 1
+	rest 1
+	drum_note 8, 1
+	rest 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
+	drum_note 8, 1
 	drum_note 8, 1
 	rest 3
 	drum_note 8, 1
@@ -3633,21 +3658,22 @@ Music_AreaZero_Ch4:
 	drum_note 8, 1
 	rest 3
 	drum_note 8, 1
-	rest 3
+	rest 1
+	drum_note 8, 1
+	rest 1
 	drum_note 8, 1
 	rest 3
 	drum_note 8, 1
-	rest 3
+	rest 2
+	drum_note 12, 1
 	drum_note 8, 1
-	rest 3
+	drum_note 12, 1
 	drum_note 8, 1
-	rest 3
+	drum_note 12, 1
 	drum_note 8, 1
-	rest 3
+	drum_note 12, 1
 	drum_note 8, 1
-	rest 3
-	drum_note 8, 1
-	rest 3
+	drum_note 12, 1
 	drum_note 8, 1
 	rest 3
 	drum_note 8, 1
@@ -3748,37 +3774,37 @@ Music_AreaZero_Ch4:
 	drum_speed 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
 	drum_speed 12
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_speed 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
 	drum_speed 12
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_speed 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
 	drum_speed 12
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_speed 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
 	drum_speed 12
+	octave 5
 	drum_note 12, 1
-	octave 8
+	octave 6
 	drum_note 6, 1
 	drum_speed 6
 	drum_note 4, 1
@@ -3786,338 +3812,303 @@ Music_AreaZero_Ch4:
 	drum_note 4, 1
 	drum_note 4, 1
 	drum_speed 12
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
+	octave 6
 	drum_note 6, 1
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
+	octave 6
 	drum_note 6, 1
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
+	octave 6
 	drum_note 6, 1
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	rest 1
-	octave 8
+	octave 6
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
+	octave 6
 	drum_note 6, 1
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
+	octave 6
 	drum_note 6, 1
 	drum_note 4, 1
 	drum_note 4, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	drum_note 10, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
-	octave 8
+	octave 6
 	drum_note 10, 1
 	drum_note 10, 1
 	drum_speed 6
 	drum_note 10, 1
 	drum_note 10, 1
 	drum_speed 12
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	drum_note 10, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
-	rest 1
 	drum_note 12, 1
-	drum_speed 6
-	drum_note 12, 1
-	drum_note 12, 1
-	drum_speed 12
-	drum_note 12, 1
-	octave 8
-	rest 1
-	drum_note 10, 1
-	rest 1
-	octave 7
-	drum_note 12, 1
-	octave 8
-	rest 1
-	drum_note 10, 1
-	rest 1
-	octave 7
-	drum_note 12, 1
-	octave 8
-	rest 1
-	drum_note 10, 1
-	rest 1
-	octave 7
-	drum_note 12, 1
-	octave 8
-	rest 1
-	drum_note 10, 1
-	drum_note 10, 1
-	octave 7
-	drum_note 12, 1
-	octave 8
-	rest 1
-	drum_note 10, 1
-	rest 1
-	octave 7
-	drum_note 12, 1
-	octave 8
-	rest 1
-	drum_note 10, 1
-	rest 1
-	octave 7
-	drum_note 12, 1
-	octave 8
-	rest 1
-	drum_note 10, 1
-	octave 7
-	drum_note 12, 1
-	drum_note 12, 1
-	octave 8
-	rest 1
+	octave 6
 	drum_note 10, 1
 	drum_speed 6
 	drum_note 10, 1
 	drum_note 10, 1
 	drum_speed 12
-	octave 7
-	drum_note 12, 1
-	octave 8
+	drum_note 10, 1
 	rest 1
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	drum_note 10, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
 	rest 1
-	octave 7
+	octave 5
 	drum_note 12, 1
-	octave 8
 	rest 1
+	octave 6
 	drum_note 10, 1
-	octave 7
+	octave 5
 	drum_note 12, 1
 	drum_note 12, 1
 	rest 1
-	drum_note 12, 1
+	octave 6
+	drum_note 10, 1
 	drum_speed 6
-	drum_note 12, 1
-	drum_note 12, 1
-	octave 8
+	drum_note 10, 1
+	drum_note 10, 1
 	drum_speed 12
-	drum_note 1, 1
+	octave 5
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
+	octave 6
+	drum_note 10, 1
 	rest 1
-	drum_note 1, 1
+	octave 5
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
+	octave 6
+	drum_note 10, 1
 	rest 1
-	drum_note 1, 1
+	octave 5
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
+	octave 6
+	drum_note 10, 1
 	rest 1
-	drum_note 1, 1
+	octave 5
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
-	drum_note 11, 1
-	drum_note 1, 1
+	octave 6
+	drum_note 10, 1
+	drum_note 10, 1
+	octave 5
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
+	octave 6
+	drum_note 10, 1
 	rest 1
-	drum_note 1, 1
+	octave 5
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
+	octave 6
+	drum_note 10, 1
 	rest 1
-	drum_note 1, 1
+	octave 5
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
-	drum_note 1, 1
-	drum_note 1, 1
+	octave 6
+	drum_note 10, 1
+	octave 5
+	drum_note 12, 1
+	drum_note 12, 1
 	rest 1
-	drum_note 11, 1
+	octave 6
+	drum_note 10, 1
 	drum_speed 6
-	drum_note 11, 1
-	drum_note 11, 1
+	drum_note 10, 1
+	drum_note 10, 1
 	drum_speed 12
 	drum_note 1, 1
 	rest 1
@@ -4130,15 +4121,11 @@ Music_AreaZero_Ch4:
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
-	drum_note 1, 1
-	drum_note 1, 1
 	rest 1
-	drum_note 11, 1
-	drum_note 11, 1
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
-	rest 1
+	drum_note 11, 1
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
@@ -4146,13 +4133,17 @@ Music_AreaZero_Ch4:
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
+	rest 1
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
 	drum_note 1, 1
 	drum_note 1, 1
 	rest 1
-	drum_note 1, 1
+	drum_note 11, 1
 	drum_speed 6
-	drum_note 1, 1
-	drum_note 1, 1
+	drum_note 11, 1
+	drum_note 11, 1
 	drum_speed 12
 	drum_note 1, 1
 	rest 1
@@ -4165,7 +4156,7 @@ Music_AreaZero_Ch4:
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
-	rest 1
+	drum_note 1, 1
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
@@ -4181,7 +4172,7 @@ Music_AreaZero_Ch4:
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
-	rest 1
+	drum_note 1, 1
 	drum_note 1, 1
 	rest 1
 	drum_note 1, 1
@@ -4352,6 +4343,41 @@ Music_AreaZero_Ch4:
 	drum_note 1, 1
 	rest 1
 	drum_note 11, 1
+	rest 1
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
+	rest 1
+	drum_note 1, 1
+	rest 1
+	drum_note 1, 1
+	drum_speed 6
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_speed 12
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
+	rest 1
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
+	rest 1
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
+	rest 1
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
+	drum_note 11, 1
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
+	rest 1
+	drum_note 1, 1
+	rest 1
+	drum_note 11, 1
 	drum_note 11, 1
 	drum_note 1, 1
 	rest 1
@@ -4370,5 +4396,6 @@ Music_AreaZero_Ch4:
 	drum_note 1, 1
 	drum_speed 12
 	drum_note 1, 1
+	octave 8
 	rest 15
 	sound_loop 0, .mainLoop

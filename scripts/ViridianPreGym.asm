@@ -26,13 +26,12 @@ ViridianGymYujirouPostBattle:
 	jp z, ViridianGymResetScripts
 	ld a, $f0
 	ld [wJoyIgnore], a
-	
-	SetEvents EVENT_BEAT_YUJIROU, EVENT_BEAT_VIRIDIAN_PREGYM_TRAINER_0, EVENT_BEAT_VIRIDIAN_PREGYM_TRAINER_1 ; Needs to be set here for the correct text to pop up.
-	ld a, $3
-	ld [hSpriteIndex], a
-	call DisplayTextID
-	
-	jp ViridianPreGymResetScripts
+;	SetEvents EVENT_BEAT_YUJIROU, EVENT_BEAT_VIRIDIAN_PREGYM_TRAINER_0, EVENT_BEAT_VIRIDIAN_PREGYM_TRAINER_1 ; Needs to be set here for the correct text to pop up.
+;	ld a, $3
+;	ld [hSpriteIndex], a
+;	call DisplayTextID
+;	xor a
+;	ld [wViridianPreGymCurScript], a
 
 ViridianPreGym_TextPointers:
 	dw ViridianPreGymText1

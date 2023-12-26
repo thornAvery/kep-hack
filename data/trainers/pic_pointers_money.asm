@@ -53,10 +53,10 @@ TrainerPicAndMoneyPointers::
 	pic_money ChannelerPic,    3000
 	pic_money AgathaPic,       9900
 	pic_money LancePic,        9900
-	pic_money YujirouPic,      9900 ; was unused juggler
+	pic_money YujirouPic,      3500 ; was unused juggler
 	pic_money StudentPic,      1000
-	pic_money FirefighterPic,  1500
-	pic_money JuniorPic,       1000
+	pic_money FirefighterPic,  2500
+	pic_money KoichiPic,       9900
 	pic_money JackPic,         5000
-	pic_money JessieJamesPic,  9900
+	pic_money JessieJamesPic,  5000
 	assert_table_length NUM_TRAINERS

@@ -575,8 +575,8 @@ CeladonMansion5HiddenObjects:
 FightingDojoHiddenObjects:
 	hidden_object  3,  9, SPRITE_FACING_UP, PrintFightingDojoText
 	hidden_object  6,  9, SPRITE_FACING_UP, PrintFightingDojoText
-	hidden_object  4,  0, SPRITE_FACING_UP, PrintFightingDojoText2
-	hidden_object  5,  0, SPRITE_FACING_UP, PrintFightingDojoText3
+	hidden_object  1,  0, SPRITE_FACING_UP, PrintFightingDojoText2
+	hidden_object  2,  0, SPRITE_FACING_UP, PrintFightingDojoText3
 	db -1 ; end
 
 IndigoPlateauLobbyHiddenObjects:

@@ -16,7 +16,7 @@ MtMoonCraterMons:
 	db 52, GOLDUCK
 	db 54, GOLDUCK
 	db 50, GOLDUCK
-	db 56, JABETTA
+	db 52, JABETTA
 	db 50, JABETTA
 	db 52, CROAKOZUNA
 	db 54, CROAKOZUNA
