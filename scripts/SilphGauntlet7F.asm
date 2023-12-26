@@ -71,7 +71,7 @@ ChiefScript3:
 	xor a
 	ld [wIsTrainerBattle], a
 	call UpdateSprites
-	SetEvent EVENT_BEAT_CHIEF
+	SetEvent EVENT_BEAT_CHIEF ; Ensures Chief cannot be rematched in the room.
 	ld a, $f0
 	ld [wJoyIgnore], a
 	ld a, $1
@@ -95,7 +95,7 @@ ChiefScript4:
 	ld a, HS_CERULEAN_CAVE_GUY
 	ld [wMissableObjectIndex], a
 	predef HideObject
-	; ResetEventRange SILPH_GAUNTLET_EVENTS_START, SILPH_GAUNTLET_EVENTS_END, 1 ; I want this to reset the trainers so you can refight them, but I'm very unsure how this works...
+	ResetEventRange SILPH_GAUNTLET_EVENTS_START, SILPH_GAUNTLET_EVENTS_END, 1 
 	
 	ld a, $0
 	ld [wSilphGauntlet7FCurScript], a

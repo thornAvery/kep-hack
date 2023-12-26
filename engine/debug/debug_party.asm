@@ -206,6 +206,7 @@ DebugItemsList:
 	db BICYCLE, 1
 	db EXP_ALL, 1
 	db FULL_RESTORE, 99
+	db MAX_ELIXER, 99
 	db MAX_REPEL, 99
 	db RARE_CANDY, 99
 	db ESCAPE_ROPE, 99

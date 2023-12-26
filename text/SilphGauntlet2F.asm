@@ -58,8 +58,9 @@ _SilphGauntlet2FAfterBattleText3::
 _SilphGauntlet2FBattleText4::
 	text "Hahaha! This is"
 	line "great! So many"
-	cont "rare #MON! Show"
-	cont "me yours, now!"
+	cont "rare #MON!"
+	para "Show me yours,"
+	line "now!"
 	done
 
 _SilphGauntlet2FEndBattleText4::

@@ -12,5 +12,5 @@ SeaRoutesWildMons:
 	db 30, TENTACRUEL
 	db 35, TENTACRUEL
 	db 35, PENDRAKEN
-	db 40, PENDRAKEN
+	db 35, SHARPOON
 	end_water_wildmons

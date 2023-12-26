@@ -3,6 +3,8 @@ FemaleTrainerList::
 	db OPP_JR_TRAINER_F
 	db OPP_BEAUTY
 	db OPP_COOLTRAINER_F
+	db OPP_MISTY
+	db OPP_ERIKA
 	db OPP_STUDENT
 	db -1 ; end
 
@@ -14,5 +16,9 @@ EvilTrainerList::
 	db OPP_SCIENTIST
 	db OPP_GIOVANNI
 	db OPP_ROCKET
+	db OPP_KOGA
+	db OPP_SABRINA
+	db OPP_CHANNELER
+	db OPP_AGATHA
 	db OPP_JESSIE_JAMES
 	db -1 ; end
