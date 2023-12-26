@@ -8,7 +8,7 @@ DefaultNamesGirlList:
 	db "NEW NAME@"
 	db "GREEN@"
 	db "LEAF@"
-	db "SEREN@"
+	db "ELAINE@"
 
 DefaultNamesRivalList:
 	db "NEW NAME@"
