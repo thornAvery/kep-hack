@@ -60,8 +60,8 @@ ProfOakData:
 	db $FF, 61, TAUROS, 62, GYARADOS, 63, ARCANINE, 63, EXEGGUTOR, 64, NIDOKING, 65, TOTARTLE, 0
 	db $FF, 61, TAUROS, 62, EXEGGUTOR, 63, GYARADOS, 63, ARCANINE, 64, NIDOKING, 65, VENUSAUR, 0
 	db $FF, 61, TAUROS, 62, ARCANINE, 63, EXEGGUTOR, 63, GYARADOS, 64, NIDOKING, 65, CHARIZARD, 0
-	db $FF, 61, TAUROS, 62, MAGNEZONE, 62, NIDOKING, 65, TOTARTLE, 65, CHARIZARD, 65, VENUSAUR, 0
-	db $FF, 61, TAUROS, 62, MAGNEZONE, 62, NIDOKING, 65, CHARIZARD, 65, VENUSAUR, 65, TOTARTLE, 0
+	db $FF, 61, TAUROS, 62, MAGNEZONE, 62, NIDOKING, 65, VENUSAUR, 65, CHARIZARD, 65, TOTARTLE, 0
+	db $FF, 61, TAUROS, 62, MAGNEZONE, 62, NIDOKING, 65, VENUSAUR, 65, CHARIZARD, 65, TOTARTLE, 0
 ; with Oak's teams, he uses his original unused team with Nidoking added on.
 ; his teams weren't changed in Yellow, so what I've decided to do is give him all 3 starters that weren't chosen.
 ; he should also use a Magnezone here, since his other team mirrors Blue's in many ways, and Magnezone avoids type overlap.

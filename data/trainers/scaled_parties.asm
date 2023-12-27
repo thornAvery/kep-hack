@@ -64,8 +64,8 @@ SabrinaData:
 	db $FF, 38, ESPEON, 37, MR_MIME, 37, SLOWKING, 38, HYPNO, 40, ALAKAZAM, 0                    ; 4
 	db $FF, 41, ESPEON, 40, MR_MIME, 40, SLOWKING, 41, HYPNO, 43, ALAKAZAM, 0                    ; 5
 	db $FF, 45, ESPEON, 44, MR_MIME, 44, SLOWKING, 45, HYPNO, 47, ALAKAZAM, 0                    ; 6
-	db $FF, 47, ESPEON, 46, MR_MIME, 46, SLOWKING, 48, EXEGGUTOR, 48, HYPNO, 50, ALAKAZAM, 0     ; 7 (unused)
-	db $FF, 62, EXEGGUTOR, 62, SLOWKING, 61, RAPIDASH_G, 62, HYPNO, 61, ESPEON, 65, ALAKAZAM, 0  ; 8 (postgame)
+	db $FF, 47, ESPEON, 46, MR_MIME, 46, SLOWKING, 48, JYNX, 48, HYPNO, 50, ALAKAZAM, 0          ; 7 (unused)
+	db $FF, 62, JYNX, 62, SLOWKING, 61, RAPIDASH_G, 62, HYPNO, 61, ESPEON, 65, ALAKAZAM, 0       ; 8 (postgame)
 
 BlaineData:
 	db $FF, 11, VULPIX, 12, GROWLITHE, 14, PONYTA, 0                                                 ; 0 badges (unused)
