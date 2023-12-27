@@ -11,6 +11,7 @@ _SafariZoneNorthText4::
 
 _SafariZoneNorthText5::
 	text "AREA 2"
+	line "SOUTH: AREA 3"
 	done
 
 _SafariZoneNorthText6::

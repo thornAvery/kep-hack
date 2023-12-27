@@ -1614,6 +1614,7 @@ VaporeonEvosMoves:
 	db 44, MIST
 	db 47, ACID_ARMOR
 	db 52, HYDRO_PUMP
+	db 0
 
 MachopEvosMoves:
 ; Evolutions
