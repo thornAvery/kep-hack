@@ -58,3 +58,4 @@ Music:
 	dba Music_Kinchou01
 	dba Music_Mewtwo01
 	dba Music_LegendaryBattle
+	dba Music_GiovannisRoom

@@ -5,11 +5,11 @@ SafariZoneWestWildMons:
 	db 23, EXEGGCUTE
 	db 24, EXEGGCUTE
 	db 33, VENOMOTH
-	db 26, EXEGGCUTE
+	db 26, CUBONE
 	db 25, MAROWAK
 	db 25, SCYTHER
 	db 26, TAUROS
-	db 25, CHANSEY
+	db  7, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
