@@ -876,7 +876,7 @@ SpecialTrainerMoves:
 	db 6, 3, QUICK_ATTACK
 	db 0
 
-	db RIVAL2, 20		; Route 22 Rival w/Raichu
+	db RIVAL2, 20		; Route 22 Rival w/Gorochu
 	db 1, 1, SAND_ATTACK
 	db 1, 2, SLASH
 	db 1, 4, SWORDS_DANCE
@@ -1029,7 +1029,7 @@ SpecialTrainerMoves:
 	db 6, 3, QUICK_ATTACK
 	db 0
 
-	db RIVAL3, 5		; Champion Rival w/Raichu
+	db RIVAL3, 5		; Champion Rival w/Gorochu
 	db 1, 1, SAND_ATTACK
 	db 1, 2, SLASH
 	db 1, 4, SWORDS_DANCE
@@ -1361,6 +1361,193 @@ SpecialTrainerMoves:
 	db 6, 1, THUNDERBOLT
 	db 6, 2, THUNDER_WAVE
 	db 6, 4, ICE_BEAM
+	db 0
+	
+	db JESSIE_JAMES, 5	; J&J postgame
+	db 1, 1, BUBBLEBEAM
+	db 1, 2, THUNDERBOLT
+	db 1, 4, HYPNOSIS
+	db 2, 3, WRAP
+	db 2, 4, EARTHQUAKE
+	db 3, 1, WRAP
+	db 3, 2, BODY_SLAM
+	db 3, 3, EXPLOSION
+	db 3, 4, EARTHQUAKE
+	db 4, 1, SLUDGE
+	db 4, 2, THUNDERBOLT
+	db 4, 3, FIRE_BLAST
+	db 5, 3, BODY_SLAM
+	db 6, 1, FIRE_BLAST
+	db 6, 2, THUNDERBOLT
+	db 0
+	
+	db LORELEI, 2	; Lorelei rematch
+	db 1, 1, SURF
+	db 1, 3, BODY_SLAM
+	db 1, 4, BLIZZARD
+	db 2, 1, EXPLOSION
+	db 2, 3, ICE_BEAM
+	db 3, 1, HYPNOSIS
+	db 3, 4, SUBSTITUTE
+	db 4, 1, LOVELY_KISS
+	db 4, 2, COUNTER
+	db 4, 3, PSYCHIC_M
+	db 5, 1, BODY_SLAM
+	db 5, 2, REST
+	db 5, 4, GROWTH
+	db 6, 1, HYPER_BEAM
+	db 6, 2, THUNDERBOLT
+	db 6, 3, BLIZZARD
+	db 0
+	
+	db BRUNO, 2		; Bruno rematch
+	db 1, 3, MEDITATE
+	db 2, 1, EARTHQUAKE
+	db 2, 3, ROCK_SLIDE
+	db 2, 4, EXPLOSION
+	db 3, 1, BODY_SLAM
+	db 3, 2, BRUTAL_SWING
+	db 3, 3, SWORDS_DANCE
+	db 4, 1, THUNDERBOLT
+	db 5, 2, BODY_SLAM
+	db 5, 3, HI_JUMP_KICK
+	db 5, 4, DIG
+	db 6, 1, BODY_SLAM
+	db 6, 3, EARTHQUAKE
+	db 6, 4, ROCK_SLIDE
+	db 0
+
+	db AGATHA, 2	; Agatha rematch
+	db 1, 1, MEGA_PUNCH
+	db 1, 4, ROCK_SLIDE
+	db 2, 1, MEGA_DRAIN
+	db 2, 3, CONFUSE_RAY
+	db 2, 4, FLY
+	db 3, 1, SWORDS_DANCE
+	db 3, 2, FIRE_BLAST
+	db 3, 3, EARTHQUAKE
+	db 3, 4, BLIZZARD
+	db 4, 3, WRAP
+	db 4, 4, EARTHQUAKE
+	db 5, 1, GROWTH
+	db 5, 3, TOXIC
+	db 6, 1, THUNDERBOLT
+	db 6, 2, ICE_PUNCH
+	db 6, 4, PSYCHIC_M
+	db 0
+
+	db LANCE, 2		; Lance rematch
+	db 1, 1, SWORDS_DANCE
+	db 1, 2, THUNDERBOLT
+	db 1, 4, EARTHQUAKE
+	db 2, 1, BLIZZARD
+	db 2, 2, THUNDERBOLT 
+	db 3, 1, PSYCHIC_M
+	db 3, 2, EARTHQUAKE
+	db 3, 3, EXPLOSION
+	db 4, 1, REST
+	db 4, 2, ICE_BEAM
+	db 5, 1, SURF
+	db 5, 3, THUNDERBOLT
+	db 6, 1, BLIZZARD
+	db 6, 2, FIRE_BLAST
+	db 6, 4, AGILITY
+	db 0
+
+	db RIVAL3, 6	; Champion Rival rematch w/Totartle
+	db 1, 1, SMART_STRIKE
+	db 1, 2, EARTHQUAKE
+	db 2, 1, THUNDERPUNCH
+	db 2, 4, ICE_PUNCH
+	db 3, 1, SURF
+	db 3, 3, THUNDERBOLT
+	db 4, 1, FIRE_BLAST
+	db 4, 2, DIG
+	db 4, 3, AGILITY
+	db 4, 4, BODY_SLAM
+	db 5, 1, PSYCHIC_M
+	db 5, 2, SLEEP_POWDER
+	db 5, 4, SOLARBEAM
+	db 6, 1, BODY_SLAM
+	db 6, 2, HYDRO_PUMP
+	db 0
+
+	db RIVAL3, 7	; Champion Rival rematch w/Venusaur
+	db 1, 1, SMART_STRIKE
+	db 1, 2, EARTHQUAKE
+	db 2, 1, FIRE_PUNCH
+	db 2, 4, THUNDERPUNCH
+	db 3, 1, SURF
+	db 3, 3, THUNDERBOLT
+	db 4, 1, BLIZZARD
+	db 4, 2, THUNDERBOLT
+	db 5, 1, FIRE_BLAST
+	db 5, 2, DIG
+	db 5, 3, AGILITY
+	db 5, 4, BODY_SLAM
+	db 6, 2, RAZOR_LEAF
+	db 6, 3, BODY_SLAM
+	db 6, 4, SLEEP_POWDER
+	db 0
+
+	db RIVAL3, 8	; Champion Rival rematch w/Charizard
+	db 1, 1, SMART_STRIKE
+	db 1, 2, EARTHQUAKE
+	db 2, 1, ICE_PUNCH
+	db 2, 4, FIRE_PUNCH
+	db 3, 1, SURF
+	db 3, 3, THUNDERBOLT
+	db 4, 1, PSYCHIC_M
+	db 4, 2, SLEEP_POWDER
+	db 4, 4, SOLARBEAM
+	db 5, 1, BLIZZARD
+	db 5, 2, THUNDERBOLT
+	db 6, 1, FLY
+	db 6, 2, SLASH
+	db 6, 4, EARTHQUAKE
+	db 0
+	
+	db RIVAL3, 9	; Champion Rival rematch w/Umbreon
+	db 1, 1, BODY_SLAM
+	db 1, 2, EARTHQUAKE
+	db 1, 3, BLIZZARD
+	db 1, 4, FIRE_BLAST
+	db 2, 1, FIRE_PUNCH
+	db 2, 4, ICE_PUNCH
+	db 3, 2, SOLARBEAM
+	db 3, 3, MEGA_DRAIN
+	db 3, 4, AMNESIA
+	db 4, 1, THUNDER_WAVE
+	db 4, 3, THUNDERBOLT
+	db 5, 1, HYPNOSIS
+	db 5, 2, REFLECT
+	db 5, 3, BODY_SLAM
+	db 5, 4, FIRE_BLAST
+	db 6, 1, BODY_SLAM
+	db 6, 3, GROWTH
+	db 0
+
+	db RIVAL3, 10	; Champion Rival rematch w/Gorochu
+	db 1, 1, BODY_SLAM
+	db 1, 2, EARTHQUAKE
+	db 1, 3, BLIZZARD
+	db 1, 4, FIRE_BLAST
+	db 2, 1, ICE_PUNCH
+	db 2, 4, THUNDERPUNCH
+	db 3, 2, SOLARBEAM
+	db 3, 3, MEGA_DRAIN
+	db 3, 4, AMNESIA
+	db 4, 1, HYPNOSIS
+	db 4, 2, REFLECT
+	db 4, 3, BODY_SLAM
+	db 4, 4, FIRE_BLAST
+	db 5, 1, EXPLOSION
+	db 5, 3, SURF
+	db 5, 4, BLIZZARD
+	db 6, 1, THUNDERBOLT
+	db 6, 2, BODY_SLAM
+	db 6, 3, THUNDER_WAVE
+	db 6, 4, SURF
 	db 0
 	
 	db -1 ; end
