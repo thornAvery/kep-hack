@@ -20,7 +20,8 @@ _BrunswickGladeBattleText1:: ; Leaf
 	done
 
 _BrunswickGladeEndBattleText1::
-	text "Dang it!" ; Taken from Smash Ultimate when a Pokemon faints. Cryptid moment.
+	text "Dang"
+	line "it!" ; Taken from Smash Ultimate when a Pokemon faints. Cryptid moment.
 	prompt
 
 _BrunswickGladeAfterBattleText1::
@@ -34,30 +35,7 @@ _BrunswickGladeAfterBattleText1::
 	cont "everywhere!"
 	done
 
-_BrunswickGladeBattleText2:: ; Ariana - uses stad2 quotes
-	text "That sharp gaze..."
-	
-	para "You seem rather"
-	line "competent."
-	done
-
-_BrunswickGladeEndBattleText2::
-	text "I can't"
-	line "look them in"
-	cont "the face after"
-	cont "this!"
-	prompt
-
-_BrunswickGladeAfterBattleText2::
-	text "Have you thought"
-	line "about working"
-	cont "for TEAM ROCKET?"
-	
-	para "No? Forget I"
-	line "said anything."
-	done
-
-_BrunswickGladeBattleText3:: ; Fuji
+_BrunswickGladeBattleText2:: ; Fuji
 	text "You seem to have"
 	line "raised your #-"
 	cont "MON with love"
@@ -67,11 +45,11 @@ _BrunswickGladeBattleText3:: ; Fuji
 	line "they battle!"
 	done
 
-_BrunswickGladeEndBattleText3::
+_BrunswickGladeEndBattleText2::
 	text "Hm..."
 	prompt
 
-_BrunswickGladeAfterBattleText3::
+_BrunswickGladeAfterBattleText2::
 	text "I've made many"
 	line "mistakes in my"
 	cont "life."
@@ -83,6 +61,29 @@ _BrunswickGladeAfterBattleText3::
 	cont "matters."
 	done
 
+_BrunswickGladeBattleText3:: ; Ariana - uses stad2 quotes
+	text "That sharp gaze..."
+	
+	para "You seem rather"
+	line "competent."
+	done
+
+_BrunswickGladeEndBattleText3::
+	text "I can't"
+	line "look them in"
+	cont "the face after"
+	cont "this!"
+	prompt
+
+_BrunswickGladeAfterBattleText3::
+	text "Have you thought"
+	line "about working"
+	cont "for TEAM ROCKET?"
+	
+	para "No? Forget I"
+	line "said anything."
+	done
+
 _BrunswickGladeBattleText4:: ; Trace
 	text "Whoa!"
 	
@@ -92,7 +93,7 @@ _BrunswickGladeBattleText4:: ; Trace
 	done
 
 _BrunswickGladeEndBattleText4::
-	text "Whoa!"
+	text "Wow!"
 	line "Seriously?"
 	prompt
 

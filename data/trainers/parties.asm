@@ -699,7 +699,7 @@ CooltrainerFData:
 ;	db 45, NIDORINA, NIDOQUEEN, 0
 ;	db 43, PERSIAN, NINETALES, RAICHU, 0
 ; Brunswick Glade/grotto etc, whatever desired 
-	db 60, PIDGEOT, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
+	db 60, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
 
 ; "Dignified" Pokemon associated with the privileged class.
 GentlemanData:
@@ -713,7 +713,7 @@ GentlemanData:
 ; SS Anne 2F Rooms
 	db 17, KOLTA, GROWLITHE, 0
 ; Celeste Hill?
-	db 56, NIDOKING, GOLDUCK, GUARDIA, PIDGEOT, DODRIO, BEEDRILL, 0 ; Fuji
+	db 56, NIDOKING, GOLDUCK, GUARDIA, DODRIO, BEEDRILL, 0 ; Fuji
 	db 57, FEAROW, RAPIDASH, GOROCHU, ALAKAZAM, SYLVEON, 0 ; Fan Club chairman
 
 ChannelerData:
