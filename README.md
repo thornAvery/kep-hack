@@ -259,7 +259,6 @@ and more!
 
 Known Bugs
 ====
-- Losing to Yujirou's initial team crashes the game.
 - If you defeat the Elite Four before the Fighing Dojo Karate Master, the Hitmon gift is permanently locked off.
 - Occasionally, menu text sets itself to scroll. (hasn't happened for a while, either uncommon or fixed)
 - The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.

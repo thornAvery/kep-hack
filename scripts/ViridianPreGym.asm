@@ -23,7 +23,7 @@ ViridianPreGym_ScriptPointers:
 ViridianGymYujirouPostBattle:
 	ld a, [wIsInBattle]
 	cp $ff
-	jp z, ViridianGymResetScripts
+	jp z, ViridianPreGymResetScripts
 	ld a, $f0
 	ld [wJoyIgnore], a
 ViridianPreGymScriptReceiveBottleCap:
@@ -76,7 +76,7 @@ YujirouText:
 	jr nz, .rematchMode
 	CheckEventReuseA EVENT_GOT_YUJIROU_BOTTLE_CAP
 	jr nz, .yujirouBeaten
-	call z, PewterGymScriptReceiveTM34
+	call z, ViridianPreGymScriptReceiveBottleCap
 	call DisableWaitingAfterTextDisplay
 	jp .done ; needed due to the rematch script length.
 .rematchMode ; Rematch functionality. Just loads pre-battle text and his trainer.
