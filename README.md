@@ -260,7 +260,7 @@ and more!
 Known Bugs
 ====
 - Losing to Yujirou's initial team crashes the game.
-- The Fighing Dojo Karate Master doesn't allow you to rematch him after losing to him, but still lets you pick a Hitmon. If you defeat the Elite Four before him, the Hitmon gift is instead permanently locked off.
+- If you defeat the Elite Four before the Fighing Dojo Karate Master, the Hitmon gift is permanently locked off.
 - Occasionally, menu text sets itself to scroll. (hasn't happened for a while, either uncommon or fixed)
 - The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.

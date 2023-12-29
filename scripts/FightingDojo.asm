@@ -168,7 +168,6 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	ld a, $3
 	ld [wFightingDojoCurScript], a
 	ld [wCurMapScript], a
-	SetEvent EVENT_DEFEATED_FIGHTING_DOJO
 	jr .asm_9dba4
 .continue1
 	ld hl, FightingDojoText_5ce9d
@@ -177,6 +176,7 @@ FightingDojoText1: ; gym scaling can be removed to make space
 .continue2
 	ld hl, FightingDojoText8
 	call PrintText
+	SetEvent EVENT_DEFEATED_FIGHTING_DOJO
 .asm_9dba4
 	jp TextScriptEnd
 
