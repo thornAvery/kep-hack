@@ -70,10 +70,10 @@ ViridianPreGymTrainerHeader1:
 
 YujirouText:
 	text_asm
-	CheckEvent EVENT_POST_GAME_ATTAINED ; No need to view previous stuff
-	jr nz, .rematchMode
 	CheckEvent EVENT_BEAT_YUJIROU
 	jp z, .yujirouNotBeaten
+	CheckEvent EVENT_POST_GAME_ATTAINED ; No need to view previous stuff
+	jr nz, .rematchMode
 	CheckEventReuseA EVENT_GOT_YUJIROU_BOTTLE_CAP
 	jr nz, .yujirouBeaten
 	call z, PewterGymScriptReceiveTM34
