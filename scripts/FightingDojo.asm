@@ -128,8 +128,6 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	ld [wTrainerNo], a
 	ld a, 1
 	ld [wIsTrainerBattle], a
-	ld a, $1
-	ld [wGymLeaderNo], a
 	jr .asm_9dba4
 .normalProcessing
 	CheckEvent EVENT_DEFEATED_FIGHTING_DOJO
@@ -164,8 +162,6 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	ld [wTrainerNo], a
 	ld a, 1
 	ld [wIsTrainerBattle], a
-	ld a, $1
-	ld [wGymLeaderNo], a ; play gym music
 	
 	;ends here
 	
