@@ -259,12 +259,14 @@ and more!
 
 Known Bugs
 ====
-Comprehensive list can be found on Discord.
-- Occasionally, menu text sets itself to scroll.
+- Losing to Yujirou's initial team crashes the game.
+- The Fighing Dojo Karate Master doesn't allow you to rematch him after losing to him, but still lets you pick a Hitmon. If you defeat the Elite Four before him, the Hitmon gift is instead permanently locked off.
+- Occasionally, menu text sets itself to scroll. (hasn't happened for a while, either uncommon or fixed)
 - The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
-- Yujirou seems to crash the game after battling him sometimes.
-- The Gym Leaders on Floor 6 of Silph Gauntlet don't play the correct music in battle
+- The Gym Leaders on Floor 6 of Silph Gauntlet don't play the correct music in battle.
+- Silph Co. Worker doesn't give Lapras as a gift on occasion (this happened like one time, more testing needed)
+- The final battle against Blue uses the wrong team when Eevee is chosen.
 
 Evolution Methods for new Pokemon
 ====
