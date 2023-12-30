@@ -190,7 +190,9 @@ SafariBallSalesman:
 .enoughMoney
 	lb bc, SAFARI_BALL, 3
 	call GiveItem
-	jr nc, .done
+	jr nc, .BagFull
+	ld hl, ReceivedSafariBallsText
+	call PrintText
 	xor a
 	ld [wPriceTemp], a
 	ld [wPriceTemp + 2], a
@@ -205,7 +207,13 @@ SafariBallSalesman:
 	call DisplayTextBoxID
 	jr .done
 .choseNo
-	ld hl, .RefuseText
+	ld hl, RefuseText
+	call PrintText
+	jr .done
+.BagFull
+	ld hl, SafariBallBagFull
+	call PrintText
+	jr .done
 .printText
 	call PrintText
 .done
@@ -214,13 +222,18 @@ SafariBallSalesman:
 .Text1
 	text_far _SafariBallSalesmanText1
 	text_end
+	
+.NoMoneyText
+	text_far _SafariBallSalesmanNoMoneyText
+	text_end
 
-.RefuseText
+RefuseText:
 	text_far _SafariBallSalesmanNoText
 	text_end
 
-.NoMoneyText
-	text_far _SafariBallSalesmanNoMoneyText
+ReceivedSafariBallsText:
+	text_far _ReceivedSafariBallsText
+	sound_get_item_1
 	text_end
 
 SafariBallBagFull:
