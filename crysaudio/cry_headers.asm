@@ -26,7 +26,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,    -233,  240 ; UMBREON
 	mon_cry CRY_CHIKORITA,    -1,  512 ; LEAFEON
 	mon_cry CRY_AMPHAROS,     63,  592 ; GLACEON
-	mon_cry CRY_NIDORAN_M,     0,    0 ; SYLVEON	(incomplete)
+	mon_cry CRY_NIDOQUEEN,   253,  367 ; SYLVEON
 	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
 	mon_cry CRY_RATTATA,      32,  383 ; RATICATE
 	mon_cry CRY_RATTATA,      32,  383 ; RATICATE_A
@@ -45,7 +45,7 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
 	mon_cry CRY_MUK,         163,  187 ; GENTLARVA
-	mon_cry CRY_KRABBY,      144,  151 ; PUPAL		(needs revising)
+	mon_cry CRY_KRABBY,      144,  151 ; PUPAL
 	mon_cry CRY_KRABBY,      245,  288 ; CARAPTHOR
 	mon_cry CRY_KANGASKHAN,  163,  129 ; KOTORA
 	mon_cry CRY_KANGASKHAN,   45,  129 ; GAOTORA
@@ -113,7 +113,7 @@ PokemonCries::
 	mon_cry CRY_RATTATA,     255,  192 ; CHEEP
 	mon_cry CRY_RATTATA,      50,  383 ; JABETTA
 	mon_cry CRY_SEEL,          0,  256 ; LICKITUNG
-	mon_cry CRY_TYPHLOSION,  576,  234 ; LICKILICKY		(sounds really similar to electivire, consider revising)
+	mon_cry CRY_SEEL,        169,  639 ; LICKILICKY
 	mon_cry CRY_GROWLITHE,    32,  192 ; GROWLITHE
 	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
 	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE_H
@@ -129,8 +129,8 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,     170,  129 ; DIGLETT
 	mon_cry CRY_DIGLETT,      42,  144 ; DUGTRIO
 	mon_cry CRY_DIGLETT,      42,  144 ; DUGTRIO_A
-	mon_cry CRY_NIDORAN_M,     0,    0 ; WIGLETT	(incomplete)
-	mon_cry CRY_NIDORAN_M,     0,    0 ; WUGTRIO	(incomplete)
+	mon_cry CRY_PSYDUCK,     640,  480 ; WIGLETT
+	mon_cry CRY_DIGLETT,      36,  480 ; WUGTRIO
 	mon_cry CRY_EKANS,       255,  320 ; ONIX
 	mon_cry CRY_TYPHLOSION,  239,  247 ; STEELIX
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
