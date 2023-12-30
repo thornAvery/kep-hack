@@ -17,12 +17,19 @@ _YujirouLoseText::
 	line "I lost?!"
 	prompt
 
-_YujirouWinText::
-	text "Ha!"
-	line "Small fry!"
-	prompt
-
 _YujirouAfterBattleText::
+	text "I won't give up!"
+	line "I'll train with"
+	cont "my #MON until"
+	cont "we're the best"
+	cont "there is!"
+	
+	para "One day, we will"
+	line "beat you!"
+	
+	done
+
+_BeforeReceivedBottleCapText::
 	text "I lost..."
 	
 	para "..."
@@ -35,7 +42,34 @@ _YujirouAfterBattleText::
 	
 	para "One day, we will"
 	line "beat you!"
-	
+
+	para "Oh yeah! You can"
+	line "have this for"
+	cont "winning!"
+	done
+
+_ReceivedBottleCapText::
+	text "<PLAYER> received"
+	line "BOTTLE CAP!@"
+	text_end
+
+_BottleCapExplanationText::
+	text_start
+
+	para "I know it's not"
+	line "a real BADGE..."
+	cont "but look at how"
+	cont "shiny it is!"
+
+	para "Maybe it'll come"
+	line "in handy some"
+	cont "other time."
+	done
+
+_BottleCapNoRoomText::
+	text "Wait, you've got"
+	line "way too many"
+	cont "items already!"
 	done
 
 _YujirouIntro2::
@@ -95,8 +129,8 @@ _ViridianPreGymBattleText2::
 	done
 
 _ViridianPreGymEndBattleText2::
-	text "CLEFAIRY!"
-	line "No!"
+	text "No!"
+	line "CLEFAIRY!"
 	prompt
 
 _ViridianPreGymAfterBattleText2::
