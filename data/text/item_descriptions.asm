@@ -524,7 +524,7 @@ _TM26Description::
 	prompt
 
 _TM27Description::
-	text "A ground-type,"
+	text "A GROUND-type,"
 	next "one-hit KO attack."
 	prompt
 

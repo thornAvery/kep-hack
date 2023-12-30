@@ -67,7 +67,8 @@ _CeladonCityText6::
 
 	para "It evolved from"
 	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	cont "gave it a WATER"
+	cont "STONE!"
 	done
 
 _CeladonCityText7::
@@ -138,7 +139,8 @@ _CeladonCityText16::
 	line "protects #MON"
 	cont "against SPECIAL"
 	cont "attacks such as"
-	cont "fire and water!"
+	cont "FIRE- and WATER-"
+	cont "type techniques!"
 	
 	para "It even improves"
 	line "their own!"

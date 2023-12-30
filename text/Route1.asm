@@ -146,7 +146,7 @@ _OakCitrineExplain::
 	cont "go to become far"
 	cont "stronger."
 	
-	para "Some strange BIRD"
+	para "Some strange bird"
 	line "#MON are said"
 	cont "to roost there,"
 	cont "but they are so"
