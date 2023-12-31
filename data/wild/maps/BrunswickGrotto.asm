@@ -4,7 +4,7 @@ BrunswickGrottoWildMons:
 	db 51, BEEDRILL
 	db 52, BUTTERFREE
 	db 52, CARAPTHOR
-	db 51, VENOMOTH
+	db 51, MINISTARE
 	db 53, PARASECT
 	db 53, PARASECT
 	db 53, GORILLAIMO
