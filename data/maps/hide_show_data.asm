@@ -238,7 +238,6 @@ MapHSPointers:
 	dw CinnabarVolcanoHS
 	dw CinnabarVolcanoFloorsHS
 	dw NoHS
-	dw SilphCo10FHS
 	dw SilphCo11FHS
 	dw NoHS
 	dw NoHS
@@ -493,12 +492,6 @@ SilphCo7FHS:
 	db SILPH_CO_7F, $09, SHOW                 ; HS_SILPH_CO_7F_RIVAL
 	db SILPH_CO_7F, $0A, SHOW                 ; HS_SILPH_CO_7F_ITEM_1
 	db SILPH_CO_7F, $0B, SHOW                 ; HS_SILPH_CO_7F_ITEM_2
-SilphCo10FHS:
-	db SILPH_CO_10F, $01, SHOW                ; HS_SILPH_CO_10F_1
-	db SILPH_CO_10F, $02, SHOW                ; HS_SILPH_CO_10F_2
-	db SILPH_CO_10F, $03, SHOW                ; HS_SILPH_CO_10F_ITEM_1
-	db SILPH_CO_10F, $04, SHOW                ; HS_SILPH_CO_10F_ITEM_2
-	db SILPH_CO_10F, $05, SHOW                ; HS_SILPH_CO_10F_ITEM_3
 SilphCo11FHS:
 	db SILPH_CO_11F, $03, SHOW                ; Giovanni
 	db SILPH_CO_11F, $04, SHOW                ; James
@@ -591,13 +584,13 @@ MtMoonSquareHS:
 DaycareHS:
 	db DAYCARE, $03, SHOW                     ; HS_DAYCARE_BULBASAUR
 BrunswickGladeHS:
-	db BRUNSWICK_GLADE, $01, HIDE            ; HS_GLADE_GZAP_1
-	db BRUNSWICK_GLADE, $02, HIDE            ; HS_GLADE_GZAP_2
-	db BRUNSWICK_GLADE, $03, HIDE            ; HS_GLADE_GZAP_3
-	db BRUNSWICK_GLADE, $04, HIDE            ; HS_GLADE_ITEM1
-	db BRUNSWICK_GLADE, $05, HIDE            ; HS_GLADE_ITEM2
-	db BRUNSWICK_GLADE, $06, HIDE            ; HS_GLADE_ITEM3
-	db BRUNSWICK_GLADE, $07, HIDE            ; HS_GLADE_ITEM4
+	db BRUNSWICK_GLADE, $05, HIDE            ; HS_GLADE_GZAP_1
+	db BRUNSWICK_GLADE, $06, HIDE            ; HS_GLADE_GZAP_2
+	db BRUNSWICK_GLADE, $07, HIDE            ; HS_GLADE_GZAP_3
+	db BRUNSWICK_GLADE, $08, SHOW            ; HS_GLADE_ITEM1
+	db BRUNSWICK_GLADE, $09, SHOW            ; HS_GLADE_ITEM2
+	db BRUNSWICK_GLADE, $0A, SHOW            ; HS_GLADE_ITEM3
+	db BRUNSWICK_GLADE, $0B, SHOW            ; HS_GLADE_ITEM4
 CinnabarVolcanoFloorsHS:
 	db CINNABAR_VOLCANO_FLOORS, $05, SHOW
 	assert_table_length NUM_HS_OBJECTS

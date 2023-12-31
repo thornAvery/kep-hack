@@ -615,6 +615,7 @@ BattleTentGuy_After:
 	call PrintText
 	ld a, [wBTRewards]
 	ld b, RARE_CANDY
+	ld c, a
 	call GiveItem
 	jr nc, .bag_full ; could use money instead here
 	ld hl, ReceivedRewardText
@@ -626,6 +627,7 @@ BattleTentGuy_After:
 	ld [wBTRewards], a
 	;ld b, POWER_FEED
 	ld b, BOTTLE_CAP
+	ld c, a
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, ReceivedRewardText
@@ -889,7 +891,7 @@ BattleTentGuy2_Heal:
 	done
 
 ReceivedRewardPreamble:
-	text "Take these"
+	text "Take these,"
 	line "on the house!"
 	prompt
 	text_end

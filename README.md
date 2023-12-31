@@ -259,12 +259,12 @@ and more!
 
 Known Bugs
 ====
-Comprehensive list can be found on Discord.
-- Occasionally, menu text sets itself to scroll.
+- If you defeat the Elite Four before the Fighing Dojo Karate Master, the Hitmon gift is permanently locked off.
+- Occasionally, menu text sets itself to scroll. (hasn't happened for a while, either uncommon or fixed)
 - The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
-- After reloading the game after beating the Elite Four, Pallet Town's correct palette isn't loaded in until after leaving the house.
-- The Gym Leaders on Floor 6 of Silph Gauntlet don't play the correct music in battle
+- The Gym Leaders on Floor 6 of Silph Gauntlet don't play the correct music in battle.
+- Silph Co. Worker doesn't give Lapras as a gift on occasion (this happened like one time, more testing needed)
 
 Evolution Methods for new Pokemon
 ====

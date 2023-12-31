@@ -44,6 +44,8 @@ PlayBattleMusic::
 	jr c, .wildBattle
 	cp OPP_YUJIROU
 	jr z, .Elite4Battle
+	cp OPP_KOICHI
+	jr z, .Elite4Battle
 	cp OPP_LORELEI ; elite four now play the gym leader battle theme
 	jr z, .Elite4Battle
 	cp OPP_BRUNO

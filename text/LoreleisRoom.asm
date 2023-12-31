@@ -60,7 +60,7 @@ _LoreleiRematchAfterBattleText::
 	text "I may have lost"
 	line "to you, but I'll"
 	cont "never give up on"
-	cont "ice #MON!"
+	cont "icy #MON!"
 	
 	para "You should aim to"
 	line "win using #MON"

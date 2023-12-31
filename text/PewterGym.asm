@@ -9,7 +9,7 @@ _BrockPreBattleText::
 
 	para "That's why my"
 	line "#MON are all"
-	cont "the rock-type!"
+	cont "the ROCK-type!"
 
 	para "Do you still want"
 	line "to challenge me?"

@@ -99,7 +99,7 @@ _CeladonMansionMorimotoNo:: ; USUM
 _CeladonMansionMorimotoDefeated:: ; LGPE, compressed
 	text "When"
 	line "it comes down"
-	line "to it, you are"
+	cont "to it, you are"
 	cont "still the best!"
 	prompt
 

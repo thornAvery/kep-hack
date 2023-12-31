@@ -7,6 +7,9 @@ Route10_Object:
 	warp_event  8, 61, ROCK_TUNNEL_1F, 3
 	warp_event  6, 47, POWER_PLANT, 1
 	warp_event  6,  3, UNDERWATER_TUNNEL, 2
+	warp_event 14, 61, ROUTE_10_GATE, 2
+	warp_event 14, 57, ROUTE_10_GATE, 1
+	warp_event 15, 57, ROUTE_10_GATE, 1
 
 	def_bg_events
 	bg_event  7, 27, 7 ; Route10Text7
@@ -15,7 +18,7 @@ Route10_Object:
 	bg_event  5, 49, 10 ; Route10Text10
 
 	def_object_events
-	object_event 10, 52, SPRITE_SUPER_NERD, STAY, LEFT, 1, OPP_POKEMANIAC, 1
+	object_event 10, 50, SPRITE_SUPER_NERD, STAY, LEFT, 1, OPP_POKEMANIAC, 1
 	object_event  3, 65, SPRITE_HIKER, STAY, UP, 2, OPP_HIKER, 7
 	object_event 14, 72, SPRITE_SUPER_NERD, STAY, LEFT, 3, OPP_POKEMANIAC, 2
 	object_event  7, 33, SPRITE_COOLTRAINER_F, STAY, LEFT, 4, OPP_JR_TRAINER_F, 7

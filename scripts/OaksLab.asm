@@ -285,25 +285,31 @@ OaksLabScript8:
 	ld de, .PikachuMovement1
 	jr z, .moveBlue
 .PikachuMovement1
-	db NPC_MOVEMENT_LEFT
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_DOWN
 	db -1 ; end
 
 .Eevee
 	ld de, .EeveeMovement1
-	ld a, [wYCoord]
-	cp 4 ; is the player standing below the table?
-	jr z, .moveBlue
-	ld de, .EeveeMovement2
+;	ld a, [wYCoord]
+;	cp 4 ; is the player standing below the table?
+;	jr z, .moveBlue
+;	ld de, .EeveeMovement2
 	jp .moveBlue
 .EeveeMovement1
+;	db NPC_MOVEMENT_DOWN
+;	db NPC_MOVEMENT_LEFT
+;	db NPC_MOVEMENT_LEFT
+;	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_DOWN
-	db NPC_MOVEMENT_LEFT
-	db NPC_MOVEMENT_LEFT
-	db NPC_MOVEMENT_UP
 	db -1 ; end
-.EeveeMovement2
-	db NPC_MOVEMENT_LEFT
-	db NPC_MOVEMENT_LEFT
+;.EeveeMovement2
+;	db NPC_MOVEMENT_LEFT
+;	db NPC_MOVEMENT_LEFT
 	db -1 ; end
 
 .moveBlue
@@ -323,9 +329,20 @@ OaksLabScript9: ; This is where Blue picks up the ball and removes the sprite.
 	ld [wJoyIgnore], a
 	ld a, $1
 	ldh [hSpriteIndex], a
+	
+	; So when using this new table system, we actually need to add cases for when you have the new starters...
+	
+	ld a, [wPlayerStarter]
+	cp STARTER4
+	jr z, .skip
+	cp STARTER5
+	jr z, .skip
+	; Since he's just moved down, we just need to skip this process. It's actually harder for him to pick up the regular starters!
 	ld a, SPRITE_FACING_UP
 	ldh [hSpriteFacingDirection], a
 	call SetSpriteFacingDirectionAndDelay
+.skip
+	
 	ld a, $d
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
@@ -361,11 +378,21 @@ OaksLabScript9: ; This is where Blue picks up the ball and removes the sprite.
 	ld [wcf91], a
 	ld [wd11e], a
 	call GetMonName
+	
+	; why does he do this twice why does he do this twice why does he do this twice
+	ld a, [wPlayerStarter]
+	cp STARTER4
+	jr z, .skip2
+	cp STARTER5
+	jr z, .skip2
+	
 	ld a, $1
 	ldh [hSpriteIndex], a
 	ld a, SPRITE_FACING_UP
 	ldh [hSpriteFacingDirection], a
 	call SetSpriteFacingDirectionAndDelay
+	
+.skip2
 	ld a, $e
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
@@ -803,6 +830,7 @@ OaksLab_TextPointers:
 	dw OaksLabText27
 	dw OaksLabTextPikachu
 	dw OaksLabTextEevee
+	dw OakLabEmailText
 
 OaksLab_TextPointers2:
 	dw OaksLabText1
@@ -1368,3 +1396,15 @@ PikachuEeveeShows:
 	db HS_DAMIEN ; Charmander guy
 	db HS_VERMILION_JENNY ; Squirtle
 	db -1 ; end
+
+; Moved here to turn into a new bg event
+OakLabEmailText:
+	text_asm
+	call EnableAutoTextBoxDrawing
+	ld hl, OakLabEmailTextGet
+	call PrintText
+	jp TextScriptEnd
+
+OakLabEmailTextGet:
+	text_far _OakLabEmailText
+	text_end

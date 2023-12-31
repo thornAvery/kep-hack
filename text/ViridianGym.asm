@@ -143,7 +143,7 @@ _ViridianGymEndBattleText4::
 _ViridianGymAfterBattleText4::
 	text "If my #MON"
 	line "were as good at"
-	cont "Karate as I..."
+	cont "karate as I..."
 	done
 
 _ViridianGymBattleText5::
@@ -214,11 +214,7 @@ _ViridianGymAfterBattleText8::
 
 _ViridianGymGuidePreBattleText::
 	text "Yo! Champ in"
-	line "making!"
-
-	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	line "the making!"
 
 	para "This will be the"
 	line "toughest of all"
@@ -226,7 +222,7 @@ _ViridianGymGuidePreBattleText::
 
 	para "I heard that the"
 	line "trainers here"
-	cont "like ground-type"
+	cont "like GROUND-type"
 	cont "#MON!"
 	done
 

@@ -36,8 +36,9 @@
 	const EVENT_BEAT_VIRIDIAN_PREGYM_TRAINER_0
 	const EVENT_BEAT_VIRIDIAN_PREGYM_TRAINER_1
 	const EVENT_GOT_TM42
+	const EVENT_GOT_YUJIROU_BOTTLE_CAP
 	const EVENT_BEAT_YUJIROU
-	const_skip 11
+	const_skip 10
 	const EVENT_OAK_GOT_PARCEL
 	const EVENT_GOT_OAKS_PARCEL
 	const_skip 22
@@ -818,6 +819,7 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const_skip 4
 	const EVENT_VICTORY_ROAD_1_BOULDER_ON_SWITCH
 	const EVENT_BEAT_CHIEF ; moved out of the below union to prevent bugs
+	const EVENT_MEWTWO_UNLOCKED
 
 ; Silph Gauntlet events
 	const_next $930

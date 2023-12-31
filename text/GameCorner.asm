@@ -88,11 +88,12 @@ _CeladonGameCornerText_48dca::
 
 	para "You have better"
 	line "things to do,"
-	cont "champ in making!"
+	cont "champ in the"
+	cont "making!"
 
 	para "CELADON GYM's"
 	line "LEADER is ERIKA!"
-	cont "She uses grass-"
+	cont "She uses GRASS-"
 	cont "type #MON!"
 
 	para "She might appear"

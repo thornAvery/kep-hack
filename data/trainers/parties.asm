@@ -49,7 +49,7 @@ TrainerDataPointers:
 	dw YujirouData ; was unused juggler
 	dw StudentData
 	dw FirefighterData
-	dw JuniorData
+	dw KoichiData
 	dw JackData
 	dw JessieJamesData
 	assert_table_length NUM_TRAINERS
@@ -75,7 +75,7 @@ YoungsterData:
 	db 14, RATTATA, EKANS, ZUBAT, 0
 ; Route 25
 	db 15, RATTATA, SPEAROW, 0
-	db 17, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch. Our changes make em not work anymore, but keep em for the iconography.
+	db 15, SHELLDER, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch.
 	db 14, EKANS, SANDSHREW, 0
 ; SS Anne 1F Rooms
 	db 21, NIDORINO, 0
@@ -542,10 +542,28 @@ BirdKeeperData:
 	db 29, PIDGEOTTO, FEAROW, 0
 	db 28, SPEAROW, DODUO, FEAROW, 0
 
+; Fighting specialist, even the ones in Giovanni's gym!
+; These have been changed to bulky, 'intimidating' Ground types to fit the theme
+BlackbeltData:
+; Fighting Dojo Trainers
+	db 31, MANKEY, MACHOKE, JABETTA, 0
+	db 32, PRIMEAPE, CARAPTHOR, 0
+	db 35, GORILLAIMO, 0
+	db 33, MACHOP, POLIWRATH, 0
+; Viridian Gym	- changed to fit the Ground-type gym theme
+	db 40, MAROWAK, GOLEM, 0
+	db 43, GUARDIA, 0
+	db 38, CACTORMUS, DUGTRIO, STEELIX, 0
+; Victory Road 2F
+	db 43, MACHOKE, MACHOP, MACHOKE, 0
+; Silph Gauntlet 2F (Mt. Moon)
+	db 63, HITMONTOP, JABETTA, GORILLAIMO, POLIWRATH, CARAPTHOR, MACHAMP, 0
+
 ; Uses Silph products and Steel-types
 ChiefData:
 ; Silph Gauntlet 7F
 	db $FF, 66, ELECTRODE, 65, LAPRAS, 66, SCIZOR, 65, GENGAR, 68, PORYGONZ, 70, OMEGADGE, 0
+	db $FF, 73, ELECTRODE, 72, LAPRAS, 73, SCIZOR, 72, GENGAR, 75, PORYGONZ, 78, OMEGADGE, 0
 ; Lapras and Gengar are used here since Lapras is given by a Silph worker, and Gengar represents the Silph Scope.
 
 ; Poison- and Electric-type Pokemon
@@ -682,7 +700,7 @@ CooltrainerFData:
 ;	db 45, NIDORINA, NIDOQUEEN, 0
 ;	db 43, PERSIAN, NINETALES, RAICHU, 0
 ; Brunswick Glade/grotto etc, whatever desired 
-	db 60, PIDGEOT, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
+	db 60, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
 
 ; "Dignified" Pokemon associated with the privileged class.
 GentlemanData:
@@ -696,7 +714,7 @@ GentlemanData:
 ; SS Anne 2F Rooms
 	db 17, KOLTA, GROWLITHE, 0
 ; Celeste Hill?
-	db 56, NIDOKING, GOLDUCK, GUARDIA, PIDGEOT, DODRIO, BEEDRILL, 0 ; Fuji
+	db 56, NIDOKING, GOLDUCK, GUARDIA, DODRIO, BEEDRILL, 0 ; Fuji
 	db 57, FEAROW, RAPIDASH, GOROCHU, ALAKAZAM, SYLVEON, 0 ; Fan Club chairman
 
 ChannelerData:

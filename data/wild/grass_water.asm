@@ -237,7 +237,6 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
 	dw GarnetCavern2FWildMons
 	dw UnderwaterTunnelWildMons
 	dw NothingWildMons

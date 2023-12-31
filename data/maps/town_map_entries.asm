@@ -135,6 +135,7 @@ InternalMapEntries:
 	internal_map NAME_RATERS_HOUSE,             14,  5, LavenderTownName
 	internal_map CERULEAN_BADGE_HOUSE,          10,  2, CeruleanCityName
 	internal_map CINNABAR_VOLCANO_FLOORS,        3, 14, CinnabarVolcanoName
+	internal_map ROUTE_10_GATE,                 14,  4, Route10Name
 	internal_map SILPH_CO_11F,                  10,  5, SilphCoName
 	internal_map FARAWAY_FERRY_DOCK,            15, 15, FarawayIslandName
 	internal_map GARNET_CAVERN_2F,               6, 10, GarnetCavernName

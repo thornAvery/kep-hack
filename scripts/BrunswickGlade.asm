@@ -13,6 +13,10 @@ BrunswickGlade_ScriptPointers:
 	dw EndTrainerBattle
 
 BrunswickGlade_TextPointers:
+	dw BrunswickGladeTrainer1
+	dw BrunswickGladeTrainer2
+	dw BrunswickGladeTrainer3
+	dw BrunswickGladeTrainer4
 	dw GZapRun1
 	dw GZapRun2
 	dw GZapRun3
@@ -20,20 +24,16 @@ BrunswickGlade_TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
-	dw BrunswickGladeTrainer1
-	dw BrunswickGladeTrainer2
-	dw BrunswickGladeTrainer3
-	dw BrunswickGladeTrainer4
 	dw BrunswickGladeSign1
 
 BrunswickGladeTrainerHeaders:
 	def_trainers
 BrunswickGladeTrainerHeader0:
 	trainer EVENT_BEAT_BRUNSWICK_GLADE_COOLTRAINER_F, 1, BrunswickGladeBattleText1, BrunswickGladeEndBattleText1, BrunswickGladeAfterBattleText1
-BrunswickGladeTrainerHeader2: ; don't ask
-	trainer EVENT_BEAT_BRUNSWICK_GLADE_GENTLEMAN, 4, BrunswickGladeBattleText3, BrunswickGladeEndBattleText3, BrunswickGladeAfterBattleText3
 BrunswickGladeTrainerHeader1:
-	trainer EVENT_BEAT_BRUNSWICK_GLADE_BEAUTY, 4, BrunswickGladeBattleText2, BrunswickGladeEndBattleText2, BrunswickGladeAfterBattleText2
+	trainer EVENT_BEAT_BRUNSWICK_GLADE_GENTLEMAN, 4, BrunswickGladeBattleText2, BrunswickGladeEndBattleText2, BrunswickGladeAfterBattleText2
+BrunswickGladeTrainerHeader2:
+	trainer EVENT_BEAT_BRUNSWICK_GLADE_BEAUTY, 4, BrunswickGladeBattleText3, BrunswickGladeEndBattleText3, BrunswickGladeAfterBattleText3
 BrunswickGladeTrainerHeader3:
 	trainer EVENT_BEAT_BRUNSWICK_GLADE_COOLTRAINER_M, 3, BrunswickGladeBattleText4, BrunswickGladeEndBattleText4, BrunswickGladeAfterBattleText4
 	db -1 ; end

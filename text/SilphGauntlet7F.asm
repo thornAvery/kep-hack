@@ -8,9 +8,13 @@ _ChiefMonologue::
 
 	para "However, I can't" 
 	line "let you leave"
-	cont "this place. You"
-	cont "are still looking"
-	cont "for the ultimate"
+	cont "this place quite"
+	cont "yet..."
+	prompt
+
+_ChiefMonologueMasterBallNotUsed::
+	text "You're looking for"
+	line "for the ultimate"
 	cont "#MON, aren't"
 	cont "you?"
 	
@@ -22,10 +26,8 @@ _ChiefMonologue::
 	cont "GIOVANNI gone,"
 	cont "our company is"
 	cont "going under!"
-	prompt
 
-_ChiefMonologueMasterBallNotUsed::
-	text "Now there's only"
+	para "Now there's only"
 	line "one way to catch" 
 	cont "MEWTWO, and it's"
 	cont "in your hands!" 
@@ -33,10 +35,24 @@ _ChiefMonologueMasterBallNotUsed::
 	para "<PLAYER>!"
 	
 	para "Give me that BALL!"
-	prompt
+	done
 
 _ChiefMonologueMasterBallUsed::
-	text "...what? You used"
+	text "You're looking for"
+	line "for the ultimate"
+	cont "#MON, aren't"
+	cont "you?"
+	
+	para "That MASTER"
+	line "BALL... I should"
+	cont "never have given"
+	cont "it to you! With"
+	cont "MEWTWO loose and"
+	cont "GIOVANNI gone,"
+	cont "our company is"
+	cont "going under!"
+
+	para "...what? You used"
 	line "the MASTER BALL?!"
 	
 	para "You stupid child!"
@@ -50,7 +66,31 @@ _ChiefMonologueMasterBallUsed::
 	
 	para "You are in for"
 	line "a world of hurt!" ; Like Giovanni, but with a slightly more pompous tone in using "hurt".
-	prompt
+	done
+
+_ChiefMonologueMasterBallNotCollected::
+	text "As I watched you"
+	line "battle GIOVANNI,"
+	cont "I know how you"
+	cont "and your #MON"
+	cont "fight."
+	
+	para "I must say, your"
+	line "strength seems..."
+	cont "promising. That's"
+	cont "why I invited you"
+	cont "here, after all."
+
+	para "Before my next big"
+	line "plan, I must see"
+	cont "how well I stand"
+	cont "against the new"
+	cont "champion!"
+
+	para "<PLAYER>!"
+	
+	para "Give it your all!"
+	done
 
 _ChiefDefeatedText::
 	text "No! I..."
@@ -92,6 +132,27 @@ _ChiefAfterBattleText::
 	cont "world."
 	
 	done
+	
+_ChiefAltAfterBattleText::
+	text "CHIEF: Just as"
+	line "I thought..."
+	cont "No product I"
+	cont "have is capable"
+	cont "of trouncing you."
+
+	para "Money means I can"
+	line "be as powerful as"
+	cont "I want, but what"
+	cont "I do with that"
+	cont "power...is very"
+	cont "important."
+	
+	para "I still have much"
+	line "yet to learn..."
+
+	para "Go."
+	
+	done
 
 _ChiefPCText::
 	text "It's a PC with"
@@ -118,4 +179,47 @@ _ChiefPainting2::
 	text "It's a painting"
 	line "of GAWARHED, an"
 	cont "extinct #MON!"
+	done
+	
+_ChiefMonologueRematch::
+	text "CHIEF: What?"
+	line "you're back?"
+	
+	para "Hmm...you're"
+	line "looking for a"
+	cont "rematch, is that"
+	cont "it?"
+
+	para "Alright, if you"
+	line "insist. OMEGADGE" 
+	cont "could always use"
+	cont "some more battle"
+	cont "data..."
+	
+	para "So, no holding"
+	line "back!"
+	done
+	
+_ChiefDefeatedText2::
+	text "Impressive"
+	line "work..."
+	prompt
+
+_ChiefVictoryText2::
+	text "CHIEF: I"
+	line "expected better."
+	prompt
+	
+_ChiefAfterBattleText2::
+	text "CHIEF: It really"
+	line "is no wonder"
+	cont "how you've been"
+	cont "capable of"
+	cont "accomplishing so"
+	cont "much..."
+
+	para "You truly trust"
+	line "and care for"
+	cont "your #MON."
+	
 	done

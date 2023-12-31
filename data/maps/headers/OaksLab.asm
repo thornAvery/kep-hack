@@ -1,2 +1,2 @@
-	map_header OaksLab, OAKS_LAB, GYM, 0
+	map_header OaksLab, OAKS_LAB, FOSSILLAB, 0
 	end_map_header

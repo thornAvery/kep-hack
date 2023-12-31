@@ -28,17 +28,17 @@ _FightingDojoText_5ce98::
 
 	para "In return, I will"
 	line "give you a prized"
-	cont "fighting #MON!"
+	cont "FIGHTING-type"
+	cont "#MON!"
 
 	para "Choose whichever"
 	line "one you like!"
 	done
 
 _FightingDojoText_5ce9d::
-	text "Ho!"
-
-	para "Stay and train at"
-	line "Karate with us!"
+	text "Hyah!"
+	line "Stay and train at"
+	cont "karate with us!"
 	done
 
 _FightingDojoBattleText1::
@@ -139,7 +139,7 @@ _OiMateText::
 	done
 
 _KoichiRematchPreBattleText::
-	text "Ho, <PLAYER>!"
+	text "<PLAYER>!"
 	
 	para "Did you return"
 	line "to spar with us"

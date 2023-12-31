@@ -4,7 +4,7 @@
 BrockData:
 	db $FF, 11, GEODUDE, 12, DECILLA, 14, ONIX, 0                                              ; 0 badges
 	db $FF, 19, GEODUDE, 18, KABUTO, 19, DECILLA, 21, ONIX, 0                                  ; 1
-	db $FF, 22, GRAVELER, 21, OMANYTE, 21, KABUTO, 23, DECILLA, 24, ONIX, 0                    ; 2
+	db $FF, 22, GRAVELER, 21, OMANYTE, 21, KABUTO, 23, DECILLA, 25, ONIX, 0                    ; 2
 	db $FF, 29, GRAVELER, 28, OMANYTE, 28, KABUTO, 29, DECILLA, 31, ONIX, 0                    ; 3
 	db $FF, 38, GOLEM, 37, OMANYTE, 37, KABUTO, 38, DECILLA, 40, STEELIX, 0,                   ; 4
 	db $FF, 41, GOLEM, 40, OMASTAR, 40, KABUTOPS, 41, GAWARHED, 43, STEELIX, 0                 ; 5
@@ -27,7 +27,7 @@ LtSurgeData:
 	db $FF, 11, VOLTORB, 12, PIKACHU, 14, GAOTORA, 0                                                ; 0 badges
 	db $FF, 19, VOLTORB, 18, PIKACHU, 19, GAOTORA, 21, ELECTABUZZ, 0                                ; 1
 	db $FF, 22, VOLTORB, 21, GAOTORA, 21, MAGNETITE, 23, ELECTABUZZ, 25, RAICHU, 0                  ; 2
-	db $FF, 29, ELECTRODE, 28, GAOTORA, 28, MAGNETITE, 29, ELECTABUZZ, 31, RAICHU, 0                ; 3
+	db $FF, 29, VOLTORB, 28, GAOTORA, 28, MAGNETITE, 29, ELECTABUZZ, 31, RAICHU, 0                ; 3
 	db $FF, 38, ELECTRODE, 37, GOROTORA, 37, MAGNETON, 38, ELECTABUZZ, 40, GOROCHU, 0               ; 4
 	db $FF, 41, ELECTRODE, 40, GOROTORA, 40, MAGNETON, 41, ELECTABUZZ, 43, GOROCHU, 0               ; 5
 	db $FF, 45, ELECTRODE, 44, GOROTORA, 44, MAGNEZONE, 45, ELECTIVIRE, 47, GOROCHU, 0              ; 6
@@ -41,7 +41,7 @@ ErikaData:
 	db $FF, 29, WEEPINBELL, 28, PARASECT, 28, CACTORMUS, 29, TANGELA, 31, BELLOSSOM, 0                  ; 3
 	db $FF, 38, VICTREEBEL, 37, PARASECT, 37, CACTORMUS, 38, TANGELA, 40, BELLOSSOM, 0                  ; 4
 	db $FF, 41, VICTREEBEL, 40, PARASECT, 40, CACTORMUS, 41, BELLOSSOM, 43, TANGROWTH, 0                ; 5
-	db $FF, 45, VICTREEBEL, 44, PARASECT, 45, CACTORMUS, 45, BELLOSSOM, 47, TANGROWTH, 0                ; 6
+	db $FF, 45, VICTREEBEL, 44, PARASECT, 44, CACTORMUS, 45, BELLOSSOM, 47, TANGROWTH, 0                ; 6
 	db $FF, 47, VICTREEBEL, 46, PARASECT, 46, CACTORMUS, 48, BELLOSSOM, 48, LEAFEON, 50, TANGROWTH, 0   ; 7 (unused)
 	db $FF, 62, BELLOSSOM, 62, TOEDSCRUEL, 61, ELECTRODE_H, 61, LEAFEON, 62, VENUSAUR, 65, TANGROWTH, 0 ; 8 (postgame)
 
@@ -64,8 +64,8 @@ SabrinaData:
 	db $FF, 38, ESPEON, 37, MR_MIME, 37, SLOWKING, 38, HYPNO, 40, ALAKAZAM, 0                    ; 4
 	db $FF, 41, ESPEON, 40, MR_MIME, 40, SLOWKING, 41, HYPNO, 43, ALAKAZAM, 0                    ; 5
 	db $FF, 45, ESPEON, 44, MR_MIME, 44, SLOWKING, 45, HYPNO, 47, ALAKAZAM, 0                    ; 6
-	db $FF, 47, ESPEON, 46, MR_MIME, 46, SLOWKING, 48, EXEGGUTOR, 48, HYPNO, 50, ALAKAZAM, 0     ; 7 (unused)
-	db $FF, 62, EXEGGUTOR, 62, SLOWKING, 61, RAPIDASH_G, 62, HYPNO, 61, ESPEON, 65, ALAKAZAM, 0  ; 8 (postgame)
+	db $FF, 47, ESPEON, 46, MR_MIME, 46, SLOWKING, 48, JYNX, 48, HYPNO, 50, ALAKAZAM, 0          ; 7 (unused)
+	db $FF, 62, JYNX, 62, SLOWKING, 61, RAPIDASH_G, 62, HYPNO, 61, ESPEON, 65, ALAKAZAM, 0       ; 8 (postgame)
 
 BlaineData:
 	db $FF, 11, VULPIX, 12, GROWLITHE, 14, PONYTA, 0                                                 ; 0 badges (unused)
@@ -119,8 +119,7 @@ YujirouData: ; was unused juggler
 ; post-game rematch team
 	db $FF, 61, PERSIAN, 60, TAUROS, 60, BLISSEY, 61, LUXWAN, 61, SNORLAX, 64, LICKILICKY, 0
 
-BlackbeltData:
-; Koichi parties
+KoichiData:
 	db 13, HITMONLEE, HITMONCHAN, HITMONTOP, 0 ; 0 badges (unused)
 	db $FF, 17, MACHOP, 20, HITMONLEE, 20, HITMONCHAN, 20, HITMONTOP, 0 ; 1
 	db $FF, 20, MACHOP, 20, MANKEY, 24, HITMONLEE, 24, HITMONCHAN, 24, HITMONTOP, 0 ; 2
@@ -131,16 +130,3 @@ BlackbeltData:
 	db $FF, 46, MACHAMP, 46, CARAPTHOR, 46, ANNIHILAPE, 49, HITMONLEE, 49, HITMONCHAN, 49, HITMONTOP, 0 ; 7
 	db $FF, 50, MACHAMP, 50, CARAPTHOR, 50, ANNIHILAPE, 53, HITMONLEE, 53, HITMONCHAN, 53, HITMONTOP, 0 ; 8
 	db $FF, 60, MACHAMP, 60, ANNIHILAPE, 60, TAUROS_P, 65, HITMONLEE, 65, HITMONCHAN, 65, HITMONTOP, 0 ; Postgame
-; Fighting Dojo Trainers
-	db 31, CHEEP, CHEEP, JABETTA, 0
-	db 32, MACHOKE, MACHAMP, 0
-	db 35, GORILLAIMO, 0
-	db 31, MACHOP, MANKEY, PRIMEAPE, 0
-; Viridian Gym	- changed to fit the Ground-type gym theme
-	db 40, SANDSLASH, GOLEM, 0
-	db 43, GUARDIA, 0
-	db 38, CACTORMUS, DUGTRIO, STEELIX, 0
-; Victory Road 2F
-	db 43, MACHOKE, MACHOP, MACHOKE, 0
-; Silph Gauntlet 2F (Mt. Moon)
-	db 63, HITMONLEE, JABETTA, HITMONCHAN, POLIWRATH, CARAPTHOR, MACHAMP, 0

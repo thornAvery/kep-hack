@@ -55,9 +55,11 @@ Lobby_Coll::
 Mansion_Coll::
 	coll_tiles $01, $05, $11, $12, $14, $1a, $1c, $2c, $53
 
-FossilLab_Coll:: ; It has the same tileset except the trees are the fossil machine, so...
 Lab_Coll::
 	coll_tiles $0c, $26, $16, $1e, $34, $37
+
+FossilLab_Coll:: ; Originally just the Lab collision, but now that Oak uses it, it's using separate collision. Added plenty just to be sure.
+	coll_tiles $0c, $26, $16, $1e, $34, $37, $17, $4C, $47, $58, $57, $59, $27, $4D, $4F
 
 Club_Coll::
 	coll_tiles $0f, $1a, $1f, $26, $28, $29, $2c, $2d, $2e, $2f, $41

@@ -51,31 +51,20 @@ _JackyAfterBattle::
 	cont "slow motion..."
 	
 	para "Ok! I will give"
-	line "you a #MON"
-	cont "to help you on"
-	cont "your quest!"
+	line "you a gift to"
+	cont "help you on your"
+	cont "quest!"
 	
 	para "Over there is a"
-	line "@"
-	text_ram wcd6d
-	text "!"
+	line "rare #MON!"
 	
 	para "Go, go, take it!"
 	
-;	para "I look forward"
-;	line "to our next bout!"
 	done
 
 _JackyGift::
-	text_ram wcd6d
-	text " has"
-	line "incredibly good"
-	cont "evolutionary"
-	cont "potential!"
-	
-	para "It will help"
-	line "you greatly in"
-	cont "your next bout!"
+	line "I look forward to"
+	line "our next bout!"
 	done
 
 _JackyN64::

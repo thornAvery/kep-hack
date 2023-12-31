@@ -122,14 +122,12 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	ld de, KoichiRematchDefeatedText
 	call SaveEndBattleTextPointers
 	call EngageMapTrainer
-	ld a, OPP_BLACKBELT
+	ld a, OPP_KOICHI
 	ld [wCurOpponent], a
 	ld a, 10 ; Silph Gauntlet lineup.
 	ld [wTrainerNo], a
 	ld a, 1
 	ld [wIsTrainerBattle], a
-	ld a, $1
-	ld [wGymLeaderNo], a
 	jr .asm_9dba4
 .normalProcessing
 	CheckEvent EVENT_DEFEATED_FIGHTING_DOJO
@@ -152,7 +150,7 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	; call InitBattleEnemyParameters ; put this back if you mess up
 	
 	; gym scaling spaghetti code begins here - remove initial parameters as we're making our own
-	ld a, OPP_BLACKBELT
+	ld a, OPP_KOICHI
 	ld [wCurOpponent], a
 	
 	ld hl, wObtainedBadges ; Picking the team based on badge count. Need +1 so it loads the right team: remember, you're fighting for the badge! Thanks to Chatot4444 for the help.
@@ -164,15 +162,12 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	ld [wTrainerNo], a
 	ld a, 1
 	ld [wIsTrainerBattle], a
-	ld a, $1
-	ld [wGymLeaderNo], a ; play gym music
 	
 	;ends here
 	
 	ld a, $3
 	ld [wFightingDojoCurScript], a
 	ld [wCurMapScript], a
-	SetEvent EVENT_DEFEATED_FIGHTING_DOJO
 	jr .asm_9dba4
 .continue1
 	ld hl, FightingDojoText_5ce9d
@@ -181,6 +176,7 @@ FightingDojoText1: ; gym scaling can be removed to make space
 .continue2
 	ld hl, FightingDojoText8
 	call PrintText
+	SetEvent EVENT_DEFEATED_FIGHTING_DOJO
 .asm_9dba4
 	jp TextScriptEnd
 

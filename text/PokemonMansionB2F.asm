@@ -6,7 +6,7 @@ _B2FBook1::
 	para "We are getting"
 	line "high energy"
 	cont "readings from"
-	cont "MEWTWO's PSYCHIC"
+	cont "MEWTWO's psychic"
 	cont "power!"
 	
 	para "But..."

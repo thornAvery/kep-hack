@@ -10,6 +10,6 @@ _CitrineTradebackHouseGuy::
 
 _CitrineTradebackHouseBooklet::
 	text "It's a book showing"
-	line "two strange BIRD"
+	line "two strange bird"
 	cont "#MON."
 	done
