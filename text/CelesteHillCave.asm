@@ -26,7 +26,7 @@ _CelesteHillCaveBattleText2::
 _CelesteHillCaveEndBattleText2::
 	text "...!"
 	line "You are not an"
-	cont "ordinary TRAINER!"
+	cont "ordinary trainer!"
 	prompt
 
 _CelesteHillCaveAfterBattleText2:: ; Allusion to the lack of a Teachy TV

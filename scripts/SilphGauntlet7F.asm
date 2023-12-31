@@ -21,6 +21,17 @@ SilphGauntlet7F_ScriptPointers:
 ChiefScript1:
 	CheckEvent EVENT_BEAT_CHIEF
 	jr nz, .skip
+	ld a, 5
+	ld [wMusicFade], a
+	xor a
+	ld [wMusicFadeID], a
+.waitloop
+	ld a, [wMusicFade]
+	and a
+	jr nz, .waitloop
+
+	ld a, SFX_STOP_ALL_MUSIC
+	call PlaySound
 	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
 	call UpdateSprites

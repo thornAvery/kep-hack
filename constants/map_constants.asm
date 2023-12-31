@@ -253,27 +253,26 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const CERULEAN_BADGE_HOUSE,           4,  4 ; $E7
 	map_const CINNABAR_VOLCANO,              14, 12 ; $E8	- Was UNUSED_MAP_E7
 	map_const CINNABAR_VOLCANO_FLOORS,       20, 20 ; $E9	- Switched with ROCK_TUNNEL_B1F
-	map_const SILPH_CO_9F,                   13,  9 ; $EA	(now goes unused)
-	map_const SILPH_CO_10F,                   8,  9 ; $EB	(now goes unused)
-	map_const SILPH_CO_11F,                   9,  9 ; $EC
-	map_const FARAWAY_FERRY_DOCK,            14,  6 ; $ED	- was SILPH_CO_ELEVATOR
-	map_const GARNET_CAVERN_2F,              15,  9 ; $EE	- was UNUSED_MAP_ED
-	map_const UNDERWATER_TUNNEL,             15,  9 ; $EF	- Was UNUSED_MAP_EE
-	map_const TRADE_CENTER,                   5,  4 ; $F0
-	map_const COLOSSEUM,                      5,  4 ; $F1
-	map_const CELADON_UNIVERSITY_INSIDE,     11, 10 ; $F2	- Was UNUSED_MAP_F1
-	map_const CELADON_UNIVERSITY_POKECENTER,  7,  4 ; $F3	- Was UNUSED_MAP_F2
-	map_const LORELEIS_ROOM,                  5,  6 ; $F4
-	map_const BRUNOS_ROOM,                    5,  6 ; $F5
-	map_const AGATHAS_ROOM,                   5,  6 ; $F6
-	map_const ROCK_TUNNEL_B1F,               20, 18 ; $F7	- Switched with CINNABAR_VOLCANO_FLOORS
-	map_const GIOVANNIS_ROOM,                11, 14 ; $F8
-	map_const BATTLE_TENT,                    5, 10 ; $F9
-	map_const MT_MOON_SQUARE,                13,  7 ; $FA
-	map_const MT_MOON_SQUARE_HOUSE,           4,  4 ; $FB
-	map_const CELESTE_HILL_CAVE,	         20, 18 ; $FC
-	map_const CELESTE_HILL_OUTSIDE,	         20, 20 ; $FD
-	map_const BRUNSWICK_GLADE,               19, 20 ; $FE
+	map_const ROUTE_10_GATE,                  5,  4 ; $EA
+	map_const SILPH_CO_11F,                   9,  9 ; $EB
+	map_const FARAWAY_FERRY_DOCK,            14,  6 ; $EC	- was SILPH_CO_ELEVATOR
+	map_const GARNET_CAVERN_2F,              15,  9 ; $ED	- was UNUSED_MAP_ED
+	map_const UNDERWATER_TUNNEL,             15,  9 ; $EE	- Was UNUSED_MAP_EE
+	map_const TRADE_CENTER,                   5,  4 ; $EF
+	map_const COLOSSEUM,                      5,  4 ; $F0
+	map_const CELADON_UNIVERSITY_INSIDE,     11, 10 ; $F1	- Was UNUSED_MAP_F1
+	map_const CELADON_UNIVERSITY_POKECENTER,  7,  4 ; $F2	- Was UNUSED_MAP_F2
+	map_const LORELEIS_ROOM,                  5,  6 ; $F3
+	map_const BRUNOS_ROOM,                    5,  6 ; $F4
+	map_const AGATHAS_ROOM,                   5,  6 ; $F5
+	map_const ROCK_TUNNEL_B1F,               20, 18 ; $F6	- Switched with CINNABAR_VOLCANO_FLOORS
+	map_const GIOVANNIS_ROOM,                11, 14 ; $F7
+	map_const BATTLE_TENT,                    5, 10 ; $F8
+	map_const MT_MOON_SQUARE,                13,  7 ; $F9
+	map_const MT_MOON_SQUARE_HOUSE,           4,  4 ; $FA
+	map_const CELESTE_HILL_CAVE,	         20, 18 ; $FB
+	map_const CELESTE_HILL_OUTSIDE,	         20, 20 ; $FC
+	map_const BRUNSWICK_GLADE,               19, 20 ; $FD
 DEF NUM_MAPS EQU const_value
 
 ; Indoor maps, such as houses, use this as the Map ID in their exit warps
