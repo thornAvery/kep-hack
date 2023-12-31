@@ -75,7 +75,7 @@ YoungsterData:
 	db 14, RATTATA, EKANS, ZUBAT, 0
 ; Route 25
 	db 15, RATTATA, SPEAROW, 0
-	db 17, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch. Our changes make em not work anymore, but keep em for the iconography.
+	db 15, SHELLDER, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch.
 	db 14, EKANS, SANDSHREW, 0
 ; SS Anne 1F Rooms
 	db 21, NIDORINO, 0
