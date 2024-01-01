@@ -1,5 +1,3 @@
-; Demake of Stadium Mewtwo's theme by LuciShrimp
-; Features space-like sparkles, making use of the Game Boy's sound library.
 Music_Mewtwo01:
 	channel_count 4
 	channel 1, Music_Mewtwo01_Ch1
@@ -174,365 +172,497 @@ Music_Mewtwo01_Ch1:
 	octave 8
 .mainLoop:
 	duty_cycle 0
+	volume_envelope 12, 8
 	octave 1
 	note A_, 1
 	note_type 6, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 12, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 6, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note A_, 1
 	note_type 12, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 6, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 12, 15, 8
 	octave 2
+	volume_envelope 12, 8
 	note E_, 1
 	octave 1
 	note_type 6, 15, 8
+	volume_envelope 12, 8
 	note B_, 1
 	note_type 12, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 6, 15, 8
 	rest 1
 	note_type 12, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 6, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 12, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 6, 15, 8
-	note A_, 1
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	octave 2
-	note E_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note G_, 1
-	note F_, 1
-	note E_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	octave 1
-	note F_, 1
-	note F_, 1
-	note F_, 1
-	octave 2
-	note C_, 1
-	note_type 12, 15, 8
-	note C_, 1
-	note_type 6, 15, 8
-	note C_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	octave 1
-	note_type 6, 15, 8
-	note F_, 1
-	note F_, 1
-	octave 2
-	note C_, 1
-	note F_, 1
-	note E_, 1
-	note D_, 1
-	note C_, 1
-	note_type 12, 15, 8
-	octave 1
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A_, 1
-	note A#, 1
-	octave 2
-	note D_, 1
-	note_type 12, 15, 8
-	note C_, 1
-	note_type 6, 15, 8
-	octave 1
-	note G_, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A_, 1
-	note A#, 1
-	octave 2
-	note D_, 1
-	note C_, 1
-	octave 1
-	note A#, 1
-	note G_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note A_, 1
 	note_type 12, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 6, 15, 8
+	volume_envelope 12, 8
 	note A_, 1
 	note_type 12, 15, 8
 	octave 2
-	note E_, 1
-	note_type 6, 15, 8
-	octave 1
-	note A_, 1
-	note_type 12, 15, 8
-	note E_, 1
-	note_type 6, 15, 8
-	note G_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	octave 2
-	note E_, 1
-	octave 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note E_, 1
-	note_type 6, 15, 8
-	note G_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note F_, 1
-	note F_, 1
-	octave 2
-	note C_, 1
-	note_type 12, 15, 8
-	note C_, 1
-	note_type 6, 15, 8
-	note C_, 1
-	note_type 12, 15, 8
-	octave 1
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note F_, 1
-	note_type 12, 15, 8
-	note F_, 1
-	octave 2
-	note_type 6, 15, 8
-	note C_, 1
-	octave 1
-	note A_, 1
-	octave 2
-	note C_, 1
-	note F_, 1
-	note E_, 1
-	note D_, 1
-	note C_, 1
-	note_type 12, 15, 8
-	octave 1
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A#, 1
-	note A#, 1
-	octave 2
-	note F_, 1
-	octave 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A#, 1
-	note A#, 1
-	octave 2
-	note D_, 1
-	note C_, 1
-	octave 1
-	note A#, 1
-	note G_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	octave 2
-	note E_, 1
-	note_type 6, 15, 8
-	octave 1
-	note A_, 1
-	note_type 12, 15, 8
-	note G_, 1
-	note_type 6, 15, 8
-	note E_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	octave 2
-	note E_, 1
-	octave 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note G_, 1
-	note_type 6, 15, 8
-	note E_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	octave 2
-	note E_, 1
-	note_type 6, 15, 8
-	octave 1
-	note A_, 1
-	note_type 12, 15, 8
-	note G_, 1
-	note_type 6, 15, 8
-	note F_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A_, 1
-	note_type 12, 15, 8
-	note A_, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note_type 12, 15, 8
-	note A#, 1
-	note_type 6, 15, 8
-	note A#, 1
-	note_type 12, 15, 8
-	duty_cycle 1
 	volume_envelope 12, 8
 	note E_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note G_, 1
+	note F_, 1
+	note E_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note F_, 1
+	note F_, 1
+	note F_, 1
+	octave 2
+	note C_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note C_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note C_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	octave 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note F_, 1
+	octave 2
+	note C_, 1
+	note F_, 1
+	note E_, 1
+	note D_, 1
+	note C_, 1
+	note_type 12, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A_, 1
+	note A#, 1
+	octave 2
+	note D_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note C_, 1
+	note_type 6, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note G_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A_, 1
+	note A#, 1
+	octave 2
+	note D_, 1
+	note C_, 1
+	octave 1
+	note A#, 1
+	note G_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	octave 2
+	volume_envelope 12, 8
+	note E_, 1
+	note_type 6, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note E_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note G_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	octave 2
+	volume_envelope 12, 8
+	note E_, 1
+	octave 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note E_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note G_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note F_, 1
+	note F_, 1
+	octave 2
+	note C_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note C_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note C_, 1
+	note_type 12, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	octave 2
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note C_, 1
+	octave 1
+	note A_, 1
+	octave 2
+	note C_, 1
+	note F_, 1
+	note E_, 1
+	note D_, 1
+	note C_, 1
+	note_type 12, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A#, 1
+	note A#, 1
+	octave 2
+	note F_, 1
+	octave 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A#, 1
+	note A#, 1
+	octave 2
+	note D_, 1
+	note C_, 1
+	octave 1
+	note A#, 1
+	note G_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	octave 2
+	volume_envelope 12, 8
+	note E_, 1
+	note_type 6, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note G_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note E_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	octave 2
+	volume_envelope 12, 8
+	note E_, 1
+	octave 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note G_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note E_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	octave 2
+	volume_envelope 12, 8
+	note E_, 1
+	note_type 6, 15, 8
+	octave 1
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note G_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note F_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A_, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 6, 15, 8
+	volume_envelope 12, 8
+	note A#, 1
+	note_type 12, 15, 8
+	volume_envelope 9, 8
+	note E_, 1
 	note A_, 1
 	note G_, 1
 	note E_, 1
@@ -739,10 +869,10 @@ Music_Mewtwo01_Ch1:
 	note F_, 1
 	note A_, 1
 	note A#, 1
-	duty_cycle 2
 	octave 2
 	note C_, 1
 	duty_cycle 3
+	volume_envelope 12, 8
 	note D_, 1
 	note_type 6, 12, 8
 	note D_, 1
@@ -1542,7 +1672,7 @@ Music_Mewtwo01_Ch2:
 	rest 1
 	volume_envelope 15, 7
 	octave 3
-	vibrato 0, 1, 1
+	vibrato 0, 1, 5
 	note A#, 1
 	rest 1
 	note A#, 1
@@ -1739,7 +1869,7 @@ Music_Mewtwo01_Ch2:
 	octave 8
 .mainLoop:
 	octave 3
-	vibrato 0, 2, 2
+	vibrato 0, 1, 4
 	note B_, 10
 	note A_, 2
 	octave 4
@@ -1927,7 +2057,6 @@ Music_Mewtwo01_Ch2:
 	rest 2
 	volume_envelope 12, 7
 	note G_, 3
-	vibrato 0, 2, 3
 	duty_cycle 3
 	note D_, 7
 	note G_, 2
@@ -2542,9 +2671,8 @@ Music_Mewtwo01_Ch3:
 	note D#, 1
 	octave 3
 	note A#, 1
-	note D#, 1
-	rest 1
 	note_type 12, 3, 4
+	note D#, 1
 	note E_, 1
 	note A_, 1
 	note G_, 1
@@ -3192,6 +3320,7 @@ Music_Mewtwo01_Ch3:
 	note_type 12, 1, 2
 	volume_envelope 2, 4
 	octave 5
+	vibrato 0, 1, 5
 	note A_, 16
 	note A_, 14
 	note_type 4, 1, 4
