@@ -21,10 +21,6 @@ FightingDojo_ScriptPointers:
 	dw FightingDojoScript3
 
 FightingDojoScript1:
-	CheckEvent EVENT_POST_GAME_ATTAINED ; Required in the case you have cleared the game, but not cleared the dojo. It's an optional deal.
-	ret nz
-	CheckEvent EVENT_DEFEATED_FIGHTING_DOJO
-	ret nz
 	call CheckFightingMapTrainers
 	ld a, [wTrainerHeaderFlagBit]
 	and a
@@ -109,11 +105,14 @@ FightingDojoText1: ; gym scaling can be removed to make space
 	text_asm
 	CheckEvent EVENT_POST_GAME_ATTAINED ; No need to view previous stuff, technically you can skip Bide this way but I think that's hilarious
 	jp z, .normalProcessing
+	CheckEvent EVENT_DEFEATED_FIGHTING_DOJO
+	jp z, .normalProcessing
 	ld hl, KoichiRematchPreBattleText ; Rematch functionality. Just loads pre-battle text and his trainer.
 	call PrintText
 	ld c, BANK(Music_MeetMaleTrainer)
 	ld a, MUSIC_MEET_MALE_TRAINER
 	call PlayMusic
+	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
 	ldh a, [hSpriteIndex]
