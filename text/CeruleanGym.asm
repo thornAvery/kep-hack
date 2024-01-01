@@ -13,7 +13,7 @@ _MistyPreBattleText::
 
 	para "My policy is an"
 	line "all-out offensive"
-	cont "with water-type"
+	cont "with WATER-type"
 	cont "#MON!"
 	done
 
@@ -111,8 +111,8 @@ _CeruleanGymEndBattleText3::
 _CeruleanGymAfterBattleText3::
 	text "Why is a FIRE-"
 	line "FIGHTER in a"
-	cont "GYM for water"
-	cont "#MON?"
+	cont "GYM for WATER-"
+	cont "type #MON?"
 	
 	para "Haha! You have to" ; Actually happens in real life!
 	line "check for short"
@@ -121,13 +121,13 @@ _CeruleanGymAfterBattleText3::
 
 _CeruleanGymGuidePreBattleText::
 	text "Yo! Champ in"
-	line "making!"
+	line "the making!"
 
 	para "Here's my advice!"
 
 	para "The LEADER, MISTY,"
 	line "is a pro who uses"
-	cont "water #MON!"
+	cont "WATER-types!"
 
 	para "You can drain all"
 	line "their water with"
@@ -141,7 +141,7 @@ _CeruleanGymGuidePostBattleText::
 	text "You beat MISTY!"
 	line "What'd I tell ya?"
 
-	para "You and me kid,"
+	para "You and me, kid,"
 	line "we make a pretty"
 	cont "darn good team!"
 	done

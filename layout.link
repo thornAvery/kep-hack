@@ -141,7 +141,6 @@ ROMX $1D
 	"Itemfinder 1"
 	"Maps 20"
 	"Maps 21"
-	"Itemfinder 2"
 ROMX $1E
 	"bank1E"
 ROMX $1F
@@ -151,6 +150,7 @@ ROMX $1F
 	"Sound Effects 3"
 ;	"Audio Engine 3"
 ;	"Music 3"
+	"Itemfinder 2"
 ROMX $20
 	"Text 1"
 ROMX $21

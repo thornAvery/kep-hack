@@ -25,8 +25,21 @@ MewtwoTrainerHeader:
 
 MewtwoText:
 	text_asm
+	ld a, 5
+	ld [wMusicFade], a
+	xor a
+	ld [wMusicFadeID], a
+.waitloop
+	ld a, [wMusicFade]
+	and a
+	jr nz, .waitloop
+
+	ld a, SFX_STOP_ALL_MUSIC
+	call PlaySound
 	ld hl, MewtwoTrainerHeader
 	call TalkToTrainer
+	ld a, SFX_STOP_ALL_MUSIC
+	call PlaySound
 	jp TextScriptEnd
 
 MewtwoBattleText:

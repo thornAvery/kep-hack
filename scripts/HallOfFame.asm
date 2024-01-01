@@ -220,7 +220,6 @@ ObjectsToHide:
 	db HS_BILLS_NIDORINO ; Bill's Garden access
 	db HS_MANSION_GUARD ; Pokemon Mansion basement access
 	db HS_MT_MOON_CRATER_GUARD ; Mt. Moon Crater access
-	db HS_CERULEAN_CAVE_GUY ; Cerulean Cave access
 	db -1 ; end
 
 ; Farcalling this caused weird issues so I'm just using a clone

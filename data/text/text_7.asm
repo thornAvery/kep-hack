@@ -142,8 +142,7 @@ _AfterTrade2Text::
 	text_ram wInGameTradeGiveMonName
 	text " you"
 	line "traded to me"
-
-	para "went and evolved!"
+	cont "went and evolved!"
 	done
 
 _WannaTrade3Text::

@@ -145,6 +145,11 @@ _SafariBallSalesmanNoText::
 	cont "me?"
 	done
 
+_ReceivedSafariBallsText::
+	text "<PLAYER> received"
+	line "3 SAFARI BALLS!@"
+	text_end
+
 _SafariBallSalesmanNoMoneyText::
 	text "Not enough money?"
 	line "Sorry, kid! Paint"
@@ -160,6 +165,7 @@ _SafariBallBagFull::
 	line "give you these"
 	cont "when your bag's"
 	cont "that full!"
+	done
 
 _ReceivedTM50Text::
 	text "<PLAYER> received"

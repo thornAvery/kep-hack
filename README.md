@@ -265,7 +265,6 @@ Known Bugs
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
 - The Gym Leaders on Floor 6 of Silph Gauntlet don't play the correct music in battle.
 - Silph Co. Worker doesn't give Lapras as a gift on occasion (this happened like one time, more testing needed)
-- The final battle against Blue uses the wrong team when Eevee is chosen.
 
 Evolution Methods for new Pokemon
 ====

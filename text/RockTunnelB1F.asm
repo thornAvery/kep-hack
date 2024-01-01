@@ -77,7 +77,7 @@ _RockTunnel2EndBattleText6::
 _RockTunnel2AfterBattleText6::
 	text "In mountains,"
 	line "you'll often find"
-	cont "rock-type #MON."
+	cont "ROCK-type #MON."
 	done
 
 _RockTunnel2BattleText7::

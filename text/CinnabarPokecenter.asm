@@ -33,7 +33,7 @@ _PoryZSalesmanText1::
 	
 	para "Tell you what."
 	line "You can get a"
-	cont "copy for ¥2100."
+	cont "copy for ¥3000."
 	cont "What do you say?"
 	
 	done
@@ -43,6 +43,11 @@ _PoryZSalesmanNoText::
 	line "It's your big"
 	cont "chance!"
 	done
+
+_ReceivedDubiousDiscText::
+	text "<PLAYER> received"
+	line "DUBIOUS DISC!@"
+	text_end
 
 _PoryZSalesmanNoMoneyText::
 	text "You'll need more"
@@ -60,3 +65,5 @@ _PoryZBagFull::
 	line "full! Can't sell"
 	cont "you anything like"
 	cont "that!"
+	done
+	
