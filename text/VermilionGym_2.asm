@@ -6,7 +6,7 @@ _LTSurgePostBattleAdviceText::
 	line "sure powerful!"
 
 	para "But, it's useless"
-	line "against ground-"
+	line "against GROUND-"
 	cont "type #MON!"
 	done
 
@@ -37,7 +37,9 @@ _TM24ExplanationText::
 	line "THUNDERBOLT!"
 
 	para "Teach it to an"
-	line "electric #MON!"
+	line "ELECTRIC-type,"
+	cont "like PIKACHU or"
+	cont "GAOTORA!"
 	done
 
 _TM24NoRoomText::
@@ -119,7 +121,7 @@ _VermilionGymAfterBattleText3::
 
 _VermilionGymGuidePreBattleText::
 	text "Yo! Champ in"
-	line "making!"
+	line "the making!"
 
 	para "LT.SURGE has a"
 	line "nickname. People"
@@ -128,9 +130,10 @@ _VermilionGymGuidePreBattleText::
 	cont "American!"
 
 	para "He's an expert on"
-	line "electric #MON!"
+	line "ELECTRIC-type"
+	cont "#MON!"
 
-	para "Birds and water"
+	para "Birds and aquatic"
 	line "#MON are at"
 	cont "risk! Beware of"
 	cont "paralysis too!"

@@ -75,7 +75,7 @@ YoungsterData:
 	db 14, RATTATA, EKANS, ZUBAT, 0
 ; Route 25
 	db 15, RATTATA, SPEAROW, 0
-	db 17, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch. Our changes make em not work anymore, but keep em for the iconography.
+	db 15, SHELLDER, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch.
 	db 14, EKANS, SANDSHREW, 0
 ; SS Anne 1F Rooms
 	db 21, NIDORINO, 0
@@ -563,6 +563,7 @@ BlackbeltData:
 ChiefData:
 ; Silph Gauntlet 7F
 	db $FF, 66, ELECTRODE, 65, LAPRAS, 66, SCIZOR, 65, GENGAR, 68, PORYGONZ, 70, OMEGADGE, 0
+	db $FF, 73, ELECTRODE, 72, LAPRAS, 73, SCIZOR, 72, GENGAR, 75, PORYGONZ, 78, OMEGADGE, 0
 ; Lapras and Gengar are used here since Lapras is given by a Silph worker, and Gengar represents the Silph Scope.
 
 ; Poison- and Electric-type Pokemon

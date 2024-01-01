@@ -235,8 +235,7 @@ MapHeaderPointers::
 	dw CeruleanBadgeHouse_h
 	dw CinnabarVolcano_h ; UNUSED_MAP_E7
 	dw CinnabarVolcanoFloors_h
-	dw SilphCo9F_h
-	dw SilphCo10F_h
+	dw Route10Gate_h
 	dw SilphCo11F_h
 	dw FarawayFerryDock_h
 	dw GarnetCavern2F_h ; UNUSED_MAP_ED, used silph 2f

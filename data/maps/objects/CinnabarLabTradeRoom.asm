@@ -9,8 +9,6 @@ CinnabarLabTradeRoom_Object:
 
 	def_object_events
 	object_event  3,  2, SPRITE_SUPER_NERD, STAY, DOWN, 1 ; person
-	object_event  1,  4, SPRITE_GRAMPS, STAY, NONE, 2 ; person
-;	object_event  5,  5, SPRITE_BEAUTY, STAY, UP, 3 ; person
-	object_event  3,  5, SPRITE_GAMEBOY_KID, STAY, DOWN, 3 ; Trader
+	object_event  3,  5, SPRITE_GAMEBOY_KID, STAY, DOWN, 2 ; Trader
 
 	def_warps_to CINNABAR_LAB_TRADE_ROOM

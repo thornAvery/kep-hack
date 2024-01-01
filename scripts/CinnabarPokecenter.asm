@@ -40,7 +40,7 @@ PoryZSalesmanText:
 	jp nz, .choseNo
 	ldh [hMoney], a
 	ldh [hMoney + 2], a
-	ld a, $21
+	ld a, $30
 	ldh [hMoney + 1], a
 	call HasEnoughMoney
 	jr nc, .enoughMoney
@@ -49,11 +49,13 @@ PoryZSalesmanText:
 .enoughMoney
 	lb bc, DUBIOUS_DISC, 1
 	call GiveItem
-	jr nc, .done
+	jr nc, .BagFull
+	ld hl, ReceivedDubiousDiscText
+	call PrintText
 	xor a
 	ld [wPriceTemp], a
 	ld [wPriceTemp + 2], a
-	ld a, $21
+	ld a, $30
 	ld [wPriceTemp + 1], a
 	ld hl, wPriceTemp + 2
 	ld de, wPlayerMoney + 2
@@ -65,10 +67,17 @@ PoryZSalesmanText:
 	SetEvent EVENT_BOUGHT_DUBIOUS_DISC
 	jr .done
 .choseNo
-	ld hl, .RefuseText
-	jr .printText
+	ld hl, RefuseText2
+	call PrintText
+	jr .done
 .alreadyBoughtPoryZ
 	ld hl, .Text2
+	call PrintText
+	jr .done
+.BagFull
+	ld hl, PoryZBagFull
+	call PrintText
+	jr .done
 .printText
 	call PrintText
 .done
@@ -77,17 +86,22 @@ PoryZSalesmanText:
 .Text1
 	text_far _PoryZSalesmanText1
 	text_end
-
-.RefuseText
-	text_far _PoryZSalesmanNoText
+	
+.Text2
+	text_far _PoryZSalesmanText2
 	text_end
-
+	
 .NoMoneyText
 	text_far _PoryZSalesmanNoMoneyText
 	text_end
 
-.Text2
-	text_far _PoryZSalesmanText2
+RefuseText2:
+	text_far _PoryZSalesmanNoText
+	text_end
+
+ReceivedDubiousDiscText:
+	text_far _ReceivedDubiousDiscText
+	sound_get_item_1
 	text_end
 
 PoryZBagFull:

@@ -7,10 +7,6 @@
 CardKeyTable1:
 	db  SILPH_CO_7F, $06, $0A, 4
 	db  SILPH_CO_7F, $06, $0B, 5
-	db  SILPH_CO_9F, $04, $12, 6
-	db  SILPH_CO_9F, $04, $13, 7
-	db SILPH_CO_10F, $08, $0A, 8
-	db SILPH_CO_10F, $08, $0B, 9
 	db -1 ; end
 
 CardKeyTable2:
@@ -18,8 +14,6 @@ CardKeyTable2:
 	db SILPH_CO_3F, $09, $09, 11
 	db SILPH_CO_5F, $04, $07, 12
 	db SILPH_CO_5F, $05, $07, 13
-	db SILPH_CO_9F, $08, $03, 18
-	db SILPH_CO_9F, $09, $03, 19
 	db -1 ; end
 
 CardKeyTable3:

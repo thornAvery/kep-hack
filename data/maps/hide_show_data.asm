@@ -238,7 +238,6 @@ MapHSPointers:
 	dw CinnabarVolcanoHS
 	dw CinnabarVolcanoFloorsHS
 	dw NoHS
-	dw SilphCo10FHS
 	dw SilphCo11FHS
 	dw NoHS
 	dw NoHS
@@ -493,12 +492,6 @@ SilphCo7FHS:
 	db SILPH_CO_7F, $09, SHOW                 ; HS_SILPH_CO_7F_RIVAL
 	db SILPH_CO_7F, $0A, SHOW                 ; HS_SILPH_CO_7F_ITEM_1
 	db SILPH_CO_7F, $0B, SHOW                 ; HS_SILPH_CO_7F_ITEM_2
-SilphCo10FHS:
-	db SILPH_CO_10F, $01, SHOW                ; HS_SILPH_CO_10F_1
-	db SILPH_CO_10F, $02, SHOW                ; HS_SILPH_CO_10F_2
-	db SILPH_CO_10F, $03, SHOW                ; HS_SILPH_CO_10F_ITEM_1
-	db SILPH_CO_10F, $04, SHOW                ; HS_SILPH_CO_10F_ITEM_2
-	db SILPH_CO_10F, $05, SHOW                ; HS_SILPH_CO_10F_ITEM_3
 SilphCo11FHS:
 	db SILPH_CO_11F, $03, SHOW                ; Giovanni
 	db SILPH_CO_11F, $04, SHOW                ; James

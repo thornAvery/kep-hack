@@ -41,7 +41,7 @@ _Lover2::
 
 _BrunswickBattleText1::
 	text "I'm searching"
-	line "for rare BIRD"
+	line "for rare bird"
 	cont "#MON!"
 	done
 
@@ -69,7 +69,7 @@ _BrunswickEndBattleText2::
 	prompt
 
 _BrunswickAfterBattleText2::
-	text "I saw a BIRD"
+	text "I saw a bird"
 	line "#MON with huge"
 	cont "legs sprint past"
 	cont "me!"

@@ -148,7 +148,7 @@ _SilphCo10Text_6237b::
 
 _OmegaBattleText::
 	text "Bzzt! Clank!"
-	text_end
+	done
 
 ; Fun fact: For some reason, this text is stored in 10F. Seems to be a beta element - they ARE encountered in 11F.
 _SilphCoJessieJamesText1::

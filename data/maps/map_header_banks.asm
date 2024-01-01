@@ -235,8 +235,7 @@ MapHeaderBanks::
 	db BANK(CeruleanBadgeHouse_h)
 	db BANK(CinnabarVolcano_h) ; $01 UNUSED_MAP_E7
 	db BANK(CinnabarVolcanoFloors_h)
-	db BANK(SilphCo9F_h)
-	db BANK(SilphCo10F_h)
+	db BANK(Route10Gate_h)
 	db BANK(SilphCo11F_h)
 	db BANK(FarawayFerryDock_h)
 	db BANK(GarnetCavern2F_h) ; was UNUSED_MAP_ED

@@ -28,7 +28,8 @@ _FightingDojoText_5ce98::
 
 	para "In return, I will"
 	line "give you a prized"
-	cont "fighting #MON!"
+	cont "FIGHTING-type"
+	cont "#MON!"
 
 	para "Choose whichever"
 	line "one you like!"

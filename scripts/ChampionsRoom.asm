@@ -80,8 +80,8 @@ GaryScript2:
 	jr .saveTrainerId
 .Charmander
 	cp STARTER1 ; changes start here
-	ld a, $3
 	jr nz, .Pikachu
+	ld a, $3
 	jr .saveTrainerId
 .Pikachu ;
 	cp STARTER4 

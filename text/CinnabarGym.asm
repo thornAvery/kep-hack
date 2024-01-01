@@ -23,11 +23,11 @@ _ReceivedVolcanoBadgeText::
 
 _BlainePostBattleAdviceText::
 	text "FIRE BLAST is the"
-	line "ultimate fire"
+	line "ultimate fiery"
 	cont "technique!"
 
 	para "Don't waste it on"
-	line "water #MON!"
+	line "WATER-types!"
 	done
 
 _BlaineVolcanoBadgeInfoText::
@@ -55,7 +55,7 @@ _TM38ExplanationText::
 	para "TM38 contains"
 	line "FIRE BLAST!"
 
-	para "Teach it to fire-"
+	para "Teach it to FIRE-"
 	line "type #MON!"
 
 	para "CHARMELEON or"
@@ -124,7 +124,7 @@ _CinnabarGymAfterBattleText3::
 
 _CinnabarGymBattleText4::
 	text "I just like using"
-	line "fire #MON!"
+	line "the FIRE-type!"
 	done
 
 _CinnabarGymEndBattleText4::
@@ -133,9 +133,9 @@ _CinnabarGymEndBattleText4::
 	prompt
 
 _CinnabarGymAfterBattleText4::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "I wonder...does a"
+	line "FIRE-type thief"
+	cont "#MON exist?"
 	done
 
 _CinnabarGymBattleText5::
@@ -170,9 +170,9 @@ _CinnabarGymEndBattleText6::
 	prompt
 
 _CinnabarGymAfterBattleText6::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "Us FIRE-type fans"
+	line "like PONYTA and"
+	cont "NINETALES a lot!"
 	done
 
 _CinnabarGymBattleText7::
@@ -186,21 +186,27 @@ _CinnabarGymEndBattleText7::
 	prompt
 
 _CinnabarGymAfterBattleText7::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Water beats fire,"
+	line "but fire easily"
+	cont "melts ice!"
+
+	para "WATER- and ICE-"
+	line "type #MON like"
+	cont "DEWGONG can be"
+	cont "tricky..."
 	done
 
 _CinnabarGymGuidePreBattleText::
 	text "Yo! Champ in"
-	line "making!"
+	line "the making!"
 
 	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	line "BLAINE is a FIRE-"
+	cont "type #MON pro!"
 
 	para "Douse his spirits"
-	line "with water!"
+	line "with WATER-type"
+	cont "techniques!"
 
 	para "You better take"
 	line "some BURN HEALs!"

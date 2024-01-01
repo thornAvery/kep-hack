@@ -172,7 +172,7 @@ _FuchsiaGymAfterBattleText6::
 
 _FuchsiaGymGuidePreBattleText::
 	text "Yo! Champ in"
-	line "making!"
+	line "the making!"
 
 	para "FUCHSIA GYM is"
 	line "riddled with"

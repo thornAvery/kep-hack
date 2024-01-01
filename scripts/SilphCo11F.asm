@@ -173,10 +173,6 @@ MissableObjectIDs_6219b:
 	db HS_SILPH_CO_7F_2
 	db HS_SILPH_CO_7F_3
 	db HS_SILPH_CO_7F_4
-	db HS_SILPH_CO_10F_1
-	db HS_SILPH_CO_10F_2
-	db HS_SILPH_CO_11F_1
-	db HS_SILPH_CO_11F_3
 	db -1 ; end
 
 SilphCo11Script_62185:
@@ -633,8 +629,6 @@ SaffronCityRockets:
 	db HS_SILPH_CO_7F_2
 	db HS_SILPH_CO_7F_3
 	db HS_SILPH_CO_7F_4
-	db HS_SILPH_CO_10F_1
-	db HS_SILPH_CO_10F_2
 	db HS_SILPH_CO_11F_1
 	db HS_SILPH_CO_11F_3
 	db -1 ; end

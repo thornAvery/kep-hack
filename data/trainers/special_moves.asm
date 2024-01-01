@@ -1362,6 +1362,27 @@ SpecialTrainerMoves:
 	db 6, 2, THUNDER_WAVE
 	db 6, 4, ICE_BEAM
 	db 0
+
+	db CHIEF, 2
+	db 1, 1, THUNDERBOLT
+	db 1, 2, THUNDER_WAVE
+	db 1, 3, HEADBUTT
+	db 2, 1, BLIZZARD
+	db 2, 2, THUNDERBOLT
+	db 2, 3, SING
+	db 2, 4, HYPER_BEAM
+	db 3, 1, IRON_HEAD
+	db 3, 3, HYPER_BEAM
+	db 4, 1, EXPLOSION
+	db 4, 2, THUNDERBOLT
+	db 4, 4, ICE_PUNCH
+	db 5, 1, THUNDERBOLT
+	db 5, 2, ICE_BEAM
+	db 5, 3, RECOVER
+	db 6, 1, THUNDERBOLT
+	db 6, 2, THUNDER_WAVE
+	db 6, 4, ICE_BEAM
+	db 0
 	
 	db JESSIE_JAMES, 5	; J&J postgame
 	db 1, 1, BUBBLEBEAM

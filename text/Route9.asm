@@ -135,8 +135,8 @@ _Route9AfterBattleText8::
 	done
 
 _Route9BattleText9::
-	text "Go, my super bug"
-	line "#MON!"
+	text "Go, my super BUG-"
+	line "type #MON!"
 	done
 
 _Route9EndBattleText9::
@@ -146,7 +146,7 @@ _Route9EndBattleText9::
 
 _Route9AfterBattleText9::
 	text "If you don't like"
-	line "bug #MON, you"
+	line "bugs, you really"
 	cont "bug me!"
 	done
 

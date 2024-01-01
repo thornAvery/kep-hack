@@ -75,7 +75,7 @@ _CitrineCityText3::
 	done
 
 _CitrineCityText4::
-	text "Some BIRD #MON"
+	text "Some bird #MON"
 	line "roost on the"
 	cont "hill north of"
 	cont "here every year."
