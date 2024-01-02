@@ -12,12 +12,12 @@ BrunswickGlade_Object:
 
 	def_object_events
 	object_event 16,  8, SPRITE_COOLTRAINER_F, STAY, DOWN, 1, OPP_COOLTRAINER_F, 6 ; Leaf reference Trainer
-	object_event  7, 28, SPRITE_GENTLEMAN, STAY, UP, 2, OPP_GENTLEMAN, 6 ; Fuji reference Trainer
-	object_event 15, 30, SPRITE_BEAUTY, STAY, RIGHT, 3, OPP_BEAUTY, 19 ; Ariana reference Trainer
+	object_event  7, 30, SPRITE_GENTLEMAN, STAY, UP, 2, OPP_GENTLEMAN, 6 ; Fuji reference Trainer
+	object_event 15, 31, SPRITE_BEAUTY, STAY, RIGHT, 3, OPP_BEAUTY, 19 ; Ariana reference Trainer
 	object_event 31,  4, SPRITE_COOLTRAINER_M, STAY, DOWN, 4, OPP_COOLTRAINER_M, 13 ; Trace reference Trainer
-	object_event 32, 25, SPRITE_BIRD, STAY, DOWN, 5
-	object_event 20, 18, SPRITE_BIRD, STAY, RIGHT, 6
-	object_event  9,  3, SPRITE_BIRD, STAY, UP, 7
+	object_event 32, 28, SPRITE_BIRD, STAY, DOWN, 5
+	object_event 32, 14, SPRITE_BIRD, STAY, RIGHT, 6
+	object_event  9,  2, SPRITE_BIRD, STAY, UP, 7
 	object_event 33, 11, SPRITE_POKE_BALL, STAY, NONE, 8, TM_THUNDER ; itemball1
 	object_event  5, 21, SPRITE_POKE_BALL, STAY, NONE, 9, LEAF_STONE ; itemball2
 	object_event 22, 15, SPRITE_POKE_BALL, STAY, NONE, 10, REVIVE ; itemball3
