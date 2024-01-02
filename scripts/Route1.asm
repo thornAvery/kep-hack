@@ -12,6 +12,12 @@ Route1Script0:
 	ret ; yeah it's just a switch-off. shush.
 
 OakVibeCheck:
+;joenote - Notice how there is no check to see if the player actually lost.
+;Let's go ahead and add that real quick.
+	ld a, [wIsInBattle]	;if wIsInBattle is -1, then the battle was lost
+	inc a	;if A holds -1, it will increment to 0 and set the z flag (but not the c flag, dec and inc cannot affect it).
+	jr z, .skip	;Kick out if the player lost.
+
 	SetEvent EVENT_BEAT_OAK_ONCE ; This is set every time, but it doesn't matter, it sticks at 1 anyway.
 	CheckEvent EVENT_RECEIVED_CITRINE_PASS ; Before we do, has the player got the pass?
 	jr nz, .skip ; Yes? Now we go to auto-ret. 
@@ -19,6 +25,7 @@ OakVibeCheck:
 .skip
 	ld a, $0
 	ld [wRoute1CurScript], a
+	ld [wCurMapScript], a	;joenote - also set the value for current map script or you will have a bad time
 	ret
 
 OakFirstWin:
@@ -30,6 +37,7 @@ OakFirstWin:
 .skip
 	ld a, $0
 	ld [wRoute1CurScript], a
+	ld [wCurMapScript], a	;joenote - also set the value for current map script or you will have a bad time
 	ret
 
 Route1_TextPointers:
@@ -157,6 +165,7 @@ Route1OakText:
 
 	ld a, $1
 	ld [wRoute1CurScript], a
+	ld [wCurMapScript], a	;joenote - also set the value for current map script or you will have a bad time
 .done
 	jp TextScriptEnd
 

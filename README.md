@@ -259,10 +259,7 @@ and more!
 
 Known Bugs
 ====
-- Oak gives you the Citrine Pass even if you lost, after the screen fades to white.
-- The Tradeback Tutor doesn't work properly with Rhydon for reasons likely related to its index number of 1.
 - Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
-- The Gym Leaders on Floor 6 of Silph Gauntlet don't play the correct music in battle.
 
 Evolution Methods for new Pokemon
 ====
