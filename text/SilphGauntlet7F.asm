@@ -149,8 +149,6 @@ _ChiefAltAfterBattleText::
 	
 	para "I still have much"
 	line "yet to learn..."
-
-	para "Go."
 	
 	done
 

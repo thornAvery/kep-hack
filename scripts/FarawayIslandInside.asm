@@ -28,7 +28,7 @@ FarawayIslandInsideText2:
 	jp TextScriptEnd
 
 MewBattleText:
-	text_far _MewtwoBattleText ; Mew!
+	text_far _MewBattleText
 	text_asm
 	ld a, MEW
 	call PlayCry
