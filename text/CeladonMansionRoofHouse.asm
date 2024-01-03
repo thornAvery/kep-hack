@@ -63,7 +63,7 @@ _JackyAfterBattle::
 	done
 
 _JackyGift::
-	line "I look forward to"
+	text "I look forward to"
 	line "our next bout!"
 	done
 

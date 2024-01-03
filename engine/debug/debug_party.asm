@@ -21,12 +21,12 @@ SetIshiharaTeam:
 	jr .loop
 
 IshiharaTeam:
-	db EEVEE, 90
 	db EXEGGUTOR_A, 90
-	db TRAMPEL, 90
+	db SCREAM_TAIL, 90
+	db TOTARTLE, 90
 	db MEWTWO, 90
-	db ELECTRODE, 50
-	db FARFETCHD, 50
+	db RHYDON, 50
+	db EEVEE, 50
 	db -1 ; end
 
 DebugStart:
@@ -79,15 +79,6 @@ IF DEF(_DEBUG)
 	ld a, 15
 	ld [hli], a
 	ld [hl], a
-
-	; Jolteon (Pokemon 3) gets Thunderbolt.
-	; Adjusted for Trampel
-	ld hl, wPartyMon3Moves + 3
-	ld a, EARTHQUAKE
-	ld [hl], a
-	ld hl, wPartyMon3PP + 3
-	ld a, 15
-	ld [hl], a
 	
 	; Mewtwo (Pokemon 4) has a full moveset
 	; Use for sweeping the 4.
@@ -108,23 +99,13 @@ IF DEF(_DEBUG)
 	ld a, 99
 	ld [hli], a
 	ld [hl], a
-	
-	; Articuno (Pokemon 5) gets Fly.
-	ld hl, wPartyMon5Moves
-	ld a, FLY
-	ld [hl], a
-	ld hl, wPartyMon5PP
-	ld a, 15
-	ld [hl], a
 
-	; Kadabra (Pokemon 6) gets Flash and Teleport
+	; Eevee (Pokemon 6) gets Flash
 	ld hl, wPartyMon6Moves + 2
 	ld a, FLASH
 	ld [hl], a
 	ld hl, wPartyMon6PP + 2
 	ld a, 15
-	ld [hl], a
-	ld a, TELEPORT
 	ld [hl], a
 
 	; Get some debug items.

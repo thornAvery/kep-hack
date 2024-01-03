@@ -108,9 +108,9 @@ TestBattle:
 	ld [hl], a
 
 	; Player's Pokemon.
-	ld a, GLACEON
+	ld a, GENGAR
 	ld [wcf91], a
-	ld a, 16
+	ld a, 50
 	ld [wCurEnemyLVL], a
 	xor a
 	ld [wMonDataLocation], a
@@ -120,19 +120,19 @@ TestBattle:
 	; This function gives you a way to waste a turn, never know when you'll need it.
 	; Alternatively, add a move to test.
 	ld hl, wPartyMon1Moves
-	ld a, UPPERCUT ; Something super weak
+	ld a, UPPERCUT ; New move animation test
 	ld [hli], a
-	ld a, POWDER_SNOW ; Test new failure text
+	ld a, POWDER_SNOW ; New move animation test
 	ld [hli], a
-	ld a, LOW_KICK ; Something that'll miss easily
+	ld a, FAKE_TEARS ; New move animation test
 	ld [hli], a
-	ld a, LEER ; Skip turn
+	ld a, NASTY_PLOT ; Skip turn, New move animation test
 	ld [hli], a
 	
 	; Opponent's Pokemon.
-	ld a, BUU ; Test new theme
+	ld a, NIDORINO
 	ld [wCurOpponent], a
-	ld a, 10 ; Set the level you want here.
+	ld a, 50 ; Set the level you want here.
 	ld [wCurEnemyLVL], a
 
 	predef InitOpponent
@@ -145,7 +145,7 @@ TestBattle:
 	jr .loop
 
 BattleDebugItemsList:
-	db X_ACCURACY, 99 ; Test Guillotine animation
+	db X_ACCURACY, 99
 	db FULL_RESTORE, 99
 	db MAX_ELIXER, 99
 	db FULL_HEAL, 99
