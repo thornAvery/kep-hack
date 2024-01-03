@@ -18,20 +18,38 @@ CeladonMansionRoofHouse_ScriptPointers:
 	dw JackyBeat
 
 JackyBeat:
+;joenote - This script will always run after the battle with Jacky. 
+;Notice how there is no check to see if the player actually lost.
+;Let's go ahead and add that real quick.
+	ld a, [wIsInBattle]	;if wIsInBattle is -1, then the battle was lost
+	inc a	;if A holds -1, it will increment to 0 and set the z flag (but not the c flag, dec and inc cannot affect it).
+	jr z, .resetMapScript	;Kick out if the player lost.
+	
+	CheckEvent EVENT_BEAT_JACKY
+	jr nz, .resetMapScript	;Kick out if the player already beat Jacky before and got the prize.
+
 	SetEvent EVENT_BEAT_JACKY
-	ld a, EEVEE ; Getting the Pokemon the player needs before printing the text
+;	ld a, EEVEE ; Getting the Pokemon the player needs before printing the text
+;joenote - the above line is overwritten by the very next line.
 	ld a, [wPlayerStarter] ; Load the player's starter after Eevee loads.
 	cp EEVEE ; Was your starter Eevee?
+	ld a, EEVEE ; joenote - you can load EEVEE into A at this line,
+				;			because the LD instruction does not alter the flag bits
 	jr nz, .skip ; If not, skip this.
 	ld a, PIKACHU ; Load in Pikachu if true
 .skip
+;joenote - If the player's starter was EEVEE, then PIKACHU goes into wd11e.
+;			But if it wasn't EEVEE, then the player's starter would have gone into wd11e. 
+;			With the above alteration, EEVEE is goes into wd11e instead of the starter.
 	ld [wd11e], a
 	call GetMonName
 	ld a, $1 ; Load Jacky's NPC ID
 	ldh [hSpriteIndex], a ; Slap it in the index
 	call DisplayTextID
+.resetMapScript	;joenote - adding this label so we can jump to it
 	ld a, $0
 	ld [wCeladonMansionRoofHouseCurScript], a ; kick the player back downstairs
+	ld [wCurMapScript], a	;joenote - really, really need to also reset the current map script
 TheRetONator: ; fallthrough
 	ret
 
@@ -84,6 +102,9 @@ CeladonMansion5Text1:
 
 	ld a, $1
 	ld [wCeladonMansionRoofHouseCurScript], a
+	ld [wCurMapScript], a	;joenote - really, really need to also set the current map script
+;joenote - remember that, win or lose, the next map update after the battle 
+;			will run index number 1 in the map script list which is JackyBeat
 	jr .done
 .gotGift
 	ld hl, JackyGift

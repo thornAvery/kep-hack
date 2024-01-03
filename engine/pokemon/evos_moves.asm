@@ -713,7 +713,6 @@ PrepareTradebackMoveList:: ; I still don't know how the fuck you're a single col
 	ld hl, wPartySpecies
 	add hl, bc
 	ld a, [hl] ; a = mon id
-	dec a
 	ld [wd0b5], a	;joenote - put mon id into wram for potential later usage of GetMonHeader
 	; Get pointer to evos moves data.
 	dec a
@@ -743,10 +742,10 @@ PrepareTradebackMoveList:: ; I still don't know how the fuck you're a single col
 	ld e, l
 	pop hl
 	; Skip over evolution data.
-.skipEvoEntriesLoop
-	ld a, [hli]
-	and a
-	jr nz, .skipEvoEntriesLoop
+;.skipEvoEntriesLoop
+;	ld a, [hli]
+;	and a
+;	jr nz, .skipEvoEntriesLoop
 	; Write list of relearnable moves, while keeping count along the way.
 	; de = pointer to mon's currently-known moves
 	; hl = pointer to moves data for our mon
