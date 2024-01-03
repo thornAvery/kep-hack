@@ -170,6 +170,7 @@
 	const SFX_FAINT_FALL
 	const SFX_BATTLE_09
 	const SFX_POUND
+	const SFX_ICE
 	const SFX_BATTLE_0B
 	const SFX_BATTLE_0C
 	const SFX_BATTLE_0D

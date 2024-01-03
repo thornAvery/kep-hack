@@ -169,6 +169,7 @@ QoL Enhancements
 - Various moves have had their animations altered to be less intensive for photosensitive individuals, including every animation that was dimmed on the 3DS (Most notably Blizzard and Thunderbolt). This was done with the aim of also improving the move's animations overall, so some look a little flashier.
 	- Full list includes Body Slam, Glare, Disable, Blizzard, BubbleBeam, Confusion, Dream Eater, Explosion, Guillotine, Hyper Beam, Mega Kick, Mega Punch, Psychic, Reflect, Rock Slide, Selfdestruct, Spore, and Thunderbolt.
 - PureRGB's AI enhancements are ported over; said hack was made by Vortiene. In general, it isn't as stupid as it was before.
+	- PureRGB's move animation enhancements are also ported over, making several moves look better and more detailed than before.
 - Bag capacity is increased from 20 to 30 items.
 - Pokemon Box capacity is now 280 Pokemon with 14 boxes.
 - Exp. All now works like the modern Exp. Share, giving all party members max exp. It also only has one message, though it does still take time to calculate all the exp being thrown around. It'll take around 3 seconds to calculate, sort of like saving. Oh, and it's a Key Item now, so you can't sell it by accident.
@@ -259,7 +260,7 @@ and more!
 
 Known Bugs
 ====
-- Fake Tears and Nasty Plot don't quite look right when done from the opponent's side.
+- The new AI (possibly bugged?) behaves quite oddly, such as using Recover at full HP, spamming status-inflicting moves like Lovely Kiss, neglecting supereffective moves, setting up multiple Reflects, etc.
 
 Evolution Methods for new Pokemon
 ====
@@ -365,7 +366,8 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Albatross - Many of the new sprites used in the hack (A significant number of post-Gen 1 evolutions, all regional variants, Meltan and Carapthor lines, etc.)
 * LuciShrimp - Mewtwo & FireRed/LeafGreen Legendary custom battle music; Area Zero map theme for Mt. Moon Crater.
 * jojobear13 & Mateo - DV/StatExp display, move deleter, & move relearner functionality from Shin Pokered, followed [this guide](https://github.com/jojobear13/shinpokered/blob/master/how%20to%20guides/how%20to%20add%20the%20move%20relearner%26deleter.txt). Tweaks were made to make it compatible with the pokered version we worked off of. Thanks specifically to Mateo's Red++ for the ferry system! Jojobear also provided bug fixes!
-* thornAvery - Various bug fixes, notably to text speed errors.
+* thornAvery - Various bug fixes, notably to text speed errors, as well as making the Battle Tent a lot more functional.
+* LadyMisticus - Bug fixes and minor adjustments, and made a well-documented spreadsheet for the hack that details every Pokemon's stats, movepools and locations, plus more!
 * pret et al - Pokémon Red and Blue Disassembly Project, many tutorials helped us!
 * ausma - Showdown Mod assistance
 * Paulluxx - Showdown Mod assistance
@@ -374,13 +376,12 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Frrf - Assisting with the development of the Pikachu / Eevee Mode + 5 Starters scenes in Oak's Lab, debugging.
 * erosunica - Assistance with developing Celadon University & Citrine City, plus sources for various subjects.
 * Chatot4444 - Assisting with gym scaling code.
-* Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly.
-* LadyMisticus - Made a well-documented spreadsheet for the hack that details every Pokemon's stats, movepools and locations, plus more! 
+* Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly. 
 * HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.
-* Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
+* Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI, move animations and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.

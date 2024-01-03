@@ -355,11 +355,11 @@ INCLUDE "engine/overworld/dust_smoke.asm"
 INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
-INCLUDE "engine/movie/evolution.asm"
-INCLUDE "engine/overworld/elevator.asm"
 
 SECTION "Engine Spillover", ROMX
 
+INCLUDE "engine/movie/evolution.asm"
+INCLUDE "engine/overworld/elevator.asm"
 INCLUDE "engine/menus/item_descriptions.asm"
 INCLUDE "engine/items/tm_prices.asm"
 INCLUDE "engine/overworld/ferry_script.asm"
