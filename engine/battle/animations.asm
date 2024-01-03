@@ -429,7 +429,15 @@ ShareMoveAnimations:
 	ld a, [wAnimationID]
 
 	cp AMNESIA
-	ld b, CONF_ANIM
+	ld b, AMNESIA_ENEMY_ANIM
+	jr z, .replaceAnim
+	
+	cp NASTY_PLOT
+	ld b, AMNESIA_ENEMY_ANIM
+	jr z, .replaceAnim
+	
+	cp FAKE_TEARS
+	ld b, FAKE_TEARS_ENEMY_ANIM
 	jr z, .replaceAnim
 
 	cp REST
@@ -2231,6 +2239,10 @@ IsCryMove:
 	cp GROWL
 	jr z, .CryMove
 	cp ROAR
+	jr z, .CryMove
+	cp FAKE_TEARS
+	jr z, .CryMove
+	cp FAKE_TEARS_ENEMY_ANIM
 	jr z, .CryMove
 	and a ; clear carry
 	ret
