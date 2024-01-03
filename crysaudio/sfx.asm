@@ -254,6 +254,11 @@ Sfx_Pound:
 	channel_count 1
 	channel 8, Sfx_Pound_Ch8
 
+SFX_Ice::
+	channel_count 2
+	channel 5, SFX_Ice_Ch5 
+	channel 8, SFX_Ice_Ch8 ; PureRGBnote: ADDED: new sound effect for ice moves
+
 Sfx_MovePuzzlePiece:
 	channel_count 1
 	channel 8, Sfx_MovePuzzlePiece_Ch8
@@ -4732,6 +4737,22 @@ Sfx_Psychic_Ch8:
 	noise_note 15, 12, -7, 17
 	noise_note 15, 12, -7, 16
 	noise_note 15, 12, 2, 16
+	sound_ret
+
+SFX_Ice_Ch5:
+	duty_cycle 3
+	square_note 5, 14, 1, 1792
+	square_note 3, 14, 1, 1920
+	square_note 15, 15, 1, 1999
+	square_note 1, 0, 1, 1984
+	sound_loop 2, SFX_Ice_Ch5
+	sound_ret
+
+SFX_Ice_Ch8:
+	noise_note 15, 8, 1, 34
+	square_note 1, 0, 1, 1
+	square_note 1, 0, 1, 1
+	sound_loop 2, SFX_Ice_Ch8
 	sound_ret
 
 Sfx_Screech_Ch5:

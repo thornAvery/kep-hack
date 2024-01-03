@@ -137,6 +137,13 @@ DEF FIRST_SE_ID EQU const_value
 	const SUBANIM_0_STAR_HIGH
 	const SUBANIM_0_FAKE_TEARS
 	const SUBANIM_0_STAR_ASCENDING
+	const SUBANIM_AMNESIA
+	const SUBANIM_AMNESIA1
+	const SUBANIM_AMNESIA_ENEMY
+	const SUBANIM_AMNESIA1_ENEMY
+	const SUBANIM_0_PIN_JAB
+	const SUBANIM_0_PIN_MISSILE
+	const SUBANIM_0_BARB_JAB
 DEF NUM_SUBANIMS EQU const_value
 
 ; types of subanimations
@@ -273,6 +280,7 @@ DEF NUM_SUBANIMS EQU const_value
 	const FRAMEBLOCK_77
 	const FRAMEBLOCK_78
 	const FRAMEBLOCK_79
+	const FRAMEBLOCK_7A
 DEF NUM_FRAMEBLOCKS EQU const_value
 
 ; base coordinates that are part of subanimations

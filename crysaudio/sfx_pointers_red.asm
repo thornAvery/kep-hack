@@ -55,6 +55,7 @@ SFX:
 	dba SFX_Faint_Fall
 	dba SFX_Battle_09
 	dba SFX_Pound
+	dba SFX_Ice
 	dba SFX_Battle_0B
 	dba SFX_Battle_0C
 	dba SFX_Battle_0D

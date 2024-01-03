@@ -88,7 +88,7 @@ MoveSoundTable:
 	db SFX_BATTLE_2F,          $20, $80 ; THUNDERBOLT
 	db SFX_BATTLE_2E,          $12, $60 ; THUNDER_WAVE
 	db SFX_BATTLE_26,          $00, $80 ; THUNDER
-	db SFX_BATTLE_14,          $01, $e0 ; ROCK_THROW
+	db SFX_ICE,         	   $01, $e0 ; ROCK_THROW
 	db SFX_BATTLE_29,          $0f, $e0 ; EARTHQUAKE
 	db SFX_BATTLE_29,          $11, $20 ; FISSURE
 	db SFX_DAMAGE,             $10, $40 ; DIG
@@ -180,7 +180,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0B,          $01, $80 ; BULLET_PUNCH
 	db SFX_BATTLE_29,          $e8, $ff ; MIRROR_SHOT
 	db SFX_NOT_VERY_EFFECTIVE, $09, $ff ; SMART_STRIKE
-	db SFX_BATTLE_24,          $30, $60 ; FAKE_TEARS
+	db SFX_BATTLE_0B,          $00, $c0 ; FAKE_TEARS
 	db SFX_BATTLE_20,          $00, $60 ; FALSE_SURRENDER
 	db SFX_NOT_VERY_EFFECTIVE, $11, $ff ; KOWTOW_CLEAVE
 	db SFX_BATTLE_37,          $10, $60 ; DISARMING_VOICE
