@@ -276,15 +276,35 @@ ChampionsRoom_TextPointers:
 GaryText1:
 	text_asm
 	CheckEvent EVENT_BEAT_CHAMPION_RIVAL
+	jr nz, .championBeaten
 	ld hl, GaryChampionIntroText
+	call PrintText
+	ld a, 5
+	ld [wMusicFade], a
+	xor a
+	ld [wMusicFadeID], a
+.waitloop
+	ld a, [wMusicFade]
+	and a
+	jr nz, .waitloop
+
+	ld a, SFX_STOP_ALL_MUSIC
+	call PlaySound
+	ld hl, GaryChampionIntroTextPart2
 	jr z, .printText
+.championBeaten
 	ld hl, GaryText_76103
+	jr z, .printText
 .printText
 	call PrintText
 	jp TextScriptEnd
 
 GaryChampionIntroText:
 	text_far _GaryChampionIntroText
+	text_end
+
+GaryChampionIntroTextPart2:
+	text_far _GaryChampionIntroTextPart2
 	text_end
 
 GaryDefeatedText:
