@@ -61,6 +61,7 @@ LanceScript0:
 	ld a, [wCoordIndex]
 	cp $3  ; Is player standing next to Lance's sprite?
 	jr nc, .notStandingNextToLance
+	call DoFacings
 	ld a, $1
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
@@ -179,3 +180,19 @@ LanceRematchAfterBattleText:
 	text_asm
 	SetEvent EVENT_BEAT_LANCE
 	jp TextScriptEnd
+
+DoFacings: ; PureRGBnote: ADDED: when about to fight Lance, lance and the player will face each other properly to talk.
+	ld a, [wYCoord]
+	cp 1
+	jr z, .leftOfLance
+	ld a, PLAYER_DIR_UP
+	ld [wPlayerMovingDirection], a
+	ret
+.leftOfLance
+	ld a, PLAYER_DIR_RIGHT
+	ld [wPlayerMovingDirection], a
+	ld a, 1
+	ldh [hSpriteIndex], a
+	ld a, SPRITE_FACING_LEFT
+  	ldh [hSpriteFacingDirection], a
+  	jp SetSpriteFacingDirection
