@@ -260,7 +260,7 @@ and more!
 
 Known Bugs
 ====
-- Currently testing...
+- The highest AI level seems to prioritise offensive moves a bit too much?
 
 Evolution Methods for new Pokemon
 ====
