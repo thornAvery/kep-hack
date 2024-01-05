@@ -260,7 +260,7 @@ and more!
 
 Known Bugs
 ====
-- The new AI (possibly bugged?) behaves quite oddly, such as using Recover at full HP, spamming status-inflicting moves like Lovely Kiss, neglecting supereffective moves, setting up multiple Reflects, etc.
+- Currently testing...
 
 Evolution Methods for new Pokemon
 ====
