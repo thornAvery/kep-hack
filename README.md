@@ -262,7 +262,7 @@ and more!
 
 Known Bugs
 ====
-- The highest AI level seems to prioritise offensive moves a bit too much?
+- Itemfinder fails at its one job of finding items.
 
 Evolution Methods for new Pokemon
 ====
@@ -400,7 +400,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 
 Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Espeon (back), Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking (back), Slowking-G (back), Sylveon (back), Tangrowth, Tauros-P (all forms), Toedscool, Toedscruel, Umbreon (back), Weezing-G, Wiglett, Zapdos-G
 
-Martha’s Against Humanity sprites: Bellignan (front, with help from PvK), Mimmeo (front), Slowking-G, Slowbro-G, Sylveon (front, with help from Albatross)
+Martha’s Against Humanity sprites: Bellignan (front, with help from PvK), Mimmeo (front), Slowking-G (front), Slowbro-G (front, with help from Albatross), Sylveon (front, with help from Albatross)
 
 Albatross sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Gorillaimo, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P (all forms), Wugtrio
 

@@ -339,13 +339,13 @@ INCLUDE "engine/items/itemfinder.asm"
 SECTION "Vending Machine", ROMX
 
 INCLUDE "engine/events/vending_machine.asm"
+INCLUDE "gfx/fishing.asm"
 
 
 SECTION "Itemfinder 2", ROMX
 
 INCLUDE "engine/menus/league_pc.asm"
 INCLUDE "engine/events/hidden_items.asm"
-INCLUDE "gfx/fishing.asm"
 
 SECTION "bank1E", ROMX
 
