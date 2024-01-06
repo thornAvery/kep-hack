@@ -67,4 +67,5 @@ ENDM
 	trainer_const KOICHI
 	trainer_const JACK
 	trainer_const JESSIE_JAMES
+	trainer_const LEADER_GIOVANNI
 DEF NUM_TRAINERS EQU const_value - 1

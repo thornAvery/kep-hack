@@ -60,6 +60,16 @@ PlayBattleMusic::
 	jp z, .GymOrElite4Battle
 	cp OPP_BLAINE
 	jp z, .GymOrElite4Battle
+	cp OPP_ROCKET
+	jr z, .RocketBattle
+	cp OPP_JESSIE_JAMES
+	jr z, .RocketBattle
+	cp OPP_GIOVANNI
+	jr z, .RocketBattle
+	cp OPP_LEADER_GIOVANNI
+	jr z, .Giovanni
+	cp OPP_CHIEF
+	jr z, .Giovanni
 	cp OPP_LORELEI ; elite four now play the gym leader battle theme
 	jr z, .GymOrElite4Battle
 	cp OPP_BRUNO
@@ -71,15 +81,19 @@ PlayBattleMusic::
 	cp OPP_PROF_OAK ; could also use the final battle theme, but I think the gym leader/elite 4 theme fits better instead. I'm happy to change this if it isn't well-liked.
 	jr z, .GymOrElite4Battle 
 	cp OPP_RIVAL3
-	jr z, .finalBattle 
-	cp OPP_CHIEF
-	jr z, .finalBattle 
+	jr z, .finalBattle  
 	jr nz, .normalTrainerBattle
 .GymOrElite4Battle
 	ld a, MUSIC_GYM_LEADER_BATTLE
 	jr .playSong
 .normalTrainerBattle
 	ld a, MUSIC_TRAINER_BATTLE
+	jr .playSong
+.RocketBattle
+	ld a, MUSIC_ROCKET_RBY
+	jr .playSong
+.Giovanni
+	ld a, MUSIC_GIOVANNI_BATTLE
 	jr .playSong
 .finalBattle
 	ld a, MUSIC_FINAL_BATTLE

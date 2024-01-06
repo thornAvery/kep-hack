@@ -119,6 +119,8 @@ New Music
 - Mew and the Legendary Birds have their own battle theme, a demake of the FireRed/LeafGreen pitch-shifted remix. Not simply pitching it up, percussion elements have been added to give it that rustic FRLG "feel" that distinguishes it from the original games. Composed by LuciShrimp.
 	- Limited static encounters, such as the two sleeping Snorlax, and the restored prototype Omega, also use this theme.
 - Mt. Moon Crater uses a demake of Scarlet and Violet's Area Zero theme! Composed by LuciShrimp.
+- Team Rocket's battle theme from GSC has been backported with some small changes to give it more of an RBY feel. Plays during Rocket Grunt fights, including Jessie and James, as well as the initial 2 Giovanni battles. Composed by LuciShrimp.
+	- In addition to the aforementioned Team Rocket battle theme, a slower, pitched-down arrangement plays when battling Giovanni in his gym, as well as against a postgame boss. Composed by LuciShrimp and Martha's Against Humanity.
 - Pokemon Yellow's various tracks have been backported, such as Jessie and James's encounter theme.
 - Several pieces of unused music, including Digda01, Victory4, Field6, Kincho01, and Giovanni's theme have been implemented.
 	- A remix of the unused Koukan (trading) music is also used as a town theme. Composed by BGVC.
@@ -360,11 +362,11 @@ KEP spriters hold the policy of requiring sprites to be used with direct credit 
 If you use our implementations of anything at all, it is encouraged to submit Pull Requests for bug fixes if you find any issues! We very much appreciate them!
 
 * Plague von Karma - Creator of the Showdown Mod, Director, Developer, Scenarios, Balancing, Dialogue, Pokedex entries, Maps (Mt. Moon Crater, Galarian Bird dungeons, Rock Tunnel, Cinnabar Volcano floors, enhanced Diglett's Cave, Shinjuku Jacky's room, and more), Event scripting, Hyper Training, FRLG Tea, post-game rematches, male/female character selection, Meltan implementation, Yellow backports, and occasional spriter (assisting with Bellignan, Carapthor)
-* Martha's Against Humanity - Developer, Pokémon implementation, Pokedex entries, Event scripting, tweaks of Albatross's sprites, Sylveon, Bellignan and Mimmeo sprites, Maps (Citrine City, Cinnabar Volcano, Underwater Tunnel, Silph Gauntlet,), SGB border, new palettes for postgame areas and Game Corner, etc.
+* Martha's Against Humanity - Developer, Pokémon implementation, Pokedex entries, event scripting, tweaks of Albatross's sprites, Sylveon, Bellignan, Galarian Slowking, Galarian Slowbro and Mimmeo sprites, Maps (Citrine City, Cinnabar Volcano, Underwater Tunnel, Silph Gauntlet,), Giovanni's battle theme, SGB border, new palettes for postgame areas and Game Corner, etc.
 * Ema Skye - Developer, Maps (Silph Co. and Pokemon Tower shortening), Mt. Moon Crater Guard, Showdown Mod assistance.
 * BlueZangoose / Vimescarrot - Pokemon box expansion, Instatext option, general assistance.
 * Albatross - Many of the new sprites used in the hack (A significant number of post-Gen 1 evolutions, all regional variants, Meltan and Carapthor lines, etc.)
-* LuciShrimp - Mewtwo & FireRed/LeafGreen Legendary custom battle music; Area Zero map theme for Mt. Moon Crater.
+* LuciShrimp - Mewtwo & FireRed/LeafGreen Legendary custom battle music; Area Zero map theme for Mt. Moon Crater, Team Rocket theme changes and Giovanni's battle theme.
 * jojobear13 & Mateo - DV/StatExp display, move deleter, & move relearner functionality from Shin Pokered, followed [this guide](https://github.com/jojobear13/shinpokered/blob/master/how%20to%20guides/how%20to%20add%20the%20move%20relearner%26deleter.txt). Tweaks were made to make it compatible with the pokered version we worked off of. Thanks specifically to Mateo's Red++ for the ferry system! Jojobear also provided bug fixes!
 * thornAvery - Various bug fixes, notably to text speed errors, as well as making the Battle Tent a lot more functional.
 * LadyMisticus - Bug fixes and minor adjustments, and made a well-documented spreadsheet for the hack that details every Pokemon's stats, movepools and locations, plus more!
@@ -396,9 +398,9 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * Dr. Lava - Translations of some content used in this hack, particularly the 1996 Pokedex book's entries for DYKG.
 * Nob Ogasawara - Prototype Pokemon names, produced for DYKG.
 
-Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Espeon (back), Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking (back), Slowking-G, Sylveon (back), Tangrowth, Tauros-P (all forms), Toedscool, Toedscruel, Umbreon (back), Weezing-G, Wiglett, Zapdos-G
+Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Espeon (back), Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking (back), Slowking-G (back), Sylveon (back), Tangrowth, Tauros-P (all forms), Toedscool, Toedscruel, Umbreon (back), Weezing-G, Wiglett, Zapdos-G
 
-Martha’s Against Humanity sprites: Bellignan (front, with help from PvK), Mimmeo (front), Sylveon (front, with help from Albatross)
+Martha’s Against Humanity sprites: Bellignan (front, with help from PvK), Mimmeo (front), Slowking-G, Slowbro-G, Sylveon (front, with help from Albatross)
 
 Albatross sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Gorillaimo, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P (all forms), Wugtrio
 
