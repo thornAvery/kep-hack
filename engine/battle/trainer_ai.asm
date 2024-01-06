@@ -725,8 +725,8 @@ JugglerAI:
 	ret nc
 	jp AISwitchIfEnoughMons
 
-BlackbeltAI:
-	cp 13 percent - 1
+BlackbeltAI:	; Fun fact! Jacky uses this same AI routine in the proto assets, but only 6% of the time.
+	cp 25 percent + 1
 	ret nc
 	jp AIUseXAttack
 
@@ -763,10 +763,10 @@ BrockAI:
 MistyAI:
 	cp 25 percent + 1
 	ret nc
-	ld a, 10
+	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion ; Replicates Starmie using Recover. Unlike other trainers that heal, Misty will do this 26% of the time instead of 51%.
+	jp AIUsePotion ; Replicates Starmie using Recover. Unlike other trainers that heal, Misty will do this 26% of the time instead of 51%.
 
 LtSurgeAI:
 	cp 20 percent + 1
@@ -774,25 +774,25 @@ LtSurgeAI:
 	jp AIUseXSpecial
 
 ErikaAI:
-	cp 50 percent + 1
+	cp 25 percent + 1
 	ret nc
-	ld a, 10
+	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseSuperPotion
 
 KogaAI:
-	cp 50 percent + 1
+	cp 25 percent + 1
 	ret nc
-	ld a, 10
+	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseSuperPotion ; Koga is weird - I don't think anything fits. X Attack is certainly not the move though...
 
 BlaineAI:
-	cp 25 percent + 1
+	cp 40 percent + 1
 	ret nc
-	ld a, 10
+	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc ; this fixes the super potion thing - PvK
 	jp AIUseHyperPotion ; Instead of a Super Potion though, let's give him this. More impactful for the sixth gym while staying true to the meme that everyone knows Gen 1 Blaine for.
@@ -800,13 +800,13 @@ BlaineAI:
 SabrinaAI:
 	cp 25 percent + 1
 	ret nc
-	ld a, 10
+	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseHyperPotion
 
 Rival2AI:
-	cp 13 percent - 1
+	cp 20 percent - 1
 	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
@@ -822,9 +822,6 @@ Rival3AI:
 	jp AIUseFullRestore
 
 LoreleiAI:
-	cp 15 percent + 1
-	ret nc
-	jp AIUseXSpecial
 	cp 40 percent + 1
 	ret nc
 	ld a, 5
@@ -833,9 +830,6 @@ LoreleiAI:
 	jp AIUseFullRestore
 
 BrunoAI:
-	cp 15 percent + 1
-	ret nc
-	jp AIUseXAttack
 	cp 40 percent + 1
 	ret nc
 	ld a, 5
@@ -844,11 +838,8 @@ BrunoAI:
 	jp AIUseFullRestore
 
 AgathaAI:
-	cp 8 percent
+	cp 10 percent
 	jp c, AISwitchIfEnoughMons
-	cp 15 percent + 1
-	ret nc
-	jp AIUseXAccuracy ; hahahahahahahaha
 	cp 40 percent + 1
 	ret nc
 	ld a, 5
@@ -857,15 +848,28 @@ AgathaAI:
 	jp AIUseFullRestore
 
 LanceAI:
-	cp 15 percent + 1
-	ret nc
-	jp AIUseXSpecial
 	cp 50 percent + 1
 	ret nc
-	ld a, 10
+	ld a, 4
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseFullRestore
+	
+OakAI:
+	cp 25 percent + 1
+	ret nc
+	ld a, 5
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseFullRestore
+	
+ChiefAI:
+	cp 25 percent + 1
+	ret nc
+	ld a, 5
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseFullRestore	; this was a Dire Hit in the proto assets but we all know how useful that item is in Gen 1
 
 GenericAI:
 	and a ; clear carry
