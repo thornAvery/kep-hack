@@ -1,15 +1,15 @@
 Gauntlet2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 51, GRAVELER
-	db 51, SANDSLASH
-	db 52, MACHOKE
-	db 52, PARASECT
-	db 52, SANDSLASH
-	db 53, MACHOKE
-	db 53, CROBAT
-	db 54, CLEFABLE
-	db 54, CROBAT
-	db 56, KLEAVOR
+	db 46, GRAVELER
+	db 46, SANDSLASH
+	db 47, MACHOKE
+	db 47, PARASECT
+	db 47, GRAVELER
+	db 48, MACHOKE
+	db 48, CROBAT
+	db 49, CLEFABLE
+	db 49, CROBAT
+	db 51, KLEAVOR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

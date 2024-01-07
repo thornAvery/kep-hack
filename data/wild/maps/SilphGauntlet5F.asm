@@ -1,15 +1,15 @@
 Gauntlet5FWildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 54, DODRIO
-	db 54, RHYDON
-	db 55, EXEGGUTOR
-	db 55, SCYTHER
-	db 55, PINSIR
-	db 56, TAUROS
-	db 56, KANGASKHAN
-	db 57, TRAMPEL
-	db 57, CHANSEY
-	db 59, DRAGONITE
+	db 49, DODRIO
+	db 49, RHYDON
+	db 49, EXEGGUTOR
+	db 50, SCYTHER
+	db 50, PINSIR
+	db 51, TAUROS
+	db 51, GORILLAIMO
+	db 52, KANGASKHAN
+	db 52, TRAMPEL
+	db 54, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

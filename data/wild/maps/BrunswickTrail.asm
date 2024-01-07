@@ -2,16 +2,16 @@
 ; Some of these are Pokemon featured in the Big P Pokemon Race from the anime.
 BrunswickTrailMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 49, TOEDSCOOL
+	db 45, TOEDSCOOL
 	db 47, DODRIO
-	db 53, TOEDSCOOL
-	db 52, DODRIO
-	db 52, RAPIDASH
-	db 55, TAUROS
-	db 55, CACTORMUS
-	db 56, TOEDSCRUEL
-	db 56, TOEDSCRUEL
-	db 55, CACTORMUS
+	db 45, TOEDSCOOL
+	db 48, DODRIO
+	db 48, RAPIDASH
+	db 50, CACTORMUS
+	db 47, TOEDSCRUEL
+	db 48, TOEDSCRUEL
+	db 49, TAUROS
+	db 50, TAUROS
 	end_grass_wildmons
 	
 	def_water_wildmons 0 ; encounter rate
