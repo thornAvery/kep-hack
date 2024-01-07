@@ -1,15 +1,15 @@
 SafariZoneCenterWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 22, EXEGGCUTE
-	db 25, RHYHORN
-	db 22, VENONAT
-	db 24, TANGELA
-	db 24, CUBONE
-	db 25, SLOWPOKE
-	db 21, LICKITUNG
-	db 23, GORILLAIMO
-	db 23, CHANSEY
-	db 23, TRAMPEL
+	db 25, EXEGGCUTE
+	db 27, RHYHORN
+	db 25, VENONAT
+	db 25, TANGELA
+	db 26, CUBONE
+	db 27, DODUO
+	db 25, LICKITUNG
+	db 27, GORILLAIMO
+	db 25, CHANSEY
+	db 28, TRAMPEL
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
