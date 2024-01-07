@@ -333,7 +333,6 @@ SECTION "Itemfinder 1", ROMX
 
 INCLUDE "engine/movie/credits.asm"
 INCLUDE "engine/pokemon/status_ailments.asm"
-INCLUDE "engine/items/itemfinder.asm"
 
 
 SECTION "Vending Machine", ROMX
@@ -344,6 +343,7 @@ INCLUDE "gfx/fishing.asm"
 
 SECTION "Itemfinder 2", ROMX
 
+INCLUDE "engine/items/itemfinder.asm"
 INCLUDE "engine/menus/league_pc.asm"
 INCLUDE "engine/events/hidden_items.asm"
 

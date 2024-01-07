@@ -262,7 +262,8 @@ and more!
 
 Known Bugs
 ====
-- Itemfinder fails at its one job of finding items.
+- Trying to teach a TM/HM twice in a row may cause a game crash, so it's advised to save when teaching moves.
+- Trying to Surf from the overworld on Cycling Road has an invisible textbox stopping you, but just pressing A again lets you regain control.
 
 Evolution Methods for new Pokemon
 ====
