@@ -8,8 +8,8 @@ TradeMons:
 	db RAICHU,     KADABRA,     TRADE_DIALOGSET_EVOLUTION, "HARRY@@@@@@" ; Citrine City, new trade to complete the 4 main trade evos
 	db SPEAROW,    FARFETCHD,   TRADE_DIALOGSET_HAPPY,     "DUX@@@@@@@@" ; Vermilion City
 	db PERSIAN,    TAUROS,      TRADE_DIALOGSET_CASUAL,    "JIMBO@@@@@@" ; Route 17-18 gate, from JP Blue
-	db MACHOKE,    HAUNTER,     TRADE_DIALOGSET_EVOLUTION, "MICHELLE@@@" ; Cinnabar Lab, from JP Blue
-	db KADABRA,    GRAVELER,    TRADE_DIALOGSET_EVOLUTION, "JENNY@@@@@@" ; Cinnabar Lab, from JP Blue (probably going to move these since you get the Trader here anyway...)
+	db MACHOKE,    HAUNTER,     TRADE_DIALOGSET_EVOLUTION, "MICHELLE@@@" ; Route 11 Gate, from JP Blue
+	db KADABRA,    GRAVELER,    TRADE_DIALOGSET_EVOLUTION, "JENNY@@@@@@" ; Route 10 Gate
 	db CUBONE,     MACHOKE,     TRADE_DIALOGSET_HAPPY,     "RICKY@@@@@@" ; Route 5-6 Underground Path, from Yellow
 	db NO_MON,     NO_MON,      TRADE_DIALOGSET_SELF,      "Unseen@@@@@" ; The Trader
 	db RATICATE,   RATICATE_A,  TRADE_DIALOGSET_REGION,    "RATICATE@@@" ; Viridian - LGPE trades begin here
@@ -29,9 +29,9 @@ TradeMons:
 	db SLOWBRO,    SLOWBRO_G,   TRADE_DIALOGSET_REGION,    "SLOWBRO@@@@"
 	db SLOWKING,   SLOWKING_G,  TRADE_DIALOGSET_REGION,    "SLOWKING@@@"
 	db WEEZING,    WEEZING_G,   TRADE_DIALOGSET_REGION,    "WEEZING@@@@"
-	db MR_MIME,    MR_RIME,     TRADE_DIALOGSET_CASUAL,    "CHURCHILL@@" ; Winston Churchill, notable "city gent" 
-	db PERSIAN,    PERRSERKER,  TRADE_DIALOGSET_HAPPY,     "ERIK@@@@@@@" ; One of the most famous vikings
-	db LUXWAN,     SIRFETCHD,   TRADE_DIALOGSET_HAPPY,     "LANCELOT@@@" ; Influential knight of the round table
-	db ARCANINE,   ARCANINE_H,  TRADE_DIALOGSET_BILL,	   "ARCANINE@@@"
+	db MR_MIME,    MR_RIME,     TRADE_DIALOGSET_CASUAL,    "MR.RIME@@@@"
+	db PERSIAN,    PERRSERKER,  TRADE_DIALOGSET_HAPPY,     "PERRSERKER@"
+	db LUXWAN,     SIRFETCHD,   TRADE_DIALOGSET_HAPPY,     "SIRFETCH'D@"
+	db ARCANINE,   ARCANINE_H,  TRADE_DIALOGSET_BILL,      "ARCANINE@@@"
 	db ELECTRODE,  ELECTRODE_H, TRADE_DIALOGSET_GRAMPS,    "ELECTRODE@@"
 	assert_table_length NUM_NPC_TRADES

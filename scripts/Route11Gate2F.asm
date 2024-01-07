@@ -9,7 +9,7 @@ Route11Gate2F_TextPointers:
 
 Route11GateUpstairsText1:
 	text_asm
-	ld a, TRADE_FOR_CHIKUCHIKU
+	ld a, TRADE_FOR_MICHELLE
 	ld [wWhichTrade], a
 	predef DoInGameTradeDialogue
 Route11GateUpstairsScriptEnd:

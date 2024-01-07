@@ -3,7 +3,6 @@ CinnabarLabFossilRoom_Script:
 
 CinnabarLabFossilRoom_TextPointers:
 	dw Lab4Text1
-	dw Lab4Text2
 
 Lab4Script_GetFossilsInBag:
 ; construct a list of all fossils in the player's bag
@@ -98,13 +97,6 @@ Lab4Text_75dd0:
 Lab4Text_75dd5:
 	text_far _Lab4Text_75dd5
 	text_end
-
-Lab4Text2:
-	text_asm
-	ld a, TRADE_FOR_MICHELLE
-	ld [wWhichTrade], a
-	predef DoInGameTradeDialogue
-	jp TextScriptEnd
 
 LoadFossilItemAndMonNameBank1D:
 	farjp LoadFossilItemAndMonName
