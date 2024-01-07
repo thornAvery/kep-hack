@@ -19,9 +19,11 @@ _GaryChampionIntroText::
 	cont "that would beat"
 	cont "any #MON type!"
 
-	para "And now!"
+	para "And now..."
+	prompt
 
-	para "I'm the #MON"
+_GaryChampionIntroTextPart2::
+	text "I'm the #MON"
 	line "LEAGUE champion!"
 
 	para "<PLAYER>! Do you"

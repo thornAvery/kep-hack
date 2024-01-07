@@ -186,6 +186,8 @@ SECTION "Battle Engine 7", ROMX
 
 INCLUDE "data/moves/moves.asm"
 INCLUDE "data/pokemon/cries.asm"
+INCLUDE "engine/battle/scroll_draw_trainer_pic.asm"
+INCLUDE "engine/battle/trainer_ai.asm"
 INCLUDE "engine/battle/unused_stats_functions.asm"
 INCLUDE "engine/battle/move_effects/heal.asm"
 INCLUDE "engine/battle/move_effects/transform.asm"
@@ -249,8 +251,6 @@ INCLUDE "engine/events/hidden_objects/indigo_plateau_hq.asm"
 
 SECTION "Battle Engine 9", ROMX
 
-INCLUDE "engine/battle/scroll_draw_trainer_pic.asm"
-INCLUDE "engine/battle/trainer_ai.asm"
 INCLUDE "engine/battle/draw_hud_pokeball_gfx.asm"
 
 
@@ -333,19 +333,19 @@ SECTION "Itemfinder 1", ROMX
 
 INCLUDE "engine/movie/credits.asm"
 INCLUDE "engine/pokemon/status_ailments.asm"
-INCLUDE "engine/items/itemfinder.asm"
 
 
 SECTION "Vending Machine", ROMX
 
 INCLUDE "engine/events/vending_machine.asm"
+INCLUDE "gfx/fishing.asm"
 
 
 SECTION "Itemfinder 2", ROMX
 
+INCLUDE "engine/items/itemfinder.asm"
 INCLUDE "engine/menus/league_pc.asm"
 INCLUDE "engine/events/hidden_items.asm"
-INCLUDE "gfx/fishing.asm"
 
 SECTION "bank1E", ROMX
 

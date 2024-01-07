@@ -124,4 +124,17 @@ _FakeTreeAttack::
 	line "a rage!"
 	prompt
 
-; Martha can do the text for her things...
+_TrailDirections::
+	text "BRUNSWICK TRAIL"
+	
+	para "Go north for"
+	line "CITRINE CITY!"
+
+	para "Follow the path"
+	line "to reach GARNET"
+	cont "CAVERN!"
+
+	para "Go northwest to"
+	line "find BRUNSWICK"
+	cont "GLADE!"
+	done

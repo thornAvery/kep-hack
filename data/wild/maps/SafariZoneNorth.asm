@@ -1,12 +1,12 @@
 SafariZoneNorthWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 22, EXEGGCUTE
+	db 25, EXEGGCUTE
 	db 26, RHYHORN
-	db 23, EXEGGCUTE
+	db 26, EXEGGCUTE
 	db 25, TANGELA
-	db 30, VENOMOTH
-	db 27, CUBONE
-	db 28, DODRIO
+	db 29, VENOMOTH
+	db 25, CUBONE
+	db 29, DODRIO
 	db 27, TAUROS
 	db 26, TRAMPEL
 	db 28, KANGASKHAN

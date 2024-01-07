@@ -52,6 +52,7 @@ TrainerDataPointers:
 	dw KoichiData
 	dw JackData
 	dw JessieJamesData
+	dw LeaderGiovanniData
 	assert_table_length NUM_TRAINERS
 
 ; if first byte != $FF, then

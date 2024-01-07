@@ -77,11 +77,11 @@ _GiovannisRoomText3::
 	
 	para "PROTECTOR: ¥3,000" ; Giovanni discovered the Protector's use with Rhyperior.
 
-	para "DIRE HIT: ¥5,200" ; Giovanni uses this in battle.
+	para "X ATTACK: ¥8,000" ; Giovanni uses this in battle.
 
 	para "TM27 R&D: ¥15,000" ; Giovanni is confirmed to have created Fissure in vanilla RBY. He also says he made Earthquake in FRLG, but it feels contrived.
 
-	para "Business: ¥100,000"
+	para "Business: ¥250,000"
 	
 	para "It keeps going..."
 	

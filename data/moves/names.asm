@@ -171,7 +171,7 @@ MoveNames:: ; 12chr limit
 	li "IRON DEFENSE"
 	li "DAZZLE GLEAM"
 	li "NIGHT SLASH"
-	li "FEINT ATTACK"
+	li "FAINT ATTACK"
 	li "IRON HEAD"
 	li "BRUTAL SWING"
 	li "CHARM"

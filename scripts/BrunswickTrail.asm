@@ -22,6 +22,7 @@ BrunswickTrail_TextPointers:
 	dw Lover1
 	dw Lover2
 	dw PickUpItemText
+	dw TrailDirections
 
 BrunswickTrailTrainerHeaders:
 	def_trainers
@@ -99,6 +100,10 @@ BrunswickAfterBattleText3:
 
 CaveGuy:
 	text_far _CaveGuy
+	text_end
+
+TrailDirections:
+	text_far _TrailDirections
 	text_end
 
 FakeTreeNoCut: 

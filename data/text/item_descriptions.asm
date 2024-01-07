@@ -155,7 +155,8 @@ _HelixFossilDescription::
 	prompt
 
 _SecretKeyDescription::
-	text "Opens doors."
+	text "Opens the door to"
+	next "CINNABAR GYM."
 	prompt
 
 _BikeVoucherDescription::

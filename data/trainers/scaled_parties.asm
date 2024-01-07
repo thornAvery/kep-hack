@@ -78,12 +78,13 @@ BlaineData:
 	db $FF, 47, RAPIDASH, 46, NINETALES, 46, FLAREON, 48, CHARIZARD, 48, ARCANINE, 50, MAGMORTAR, 0  ; 7 (unused)
 	db $FF, 62, RAPIDASH, 62, ARCANINE, 61, TAUROS_PB, 61, FLAREON, 62, CHARIZARD, 65, MAGMORTAR, 0  ; 8 (postgame)
 
-GiovanniData: ; is not scaled as he is always fought last
+GiovanniData:
 ; Rocket Hideout B4F
 	db $FF, 28, BEEDRILL, 30, RHYHORN, 30, KANGASKHAN, 32, PERSIAN, 0
 ; Silph Co. 11F - did you know this team was weaker than the rival in vanilla level-wise?
 	db $FF, 38, BEEDRILL, 39, RHYDON, 38, KANGASKHAN, 40, NIDOKING, 40, NIDOQUEEN, 42, PERSIAN, 0
-; Viridian Gym
+
+LeaderGiovanniData:
 	db $FF, 47, TRAMPEL, 46, DUGTRIO, 46, GUARDIA, 48, NIDOQUEEN, 48, NIDOKING, 50, RHYPERIOR, 0
 
 LoreleiData:

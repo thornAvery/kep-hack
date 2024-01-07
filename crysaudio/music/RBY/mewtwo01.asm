@@ -1,3 +1,6 @@
+; Demake of Stadium Mewtwo's theme by LuciShrimp
+; Features space-like sparkles, making use of the Game Boy's sound library.
+
 Music_Mewtwo01:
 	channel_count 4
 	channel 1, Music_Mewtwo01_Ch1

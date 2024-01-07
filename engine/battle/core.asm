@@ -991,6 +991,11 @@ TrainerBattleVictory:
 	ld hl, wFlags_D733
 	set 1, [hl]
 .notrival
+	ld a, [wTrainerClass]
+	cp LEADER_GIOVANNI ; final battle against Giovanni
+	jr nz, .notrivalorGio
+	ld b, MUSIC_DEFEATED_GYM_LEADER
+.notrivalorGio
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	ld a, b

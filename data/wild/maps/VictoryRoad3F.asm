@@ -1,15 +1,15 @@
 VictoryRoad3FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 34, MACHOKE
-	db 36, STEELIX
-	db 32, GOLBAT
-	db 42, SANDSLASH
-	db 40, VENOMOTH
-	db 45, SANDSLASH
-	db 43, GAVILLAIN
-	db 45, RHYDON ; LGPE encounters
-	db 45, MAROWAK
-	db 45, HITMONCHAN ; LGPE Rare Spawn
+	db 39, MACHOKE
+	db 38, ONIX
+	db 39, GOLBAT
+	db 38, GRAVELER
+	db 39, RHYHORN
+	db 40, GOLBAT
+	db 40, GAVILLAIN
+	db 40, SANDSLASH
+	db 40, PARASECT
+	db 42, HITMONCHAN ; LGPE Rare Spawn
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

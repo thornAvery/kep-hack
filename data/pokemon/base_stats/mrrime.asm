@@ -1,6 +1,6 @@
 	db DEX_MR_RIME ; pokedex id
 
-	db  80,  85,  75,  70, 100
+	db  80,  85,  75,  70, 110
 	;   hp  atk  def  spd  spc
 
 	db ICE, PSYCHIC_TYPE ; type
