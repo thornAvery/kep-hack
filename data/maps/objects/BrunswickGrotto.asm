@@ -9,6 +9,6 @@ BrunswickGrotto_Object:
 	bg_event 22, 10, 2 ; signage
 	
 	def_object_events
-	object_event  5,  5, SPRITE_BIRD, STAY, LEFT, 1, ZAPDOS_G, 70 | OW_POKEMON ; person
+	object_event  5,  5, SPRITE_BIRD, STAY, LEFT, 1, ZAPDOS_G, 65 | OW_POKEMON ; person
 
 	def_warps_to BRUNSWICK_GROTTO
