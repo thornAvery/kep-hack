@@ -16,6 +16,8 @@ CelesteHillOutside_TextPointers:
 	dw CelesteHillOutsideTrainer1
 	dw CelesteHillOutsideTrainer2
 	dw CelesteHillOutsideTrainer3
+	dw HikerNPC
+	dw CelesteSign
 
 CelesteHillOutsideTrainerHeaders:
 	def_trainers
@@ -79,4 +81,12 @@ CelesteHillOutsideEndBattleText3:
 
 CelesteHillOutsideAfterBattleText3:
 	text_far _CelesteHillOutsideAfterBattleText3
+	text_end
+
+HikerNPC:
+	text_far _HikerNPC
+	text_end
+
+CelesteSign:
+	text_far _CelesteSign
 	text_end

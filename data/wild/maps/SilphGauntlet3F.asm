@@ -1,15 +1,15 @@
 Gauntlet3FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 52, POLIWHIRL
-	db 52, JABETTA
-	db 53, KINGLER
-	db 53, SLOWBRO
-	db 53, JABETTA
-	db 54, KINGLER
-	db 54, GOLDUCK
-	db 55, BLASTOISE
-	db 55, GOLDUCK
-	db 57, LAPRAS
+	db 47, POLIWHIRL
+	db 47, JABETTA
+	db 48, KINGLER
+	db 48, SLOWBRO
+	db 48, POLIWHIRL
+	db 49, KINGLER
+	db 49, CROAKOZUNA
+	db 50, BLASTOISE
+	db 50, CROAKOZUNA
+	db 52, LAPRAS
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

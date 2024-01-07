@@ -795,7 +795,7 @@ SpecialTrainerMoves:
 	db 5, 2, SMOG
 	db 0
 
-	db GIOVANNI, 3		; Gym Leader Giovanni
+	db LEADER_GIOVANNI, 1
 	db 1, 1, BUBBLEBEAM
 	db 1, 2, EARTHQUAKE
 	db 2, 1, FISSURE
@@ -1156,6 +1156,27 @@ SpecialTrainerMoves:
 	db 6, 1, BLIZZARD
 	db 6, 3, BODY_SLAM
 	db 6, 4, SOLARBEAM
+	db 0
+
+	db COOLTRAINER_M, 11	; GAME FREAK Morimoto
+	db 1, 1, BODY_SLAM
+	db 1, 2, HYPER_BEAM
+	db 1, 3, EARTHQUAKE
+	db 1, 4, ICE_PUNCH
+	db 2, 1, QUICK_ATTACK
+	db 2, 2, HYPER_BEAM
+	db 2, 3, GROWTH
+	db 2, 4, FIRE_BLAST
+	db 3, 1, QUICK_ATTACK
+	db 3, 2, BLIZZARD
+	db 3, 3, GROWTH
+	db 4, 1, QUICK_ATTACK
+	db 4, 3, GROWTH
+	db 5, 1, EARTHQUAKE
+	db 5, 2, ROCK_SLIDE
+	db 6, 1, BLIZZARD
+	db 6, 2, FIRE_BLAST
+	db 6, 3, THUNDER
 	db 0
 	
 	db YUJIROU, 10	; Yujirou postgame

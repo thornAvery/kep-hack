@@ -12,5 +12,6 @@ ViridianForestNorthGate_Object:
 	def_object_events
 	object_event  3,  2, SPRITE_SUPER_NERD, STAY, NONE, 1 ; person
 	object_event  2,  5, SPRITE_GRAMPS, STAY, NONE, 2 ; person
+	object_event  7,  4, SPRITE_YOUNGSTER, WALK, LEFT_RIGHT, 3 ; person
 
 	def_warps_to VIRIDIAN_FOREST_NORTH_GATE

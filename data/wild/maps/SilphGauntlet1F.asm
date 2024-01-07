@@ -1,15 +1,15 @@
 Gauntlet1FWildMons:
 	def_grass_wildmons 8 ; encounter rate
-	db 50, BUTTERFREE
-	db 50, BEEDRILL
-	db 51, VENOMOTH
-	db 51, TANGELA
-	db 51, BEEDRILL
-	db 52, VENOMOTH
-	db 52, CARAPTHOR
-	db 53, TANGELA
-	db 53, CARAPTHOR
-	db 55, GOROTORA
+	db 45, BUTTERFREE
+	db 45, BEEDRILL
+	db 46, VENOMOTH
+	db 47, PIDGEOT
+	db 46, BEEDRILL
+	db 46, BUTTERFREE
+	db 47, CARAPTHOR
+	db 48, PIDGEOT
+	db 48, CARAPTHOR
+	db 50, GOROTORA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

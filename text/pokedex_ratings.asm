@@ -111,6 +111,6 @@ _DexRatingText_Own230To249::
 
 _DexRatingText_OwnComplete::
 	text "Your #DEX is"
-	line "entirely complete!"
+	line "fully complete!"
 	cont "Congratulations!"
 	done

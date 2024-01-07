@@ -381,6 +381,8 @@ INCLUDE "crysaudio/music/RBY/kinchou01.asm"
 INCLUDE "crysaudio/music/RBY/mewtwo01.asm"
 INCLUDE "crysaudio/music/RBY/legendarybattle.asm"
 INCLUDE "crysaudio/music/RBY/giovannisroom.asm"
+INCLUDE "crysaudio/music/RBY/rocketrby.asm"
+INCLUDE "crysaudio/music/RBY/giovannibattle.asm"
 
 SECTION "TCG Songs 1", ROMX
 

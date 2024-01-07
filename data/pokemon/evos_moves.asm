@@ -2612,41 +2612,42 @@ ArticunoGEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 40, REFLECT
-	db 45, HYPNOSIS
-	db 51, PSYBEAM
-	db 55, AGILITY
-	db 60, LIGHT_SCREEN
-	db 65, RECOVER
-	db 70, DREAM_EATER
+	db 45, REFLECT
+	db 50, HYPNOSIS
+	db 55, PSYBEAM
+	db 60, AGILITY
+	db 65, LIGHT_SCREEN
+	db 70, PSYCHIC_M
+	db 75, RECOVER
+	db 80, DREAM_EATER
 	db 0
 
 ZapdosGEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 40, DOUBLE_KICK
-	db 45, LIGHT_SCREEN
-	db 51, LOW_KICK
-	db 55, AGILITY
-	db 58, JUMP_KICK
-	db 62, DRILL_PECK
-	db 66, ROLLING_KICK
-	db 70, HI_JUMP_KICK
+	db 45, DOUBLE_KICK
+	db 50, LIGHT_SCREEN
+	db 55, LOW_KICK
+	db 60, AGILITY
+	db 65, JUMP_KICK
+	db 70, DRILL_PECK
+	db 75, ROLLING_KICK
+	db 80, HI_JUMP_KICK
 	db 0
 
 MoltresGEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 40, FAKE_TEARS		; Fake Tears
-	db 45, WING_ATTACK
-	db 51, BRUTAL_SWING
-	db 55, AGILITY
-	db 58, FEINT_ATTACK
-	db 62, NASTY_PLOT		; Nasty Plot
-	db 66, FALSE_SURRENDER	; False Surrender
-	db 70, SKY_ATTACK
+	db 45, FAKE_TEARS
+	db 50, WING_ATTACK
+	db 55, BRUTAL_SWING
+	db 60, AGILITY
+	db 65, FEINT_ATTACK
+	db 70, NASTY_PLOT
+	db 75, FALSE_SURRENDER
+	db 80, SKY_ATTACK
 	db 0
 
 OddishEvosMoves:

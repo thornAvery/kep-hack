@@ -59,3 +59,5 @@ Music:
 	dba Music_Mewtwo01
 	dba Music_LegendaryBattle
 	dba Music_GiovannisRoom
+	dba Music_RocketRBY
+	dba Music_GiovanniBattle
