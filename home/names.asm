@@ -29,6 +29,14 @@ GetItemName::
 ;     starting at wcd6d
 	push hl
 	push bc
+	
+	;If you are going to make GetName check for wNameListType=ITEM_NAME, 
+	;then you have to make sure wNameListType get the proper value here. 
+	;Otherwise the game can crash when trying to learn TMHM items one after the other.
+	;Specifically if only TMHM items are in the current list view. - jojo
+	ld a, ITEM_NAME
+	ld [wNameListType], a
+	
 	ld a, [wd11e]
 	cp HM01 ; is this a TM/HM?
 	jr nc, .Machine
