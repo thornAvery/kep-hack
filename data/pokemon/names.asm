@@ -35,7 +35,7 @@ MonsterNames::
 	db "GROWLITHE@"
 	db "ONIX@@@@@@"
 	db "FEAROW@@@@"
-	db "PIDGEY@@@@"
+	db "MAWILE@@@@"
 	db "SLOWPOKE@@"
 	db "KADABRA@@@"
 	db "GRAVELER@@"
