@@ -215,6 +215,11 @@ _OfficerJennyText3::
 	line "SQUIRTLE right!@"
 	text_end
 
+_JennyFullParty::
+	text "Your PARTY is"
+	line "full, though!"
+	done
+
 _OfficerJennyText4::
 	text "Oh... What am I"
 	line "to do now?"
