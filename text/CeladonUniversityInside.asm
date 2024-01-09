@@ -117,7 +117,7 @@ _ReceivedTM23Text::
 	text_end
 
 _TM23ExplanationText::
-	text "TM29 is DRAGON"
+	text "TM23 is DRAGON"
 	line "RAGE!"
 
 	para "Use it against"

@@ -287,6 +287,7 @@ OfficerJennySquirtle:
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
 	lb bc, SQUIRTLE, 16
 	call GivePokemon
+	jp nc, .fullParty
 	ld a, [wAddedToParty]
 	and a
 	call z, WaitForTextScrollButtonPress
@@ -303,6 +304,14 @@ OfficerJennySquirtle:
 .noBadge
 	ld hl, OfficerJennyNoBadge
 	jr .done
+.fullParty
+	ld hl, JennyFullParty
+	call PrintText
+	ld a, [wSimulatedJoypadStatesEnd] ; ensuring that the text doesn't autoskip.
+	and a ; yep, here too.
+	call z, WaitForTextScrollButtonPress ; and here.
+	call EnableAutoTextBoxDrawing ; and here.
+	; falls through to the next quote.
 .refuse
 	ld hl, OfficerJennyRefuse
 	; fallthrough
@@ -329,6 +338,10 @@ OfficerJennyRefuse:
 
 OfficerJennyHowDoing:
 	text_far _OfficerJennyText5
+	text_end
+
+JennyFullParty:
+	text_far _JennyFullParty
 	text_end
 
 EventVermillionCitySSTicket:

@@ -183,7 +183,7 @@ QoL Enhancements
 - Running Shoes activate by holding B. Also works with the bike and Surf.
 - Fast text has no frame delay between text scrolling, doubling the scroll speed. It's also been made the default option, so you don't need to go into the Options menu for it.
 	- "Instatext" has also been made a selectable feature, courtesy of BlueZangoose.
-- The Old and Good Rods have been removed, and the Super Rod, now called the Fishing Rod, is obtained in Pewter City. All fishing encounter tables have been altered to roughly match the levels of the surrounding routes. 
+- The Old and Good Rods have been removed, and the Super Rod, now called the Fishing Rod, is obtained on Route 24. All fishing encounter tables have been altered to roughly match the levels of the surrounding routes. 
 - The Elite Four and Champion now have improved teams in the post-game. The Elite Four will use refight text based on their LGPE appearances.
 	- Plus, upon defeating the Elite Four, Legendary Pokemon encounters are reset, like in later games!
 - Traded Pokemon ("Outsiders") can now be nicknamed at the Name Rater's House.
@@ -262,8 +262,9 @@ and more!
 
 Known Bugs
 ====
-- Trying to teach a TM/HM twice in a row may cause a game crash, so it's advised to save when teaching moves.
+- Occasionally, saving and reloading in a building will cause the border tile to completely change, in some cases letting you walk out of bounds.
 - Trying to Surf from the overworld on Cycling Road has an invisible textbox stopping you, but just pressing A again lets you regain control.
+- Jumping from a specific tile off a ledge in Cerulean City causes you to land on a fence. This is being kept in, because it's funny.
 
 Evolution Methods for new Pokemon
 ====
@@ -380,7 +381,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * erosunica - Assistance with developing Celadon University & Citrine City, plus sources for various subjects.
 * Chatot4444 - Assisting with gym scaling code.
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly. 
-* HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Gyopin.
+* HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Orfry.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.

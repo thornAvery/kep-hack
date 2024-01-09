@@ -4,7 +4,7 @@ _SilphCo5EndBattleText4::
 	prompt
 
 _SilphCo5AfterBattleText4::
-	text "You're only on 5F."
+	text "You're only on 3F."
 	line "It's a long way"
 	cont "to my BOSS!"
 	done
@@ -53,8 +53,9 @@ _SilphCo5Text11::
 	line "only when traded"
 	cont "by link-cable."
 
-	para "Further testing is"	; changed due to increased number of new trade evos
-	line "needed to discover"
-	cont "more species that"
+	para "Further testing"		; changed due to increased number of new trade evos
+	line "will be needed to"
+	cont "discover any more"
+	cont "species that"
 	cont "evolve this way."
 	done
