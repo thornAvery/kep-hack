@@ -365,9 +365,21 @@ OaksLabScript9: ; This is where Blue picks up the ball and removes the sprite.
 	cp $7
 	jr nz, .rivalDidNotChoseBall4
 	ld a, HS_STARTER_BALL_4
+	ld a, HS_DAMIEN			; This makes the starter gifts show up if you and your rival picked Pikachu and Eevee. It used to be coded differently but for some reason they still showed up if you picked Charmander or Squirtle, so I had to change it.
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	ld a, HS_VERMILION_JENNY
+	ld [wMissableObjectIndex], a
+	predef ShowObject
 	jr .hideBallAndContinue
 .rivalDidNotChoseBall4
 	ld a, HS_STARTER_BALL_5
+	ld a, HS_DAMIEN
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	ld a, HS_VERMILION_JENNY
+	ld [wMissableObjectIndex], a
+	predef ShowObject
 	jr .hideBallAndContinue
 .hideBallAndContinue
 	ld [wMissableObjectIndex], a
@@ -914,7 +926,6 @@ OaksLabText4:
 ; $6 = Eevee
 OaksLabTextPikachu:
 	text_asm
-	call PikachuEeveeMode
 	ld a, STARTER5
 	ld [wRivalStarterTemp], a
 	ld a, $8
@@ -925,7 +936,6 @@ OaksLabTextPikachu:
 
 OaksLabTextEevee:
 	text_asm
-	call PikachuEeveeMode
 	ld a, STARTER4
 	ld [wRivalStarterTemp], a
 	ld a, $7
@@ -1376,26 +1386,6 @@ OaksLabText10:
 OaksLabText_1d405:
 	text_far _OaksLabText_1d405
 	text_end
-
-; This is used to display Damien and Officer Jenny for Charmander and Squirtle, respectively.
-; It was set up in this way to easily add new things for the mode.
-; By default, all Pikachu/Eevee Mode things are hidden - more efficient.
-PikachuEeveeMode:
-	ld hl, PikachuEeveeShows
-.loop
-	ld a, [hli]
-	cp -1
-	ret z
-	push hl
-	ld [wMissableObjectIndex], a
-	predef ShowObject
-	pop hl
-	jr .loop
-
-PikachuEeveeShows:
-	db HS_DAMIEN ; Charmander guy
-	db HS_VERMILION_JENNY ; Squirtle
-	db -1 ; end
 
 ; Moved here to turn into a new bg event
 OakLabEmailText:
