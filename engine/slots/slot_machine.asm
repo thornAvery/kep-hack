@@ -574,7 +574,7 @@ SlotReward8Func:
 	dec [hl]
 .skip
 	ld b, $2
-	ld de, 50 ; buffed amounts start here
+	ld de, 9990 ; buffed amounts start here
 	ret
 
 SlotReward15Func:
@@ -585,7 +585,7 @@ SlotReward15Func:
 	dec [hl]
 .skip
 	ld b, $4
-	ld de, 100
+	ld de, 9990
 	ret
 
 SlotReward100Func:
@@ -594,7 +594,7 @@ SlotReward100Func:
 	xor a
 	ld [wSlotMachineFlags], a
 	ld b, $8
-	ld de, 400
+	ld de, 9990
 	ret
 
 SlotReward300Func:
@@ -610,7 +610,7 @@ SlotReward300Func:
 .skip
 	ld [wSlotMachineAllowMatchesCounter], a
 	ld b, $14
-	ld de, 900
+	ld de, 9990
 	ret
 
 YeahText:
