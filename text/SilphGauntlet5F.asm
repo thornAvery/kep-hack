@@ -87,7 +87,7 @@ _SilphGauntlet5FAfterBattleText5::
 	text "Huh? Yeah! We"
 	line "used our whips!"
 	
-	para "...hey, what's"
+	para "...Hey, what's"
 	line "with that stare?"
 	done
 
