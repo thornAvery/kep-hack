@@ -75,8 +75,8 @@ _SilphGauntlet2FAfterBattleText4::
 	
 	para "I could never have"
 	line "expected to see"
-	cont "#MON like yours,"
-	cont "though!"
+	cont "#MON like"
+	cont "yours, though!"
 	done
 
 _SilphGauntlet2FBattleText5::
