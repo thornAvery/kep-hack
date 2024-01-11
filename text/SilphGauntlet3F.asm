@@ -95,7 +95,7 @@ _SilphGauntlet3FAfterBattleText5::
 	line "here stinks!"
 	
 	para "Where's all the"
-	cont "rock 'n' roll?!"
+	line "rock 'n' roll?!"
 	done
 
 _SilphGauntlet3FBattleText6::
