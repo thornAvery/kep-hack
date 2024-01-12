@@ -67,7 +67,7 @@ InternalMapEntries:
 	internal_map MT_MOON_B2F,                    6,  2, MountMoonName
 	internal_map CERULEAN_MART,                 10,  2, CeruleanCityName
 	internal_map MT_MOON_POKECENTER,             5,  2, Route4Name
-	internal_map VIRIDIAN_PRE_GYM,              10,  2, ViridianCityName
+	internal_map VIRIDIAN_PRE_GYM,               2,  8, ViridianCityName
 	internal_map DAYCARE,                       10,  4, Route5Name
 	internal_map UNDERGROUND_PATH_ROUTE_6,      10,  8, Route6Name
 	internal_map CELESTE_HILL,                   7,  9, CelesteHillName

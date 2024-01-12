@@ -4,7 +4,7 @@ _DayCareAllRightThenText::
 	text_end
 
 _DayCareComeAgainText::
-	text "come again."
+	text "Come again."
 	done
 
 _DayCareNoRoomForMonText::
