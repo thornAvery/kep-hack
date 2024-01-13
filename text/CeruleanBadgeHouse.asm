@@ -3,9 +3,6 @@ _CeruleanHouse2Text_74e77::
 	line "are owned only by"
 	cont "skilled trainers."
 
-	para "I see you have"
-	line "at least one."
-
 	para "Those BADGEs have"
 	line "amazing secrets!"
 	prompt
@@ -34,15 +31,9 @@ _CeruleanHouse2Text_74e96::
 	prompt
 
 _CeruleanHouse2Text_74e9b::
-	text "#MON up to L30"
-	line "will obey you."
-
-	para "Any higher, they"
-	line "become unruly!"
-
-	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	text "It lets you use"
+	line "CUT outside of"
+	cont "battle."
 	prompt
 
 _CeruleanHouse2Text_74ea0::
@@ -56,15 +47,9 @@ _CeruleanHouse2Text_74ea0::
 	prompt
 
 _CeruleanHouse2Text_74ea5::
-	text "#MON up to L50"
-	line "will obey you."
-
-	para "Any higher, they"
-	line "become unruly!"
-
-	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	text "It lets you use"
+	line "STRENGTH outside"
+	cont "of battle."
 	prompt
 
 _CeruleanHouse2Text_74eaa::
@@ -78,11 +63,14 @@ _CeruleanHouse2Text_74eaa::
 	prompt
 
 _CeruleanHouse2Text_74eaf::
-	text "#MON up to L70"
-	line "will obey you."
+	text "Hmm... I can't"
+	line "remember."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Should you beat"
+	line "SABRINA's tough"
+	cont "PSYCHIC #MON,"
+	cont "she may tell"
+	cont "you."
 	prompt
 
 _CeruleanHouse2Text_74eb4::
@@ -92,6 +80,7 @@ _CeruleanHouse2Text_74eb4::
 	prompt
 
 _CeruleanHouse2Text_74eb9::
-	text "All #MON will"
-	line "obey you!"
+	text "You'll be able to"
+	line "challenge the"
+	cont "#MON LEAGUE!"
 	prompt

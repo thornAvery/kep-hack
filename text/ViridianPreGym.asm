@@ -36,7 +36,7 @@ _BeforeReceivedBottleCapText::
 	
 	para "I won't give up!"
 	line "I'll train with"
-	cont "my POKEMON until"
+	cont "my #MON until"
 	cont "we're the best"
 	cont "there is!"
 	

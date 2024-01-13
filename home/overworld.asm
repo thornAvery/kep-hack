@@ -2087,7 +2087,12 @@ LoadMapHeader::
 	ld [wCurMapTileset], a
 	ldh [hPreviousTileset], a
 	bit 7, b
-	ret nz
+
+	;replace the conditional return with a nop in order to always load the map header data...
+	;...even when selecting CONTINUE from the main menu
+;	ret nz
+	nop
+
 	ld hl, MapHeaderPointers
 	ld a, [wCurMap]
 	sla a

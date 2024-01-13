@@ -13,7 +13,7 @@ _ChiefMonologue::
 	prompt
 
 _ChiefMonologueMasterBallNotUsed::
-	text "You're looking for"
+	text "You're looking"
 	line "for the ultimate"
 	cont "#MON, aren't"
 	cont "you?"
@@ -38,7 +38,7 @@ _ChiefMonologueMasterBallNotUsed::
 	done
 
 _ChiefMonologueMasterBallUsed::
-	text "You're looking for"
+	text "You're looking"
 	line "for the ultimate"
 	cont "#MON, aren't"
 	cont "you?"
@@ -52,7 +52,7 @@ _ChiefMonologueMasterBallUsed::
 	cont "our company is"
 	cont "going under!"
 
-	para "...what? You used"
+	para "...What? You used"
 	line "the MASTER BALL?!"
 	
 	para "You stupid child!"
@@ -93,8 +93,8 @@ _ChiefMonologueMasterBallNotCollected::
 	done
 
 _ChiefDefeatedText::
-	text "No! I..."
-	line "I..."
+	text "No!"
+	line "I... I..."
 	prompt
 
 _ChiefVictoryText::
@@ -144,7 +144,7 @@ _ChiefAltAfterBattleText::
 	line "be as powerful as"
 	cont "I want, but what"
 	cont "I do with that"
-	cont "power...is very"
+	cont "power... is very"
 	cont "important."
 	
 	para "I still have much"

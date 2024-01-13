@@ -262,7 +262,6 @@ and more!
 
 Known Bugs
 ====
-- Occasionally, saving and reloading in a building will cause the border tile to completely change, in some cases letting you walk out of bounds.
 - Trying to Surf from the overworld on Cycling Road has an invisible textbox stopping you, but just pressing A again lets you regain control.
 - Jumping from a specific tile off a ledge in Cerulean City causes you to land on a fence. This is being kept in, because it's funny.
 

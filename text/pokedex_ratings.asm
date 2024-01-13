@@ -42,7 +42,7 @@ _DexRatingText_Own50To64::
 	done
 
 _DexRatingText_Own65To79::
-	text "Ho! This is geting"
+	text "This is getting"
 	line "even better!"
 	done
 
@@ -53,8 +53,8 @@ _DexRatingText_Own80To99::
 	done
 
 _DexRatingText_Own100To114::
-	text "You finally got at"
-	line "least 100 species!"
+	text "You've finally got"
+	line "over 100 species!"
 	cont "Great job!"
 	done
 
@@ -90,8 +90,8 @@ _DexRatingText_Own180To199::
 	done
 
 _DexRatingText_Own200To214::
-	text "You finally got at"
-	line "least 200 species!"
+	text "You finally passed"
+	line "200 species!"
 	cont "I can't believe"
 	cont "how good you are!"
 	done

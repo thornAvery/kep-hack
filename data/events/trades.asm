@@ -20,7 +20,7 @@ TradeMons:
 	db SANDSLASH,  SANDSLASH_A, TRADE_DIALOGSET_REGION,    "SANDSLASH@@" ; Celadon
 	db RAICHU,     RAICHU_A,    TRADE_DIALOGSET_REGION,    "RAICHU@@@@@" ; Saffron
 	db MAROWAK,    MAROWAK_A,   TRADE_DIALOGSET_REGION,    "MAROWAK@@@@" ; Fuschia
-	db MUK,        MUK_A,       TRADE_DIALOGSET_REGION,    "MUK-A@@@@@@" ; Cinnabar
+	db MUK,        MUK_A,       TRADE_DIALOGSET_REGION,    "MUK@@@@@@@@" ; Cinnabar
 	db EXEGGUTOR,  EXEGGUTOR_A, TRADE_DIALOGSET_REGION,    "EXEGGUTOR@@" ; Indigo
 	db TAUROS,     TAUROS_P,    TRADE_DIALOGSET_TAUROSC,   "TAUROS@@@@@" ; S.S. Anne begins here
 	db TAUROS,     TAUROS_PA,   TRADE_DIALOGSET_TAUROSA,   "TAUROS@@@@@"

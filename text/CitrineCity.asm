@@ -38,7 +38,7 @@ _CitrineCityCavern::
 
 _CitrineCityDirections::
 	text "NORTH WEST:"
-	line "BATTLE TOWER"
+	line "BATTLE TENT"
 	
 	para "NORTH EAST:"
 	line "CELESTE HILL"
