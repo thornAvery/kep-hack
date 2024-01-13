@@ -820,13 +820,12 @@ BattleTentLetsGo:
 	done
 	
 BattleTentWon:
-	text "Wow! You finally"
-	line "did it!"
+	text "Congratulations!"
 	
 	para "You beat"
 	line "@"
 	text_decimal wBTStreakCnt, 1, 3
-	text " oppenont(s)!"
+	text " opponent(s)!"
 	prompt
 	
 BattleTentLost:
