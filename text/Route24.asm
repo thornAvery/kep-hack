@@ -99,6 +99,6 @@ _Route24DamienText4::
 	done
 
 _DamienFullParty::
-	text "Huh? Your PARTY"
+	text "Huh? Your BOX"
 	line "is full?"
 	done
