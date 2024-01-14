@@ -25,6 +25,7 @@ CinnabarVolcanoFloors_TextPointers:
 	dw BoulderText
 	dw BoulderText
 	dw BoulderText
+	dw BoulderText
 	
 CinnabarVolcanoFloorsTrainerHeaders:
 	def_trainers
