@@ -68,7 +68,7 @@ FightingDojoScript3:
 .asm_5cde4
 	ld a, $f0
 	ld [wJoyIgnore], a
-	SetEventRange EVENT_BEAT_KARATE_MASTER, EVENT_BEAT_FIGHTING_DOJO_TRAINER_3
+	SetEventRange EVENT_DEFEATED_FIGHTING_DOJO, EVENT_BEAT_FIGHTING_DOJO_TRAINER_3
 	ld a, $9
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
@@ -175,7 +175,6 @@ FightingDojoText1: ; gym scaling can be removed to make space
 .continue2
 	ld hl, FightingDojoText8
 	call PrintText
-	SetEvent EVENT_DEFEATED_FIGHTING_DOJO
 .asm_9dba4
 	jp TextScriptEnd
 
