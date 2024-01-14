@@ -11,6 +11,7 @@ CinnabarVolcanoFloors_Object:
 	warp_event  5,  3, CINNABAR_VOLCANO_FLOORS, 8
 	warp_event  5, 25, CINNABAR_VOLCANO_FLOORS, 7
 	warp_event 12, 24, CINNABAR_VOLCANO, 1
+	warp_event 31, 37, CINNABAR_VOLCANO, 2
 
 	def_bg_events
 
@@ -27,5 +28,6 @@ CinnabarVolcanoFloors_Object:
 	object_event 34, 11, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 10 ; person
 	object_event 11, 35, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 11 ; person
 	object_event 12, 30, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 12 ; person
+	object_event 29, 37, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 13
 
 	def_warps_to CINNABAR_VOLCANO_FLOORS
