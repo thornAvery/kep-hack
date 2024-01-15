@@ -6981,6 +6981,9 @@ PlayMoveAnimation:
 	predef_jump MoveAnimation
 
 InitBattle::
+	xor a
+	ld [wWasTrainerBattle], a 	;Remember to clear wWasTrainerBattle from any previous battles, 
+								;because this new  battle could be a static wild encounter.
 	ld a, [wCurOpponent]
 	and a
 	jr z, DetermineWildOpponent
