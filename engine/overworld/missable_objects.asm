@@ -142,20 +142,20 @@ HideObject:
 	ld c, a
 	ld b, FLAG_SET
 	call MissableObjectFlagAction   ; set "removed" flag
-	call VerifyObjectState
-	jr z, HideObject
+;	call VerifyObjectState
+;	jr z, HideObject
 	jp UpdateSprites
 
 ;returns z flag set if shown and z flag cleared if hidden
-VerifyObjectState:
-	ld hl, wMissableObjectFlags
-	ld a, [wMissableObjectIndex]
-	ld c, a
-	ld b, FLAG_TEST
-	call MissableObjectFlagAction  
-	ld a, c
-	and a
-	ret
+;VerifyObjectState:
+;	ld hl, wMissableObjectFlags
+;	ld a, [wMissableObjectIndex]
+;	ld c, a
+;	ld b, FLAG_TEST
+;	call MissableObjectFlagAction  
+;	ld a, c
+;	and a
+;	ret
 	
 MissableObjectFlagAction:
 ; identical to FlagAction
