@@ -1824,6 +1824,7 @@ EspeonTradebackMoves:
 	db 0
 	
 UmbreonTradebackMoves:
+	db 1, PSYCHIC_M
 	db 1, HEADBUTT
 	db 1, GROWTH
 	db 1, ROAR
