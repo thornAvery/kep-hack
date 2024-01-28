@@ -50,6 +50,7 @@
           kep-hack = final.callPackage kepDerivation {
             files = [
               ["kep.gbc" "kanto-expansion-pak.gbc"]
+              ["kep.sym" "kanto-expansion-pak.sym"]
             ];
           };
         };
