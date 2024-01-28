@@ -1869,8 +1869,8 @@ updateSourceDateEpoch ()
         fi;
     fi
 }
-PATH="$PATH:$nix_saved_PATH"
-XDG_DATA_DIRS="$XDG_DATA_DIRS:$nix_saved_XDG_DATA_DIRS"
+PATH="$PATH${nix_saved_PATH:+:$nix_saved_PATH}"
+XDG_DATA_DIRS="$XDG_DATA_DIRS${nix_saved_XDG_DATA_DIRS:+:$nix_saved_XDG_DATA_DIRS}"
 export NIX_BUILD_TOP="$(mktemp -d -t nix-shell.XXXXXX)"
 export TMP="$NIX_BUILD_TOP"
 export TMPDIR="$NIX_BUILD_TOP"
