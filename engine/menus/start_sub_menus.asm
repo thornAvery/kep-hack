@@ -835,3 +835,28 @@ SwitchPartyMon_InitVarOrSwapData:
 	pop de
 	pop hl
 	ret
+	
+StartMenu_PortablePC::
+	ld a, [wCurMap]
+	cp LORELEIS_ROOM
+	jr z, .cantUseItHere
+	cp BRUNOS_ROOM
+	jr z, .cantUseItHere
+	cp AGATHAS_ROOM
+	jr z, .cantUseItHere
+	cp LANCES_ROOM
+	jr z, .cantUseItHere
+	callfar ActivatePC
+	jr .done
+.cantUseItHere
+	ld hl, CantUsePCHere
+	call PrintText
+.done
+	call LoadScreenTilesFromBuffer2
+	call LoadTextBoxTilePatterns
+	call UpdateSprites
+	jp RedisplayStartMenu
+
+CantUsePCHere:
+	text_far _CantUsePCHere
+	text_end

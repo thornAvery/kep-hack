@@ -1866,4 +1866,9 @@ _BirdBattleText:: ; This is defined in many places and can just be farcalled her
 _GreedyBastardText::
 	text "Better not get"
 	line "greedy..."
-	done
+	done	
+	
+_CantUsePCHere::
+	text "You cannot use"
+	line "this here!"
+	prompt
