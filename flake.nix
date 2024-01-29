@@ -49,7 +49,7 @@
         default = final: prev: {
           kep-hack = final.callPackage kepDerivation {
             files = [
-              ["kep.gbc" "kanto-expansion-pak-renewables.gbc"]
+              ["kep.gbc" "kanto-expansion-pak-renewables.gb"]
               ["kep.sym" "kanto-expansion-pak-renewables.sym"]
             ];
           };
