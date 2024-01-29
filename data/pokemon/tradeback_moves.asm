@@ -816,6 +816,7 @@ DragoniteTradebackMoves:
 	db 1, LIGHT_SCREEN
 	db 1, MIST
 	db 1, SUPERSONIC
+        db 1, FLY
 	db 1, HYDRO_PUMP
 	db 0
 
