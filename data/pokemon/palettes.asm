@@ -252,4 +252,5 @@ MonsterPalettes:
 	db PAL_MEWMON    ; MEW
 	db PAL_YELLOWMON ; MELTAN
 	db PAL_YELLOWMON ; MELMETAL
+	db PAL_GREENMON  ; YOSHI
 	assert_table_length NUM_POKEMON + 1

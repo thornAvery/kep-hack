@@ -252,7 +252,7 @@ PokedexEntryPointers:
 	dw TaurosPBDexEntry
 	dw GorillaimoDexEntry
 	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw YoshiDexEntry
 	dw MissingNoDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
@@ -2023,5 +2023,12 @@ GorillaimoDexEntry:
 	db 7,11
 	dw 4080
 	text_far _GorillaimoDexEntry
+	text_end
+
+YoshiDexEntry:
+    db "DINOSAUR@"
+	db 5,11
+	dw 1990
+	text_far _YoshiDexEntry
 	text_end
 	

@@ -186,6 +186,7 @@ AttackAnimationPointers:
 	dw NastyPlotAnim
 	dw UppercutAnim
 	dw PowderSnowAnim
+	dw EggTossAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1377,6 +1378,16 @@ KowtowCleaveAnim:
 
 DisarmingVoiceAnim:
 	battle_anim DISARMING_VOICE, SUBANIM_0_HEART_1_MUSIC, 1, 6
+	db -1 ; end
+	
+EggTossAnim:
+	battle_anim DEFENSE_CURL, SE_SLIDE_MON_DOWN
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	battle_anim BARRAGE, SUBANIM_1_CIRCLE_BLACK_TOSS, 1, 4
+	battle_anim DOUBLESLAP, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim AMNESIA, SE_SLIDE_ENEMY_MON_OFF
+	battle_anim NO_MOVE, SE_SHOW_ENEMY_MON_PIC
 	db -1 ; end
 
 BallTossAnim:

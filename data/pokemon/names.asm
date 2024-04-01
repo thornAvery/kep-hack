@@ -252,7 +252,7 @@ MonsterNames::
 	db "TAUROS@@@@" ; Paldean, Blaze
 	db "GORILLAIMO"
 	db "MISSINGNO."
-	db "MISSINGNO."
+	db "YOSHI@@@@@"
 	db "MISSINGNO."
 	
 	assert_table_length NUM_POKEMON_INDEXES

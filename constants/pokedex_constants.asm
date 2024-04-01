@@ -255,5 +255,6 @@
 	const DEX_MEW        ; 151	(249)
 	const DEX_MELTAN     ;		(250)
 	const DEX_MELMETAL   ;		(251)
+	const DEX_YOSHI
 
 DEF NUM_POKEMON EQU const_value - 1

@@ -252,6 +252,6 @@ PokedexOrder:
 	db DEX_TAUROS_PB
 	db DEX_GORILLAIMO
 	db 0 ; MISSINGNO.
-	db 0 ; MISSINGNO.
+	db DEX_YOSHI
 	db 0 ; MISSINGNO.
 	assert_table_length NUM_POKEMON_INDEXES

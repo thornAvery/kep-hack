@@ -470,9 +470,10 @@ PerrserkerPicFront::   INCBIN "gfx/pokemon/front/perrserker.pic"
 PerrserkerPicBack::    INCBIN "gfx/pokemon/back/perrserkerb.pic"
 MrRimePicFront::       INCBIN "gfx/pokemon/front/mr.rime.pic"
 MrRimePicBack::        INCBIN "gfx/pokemon/back/mr.rimeb.pic"
+YoshiPicFront::        INCBIN "gfx/pokemon/front/yoshi.pic"
+YoshiPicBack::         INCBIN "gfx/pokemon/back/yoshib.pic"
 
 FossilKabutopsPic::    INCBIN "gfx/pokemon/front/fossilkabutops.pic"
-FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
 GhostPic::             INCBIN "gfx/battle/ghost.pic"
 
 SECTION "Pics 9", ROMX

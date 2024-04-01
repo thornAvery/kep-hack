@@ -398,7 +398,7 @@ VersionOnTitleScreenText:
 	db $61,$62,$63,$64,$65,$66,$67,$68,"@" ; "Blue Version"
 
 DebugNewGamePlayerName:
-	db "NINTEN@"
+	db "J.ESTER@"
 
 DebugNewGameRivalName:
 	db "SONY@"

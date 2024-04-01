@@ -197,5 +197,6 @@ Moves:
 	move NASTY_PLOT,      SPECIAL_UP2_EFFECT,        0, DARK,         100, 10
 	move UPPERCUT,     FLINCH_SIDE_EFFECT2,         55, FIGHTING,      80, 15
 	move POWDER_SNOW,     FREEZE_SIDE_EFFECT,         40, ICE,      100, 25
+	move EGG_TOSS, NO_ADDITIONAL_EFFECT,        90, DRAGON,          95, 10
 	move STRUGGLE,        RECOIL_EFFECT,            50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
