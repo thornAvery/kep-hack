@@ -251,5 +251,4 @@ MonPartyData:
 	nybble ICON_CAT       ; Mew
 	nybble ICON_BALL      ; Meltan
 	nybble ICON_BALL      ; Melmetal
-	nybble ICON_MON       ; Yoshi
 	end_nybble_array NUM_POKEMON

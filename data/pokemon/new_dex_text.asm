@@ -998,16 +998,6 @@ _GorillaimoDexEntry::
 	next "battling GAWARHED"
 	dex
 
-_YoshiDexEntry::
-	text "This rare species"
-	next "is known for its"
-	next "long tongue and"
-	
-	page "playful demeanor."
-	next "You can even ride"
-	next "on its back"
-	dex
-
 _MissingNoDexEntry::	; unused
 	text "This is a newly"
 	next "discovered"

@@ -1121,7 +1121,6 @@ VenonatEvosMoves:
 
 DragoniteEvosMoves:
 ; Evolutions
-	db EV_ITEM, FIRE_STONE, 1, YOSHI
 	db 0
 ; Learnset
 	db 10, THUNDER_WAVE
@@ -3496,14 +3495,6 @@ FossilAerodactylEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 35, SLAM
-	db 45, DRAGON_RAGE
-	db 55, EGG_BOMB
-	db 60, HYPER_BEAM
-	db 65, THUNDER
-	db 75, EGG_TOSS
 	db 0
 
 MonGhostEvosMoves:

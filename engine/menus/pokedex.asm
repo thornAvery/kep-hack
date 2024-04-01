@@ -202,7 +202,7 @@ HandlePokedexListMenu:
 	ld de, PokedexMenuItemsText
 	call PlaceString
 ; find the highest pokedex number among the pokemon the player has seen
-	ld b, 253 ; This makes the last number in the dex match up with the last Pokemon in dex order. This makes it look a little odd when incomplete but also allows for Pokemon beyond 248 to display correctly.
+	ld b, 252 ; This makes the last number in the dex match up with the last Pokemon in dex order. This makes it look a little odd when incomplete but also allows for Pokemon beyond 248 to display correctly.
 .maxSeenPokemonLoop
 	ld a, [hld]
 	ld c, 8

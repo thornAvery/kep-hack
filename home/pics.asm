@@ -11,6 +11,8 @@ UncompressMonSprite::
 	ld a, [wcf91]
 	cp FOSSIL_KABUTOPS
 	jr z, .RecallBank
+	cp FOSSIL_AERODACTYL
+	jr z, .RecallBank
 	cp MON_GHOST
 	jr z, .RecallBank
 	ld a, [wMonHPicBank]

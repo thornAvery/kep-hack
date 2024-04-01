@@ -256,4 +256,3 @@ PokemonCries::
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_NATU,        -18,   89 ; MELTAN
 	mon_cry CRY_AMPHAROS,    158,  592 ; MELMETAL
-	mon_cry CRY_DUNSPARCE,   383,  383 ; YOSHI
