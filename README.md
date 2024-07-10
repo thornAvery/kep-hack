@@ -385,12 +385,12 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.
 * Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI, move animations and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
+* wrulfy - Reused a bit of code from their Carmine Red hack to improve a handful of move animations, most notably Drill Peck and Horn Drill. Technical advice.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.
 * Rainbow Metal Pigeon - Bug fix relating to Gym Leader rematches.
 * SatoMew - Technical advice.
-* wrulfy - Technical advice.
 * suloku - Technical advice regarding setting where you spawn after beating the Elite Four, Exp. All modernisation code
 * 大吟醸 (Daiginjo) - Assistance in translating the Tamamushi University Student Book, allowing for an accurate adaptation of the location.
 * Molk - Balancing of some prototype Pokemon, most notably Ramoose.
