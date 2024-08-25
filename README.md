@@ -380,16 +380,19 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * erosunica - Assistance with developing Celadon University & Citrine City, plus sources for various subjects.
 * Chatot4444 - Assisting with gym scaling code.
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly. 
-* HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Orfry.
+* HunnieBuns (originally HeadBoiSkye) - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Orfry.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.
 * Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI, move animations and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
 * wrulfy - Reused a bit of code from their Carmine Red hack to improve a handful of move animations, most notably Drill Peck and Horn Drill. Technical advice.
+* TheSmithPlays -  Reused a bit of code from their Yellow Legacy hack.
+* ZuperZACH, Isona, Karlos, Reader Dragon, and Alakadoof - Sprite artists creating the set of improved backsprites taken from Yellow Legacy.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.
 * Rainbow Metal Pigeon - Bug fix relating to Gym Leader rematches.
+* SoupPotato - Borrowed code to make a functioning EXP bar.
 * SatoMew - Technical advice.
 * suloku - Technical advice regarding setting where you spawn after beating the Elite Four, Exp. All modernisation code
 * 大吟醸 (Daiginjo) - Assistance in translating the Tamamushi University Student Book, allowing for an accurate adaptation of the location.

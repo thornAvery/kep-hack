@@ -35,11 +35,11 @@ PlayBattleMusic::
 	cp DRAGONITE
 	jp z, .legendaryBattle
 	cp ARTICUNO_G
-	jp z, .legendaryBattle
+	jp z, .birdsBattle
 	cp ZAPDOS_G
-	jp z, .legendaryBattle
+	jp z, .birdsBattle
 	cp MOLTRES_G
-	jp z, .legendaryBattle
+	jp z, .birdsBattle
 	cp OPP_ID_OFFSET
 	jp c, .wildBattle
 	cp OPP_YUJIROU
@@ -106,6 +106,9 @@ PlayBattleMusic::
 	jr .playSong
 .legendaryBattle
 	ld a, MUSIC_LEGENDARYBATTLE
+	jr .playSong
+.birdsBattle
+	ld a, MUSIC_GALAR_BIRDS
 	jr .playSong
 .wildBattle
 	ld a, MUSIC_WILD_BATTLE

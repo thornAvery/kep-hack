@@ -69,6 +69,11 @@ _SurfingGotOnText::
 	text "!"
 	prompt
 
+_SurfingGotOnLaprasText::
+	text "<PLAYER> got on"
+	line "LAPRAS!"
+	prompt
+
 _SurfingNoPlaceToGetOffText::
 	text "There's no place"
 	line "to get off!"
