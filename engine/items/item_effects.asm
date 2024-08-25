@@ -782,8 +782,17 @@ ItemUseLapras:
 	ld a, 2
 	ld [wWalkBikeSurfState], a ; change player state to surfing
 	call PlayDefaultMusic ; play surfing music
+	
+	; no jimmy i will NOT make a new item
+	ld hl, SurfingGotOnLaprasText
+	ld a, [wSurfMonItemSwitch] ; check if the mon item switch has been set
+	and a
+	jr z, .skip
+	
 	ld hl, SurfingGotOnText
+.skip ; now shut the fuck up
 	jp PrintText
+
 .tryToStopSurfing
 	xor a
 	ldh [hSpriteIndexOrTextID], a

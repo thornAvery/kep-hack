@@ -165,6 +165,14 @@ StartMenu_Pokemon::
 	bit 1, [hl]
 	res 1, [hl]
 	jp z, .loop
+	
+	; this makes it so the pokemon shows up instead of pocket lapras
+	; no visible effect when using surf, it's actually for the item effect later
+	; it makes it so I don't have to make a craptastic new function that falls through, which would require a new item, which is so unimaginably cringe i would fall off my chair and die
+	; - pvk
+	ld a, 1
+	ld [wSurfMonItemSwitch], a
+	
 	ld a, POCKET_LAPRAS
 	ld [wcf91], a
 	ld [wPseudoItemID], a
