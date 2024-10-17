@@ -43,11 +43,13 @@ New Types
 ====
 To accomodate the new Pokemon, the Dark, Steel, and Fairy types are added. They are effectively "tacked on", with no vanilla Pokemon or moves being changed, which is a big part of what this hack wants. 
 
-Dark and Steel use their SpaceWorld '97 type matchups because these revisions were produced prior to the national tournament that year, and thus before Game Freak made appropriate balancing changes. Thus, what you get here are types that are very different, but maintain the core RBY experience. Normal and Psychic remain extremely powerful types, BoltBeam remains perfect coverage, and so on. Fairy lacks a confirmed older revision, so it remains the same as XY's, which has not yet changed, and if it does, this hack will not change with it. Closer to RBY is what we want!
+Dark and Steel use their SpaceWorld '97 type matchups because these revisions were produced prior to the national tournament that year, and thus before Game Freak made appropriate balancing changes. Thus, what you get here are types that are very different, but maintain the core RBY experience. Normal and Psychic remain extremely powerful types, BoltBeam remains perfect coverage, and so on. Closer to RBY is what we want!
+
+Fairy utilizes its beta type chart from X and Y's development, which is the earliest known conception of the Fairy type, as revealed in the October 2024 Teraleak. The type is changed in rather intriguing ways from this!
 
 Changes at a glance:
-- Fairy is identical to its XY release, which at the time of writing remains the same as modern releases.
 - Dark and Steel use their type effectiveness from the SW97 demo, aiming to be closer to RBY experience.
+- Fairy has its beta type effectiveness, which changes the type slightly.
 - Bite is still Normal-type.
 - The Clefairy, Mime Jr, and Jigglypuff lines are not Steel or Fairy-type, respectively.
 	- This (and Bite) was done to ensure the original Kanto Pokemon were unaltered in any way.
@@ -57,7 +59,7 @@ Changes at a glance:
 - Bug and Poison remain super effective against each other.
 - Psychic remains immune to Ghost.
 
-Type Matchups for Steel and Dark for reference:
+Type Matchups for Steel, Dark and Fairy for reference:
 - Steel...
 	- Attacks are Super Effective vs: Rock, Fairy
 	- Attacks are Not Very Effective vs: Water, Electric
@@ -70,6 +72,12 @@ Type Matchups for Steel and Dark for reference:
 	- Attacks are Not Very Effective vs: Normal, Fairy 
 	- Pokemon are Weak to: Normal, Dark, Fairy 
 	- Pokemon resist: Ghost, Psychic
+- Fairy...
+	- Attacks are Super Effective vs: Fighting, Bug, Dragon, Dark
+	- Attacks are Not Very Effective vs: Fire, Ice, Steel
+	- Pokemon are weak to: Fire, Ice, Steel
+	- Pokemon resist: Fighting, Bug, Dark
+	- Pokemon are Immune To: Dragon
 
 Naturally, these types get appropriate moves. They are currently distributed to exclusively new Pokemon, with the vanilla bunch untouched. The only moves imported have effects that are exactly replicable in RBY's code for consistency reasons.
 - Steel: Bullet Punch, Iron Defense, Iron Head, Magnet Bomb, Metal Sound, Mirror Shot, Smart Strike
