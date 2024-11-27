@@ -129,13 +129,13 @@ DisplayTitleScreen:
 	call Random
 	ldh a, [hRandomSub]
 	cp 129
-	jr c, .notshocks
-	ld a, SANDY_SHOCKS
+	jr c, .notscreamtail
+	ld a, SCREAM_TAIL
 	ld [wTitleMonSpecies], a
 	call LoadTitleMonSprite
 	jr .skip
-.notshocks
-	ld a, SCREAM_TAIL
+.notscreamtail
+	ld a, SANDY_SHOCKS
 	ld [wTitleMonSpecies], a
 	call LoadTitleMonSprite
 .skip

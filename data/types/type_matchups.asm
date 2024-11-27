@@ -101,13 +101,15 @@ TypeEffects:
 	db FAIRY,        DRAGON,       SUPER_EFFECTIVE
 	db FAIRY,        DARK,         SUPER_EFFECTIVE
 	db FAIRY,        FIGHTING,     SUPER_EFFECTIVE
+	db FAIRY,        BUG,          SUPER_EFFECTIVE
 	db FAIRY,        FIRE,         NOT_VERY_EFFECTIVE
-	db FAIRY,        POISON,       NOT_VERY_EFFECTIVE
+	db FAIRY,        ICE,          NOT_VERY_EFFECTIVE
 	db FAIRY,        STEEL,        NOT_VERY_EFFECTIVE
 	db BUG,          FAIRY,        NOT_VERY_EFFECTIVE
 	db DARK,         FAIRY,        NOT_VERY_EFFECTIVE
 	db FIGHTING,     FAIRY,        NOT_VERY_EFFECTIVE
-	db POISON,       FAIRY,        SUPER_EFFECTIVE
+	db FIRE,         FAIRY,        SUPER_EFFECTIVE
+	db ICE,          FAIRY,        SUPER_EFFECTIVE
 	db STEEL,        FAIRY,        SUPER_EFFECTIVE
 	db DRAGON,       FAIRY,        NO_EFFECT
 	db ROCK,         STEEL,        NOT_VERY_EFFECTIVE
