@@ -43,11 +43,13 @@ New Types
 ====
 To accomodate the new Pokemon, the Dark, Steel, and Fairy types are added. They are effectively "tacked on", with no vanilla Pokemon or moves being changed, which is a big part of what this hack wants. 
 
-Dark and Steel use their SpaceWorld '97 type matchups because these revisions were produced prior to the national tournament that year, and thus before Game Freak made appropriate balancing changes. Thus, what you get here are types that are very different, but maintain the core RBY experience. Normal and Psychic remain extremely powerful types, BoltBeam remains perfect coverage, and so on. Fairy lacks a confirmed older revision, so it remains the same as XY's, which has not yet changed, and if it does, this hack will not change with it. Closer to RBY is what we want!
+Dark and Steel use their SpaceWorld '97 type matchups because these revisions were produced prior to the national tournament that year, and thus before Game Freak made appropriate balancing changes. Thus, what you get here are types that are very different, but maintain the core RBY experience. Normal and Psychic remain extremely powerful types, BoltBeam remains perfect coverage, and so on. Closer to RBY is what we want!
+
+Fairy utilizes its beta type chart from X and Y's development, which is the earliest known conception of the Fairy type, as revealed in the October 2024 Teraleak. The type is changed in rather intriguing ways from this!
 
 Changes at a glance:
-- Fairy is identical to its XY release, which at the time of writing remains the same as modern releases.
 - Dark and Steel use their type effectiveness from the SW97 demo, aiming to be closer to RBY experience.
+- Fairy has its beta type effectiveness, which changes the type slightly.
 - Bite is still Normal-type.
 - The Clefairy, Mime Jr, and Jigglypuff lines are not Steel or Fairy-type, respectively.
 	- This (and Bite) was done to ensure the original Kanto Pokemon were unaltered in any way.
@@ -57,7 +59,7 @@ Changes at a glance:
 - Bug and Poison remain super effective against each other.
 - Psychic remains immune to Ghost.
 
-Type Matchups for Steel and Dark for reference:
+Type Matchups for Steel, Dark and Fairy for reference:
 - Steel...
 	- Attacks are Super Effective vs: Rock, Fairy
 	- Attacks are Not Very Effective vs: Water, Electric
@@ -70,6 +72,12 @@ Type Matchups for Steel and Dark for reference:
 	- Attacks are Not Very Effective vs: Normal, Fairy 
 	- Pokemon are Weak to: Normal, Dark, Fairy 
 	- Pokemon resist: Ghost, Psychic
+- Fairy...
+	- Attacks are Super Effective vs: Fighting, Bug, Dragon, Dark
+	- Attacks are Not Very Effective vs: Fire, Ice, Steel
+	- Pokemon are weak to: Fire, Ice, Steel
+	- Pokemon resist: Fighting, Bug, Dark
+	- Pokemon are Immune To: Dragon
 
 Naturally, these types get appropriate moves. They are currently distributed to exclusively new Pokemon, with the vanilla bunch untouched. The only moves imported have effects that are exactly replicable in RBY's code for consistency reasons.
 - Steel: Bullet Punch, Iron Defense, Iron Head, Magnet Bomb, Metal Sound, Mirror Shot, Smart Strike
@@ -116,8 +124,9 @@ New Areas
 New Music
 ====
 - Mewtwo has its own battle theme: A demake of the iconic Stadium track! It features some creative deviations to give it a distinct Game Boy feel while fitting with Mewtwo's mystique. Composed by LuciShrimp.
-- Mew and the Legendary Birds have their own battle theme, a demake of the FireRed/LeafGreen pitch-shifted remix. Not simply pitching it up, percussion elements have been added to give it that rustic FRLG "feel" that distinguishes it from the original games. Composed by LuciShrimp.
+- Mew and the Kantonian Legendary Birds have their own battle theme, a demake of the FireRed/LeafGreen pitch-shifted remix. Not simply pitching it up, percussion elements have been added to give it that rustic FRLG "feel" that distinguishes it from the original games. Composed by LuciShrimp.
 	- Limited static encounters, such as the two sleeping Snorlax, and the restored prototype Omega, also use this theme.
+	- The Galarian Legendary Birds have a demake of their Sword and Shield battle theme instead! Composed by LuciShrimp. 
 - Mt. Moon Crater uses a demake of Scarlet and Violet's Area Zero theme! Composed by LuciShrimp.
 - Team Rocket's battle theme from GSC has been backported with some small changes to give it more of an RBY feel. Plays during Rocket Grunt fights, including Jessie and James, as well as the initial 2 Giovanni battles. Composed by LuciShrimp.
 	- In addition to the aforementioned Team Rocket battle theme, a slower, pitched-down arrangement plays when battling Giovanni in his gym, as well as against a postgame boss. Composed by LuciShrimp and Martha's Against Humanity.
@@ -229,7 +238,7 @@ Many non-multiplayer, non-battle related bugs have been fixed. Battle-related bu
 - Some grammar tweaks have been made (eg. If a move is disabled, it now has an upper-case D instead of a lower-case one.)
 - Blaine is no longer addicted to Super Potions.
 - CoolTrainerF no longer switches a lot.
-- Transformed Pokemon aren't presumed to be Dittos! Mew and Animon function correctly with this at play.
+- Transformed Pokemon aren't presumed to be Dittos! Mew and Mimmeo function correctly with this at play.
 - Status curing items don't remove modifiers anymore.
 - Learning new moves plays the sound in the correct bank.
 - Falling through a hole on a bike now properly resets the music, as you fall off a bike when going down.
@@ -311,7 +320,7 @@ Kanto Prototype Pokemon:
 - Cheep -> Jabetta | L30
 - Coinpur -> Meowth | L14
 - Decilla -> Gawarhed | L40
-- Gyopin -> Goldeen | L16
+- Orfry -> Goldeen | L16
 - Gentlarva -> Pupal | L7
 - Pupal -> Carapthor | L10
 - Kotora -> Gaotora -> Gorotora | L16, L36
@@ -380,16 +389,18 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * erosunica - Assistance with developing Celadon University & Citrine City, plus sources for various subjects.
 * Chatot4444 - Assisting with gym scaling code.
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly. 
-* HeadBoiSkye - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Orfry.
+* HunnieBuns (originally HeadBoiSkye) - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Orfry.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.
 * Vortiene/Vortyne - Reused a bit of code from their pureRGB hack, including their Trainer AI, move animations and Pokedex stats page. Assisted in bug fixes. Used their sprite sheet generator.
 * wrulfy - Reused a bit of code from their Carmine Red hack to improve a handful of move animations, most notably Drill Peck and Horn Drill. Technical advice.
+* TheSmithPlays -  Reused a bit of code from their Yellow Legacy hack.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.
 * Rainbow Metal Pigeon - Bug fix relating to Gym Leader rematches.
+* SoupPotato - Borrowed code to make a functioning EXP bar.
 * SatoMew - Technical advice.
 * suloku - Technical advice regarding setting where you spawn after beating the Elite Four, Exp. All modernisation code
 * 大吟醸 (Daiginjo) - Assistance in translating the Tamamushi University Student Book, allowing for an accurate adaptation of the location.
