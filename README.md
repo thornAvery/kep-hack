@@ -397,6 +397,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * wrulfy - Reused a bit of code from their Carmine Red hack to improve a handful of move animations, most notably Drill Peck and Horn Drill. Technical advice.
 * TheSmithPlays -  Reused a bit of code from their Yellow Legacy hack.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
+* Madame Frog / Hatun - [FemC Green sprite used in Pokemon Anniversary Red](https://www.deviantart.com/ghost-missingno/art/Blue-Sprites-for-R-G-B-Y-339796166).
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.
 * Rainbow Metal Pigeon - Bug fix relating to Gym Leader rematches.
