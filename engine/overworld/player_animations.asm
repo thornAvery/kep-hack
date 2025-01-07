@@ -389,6 +389,8 @@ FishingAnim:
 	ld a, [wPlayerSex] ; sex check
 	and a      ; sex check
 	jr z, .BoySpriteLoad
+	cp a, 2
+	jr z, .EnbySpriteLoad
 	ld de, GreenSprite
 	ld hl, vNPCSprites
 	ld bc, (BANK(GreenSprite) << 8) + $0c
@@ -397,17 +399,28 @@ FishingAnim:
 	ld de, RedSprite
 	ld hl, vNPCSprites
 	lb bc, BANK(RedSprite), $c
+	jr .KeepLoadingSpriteStuff
+.EnbySpriteLoad
+	ld de, TealSprite
+	ld hl, vNPCSprites
+	lb bc, BANK(TealSprite), $c
 .KeepLoadingSpriteStuff
 	call CopyVideoData
 	ld a, [wPlayerSex] ; ; sex check
 	and a      ; ; sex check seriously i feel like a republican here
 	jr z, .BoyTiles ; skip loading Green's stuff if you're Red
+	cp a, 2
+	jr z, .EnbyTiles
 	ld a, $4
 	ld hl, GreenFishingTiles
 	jr .ContinueRoutine ; go back to main routine after loading Green's stuff
 .BoyTiles ; alternately, load Red's stuff
 	ld a, $4
 	ld hl, RedFishingTiles
+	jr .ContinueRoutine ; go back to main routine after loading Red's stuff
+.EnbyTiles ; alternately, load Teal's stuff
+	ld a, $4
+	ld hl, TealFishingTiles
 .ContinueRoutine
 	call LoadAnimSpriteGfx
 	ld a, [wSpritePlayerStateData1ImageIndex]
@@ -515,6 +528,12 @@ GreenFishingTiles:
 	fishing_gfx GreenFishingTilesFront, 2, $02
 	fishing_gfx GreenFishingTilesBack,  2, $06
 	fishing_gfx GreenFishingTilesSide,  2, $0a
+	fishing_gfx RedFishingRodTiles,   3, $fd
+	
+TealFishingTiles:
+	fishing_gfx TealFishingTilesFront, 2, $02
+	fishing_gfx TealFishingTilesBack,  2, $06
+	fishing_gfx TealFishingTilesSide,  2, $0a
 	fishing_gfx RedFishingRodTiles,   3, $fd
 
 _HandleMidJump::

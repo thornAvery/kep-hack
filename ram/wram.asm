@@ -868,6 +868,7 @@ wWhichBadge::
 wTitleMonSpecies::
 wPlayerCharacterOAMTile::
 wFPlayerCharacterOAMTile::
+wNBPlayerCharacterOAMTile::
 ; the number of small stars OAM entries to move down
 wMoveDownSmallStarsOAMCount::
 wChargeMoveNum::
@@ -1993,6 +1994,7 @@ wMissableObjectList:: ds 16 * 2 + 1
 wPlayerSex::
 		; $00 = male
 		; $01 = female
+		; $02 = enby
 			ds 1
 
 wGameProgressFlags::

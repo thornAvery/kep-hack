@@ -173,7 +173,7 @@ Improved Areas
 
 QoL Enhancements
 ====
-- A feminine character option is now available, featuring the sprite from Pokemon Anniversary Red, which is based on Green's manga appearance.
+- Feminine and Androgynous character options are now available, featuring Green's sprite from Pokemon Anniversary Red, which is based on her manga appearance, as well as a custom Nonbinary character named Pink.
 	- To accomodate this, Celadon Gym's trainers use their more neutral text from Crystal.
 	- The protagonist is also referred to in a gender neutral manner. This changes like, 2-3 lines in the whole game.
 - All 151 original Pokemon, plus an additional 100, can be obtained without the use of trading or glitches, including Mew!
@@ -421,7 +421,7 @@ RacieBeep sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, C
 
 Orchid: Luxwan (back), Buu (back)
 
-Zeta_Null: Porygon (front)
+Zeta_Null: Porygon (front), All sprites for Pink (Nonbinary player option)
 
 Official sprites: Crobat (front, edited by Martha’s Against Humanity), Disturban, Espeon (front, edited by Martha’s Against Humanity), Slowking (front), Steelix (front), Tricules, Umbreon (front, edited by Martha’s Against Humanity)
 
