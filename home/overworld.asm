@@ -2038,6 +2038,9 @@ LoadWalkingPlayerSpriteGraphics::
 	ld a, [wPlayerSex]
 	and a
 	jr z, .AreGuy1
+	ld de, TealSprite
+	cp a, 2
+	jr z, .AreGuy1
 	ld de, GreenSprite
 .AreGuy1
 	ld hl,vNPCSprites
@@ -2052,6 +2055,9 @@ LoadBikePlayerSpriteGraphics::
 	ld de, RedBikeSprite
 	ld a, [wPlayerSex]
 	and a
+	jr z, .AreGuy2
+	ld de, TealBikeSprite
+	cp a, 2
 	jr z, .AreGuy2
 	ld de, GreenBikeSprite
 .AreGuy2

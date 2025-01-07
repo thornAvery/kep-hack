@@ -1,6 +1,8 @@
 ChoosePlayerName:
 	call OakSpeechSlidePicRight
 	ld a, [wPlayerSex] ; load sex
+	cp a, 2
+	jr z, .AreEnby ; Skip to enby names if you are enby instead
 	and a
     jr nz, .AreGirl ; Skip to girl names if you are a girl instead
     ld de, DefaultNamesPlayer
@@ -24,6 +26,17 @@ ChoosePlayerName:
 	ld de, wPlayerName
 	call OakSpeechSlidePicLeft
 	jr .done ; End of new Girl Names routine
+.AreEnby ; Copy of the boy naming routine, just with enby's names
+	ld de, DefaultNamesEnby
+	call DisplayIntroNameTextBox
+	ld a, [wCurrentMenuItem]
+	and a
+	jr z, .customName
+	ld hl, DefaultNamesEnbyList
+	call GetDefaultName
+	ld de, wPlayerName
+	call OakSpeechSlidePicLeft
+	jr .done ; End of new Enby Names routine
 .customName
 	ld hl, wPlayerName
 	xor a ; NAME_PLAYER_SCREEN
@@ -38,6 +51,10 @@ ChoosePlayerName:
 	ld b, BANK(RedPicFront)
 	ld a, [wPlayerSex] ; sex check
 	and a      ; yknow it feels like republicans wanting to do penis checking
+	jr z, .AreBoy3
+	ld de, EnbyPicFront
+	ld b, BANK(EnbyPicFront)
+	cp a, 2
 	jr z, .AreBoy3
 	ld de, GreenPicFront
 	ld b, BANK(GreenPicFront)

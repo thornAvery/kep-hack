@@ -71,7 +71,7 @@ OakSpeech:
   	call PrintText     ; show this text
   	call BoyGirlChoice ; added routine at the end of this file
    	ld a, [wCurrentMenuItem]
-   	ld [wPlayerSex], a ; store player's gender. 00 for boy, 01 for girl
+   	ld [wPlayerSex], a ; store player's gender. 00 for boy, 01 for girl, 02 for enby
 	call GBFadeOutToWhite
 	call ClearScreen
 	
@@ -79,6 +79,10 @@ OakSpeech:
 	lb bc, BANK(RedPicFront), $00
 	ld a, [wPlayerSex] 	; check sex
 	and a      				; check sex
+	jr z, .NotGreen0
+	ld de, EnbyPicFront
+	lb bc, BANK(EnbyPicFront), $00
+	cp a, 2
 	jr z, .NotGreen0
 	ld de, GreenPicFront
 	lb bc, BANK(GreenPicFront), $00
@@ -97,7 +101,9 @@ OakSpeech:
 	ld a, [wPlayerSex] ; Let's change the Nidorins based on the choice. It's really cute and makes use of an unused command sound.
 	and a
 	jr z, .Nidorino
-	jr nz, .Nidorina
+	cp a, 2
+	jr z, .Nidoreign
+;	jr nz, .Nidorina
 .Nidorina
 	ld a, NIDORINA
 	ld [wd0b5], a
@@ -117,6 +123,16 @@ OakSpeech:
 	call LoadFlippedFrontSpriteByMonIndex
 	call MovePicLeft
 	ld hl, OakSpeechText2Red
+	jr .cont
+.Nidoreign
+	ld a, NIDOREIGN
+	ld [wd0b5], a
+	ld [wcf91], a
+	call GetMonHeader
+	hlcoord 6, 4
+	call LoadFlippedFrontSpriteByMonIndex
+	call MovePicLeft
+	ld hl, OakSpeechText2Enby
 
 .cont
 	call PrintText
@@ -124,12 +140,19 @@ OakSpeech:
 	call ClearScreen
 	ld de, RedPicFront
 	lb bc, BANK(RedPicFront), $00
-	ld a, [wPlayerSex] 	; check sex
-	and a      				; check sex
-	jr z, .NotGreen1
+	ld a, [wPlayerSex] 	; load gender
+	and a      				; check gender - and a is equivalent to `cp a, 0` (but faster)
+						; if a=0->gender=male, ergo jump to the vanilla part of the code
+	jr z, .ContinueWithOakIntro1
+	cp a, 2					; check gender: if a=2->gender=enby, jump to the yellow subroutine, otherwise continue below
+	jp z, .LoadEnbyPicFront1
 	ld de, GreenPicFront
 	lb bc, BANK(GreenPicFront), $00
-.NotGreen1:
+	jr .ContinueWithOakIntro1
+.LoadEnbyPicFront1
+	ld de, EnbyPicFront
+	lb bc, BANK(EnbyPicFront), $00
+.ContinueWithOakIntro1:
 	call IntroDisplayPicCenteredOrUpperRight
 	call MovePicLeft
 	ld hl, IntroducePlayerText
@@ -152,6 +175,10 @@ OakSpeech:
 	ld a, [wPlayerSex]   ; check sex
     and a      				; check sex
    	jr z, .NotGreen2
+	ld de, EnbyPicFront
+	lb bc, BANK(EnbyPicFront), $00
+	cp a, 2
+	jr z, .NotGreen2
     ld de, GreenPicFront
     lb bc, Bank(GreenPicFront), $00
 .NotGreen2:
@@ -178,6 +205,10 @@ OakSpeech:
 	ld a, [wPlayerSex] ; check sex
     and a      ; check sex
     jr z, .NotGreen3
+	ld de, TealSprite
+	lb bc, BANK(TealSprite), $0C
+	cp a, 2
+	jr z, .NotGreen3
     ld de,GreenSprite
     lb bc, BANK(GreenSprite), $0C
 .NotGreen3:
@@ -230,6 +261,11 @@ OakSpeechText2Red: ; this is such a clunky way to do it but the text_asm way cau
 OakSpeechText2Green:
 	text_far _OakSpeechText2A
 	sound_cry_nidorina
+	text_far _OakSpeechText2B
+	text_end
+OakSpeechText2Enby:
+	text_far _OakSpeechText2A
+	sound_cry_nidoreign
 	text_far _OakSpeechText2B
 	text_end
 IntroducePlayerText:
@@ -305,23 +341,40 @@ IntroDisplayPicCenteredOrUpperRight:
 	predef_jump CopyUncompressedPicToTilemap
 
 ; displays boy/girl choice
-	BoyGirlChoice::
- 	   call SaveScreenTilesToBuffer1
- 	   call InitBoyGirlTextBoxParameters
- 	   jr DisplayBoyGirlChoice
-    
-	InitBoyGirlTextBoxParameters::
-	   ld a, $1 ; loads the value for the unused North/West choice, that was changed to say Boy/Girl
- 	   ld [wTwoOptionMenuID], a
- 	   coord hl, 12, 7
- 	   ld bc, $80d
- 	   ret
- 	   
-	DisplayBoyGirlChoice::
-   	   ld a, $14
-   	   ld [wTextBoxID], a
-   	   call DisplayTextBoxID
-   	   jp LoadScreenTilesFromBuffer1
+BoyGirlChoice::
+	call SaveScreenTilesToBuffer1
+	jr DisplayBoyGirlNoChoice
+
+DisplayBoyGirlNoChoice::
+	ld a, BOY_GIRL_NO
+	ld [wTextBoxID], a
+	call DisplayTextBoxID
+	ld hl, wTopMenuItemY
+	ld a, 7
+	ld [hli], a ; top menu item Y
+	ld a, 13
+	ld [hli], a ; top menu item X
+	xor a
+	ld [hli], a ; current menu item ID
+	inc hl
+	ld a, $2
+	ld [hli], a ; wMaxMenuItem
+;	ld a, B_BUTTON | A_BUTTON
+	ld a, A_BUTTON
+	ld [hli], a ; wMenuWatchedKeys
+	xor a
+	ld [hl], a ; wLastMenuItem
+	call HandleMenuInput
+;	bit BIT_B_BUTTON, a
+;	jr nz, .defaultOption ; if B was pressed, assign enby
+; A was pressed
+	call PlaceUnfilledArrowMenuCursor
+	ld a, [wCurrentMenuItem]
+	jp LoadScreenTilesFromBuffer1
+;.defaultOption
+;	ld a, $02
+;	ld [wCurrentMenuItem], a
+;	jp LoadScreenTilesFromBuffer1
 
 BoyGirlText: ; This is new so we had to add a reference to get it to compile
     text_far _BoyGirlText

@@ -260,7 +260,8 @@ PidgeottoPicFront::    INCBIN "gfx/pokemon/front/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "gfx/pokemon/back/pidgeottob.pic"
 
 RedPicBack::           INCBIN "gfx/player/redb.pic"
-GreenPicBack::           INCBIN "gfx/player/greenb.pic"
+GreenPicBack::         INCBIN "gfx/player/greenb.pic"
+TealPicBack::          INCBIN "gfx/player/thirdb.pic"
 OldManPicBack::        INCBIN "gfx/battle/oldmanb.pic"
 
 
