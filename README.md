@@ -4,6 +4,8 @@ This is a ROM Hack of Pokémon Red and Blue, aiming to expand the Kanto region w
 
 If playing on an emulator, BGB is strongly recommended for its accuracy and features. Inaccurate emulators, such as VBA and TGB Dual, can experience unintended glitches. This hack is fully playable on official hardware as well.
 
+# For all Pokemon info go [here](https://docs.google.com/spreadsheets/d/1cP8tvoj19__bx08hSG7dOtefVcdaNwZXohVu1RKzjPI/edit?usp=sharing)
+
 New Pokemon
 ====
 The Kanto Expansion Pak's ethos is to add every "Kanto-related" Pokemon to RBY without fundamentally changing the grander metagame. What's defined as "Kanto-related" is a Pokemon that evolves from an existing Kanto Pokemon, made an appearance in a Kanto-based game (LGPE), is a regional variant, or was a Kanto-related Pokemon cut during the development of an official game.
