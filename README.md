@@ -200,6 +200,7 @@ QoL Enhancements
 - Traded Pokemon ("Outsiders") can now be nicknamed at the Name Rater's House.
 - HP bar has been doubled in speed, having a 1 frame delay per pixel rather than 2.
 - The blinking animation when hit by moves like Tackle now repeats 4 instead of 6 times, speeding up battles by a bit while not sacrificing impact.
+- The Safari Zone Rest Houses now have PCs in them, so if the box is full, you can still change boxes to continue catching Pokemon.
 - The Rock in the Safari Zone now only raises the flee chance by 1.5x, rather than 2x, opening up new strategies.
 - PP symbol is displayed in the battle menu. PP displayed before, it just looks nicer now. Done by changing a straggler Japanese character.
 - Lorelei, Bruno, and Agatha now play the Gym Leader Battle theme.

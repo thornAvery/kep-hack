@@ -8,9 +8,9 @@ SafariZoneEastRestHouse_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  3, SPRITE_SCIENTIST, WALK, UP_DOWN, 1 ; person
-	object_event  0,  2, SPRITE_ROCKER, STAY, NONE, 2 ; person
-	object_event  5,  2, SPRITE_SILPH_WORKER, STAY, NONE, 3 ; person
-	object_event  6,  2, SPRITE_SILPH_WORKER, STAY, NONE, 4 ; person
+	object_event  5,  5, SPRITE_SCIENTIST, WALK, UP_DOWN, 1 ; person
+	object_event  0,  4, SPRITE_ROCKER, STAY, RIGHT, 2 ; person
+	object_event  3,  3, SPRITE_SILPH_WORKER, STAY, LEFT, 3 ; person
+	object_event  3,  4, SPRITE_SILPH_WORKER, STAY, LEFT, 4 ; person
 
 	def_warps_to SAFARI_ZONE_EAST_REST_HOUSE

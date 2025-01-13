@@ -58,6 +58,7 @@ HiddenObjectMaps:
 	db VICTORY_ROAD_2F
 	db BILLS_HOUSE
 	db VIRIDIAN_CITY
+	db SAFARI_ZONE_CENTER_REST_HOUSE
 	db SAFARI_ZONE_WEST_REST_HOUSE
 	db SAFARI_ZONE_EAST_REST_HOUSE
 	db SAFARI_ZONE_NORTH_REST_HOUSE
@@ -153,6 +154,7 @@ HiddenObjectPointers:
 	dw VictoryRoad2HiddenObjects
 	dw BillsHouseHiddenObjects
 	dw ViridianCityHiddenObjects
+	dw SafariZoneRestHouse1HiddenObjects
 	dw SafariZoneRestHouse2HiddenObjects
 	dw SafariZoneRestHouse3HiddenObjects
 	dw SafariZoneRestHouse4HiddenObjects
@@ -535,19 +537,13 @@ ViridianCityHiddenObjects:
 	hidden_object 14,  4, POTION, HiddenItems
 	db -1 ; end
 
+; Moved these to the same slot to save bytes.
+SafariZoneRestHouse1HiddenObjects:
 SafariZoneRestHouse2HiddenObjects:
-	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText
-	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
-	db -1 ; end
-
 SafariZoneRestHouse3HiddenObjects:
-	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText
-	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
-	db -1 ; end
-
 SafariZoneRestHouse4HiddenObjects:
-	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText
-	hidden_object 13,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object  0,  4, SPRITE_FACING_LEFT, PrintBenchGuyText ; still unused
+	hidden_object  4,  1, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
 Route15GateUpstairsHiddenObjects:

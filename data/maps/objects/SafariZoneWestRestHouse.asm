@@ -8,8 +8,8 @@ SafariZoneWestRestHouse_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  4,  4, SPRITE_SCIENTIST, WALK, ANY_DIR, 1 ; person
-	object_event  0,  2, SPRITE_COOLTRAINER_M, STAY, RIGHT, 2 ; person
-	object_event  6,  2, SPRITE_ERIKA, STAY, DOWN, 3 ; person
+	object_event  5,  3, SPRITE_SCIENTIST, WALK, ANY_DIR, 1 ; person
+	object_event  0,  3, SPRITE_COOLTRAINER_M, STAY, RIGHT, 2 ; person
+	object_event  3,  4, SPRITE_ERIKA, STAY, LEFT, 3 ; person
 
 	def_warps_to SAFARI_ZONE_WEST_REST_HOUSE
