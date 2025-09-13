@@ -4,6 +4,8 @@ This is a ROM Hack of Pokémon Red and Blue, aiming to expand the Kanto region w
 
 If playing on an emulator, BGB is strongly recommended for its accuracy and features. Inaccurate emulators, such as VBA and TGB Dual, can experience unintended glitches. This hack is fully playable on official hardware as well.
 
+# For all Pokemon info go [here](https://docs.google.com/spreadsheets/d/1cP8tvoj19__bx08hSG7dOtefVcdaNwZXohVu1RKzjPI/edit?usp=sharing)
+
 New Pokemon
 ====
 The Kanto Expansion Pak's ethos is to add every "Kanto-related" Pokemon to RBY without fundamentally changing the grander metagame. What's defined as "Kanto-related" is a Pokemon that evolves from an existing Kanto Pokemon, made an appearance in a Kanto-based game (LGPE), is a regional variant, or was a Kanto-related Pokemon cut during the development of an official game.
@@ -173,7 +175,7 @@ Improved Areas
 
 QoL Enhancements
 ====
-- A feminine character option is now available, featuring the sprite from Pokemon Anniversary Red, which is based on Green's manga appearance.
+- Feminine and Androgynous character options are now available, featuring Green's sprite from Pokemon Anniversary Red, which is based on her manga appearance, as well as a custom Nonbinary character named Pink.
 	- To accomodate this, Celadon Gym's trainers use their more neutral text from Crystal.
 	- The protagonist is also referred to in a gender neutral manner. This changes like, 2-3 lines in the whole game.
 - All 151 original Pokemon, plus an additional 100, can be obtained without the use of trading or glitches, including Mew!
@@ -198,6 +200,7 @@ QoL Enhancements
 - Traded Pokemon ("Outsiders") can now be nicknamed at the Name Rater's House.
 - HP bar has been doubled in speed, having a 1 frame delay per pixel rather than 2.
 - The blinking animation when hit by moves like Tackle now repeats 4 instead of 6 times, speeding up battles by a bit while not sacrificing impact.
+- The Safari Zone Rest Houses now have PCs in them, so if the box is full, you can still change boxes to continue catching Pokemon.
 - The Rock in the Safari Zone now only raises the flee chance by 1.5x, rather than 2x, opening up new strategies.
 - PP symbol is displayed in the battle menu. PP displayed before, it just looks nicer now. Done by changing a straggler Japanese character.
 - Lorelei, Bruno, and Agatha now play the Gym Leader Battle theme.
@@ -397,6 +400,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * wrulfy - Reused a bit of code from their Carmine Red hack to improve a handful of move animations, most notably Drill Peck and Horn Drill. Technical advice.
 * TheSmithPlays -  Reused a bit of code from their Yellow Legacy hack.
 * Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FemC sprites and the Battle Tent.
+* Madame Frog / Hatun - [FemC Green sprite used in Pokemon Anniversary Red](https://www.deviantart.com/ghost-missingno/art/Blue-Sprites-for-R-G-B-Y-339796166).
 * Rangi - Reused a bit of code from their Red* / Blue* hack to make HMs usable in the overworld, and generally being an amazing individual.
 * BGVC - Composed the original 4-channel version of the unused Koukan (trading) music.
 * Rainbow Metal Pigeon - Bug fix relating to Gym Leader rematches.
@@ -420,7 +424,7 @@ RacieBeep sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, C
 
 Orchid: Luxwan (back), Buu (back)
 
-Zeta_Null: Porygon (front)
+Zeta_Null: Porygon (front), All sprites for Pink (Nonbinary player option)
 
 Official sprites: Crobat (front, edited by Martha’s Against Humanity), Disturban, Espeon (front, edited by Martha’s Against Humanity), Slowking (front), Steelix (front), Tricules, Umbreon (front, edited by Martha’s Against Humanity)
 

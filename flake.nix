@@ -16,6 +16,9 @@
           src = ./.;
           name = "kep-hack";
           buildInputs = [ rgbds gcc make ];
+          buildPhase = ''
+            make kep
+          '';
           installPhase = ''
             shopt -s extglob
             mkdir $out

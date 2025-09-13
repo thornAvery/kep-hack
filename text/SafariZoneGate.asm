@@ -84,11 +84,11 @@ _SafariZoneEntranceText_753eb::
 	cont "BALLs, it's game"
 	cont "over for you!"
 
-	para "Before you go,"
-	line "open an unused"
-	cont "#MON BOX so"
-	cont "there's room for"
-	cont "new #MON!"
+	para "It's ok if the"
+	line "#MON BOX is"
+	cont "full: Go to a"
+	cont "REST HOUSE and"
+	cont "switch!"
 	done
 
 _SafariZoneEntranceText_753f0::
