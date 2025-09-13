@@ -33,6 +33,6 @@
 .vscode/*
 
 # nix stuff
-.direnv
+.direnv/
 .envrc
 result
