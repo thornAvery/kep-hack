@@ -93,9 +93,16 @@ DisplayTitleScreen:
 	jr nz, .pokemonLogoLastTileRowLoop
 	call Random
 	ldh a, [hRandomAdd]
-	cp 129
+	cp 86
 	jr c, .male
+	call Random
+	ldh a, [hRandomAdd]
+	cp 129
+	jr c, .nb
 	call DrawFPlayerCharacter
+	jr .playerskip
+.nb
+	call DrawNBPlayerCharacter
 	jr .playerskip
 .male
 	call DrawPlayerCharacter
@@ -397,6 +404,43 @@ DrawFPlayerCharacter:
 	ld d, a
 	dec b
 	jr nz, .loop2
+	ret
+	
+DrawNBPlayerCharacter:
+	ld hl, NBPlayerCharacterTitleGraphics
+	ld de, vSprites
+	ld bc, NBPlayerCharacterTitleGraphicsEnd - NBPlayerCharacterTitleGraphics
+	ld a, BANK(NBPlayerCharacterTitleGraphics)
+	call FarCopyData2
+	call ClearSprites
+	xor a
+	ld [wNBPlayerCharacterOAMTile], a
+	ld hl, wShadowOAM
+	lb de, $60, $5a
+	ld b, 7
+.loop3
+	push de
+	ld c, 5
+.innerLoop3
+	ld a, d
+	ld [hli], a ; Y
+	ld a, e
+	ld [hli], a ; X
+	add 8
+	ld e, a
+	ld a, [wNBPlayerCharacterOAMTile]
+	ld [hli], a ; tile
+	inc a
+	ld [wNBPlayerCharacterOAMTile], a
+	inc hl
+	dec c
+	jr nz, .innerLoop3
+	pop de
+	ld a, 8
+	add d
+	ld d, a
+	dec b
+	jr nz, .loop3
 	ret
 
 ClearBothBGMaps:

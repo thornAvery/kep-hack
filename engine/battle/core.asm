@@ -6543,12 +6543,18 @@ LoadPlayerBackPic:
 	ld a, [wPlayerSex] ; do you think a republican will get off to this commit
 	and a
 	jr z, .RedBack
+	cp a, 2
+	jr z, .EnbyBack
 	ld de, GreenPicBack
 	ld a, BANK(GreenPicBack) ; Load female back sprite
 	jr .next
 .RedBack
 	ld de, RedPicBack ; Load default Red back sprite
 	ld a, BANK(RedPicBack)
+	jr .next
+.EnbyBack
+	ld de, TealPicBack ; Load teal back sprite
+	ld a, BANK(TealPicBack)
 .next
 	ASSERT BANK(GreenPicBack) == BANK(OldManPicBack) ; These two ASSERTs make sure to cover
 	ASSERT BANK(RedPicBack) == BANK(OldManPicBack)   ; both sprite cases

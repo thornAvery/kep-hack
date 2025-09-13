@@ -42,9 +42,15 @@ DisplayDiploma::
 	ld a, [wPlayerSex]
 	and a		; are you playing as Red
 	jr z, .red	; if yes, Red appears on the diploma
+	ld a, [wPlayerSex]
+	cp a, 2
+	jr z, .pink	; if yes, Pink appears on the diploma
 	jr nz, .green	; if no, Green replaces him
 .green
 	farcall DrawFPlayerCharacter
+	jr .skip
+.pink
+	farcall DrawNBPlayerCharacter
 	jr .skip
 .red
 	farcall DrawPlayerCharacter

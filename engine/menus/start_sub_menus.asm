@@ -519,6 +519,10 @@ DrawTrainerInfo:
 	ld a, [wPlayerSex] ; guess what it's genital inspection time
 	and a
 	jr z, .AreBoy
+	ld de, EnbyPicFront
+	lb bc, BANK(EnbyPicFront), $01
+	cp a, 2
+	jr z, .AreBoy	; I'm not updating these names. I'm lazy. Also did you know this was changed to wPlayerGender in one of the other tutorials?	
 	ld de, GreenPicFront
 	lb bc, BANK(GreenPicFront), $01
 .AreBoy

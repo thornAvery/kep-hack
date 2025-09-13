@@ -102,9 +102,9 @@ MACRO sound_pokedex_rating
 	db TX_SOUND_POKEDEX_RATING
 ENDM
 
-	const TX_SOUND_GET_ITEM_1_DUPLICATE ; $0f
-MACRO sound_get_item_1_duplicate
-	db TX_SOUND_GET_ITEM_1_DUPLICATE
+	const TX_SOUND_CRY_NIDOREIGN ; $0f
+MACRO sound_cry_nidoreign
+	db TX_SOUND_CRY_NIDOREIGN
 ENDM
 
 	const TX_SOUND_GET_ITEM_2 ; $10

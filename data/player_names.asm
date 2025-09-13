@@ -11,6 +11,13 @@ DefaultNamesGirl:
 	next "LEAF"
 	next "ELAINE"
 	db   "@"
+	
+DefaultNamesEnby:
+	db   "NEW NAME"
+	next "PINK"
+	next "QUARTZ"
+	next "JAY"
+	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"

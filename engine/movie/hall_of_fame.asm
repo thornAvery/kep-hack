@@ -188,10 +188,16 @@ HoFLoadPlayerPics:
 	jr nz, .GirlStuff1
 	ld de, RedPicFront
 	ld a, BANK(RedPicFront)
-	jr .Routine ; skip the girl stuff and go to main routine
+	jr .Routine ; skip the girl stuff and go to main routine	
 .GirlStuff1
+	cp a, 2
+	jr z, .TealStuff1
 	ld de, GreenPicFront
 	ld a, BANK(GreenPicFront)
+	jr .Routine ; skip the girl stuff and go to main routine
+.TealStuff1
+	ld de, EnbyPicFront
+	ld a, BANK(EnbyPicFront)
 .Routine ; resume original routine
 	call UncompressSpriteFromDE
 	ld hl, sSpriteBuffer1
@@ -207,8 +213,14 @@ HoFLoadPlayerPics:
 	ld a, BANK(RedPicBack)
 	jr .routine2 ; skip the girl stuff and continue original routine if guy
 .GirlStuff2
+	cp a, 2
+	jr z, .TealStuff2
 	ld de, GreenPicBack
 	ld a, BANK(GreenPicBack)
+	jr .routine2
+.TealStuff2
+	ld de, TealPicBack
+	ld a, BANK(TealPicBack)
 .routine2 ; original routine
 	call UncompressSpriteFromDE
 	predef ScaleSpriteByTwo

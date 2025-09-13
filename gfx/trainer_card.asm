@@ -9,3 +9,6 @@ BadgeNumbersTileGraphics: INCBIN "gfx/trainer_card/badge_numbers.2bpp"
 
 FPlayerCharacterTitleGraphics: INCBIN "gfx/title/fplayer.2bpp"
 FPlayerCharacterTitleGraphicsEnd:
+
+NBPlayerCharacterTitleGraphics: INCBIN "gfx/title/nbplayer.2bpp"
+NBPlayerCharacterTitleGraphicsEnd:
